@@ -25,6 +25,8 @@
 * [hmRep_Get Event State (Area ; Event) → state](Areas/hmRep_GetEventState.md)
 * [hmRep_GET MOUSE (Area ; x ; y)](Areas/hmRep_GetMouse.md)
 * [hmRep_DRAG AND DROP PROP (Area ; Variable ; Arrayindex ; Process ; x ; y)](Areas/hmRep_DragAndDropProperties.md)
+* [hmRep_SET CURSOR (Area ; CursorID ; ForceCursor)](Areas/hmRep_SetCursor.md)
+* [hmRep_SET MOUSE LIMITS ( Area ; limit_h ; limit_left ; limit_right ; limit_v ; limit_top ; limit_bottom)](Areas/hmRep_SetMouseLimits.md)
 
 ### Properties
 * [hmRep_SET AREA PROPERTY (Area ; Selector ; ValueLong ; ValueText)](Areas/hmRep_SetAreaProperty.md)
