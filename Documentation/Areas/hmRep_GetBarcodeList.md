@@ -6,7 +6,7 @@
 |Barcodes|Collection|←|List of all available barcodes
 
 ### Description
-The command *hmRep_Get Barcode List* returns a collection *Barcodes* with all available Barcodes in hmReports
+The command *hmRep_Get Barcode List* returns a collection *Barcodes* with all available Barcodes in hmReports.
 
 ### Example
 The following example gets a collection of all available barcodes:

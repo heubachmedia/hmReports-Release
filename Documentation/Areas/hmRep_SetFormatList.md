@@ -9,6 +9,11 @@
 ### Description
 The command *hmRep_SET FORMAT LIST* sets all possible formats in the object properties:
 
+![Format Popup](../Pictures/FormatPopup.png)
+
+The command fills the popup menu in the object properties dialog.
+The format list is defined for the entire hmReports-area.
+
 ### Example
 The following example sets all possible formats for the object properties dialog:
 
