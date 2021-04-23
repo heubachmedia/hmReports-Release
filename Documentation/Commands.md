@@ -1,6 +1,6 @@
 # Command overview
 
-## hmReports Areas
+## Areas
 ### Plugin Main Commands
 * [hmRep_Register (Serial number) → Error code](Areas/hmRep_Register.md)
 * [hmRep_Get Version -> Version](Areas/hmRep_GetVersion.md)
@@ -23,10 +23,11 @@
 * [hmRep_Get Callback (Area) → Method name](Areas/hmRep_GetCallback.md)
 * [hmRep_SET EVENT STATE (Area ; Event ; State)](Areas/hmRep_SetEventState.md)
 * [hmRep_Get Event State (Area ; Event) → state](Areas/hmRep_GetEventState.md)
+* [hmRep_Get Last Event (Area) → Last Event](Areas/hmRep_GetLastEvent.md)
 * [hmRep_GET MOUSE (Area ; x ; y)](Areas/hmRep_GetMouse.md)
-* [hmRep_DRAG AND DROP PROP (Area ; Variable ; Arrayindex ; Process ; x ; y)](Areas/hmRep_DragAndDropProperties.md)
 * [hmRep_SET CURSOR (Area ; CursorID ; ForceCursor)](Areas/hmRep_SetCursor.md)
 * [hmRep_SET MOUSE LIMITS ( Area ; limit_h ; limit_left ; limit_right ; limit_v ; limit_top ; limit_bottom)](Areas/hmRep_SetMouseLimits.md)
+* [hmRep_DRAG AND DROP PROP (Area ; Variable ; Arrayindex ; Process ; x ; y)](Areas/hmRep_DragAndDropProperties.md)
 
 ### Properties
 * [hmRep_SET AREA PROPERTY (Area ; Selector ; ValueLong ; ValueText)](Areas/hmRep_SetAreaProperty.md)
@@ -44,6 +45,11 @@
 * [hmRep_SET TOOL TIP TEXT (Area ; Tool ; Tiptext)](Areas/hmRep_SetToolTipText.md)
 * [hmRep_Get Tool Tip Text (Area ; Tool) → Tiptext](Areas/hmRep_GetToolTipText.md)
 * [hmRep_Get Barcode List → Barcodes](Areas/hmRep_GetBarcodeList.md)
+
+## Reports
+
+### Managing Reports
+* [hmRep_Create Report (Area ; Width ; Height ; Name) → Report UUID](Reports/hmRep_CreateReport.md)
 
 ---
 
