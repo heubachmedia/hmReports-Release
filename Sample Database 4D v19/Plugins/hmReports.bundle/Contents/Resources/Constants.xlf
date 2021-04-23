@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+
+  <file datatype="x-STR#" original="undefined" product-version="v15" source-language="en-US" target-language="en">
+    <body>
+        
+    <group restype="x-4DK#" d4:groupID="15201">
+                
+        <trans-unit><source>hmReports object data types</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_ObjData_None</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_ObjData_4DInternal</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_ObjData_SQL</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_ObjData_Variable</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_ObjData_Array</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_ObjData_Formula</source></trans-unit>
+
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15202">
+    
+        <trans-unit><source>hmReports constants</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_DeleteObject</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_DeleteGroupObjects</source></trans-unit>
+        
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15203">
+    
+        <trans-unit><source>hmReports picture types</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_PicType_JPG</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_PicType_PNG</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_PicType_BMP</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_PicType_GIF</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_PicType_TIFF</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_PicType_PDF</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_PicType_SVG</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_PicType_EMF</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmRep_PicType_WMP</source></trans-unit>
+        <trans-unit d4:value="10"><source>hmRep_PicType_DDS</source></trans-unit>
+        
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15204">
+    
+        <trans-unit><source>hmReports scope</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_scope_Layer</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_scope_ObjectType</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_scope_Selected</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_scope_Group</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_scope_Area</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_scope_Object</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_scope_Report</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_scope_Page</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmRep_scope_Section</source></trans-unit>
+        <trans-unit d4:value="10"><source>hmRep_scope_ObjectCurrentPage</source></trans-unit>
+        
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15205">
+    
+        <trans-unit><source>hmReports object types</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_ObjType_Unknown</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_ObjType_Rect</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_ObjType_Text</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_ObjType_Oval</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_ObjType_Line</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_ObjType_Group</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_ObjType_Picture</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_ObjType_Arc</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_ObjType_Path</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmRep_ObjType_Freehand</source></trans-unit>
+        <trans-unit d4:value="10"><source>hmRep_ObjType_Subreport</source></trans-unit>
+        <trans-unit d4:value="11"><source>hmRep_ObjType_Chart</source></trans-unit>
+        
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15206">
+    
+        <trans-unit><source>hmReports object properties</source></trans-unit>
+		<trans-unit d4:value="1"><source>hmRep_oprop_Type</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmRep_oprop_LayerID</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmRep_oprop_GroupID</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmRep_oprop_Name</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmRep_oprop_ShowFrame</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmRep_oprop_ShowFill</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmRep_oprop_Text</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmRep_oprop_Fontname</source></trans-unit>
+		<trans-unit d4:value="9"><source>hmRep_oprop_Penwidth</source></trans-unit>
+		<trans-unit d4:value="10"><source>hmRep_oprop_Visible</source></trans-unit>
+		<trans-unit d4:value="11"><source>hmRep_oprop_Selectable</source></trans-unit>
+		<trans-unit d4:value="12"><source>hmRep_oprop_Selected</source></trans-unit>
+		<trans-unit d4:value="13"><source>hmRep_oprop_Alpha</source></trans-unit>
+		<trans-unit d4:value="14"><source>hmRep_oprop_Rounding</source></trans-unit>
+		<trans-unit d4:value="15"><source>hmRep_oprop_Fontsize</source></trans-unit>
+		<trans-unit d4:value="16"><source>hmRep_oprop_Fontstyle</source></trans-unit>
+		<trans-unit d4:value="17"><source>hmRep_oprop_PicType</source></trans-unit>
+		<trans-unit d4:value="18"><source>hmRep_oprop_Wordwrap</source></trans-unit>
+		<trans-unit d4:value="19"><source>hmRep_oprop_Tableno</source></trans-unit>
+		<trans-unit d4:value="20"><source>hmRep_oprop_Fieldno</source></trans-unit>
+        <trans-unit d4:value="21"><source>hmRep_oprop_Alignment</source></trans-unit>
+        <trans-unit d4:value="21"><source>hmRep_oprop_AlignmentH</source></trans-unit>
+		<trans-unit d4:value="22"><source>hmRep_oprop_Antialiasing</source></trans-unit>
+		<trans-unit d4:value="23"><source>hmRep_oprop_X</source></trans-unit>
+		<trans-unit d4:value="24"><source>hmRep_oprop_Y</source></trans-unit>
+		<trans-unit d4:value="25"><source>hmRep_oprop_RadiusX</source></trans-unit>
+		<trans-unit d4:value="26"><source>hmRep_oprop_RadiusY</source></trans-unit>
+		<trans-unit d4:value="27"><source>hmRep_oprop_StartAngle</source></trans-unit>
+		<trans-unit d4:value="28"><source>hmRep_oprop_EndAngle</source></trans-unit>
+		<trans-unit d4:value="29"><source>hmRep_oprop_Clockwise</source></trans-unit>
+		<trans-unit d4:value="30"><source>hmRep_oprop_Gradient</source></trans-unit>
+		<trans-unit d4:value="31"><source>hmRep_oprop_Clip</source></trans-unit>
+		<trans-unit d4:value="32"><source>hmRep_oprop_FormatNumber</source></trans-unit>
+		<trans-unit d4:value="33"><source>hmRep_oprop_Format</source></trans-unit>
+		<trans-unit d4:value="34"><source>hmRep_oprop_BlankIfNull</source></trans-unit>
+		<trans-unit d4:value="35"><source>hmRep_oprop_ShowCalcValue</source></trans-unit>
+		<trans-unit d4:value="36"><source>hmRep_oprop_CalcOption</source></trans-unit>
+		<trans-unit d4:value="37"><source>hmRep_oprop_RecInVariable</source></trans-unit>
+		<trans-unit d4:value="38"><source>hmRep_oprop_RecVariable</source></trans-unit>
+		<trans-unit d4:value="39"><source>hmRep_oprop_VariableHeight</source></trans-unit>
+		<trans-unit d4:value="40"><source>hmRep_oprop_MaxVariableHeight</source></trans-unit>
+		<trans-unit d4:value="41"><source>hmRep_oprop_VerticalSizing</source></trans-unit>
+		<trans-unit d4:value="42"><source>hmRep_oprop_Smooth</source></trans-unit>
+		<trans-unit d4:value="43"><source>hmRep_oprop_Rotation</source></trans-unit>
+		<trans-unit d4:value="44"><source>hmRep_oprop_Pictureformat</source></trans-unit>
+		<trans-unit d4:value="45"><source>hmRep_oprop_Draglimit_Left</source></trans-unit>
+		<trans-unit d4:value="46"><source>hmRep_oprop_Draglimit_Top</source></trans-unit>
+		<trans-unit d4:value="47"><source>hmRep_oprop_Draglimit_Right</source></trans-unit>
+		<trans-unit d4:value="48"><source>hmRep_oprop_Draglimit_Bottom</source></trans-unit>
+		<trans-unit d4:value="49"><source>hmRep_oprop_Resize_MinWidth</source></trans-unit>
+		<trans-unit d4:value="50"><source>hmRep_oprop_Resize_MaxWidth</source></trans-unit>
+		<trans-unit d4:value="51"><source>hmRep_oprop_Resize_MinHeight</source></trans-unit>
+		<trans-unit d4:value="52"><source>hmRep_oprop_Resize_MaxHeight</source></trans-unit>
+		<trans-unit d4:value="53"><source>hmRep_oprop_Resize_Group</source></trans-unit>
+		<trans-unit d4:value="54"><source>hmRep_oprop_RotationEdit</source></trans-unit>
+		<trans-unit d4:value="55"><source>hmRep_oprop_Repeat</source></trans-unit>
+		<trans-unit d4:value="56"><source>hmRep_oprop_use_v_repoffset</source></trans-unit>
+		<trans-unit d4:value="57"><source>hmRep_oprop_use_h_repoffset</source></trans-unit>
+		<trans-unit d4:value="58"><source>hmRep_oprop_v_repoffset</source></trans-unit>
+		<trans-unit d4:value="59"><source>hmRep_oprop_h_repoffset</source></trans-unit>
+		<trans-unit d4:value="60"><source>hmRep_oprop_Multistyle</source></trans-unit>
+		<trans-unit d4:value="61"><source>hmRep_oprop_ArrayContext</source></trans-unit>
+		<trans-unit d4:value="62"><source>hmRep_oprop_Pattern</source></trans-unit>
+		<trans-unit d4:value="63"><source>hmRep_oprop_endmark</source></trans-unit>
+		<trans-unit d4:value="64"><source>hmRep_oprop_endmark_type</source></trans-unit>
+		<trans-unit d4:value="65"><source>hmRep_oprop_arrow_width</source></trans-unit>
+		<trans-unit d4:value="66"><source>hmRep_oprop_arrow_height</source></trans-unit>
+		<trans-unit d4:value="67"><source>hmRep_oprop_arrow_position</source></trans-unit>
+		<trans-unit d4:value="68"><source>hmRep_oprop_Barcode</source></trans-unit>
+		<trans-unit d4:value="69"><source>hmRep_oprop_Barcode_Option1</source></trans-unit>
+		<trans-unit d4:value="70"><source>hmRep_oprop_Barcode_Option2</source></trans-unit>
+		<trans-unit d4:value="71"><source>hmRep_oprop_SubreportUUID</source></trans-unit>
+		<trans-unit d4:value="72"><source>hmRep_oprop_SubreportName</source></trans-unit>
+		<trans-unit d4:value="73"><source>hmRep_oprop_SubreportPageID</source></trans-unit>
+		<trans-unit d4:value="74"><source>hmRep_oprop_TipText</source></trans-unit>
+		<trans-unit d4:value="75"><source>hmRep_oprop_Print</source></trans-unit>
+		<trans-unit d4:value="76"><source>hmRep_oprop_Moveable</source></trans-unit>
+		<trans-unit d4:value="77"><source>hmRep_oprop_FixedPrinting</source></trans-unit>
+		<trans-unit d4:value="77"><source>hmRep_oprop_FixedPrintingBack</source></trans-unit>
+		<trans-unit d4:value="78"><source>hmRep_oprop_CalcContext</source></trans-unit>
+		<trans-unit d4:value="79"><source>hmRep_oprop_UseTokenScript</source></trans-unit>
+		<trans-unit d4:value="80"><source>hmRep_oprop_ReplaceRowIfEmpty</source></trans-unit>
+		<trans-unit d4:value="81"><source>hmRep_oprop_ArrayIndex2D</source></trans-unit>
+		<trans-unit d4:value="82"><source>hmRep_oprop_MultistyleTiptext</source></trans-unit>
+		<trans-unit d4:value="83"><source>hmRep_oprop_Linespacing</source></trans-unit>
+		<trans-unit d4:value="84"><source>hmRep_oprop_Origin_ID</source></trans-unit>
+		<trans-unit d4:value="85"><source>hmRep_oprop_Origin_Iteration</source></trans-unit>
+		<trans-unit d4:value="86"><source>hmRep_oprop_ReplaceItemsIfEmpty</source></trans-unit>
+		<trans-unit d4:value="87"><source>hmRep_oprop_Resizeable</source></trans-unit>
+		<trans-unit d4:value="88"><source>hmRep_oprop_InsertBlankIfEmpty</source></trans-unit>
+		<trans-unit d4:value="89"><source>hmRep_oprop_FillRule</source></trans-unit>
+        <trans-unit d4:value="90"><source>hmRep_oprop_FixedPrintingFore</source></trans-unit>
+        <trans-unit d4:value="91"><source>hmRep_oprop_AlignmentV</source></trans-unit>
+        <trans-unit d4:value="92"><source>hmRep_oprop_CreateExecContext</source></trans-unit>
+        <trans-unit d4:value="93"><source>hmRep_oprop_DragLeftTop</source></trans-unit>
+        <trans-unit d4:value="94"><source>hmRep_oprop_DragTop</source></trans-unit>
+        <trans-unit d4:value="95"><source>hmRep_oprop_DragRightTop</source></trans-unit>
+        <trans-unit d4:value="96"><source>hmRep_oprop_DragRight</source></trans-unit>
+        <trans-unit d4:value="97"><source>hmRep_oprop_DragRightBottom</source></trans-unit>
+        <trans-unit d4:value="98"><source>hmRep_oprop_DragBottom</source></trans-unit>
+        <trans-unit d4:value="99"><source>hmRep_oprop_DragLeftBottom</source></trans-unit>
+        <trans-unit d4:value="100"><source>hmRep_oprop_DragLeft</source></trans-unit>
+        <trans-unit d4:value="101"><source>hmRep_oprop_Origin_Section</source></trans-unit>
+        <trans-unit d4:value="102"><source>hmRep_oprop_Origin_SectionCount</source></trans-unit>
+        <trans-unit d4:value="103"><source>hmRep_oprop_ShowTextIfNullValue</source></trans-unit>
+        <trans-unit d4:value="104"><source>hmRep_oprop_Kerning</source></trans-unit>
+        <trans-unit d4:value="105"><source>hmRep_oprop_Dynamic</source></trans-unit>
+        <trans-unit d4:value="106"><source>hmRep_oprop_Full_Lines</source></trans-unit>
+        <trans-unit d4:value="107"><source>hmRep_oprop_ExecuteStartEndScripts</source></trans-unit>
+        <trans-unit d4:value="108"><source>hmRep_oprop_MoveH</source></trans-unit>
+        <trans-unit d4:value="109"><source>hmRep_oprop_MoveV</source></trans-unit>
+        <trans-unit d4:value="110"><source>hmRep_oprop_CalcSubTotal</source></trans-unit>
+
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15207">
+    
+        <trans-unit><source>hmReports colors</source></trans-unit>
+		<trans-unit d4:value="1"><source>hmRep_clr_ObjectFillcolor</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmRep_clr_ObjectFramecolor</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmRep_clr_ObjectTextcolor</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmRep_clr_LayerColor</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmRep_clr_GuideColor</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmRep_clr_DefaultGuide</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmRep_clr_ObjectBounds</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15208">
+    
+        <trans-unit><source>hmReports layer properties</source></trans-unit>
+		<trans-unit d4:value="1"><source>hmRep_lprop_Name</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmRep_lprop_Visible</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmRep_lprop_LockObjects</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmRep_lprop_Page</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmRep_lprop_H_Scrollable</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmRep_lprop_V_Scrollable</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_lprop_Z_Order</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_lprop_Origin_x</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmRep_lprop_Origin_y</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15209">
+    
+        <trans-unit><source>hmReports section types</source></trans-unit>
+		<trans-unit d4:value="1"><source>hmRep_Section_Reportheader</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmRep_Section_Pageheader</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmRep_Section_Detailheader</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmRep_Section_Detail</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmRep_Section_Detailfooter</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmRep_Section_Total</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmRep_Section_Pagefooter</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmRep_Section_Reportfooter</source></trans-unit>
+        
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15210">
+        
+        <trans-unit><source>hmReports report properties</source></trans-unit>
+		<trans-unit d4:value="1"><source>hmRep_rprop_UUID</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmRep_rprop_name</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmRep_rprop_pagewidth</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmRep_rprop_pageheight</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmRep_rprop_margin_left</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmRep_rprop_margin_top</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmRep_rprop_margin_right</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmRep_rprop_margin_bottom</source></trans-unit>
+		<trans-unit d4:value="9"><source>hmRep_rprop_zoom</source></trans-unit>
+		<trans-unit d4:value="10"><source>hmRep_rprop_scroll_x</source></trans-unit>
+		<trans-unit d4:value="11"><source>hmRep_rprop_scroll_y</source></trans-unit>
+		<trans-unit d4:value="12"><source>hmRep_rprop_Layercounter</source></trans-unit>
+		<trans-unit d4:value="13"><source>hmRep_rprop_Objectcounter</source></trans-unit>
+		<trans-unit d4:value="14"><source>hmRep_rprop_ShowSections</source></trans-unit>
+		<trans-unit d4:value="15"><source>hmRep_rprop_ShowSecCapt</source></trans-unit>
+		<trans-unit d4:value="16"><source>hmRep_rprop_ShowSecLines</source></trans-unit>
+		<trans-unit d4:value="17"><source>hmRep_rprop_RulerUnit</source></trans-unit>
+		<trans-unit d4:value="18"><source>hmRep_rprop_PageSetupSync</source></trans-unit>
+		<trans-unit d4:value="19"><source>hmRep_rprop_MoveObjWithSection</source></trans-unit>
+		<trans-unit d4:value="20"><source>hmRep_rprop_DefaultAntialiasing</source></trans-unit>
+		<trans-unit d4:value="21"><source>hmRep_rprop_ShowPageArea</source></trans-unit>
+		<trans-unit d4:value="22"><source>hmRep_rprop_ShowPrintableArea</source></trans-unit>
+		<trans-unit d4:value="23"><source>hmRep_rprop_PrintAsReport</source></trans-unit>
+		<trans-unit d4:value="24"><source>hmRep_rprop_ShowLayerInfo</source></trans-unit>
+		<trans-unit d4:value="25"><source>hmRep_rprop_StartScript</source></trans-unit>
+		<trans-unit d4:value="26"><source>hmRep_rprop_BodyScript</source></trans-unit>
+		<trans-unit d4:value="27"><source>hmRep_rprop_EndScript</source></trans-unit>
+		<trans-unit d4:value="28"><source>hmRep_rprop_ShowObjectBounds</source></trans-unit>
+		<trans-unit d4:value="29"><source>hmRep_rprop_ShowVarPrefix</source></trans-unit>
+		<trans-unit d4:value="30"><source>hmRep_rprop_PrintareaUseMargins</source></trans-unit>
+		<trans-unit d4:value="31"><source>hmRep_rprop_ObjectRealloc</source></trans-unit>
+		<trans-unit d4:value="32"><source>hmRep_rprop_ShowObjectOrder</source></trans-unit>
+		<trans-unit d4:value="33"><source>hmRep_rprop_ShowScrollbarH</source></trans-unit>
+		<trans-unit d4:value="34"><source>hmRep_rprop_ShowScrollbarV</source></trans-unit>
+		<trans-unit d4:value="35"><source>hmRep_rprop_PageCounter</source></trans-unit>
+		<trans-unit d4:value="36"><source>hmRep_rprop_ShowReferences</source></trans-unit>
+		<trans-unit d4:value="37"><source>hmRep_rprop_ShowGrid</source></trans-unit>
+		<trans-unit d4:value="38"><source>hmRep_rprop_GridValue</source></trans-unit>
+		<trans-unit d4:value="39"><source>hmRep_rprop_UseTScriptStart</source></trans-unit>
+		<trans-unit d4:value="40"><source>hmRep_rprop_UseTScriptBody</source></trans-unit>
+		<trans-unit d4:value="41"><source>hmRep_rprop_UseTScriptEnd</source></trans-unit>
+		<trans-unit d4:value="42"><source>hmRep_rprop_UUID_Preview</source></trans-unit>
+		<trans-unit d4:value="43"><source>hmRep_rprop_UUID_Origin</source></trans-unit>
+        <trans-unit d4:value="44"><source>hmRep_rprop_Closeable</source></trans-unit>
+        <trans-unit d4:value="45"><source>hmRep_rprop_PrintOffsetH</source></trans-unit>
+        <trans-unit d4:value="46"><source>hmRep_rprop_PrintOffsetV</source></trans-unit>
+        <trans-unit d4:value="47"><source>hmRep_rprop_ShowPagelist</source></trans-unit>
+        <trans-unit d4:value="48"><source>hmRep_rprop_ShowReportViewer</source></trans-unit>
+        <trans-unit d4:value="49"><source>hmRep_rprop_ShowTextOverflow</source></trans-unit>
+
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15211">
+            
+        <trans-unit><source>hmReports events</source></trans-unit>
+		<trans-unit d4:value="1"><source>hmRep_OnError</source></trans-unit>
+		<trans-unit d4:value="2"><source>hmRep_OnCreateNewReport</source></trans-unit>
+		<trans-unit d4:value="3"><source>hmRep_OnClickArea</source></trans-unit>
+		<trans-unit d4:value="4"><source>hmRep_OnDoubleClickArea</source></trans-unit>
+		<trans-unit d4:value="5"><source>hmRep_OnClickObject</source></trans-unit>
+		<trans-unit d4:value="6"><source>hmRep_OnDoubleClickObject</source></trans-unit>
+		<trans-unit d4:value="7"><source>hmRep_OnExecuteScript</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmRep_TryClickObject</source></trans-unit>
+		<trans-unit d4:value="9"><source>hmRep_TryClickArea</source></trans-unit>
+		<trans-unit d4:value="10"><source>hmRep_OnMouseUp</source></trans-unit>
+		<trans-unit d4:value="11"><source>hmRep_OnKey</source></trans-unit>
+		<trans-unit d4:value="12"><source>hmRep_OnAutoKey</source></trans-unit>
+		<trans-unit d4:value="13"><source>hmRep_OnDrag</source></trans-unit>
+		<trans-unit d4:value="14"><source>hmRep_OnDuringDrag</source></trans-unit>
+		<trans-unit d4:value="15"><source>hmRep_OnDrop</source></trans-unit>
+		<trans-unit d4:value="16"><source>hmRep_OnClickSection</source></trans-unit>
+		<trans-unit d4:value="17"><source>hmRep_OnDoubleClickSection</source></trans-unit>
+		<trans-unit d4:value="18"><source>hmRep_TryCreateNewObject</source></trans-unit>
+		<trans-unit d4:value="19"><source>hmRep_OnCreateNewObject</source></trans-unit>
+		<trans-unit d4:value="20"><source>hmRep_TryDeleteObjects</source></trans-unit>
+		<trans-unit d4:value="21"><source>hmRep_OnDeleteObject</source></trans-unit>
+		<trans-unit d4:value="22"><source>hmRep_OnCommandBefore</source></trans-unit>
+		<trans-unit d4:value="23"><source>hmRep_OnCommandAfter</source></trans-unit>
+		<trans-unit d4:value="24"><source>hmRep_OnBeforePrintingPage</source></trans-unit>
+		<trans-unit d4:value="25"><source>hmRep_OnAfterClickArea</source></trans-unit>
+		<trans-unit d4:value="26"><source>hmRep_OnBeforePrinting</source></trans-unit>
+		<trans-unit d4:value="27"><source>hmRep_OnAfterPrinting</source></trans-unit>
+		<trans-unit d4:value="28"><source>hmRep_OnDuringPrinting</source></trans-unit>
+		<trans-unit d4:value="29"><source>hmRep_OnOutsideDrop</source></trans-unit>
+		<trans-unit d4:value="30"><source>hmRep_OnBeforeClickTool</source></trans-unit>
+		<trans-unit d4:value="31"><source>hmRep_OnAfterClickTool</source></trans-unit>
+		<trans-unit d4:value="32"><source>hmRep_OnScrollH</source></trans-unit>
+		<trans-unit d4:value="33"><source>hmRep_OnScrollV</source></trans-unit>
+		<trans-unit d4:value="34"><source>hmRep_OnBeforeDragNewObj</source></trans-unit>
+		<trans-unit d4:value="35"><source>hmRep_OnDropAction</source></trans-unit>
+		<trans-unit d4:value="36"><source>hmRep_OnDuringDragSection</source></trans-unit>
+		<trans-unit d4:value="37"><source>hmRep_OnAfterDragSection</source></trans-unit>
+		<trans-unit d4:value="38"><source>hmRep_OnBeforeCreatePage</source></trans-unit>
+		<trans-unit d4:value="39"><source>hmRep_OnAfterCreatePage</source></trans-unit>
+        <trans-unit d4:value="41"><source>hmRep_OnScriptEditor</source></trans-unit>
+        <trans-unit d4:value="42"><source>hmRep_OnOpenDialog</source></trans-unit>
+        <trans-unit d4:value="43"><source>hmRep_OnCloseDialog</source></trans-unit>
+        <trans-unit d4:value="44"><source>hmRep_OnMouseEnter</source></trans-unit>
+        <trans-unit d4:value="45"><source>hmRep_OnMouseMove</source></trans-unit>
+        <trans-unit d4:value="46"><source>hmRep_OnMouseLeave</source></trans-unit>
+        <trans-unit d4:value="47"><source>hmRep_OnBeforeDrag</source></trans-unit>
+        <trans-unit d4:value="48"><source>hmRep_OnScriptError</source></trans-unit>
+        <trans-unit d4:value="49"><source>hmRep_OnCurrentReportChanged</source></trans-unit>
+        <trans-unit d4:value="50"><source>hmRep_OnCreateExecutionContext</source></trans-unit>
+ 
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15212">
+        
+        <trans-unit><source>hmReports path types</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_Path_MoveTo</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_Path_LineTo</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_Path_Curve</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_Path_QuadCurve</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_Path_Arc</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_Path_ClosePath</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15213">
+        
+        <trans-unit><source>hmReports area properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_prop_Statusbar</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_prop_Tabbar</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_prop_Tools</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_prop_Rulers</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_prop_Pagelist</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_prop_Toolbar</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_prop_Menu</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_prop_MagneticGrid</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmRep_prop_SVGrootFolder</source></trans-unit>
+        <trans-unit d4:value="10"><source>hmRep_prop_SVGpropImport</source></trans-unit>
+        <trans-unit d4:value="11"><source>hmRep_prop_SVGpropExport</source></trans-unit>
+        <trans-unit d4:value="12"><source>hmRep_prop_ObjectOutside</source></trans-unit>
+        <trans-unit d4:value="13"><source>hmRep_prop_FetchRuntimeErrors</source></trans-unit>
+        <trans-unit d4:value="14"><source>hmRep_prop_ShowDragInfo</source></trans-unit>
+        <trans-unit d4:value="15"><source>hmRep_prop_PagelistWidth</source></trans-unit>
+        <trans-unit d4:value="16"><source>hmRep_prop_PreviewEditable</source></trans-unit>
+        <trans-unit d4:value="17"><source>hmRep_prop_PreviewSaveBack</source></trans-unit>
+        <trans-unit d4:value="18"><source>hmRep_prop_PreviewAutoupdate</source></trans-unit>
+        <trans-unit d4:value="19"><source>hmRep_prop_PreviewPages</source></trans-unit>
+        <trans-unit d4:value="20"><source>hmRep_prop_MaxUndos</source></trans-unit>
+        <trans-unit d4:value="21"><source>hmRep_prop_ContextualMenu</source></trans-unit>
+        <trans-unit d4:value="22"><source>hmRep_prop_SelectionRect</source></trans-unit>
+        <trans-unit d4:value="23"><source>hmRep_prop_DragGuides</source></trans-unit>
+        <trans-unit d4:value="24"><source>hmRep_prop_ReportareaHeight</source></trans-unit>
+        <trans-unit d4:value="25"><source>hmRep_prop_ReportareaWidth</source></trans-unit>
+        <trans-unit d4:value="26"><source>hmRep_prop_SavePrinterName</source></trans-unit>
+        <trans-unit d4:value="27"><source>hmRep_prop_DragRedrawInterval</source></trans-unit>
+        <trans-unit d4:value="28"><source>hmRep_prop_SavePrintHeader</source></trans-unit>
+        <trans-unit d4:value="29"><source>hmRep_prop_LoadPrintHeader</source></trans-unit>
+        <trans-unit d4:value="30"><source>hmRep_prop_OldScriptCreation</source></trans-unit>
+        <trans-unit d4:value="31"><source>hmRep_prop_Use4DEditMenu</source></trans-unit>
+        <trans-unit d4:value="32"><source>hmRep_prop_LineClickTolerance</source></trans-unit>
+        <trans-unit d4:value="33"><source>hmRep_prop_ShowObjectSelections</source></trans-unit>
+        <trans-unit d4:value="34"><source>hmRep_prop_ObjectRenderOrder</source></trans-unit>
+        <trans-unit d4:value="35"><source>hmRep_prop_DialogWindowType</source></trans-unit>
+        <trans-unit d4:value="36"><source>hmRep_prop_UseVStructure</source></trans-unit>
+        <trans-unit d4:value="37"><source>hmRep_prop_CopyPropInPreview</source></trans-unit>
+        <trans-unit d4:value="38"><source>hmRep_prop_ScriptEditorSyntax</source></trans-unit>
+        <trans-unit d4:value="39"><source>hmRep_prop_ExecutionContext</source></trans-unit>
+        <trans-unit d4:value="40"><source>hmRep_prop_PagelistSwitchClick</source></trans-unit>
+        <trans-unit d4:value="41"><source>hmRep_prop_InfiniteSections</source></trans-unit>
+
+    </group>
+        
+    <group restype="x-4DK#" d4:groupID="15214">
+            
+        <trans-unit><source>hmReports gradient types</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_Gradient_None</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_Gradient_Lineal</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_Gradient_Radial</source></trans-unit>
+    </group>
+    <group restype="x-4DK#" d4:groupID="15215">
+            
+        <trans-unit><source>hmReports import types</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_Import_hmReports</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_Import_SVG</source></trans-unit>
+   
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15216">
+        
+        <trans-unit><source>hmReports iteration types</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_Iteration_Table</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_Iteration_SQL</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_Iteration_Array</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_Iteration_Variable</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_Iteration_Fixed</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_Iteration_EntitySelection</source></trans-unit>
+
+    </group>
+    <group restype="x-4DK#" d4:groupID="15217">
+        
+        <trans-unit><source>hmReports section properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_sprop_PrintOnReport</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_sprop_VisibleOption</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_sprop_Object</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_sprop_TableNo</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_sprop_FieldNo</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_sprop_Variable</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_sprop_Arrayindex</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_sprop_BreakOption</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmRep_sprop_BreakLessThan</source></trans-unit>
+        <trans-unit d4:value="10"><source>hmRep_sprop_KeepWholeSecOnPage</source></trans-unit>
+        <trans-unit d4:value="11"><source>hmRep_sprop_Use</source></trans-unit>
+        <trans-unit d4:value="12"><source>hmRep_sprop_Name</source></trans-unit>
+        <trans-unit d4:value="13"><source>hmRep_sprop_ExeDetScrAftValueCh</source></trans-unit>
+        <trans-unit d4:value="14"><source>hmRep_sprop_UseTokenScript</source></trans-unit>
+        <trans-unit d4:value="15"><source>hmRep_sprop_Arrayindex2D</source></trans-unit>
+        <trans-unit d4:value="16"><source>hmRep_sprop_TabPosition</source></trans-unit>
+        <trans-unit d4:value="17"><source>hmRep_sprop_BackgroundName</source></trans-unit>
+        <trans-unit d4:value="18"><source>hmRep_sprop_BreakEveryIteration</source></trans-unit>
+        <trans-unit d4:value="19"><source>hmRep_sprop_PrintAfterPageBreak</source></trans-unit>
+        <trans-unit d4:value="20"><source>hmRep_sprop_EntityVarName</source></trans-unit>
+
+    </group>
+    <group restype="x-4DK#" d4:groupID="15218">
+        
+        <trans-unit><source>hmReports section visible types</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_svisible_Always</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_svisible_FirstPageOnly</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_svisible_AfterFirstPage</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_svisible_ValueChanges</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_svisible_NotOnLastPage</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_svisible_OnLastPage</source></trans-unit>
+
+    </group>
+    <group restype="x-4DK#" d4:groupID="15219">
+        
+        <trans-unit><source>hmReports section break types</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_sbreak_CurrentPage</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_sbreak_NewPageBefore</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_sbreak_NewPageAfter</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_sbreak_NewPageSpace</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15220">
+        
+        <trans-unit><source>hmReports tools</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_Tool_Move</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_Tool_Text</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_Tool_Line</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_Tool_Rect</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_Tool_RoundRect</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_Tool_Oval</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_Tool_Picture</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_Tool_Polygon</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmRep_Tool_Arc</source></trans-unit>
+        <trans-unit d4:value="10"><source>hmRep_Tool_Freehand</source></trans-unit>
+        <trans-unit d4:value="11"><source>hmRep_Tool_Zoom</source></trans-unit>
+        <trans-unit d4:value="12"><source>hmRep_Tool_Zoom_In</source></trans-unit>
+        <trans-unit d4:value="13"><source>hmRep_Tool_Zoom_Out</source></trans-unit>
+        <trans-unit d4:value="14"><source>hmRep_Tool_Align_Left</source></trans-unit>
+        <trans-unit d4:value="15"><source>hmRep_Tool_Align_Top</source></trans-unit>
+        <trans-unit d4:value="16"><source>hmRep_Tool_Align_Right</source></trans-unit>
+        <trans-unit d4:value="17"><source>hmRep_Tool_Align_Bottom</source></trans-unit>
+        <trans-unit d4:value="18"><source>hmRep_Tool_Align_Middle</source></trans-unit>
+        <trans-unit d4:value="19"><source>hmRep_Tool_Align_Center</source></trans-unit>
+        <trans-unit d4:value="20"><source>hmRep_Tool_Arrange_H</source></trans-unit>
+        <trans-unit d4:value="21"><source>hmRep_Tool_Arrange_V</source></trans-unit>
+        <trans-unit d4:value="22"><source>hmRep_Tool_Subreport</source></trans-unit>
+        <trans-unit d4:value="23"><source>hmRep_Tool_CopyFormat</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15221">
+        
+        <trans-unit><source>hmReports calc options</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_Calc_None</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_Calc_Total</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_Calc_Minimum</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_Calc_Maximum</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_Calc_Average</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_Calc_Count</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15222">
+        
+        <trans-unit><source>hmReports sizing</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_Sizing_None</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_Sizing_Move</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_Sizing_Grow</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_Sizing_Move_All</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_Sizing_Move_All_Grow</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15223">
+        
+        <trans-unit><source>hmReports Print Options</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_paper_option</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_orientation_option</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_scale_option</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_number_of_copies</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_paper_source_option</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_pages_from_option</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_pages_to_option</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_color_option</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmRep_destination_option</source></trans-unit>
+        <trans-unit d4:value="11"><source>hmRep_double_sided</source></trans-unit>
+        <trans-unit d4:value="12"><source>hmRep_spooler_document_name</source></trans-unit>
+        <trans-unit d4:value="14"><source>hmRep_hide_printing_process</source></trans-unit>
+        <trans-unit d4:value="20"><source>hmRep_printer</source></trans-unit>
+        <trans-unit d4:value="21"><source>hmRep_Ghostscript_Path</source></trans-unit>
+        <trans-unit d4:value="22"><source>hmRep_PPD_Path</source></trans-unit>
+        <trans-unit d4:value="23"><source>hmRep_PDF_Engine</source></trans-unit>
+        <trans-unit d4:value="24"><source>hmRep_PDF_PageFormat</source></trans-unit>
+        <trans-unit d4:value="25"><source>hmRep_PDF_EmbedFonts</source></trans-unit>
+        <trans-unit d4:value="26"><source>hmRep_Drivername</source></trans-unit>
+        <trans-unit d4:value="27"><source>hmRep_Devicename</source></trans-unit>
+        <trans-unit d4:value="28"><source>hmRep_Outputname</source></trans-unit>
+        <trans-unit d4:value="29"><source>hmRep_print_rotation</source></trans-unit>
+
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15224">
+        
+        <trans-unit><source>hmReports Render options</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_render_BodyOnly</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_render_NoStaticText</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_render_TopLeftOrder</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_render_CSVConform</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15225">
+        
+        <trans-unit><source>hmReports page properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_pprop_ID</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_pprop_Show_PageArea</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_pprop_Show_Sections</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_pprop_Show_SectionCapt</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_pprop_Show_SectionLines</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_pprop_PrintAsReport</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_pprop_PublishAsSubreport</source></trans-unit>
+		<trans-unit d4:value="8"><source>hmRep_pprop_pagewidth</source></trans-unit>
+		<trans-unit d4:value="9"><source>hmRep_pprop_pageheight</source></trans-unit>
+		<trans-unit d4:value="10"><source>hmRep_pprop_margin_left</source></trans-unit>
+		<trans-unit d4:value="11"><source>hmRep_pprop_margin_top</source></trans-unit>
+		<trans-unit d4:value="12"><source>hmRep_pprop_margin_right</source></trans-unit>
+		<trans-unit d4:value="13"><source>hmRep_pprop_margin_bottom</source></trans-unit>
+        <trans-unit d4:value="14"><source>hmRep_pprop_ObjectRenderOrder</source></trans-unit>
+        <trans-unit d4:value="15"><source>hmRep_pprop_Print</source></trans-unit>
+        <trans-unit d4:value="16"><source>hmRep_pprop_Spreadsheet</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15226">
+        
+        <trans-unit><source>hmReports guide properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_gprop_Horizontal</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_gprop_Position</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_gprop_Page</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_gprop_Locked</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15227">
+        
+        <trans-unit><source>hmReports virtual structure properties</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_vprop_Type</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_vprop_TableNo</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_vprop_FieldNo</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_vprop_Variable</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_vprop_Caption</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_vprop_Description</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_vprop_InList</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_vprop_GroupID</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15228">
+        
+        <trans-unit><source>hmReports virtual structure types</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_vstruc_Table</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_vstruc_Field</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_vstruc_Variable</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_vstruc_Group</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_vstruc_Method</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15229">
+        
+        <trans-unit><source>hmReports dialogs</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_dialog_AreaSettings</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_dialog_ReportSettings</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_dialog_SectionSettings</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_dialog_Old_Scripteditor</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_dialog_Sections</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_dialog_ObjectSettings</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_dialog_ScriptEditor</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_dialog_Debugger</source></trans-unit>
+ 
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15230">
+
+        <trans-unit><source>hmReports Barcode types</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmBC_Datamatrix</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmBC_PDF417</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmBC_Code 128</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmBC_Interleaved 2 of 5</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmBC_Code 39</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmBC_Code 11</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmBC_Extended Code 3 of 9</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmBC_Code 93</source></trans-unit>
+        <trans-unit d4:value="9"><source>hmBC_LOGMARS</source></trans-unit>
+        <trans-unit d4:value="10"><source>hmBC_Code 128</source></trans-unit>
+        <trans-unit d4:value="11"><source>hmBC_NVE 18</source></trans-unit>
+        <trans-unit d4:value="12"><source>hmBC_Maxicode</source></trans-unit>
+        <trans-unit d4:value="13"><source>hmBC_Standard Code 2 of 5</source></trans-unit>
+        <trans-unit d4:value="14"><source>hmBC_Code 2 of 5 Industrial</source></trans-unit>
+        <trans-unit d4:value="15"><source>hmBC_Code 2 of 5 IATA</source></trans-unit>
+        <trans-unit d4:value="16"><source>hmBC_Code 2 of 5 Data Logic</source></trans-unit>
+        <trans-unit d4:value="17"><source>hmBC_ITF 14</source></trans-unit>
+        <trans-unit d4:value="18"><source>hmBC_Deutsche Post Leitcode</source></trans-unit>
+        <trans-unit d4:value="19"><source>hmBC_Deutsche Post Identcode</source></trans-unit>
+        <trans-unit d4:value="20"><source>hmBC_QR Code</source></trans-unit>
+        <trans-unit d4:value="21"><source>hmBC_PDF417 Truncated</source></trans-unit>
+        <trans-unit d4:value="22"><source>hmBC_MicroPDF417</source></trans-unit>
+        <trans-unit d4:value="23"><source>hmBC_Australia Post Standard Customer</source></trans-unit>
+        <trans-unit d4:value="24"><source>hmBC_Australia Post Reply Paid</source></trans-unit>
+        <trans-unit d4:value="25"><source>hmBC_Australia Post Routing</source></trans-unit>
+        <trans-unit d4:value="26"><source>hmBC_Australia Post Redirection</source></trans-unit>
+        <trans-unit d4:value="27"><source>hmBC_UPC A</source></trans-unit>
+        <trans-unit d4:value="28"><source>hmBC_UPC E</source></trans-unit>
+        <trans-unit d4:value="29"><source>hmBC_EAN</source></trans-unit>
+        <trans-unit d4:value="30"><source>hmBC_GS1 128</source></trans-unit>
+        <trans-unit d4:value="31"><source>hmBC_Codabar</source></trans-unit>
+        <trans-unit d4:value="32"><source>hmBC_Pharmacode One Track</source></trans-unit>
+        <trans-unit d4:value="33"><source>hmBC_Pharmacode Two Track</source></trans-unit>
+        <trans-unit d4:value="34"><source>hmBC_MSI Code</source></trans-unit>
+        <trans-unit d4:value="39"><source>hmBC_PZN</source></trans-unit>
+        <trans-unit d4:value="40"><source>hmBC_ISBN</source></trans-unit>
+        <trans-unit d4:value="41"><source>hmBC_GS1 DataBar 14</source></trans-unit>
+        <trans-unit d4:value="42"><source>hmBC_GS1 DataBar 14 Stacked</source></trans-unit>
+        <trans-unit d4:value="43"><source>hmBC_GS1 DataBar 14 Stacked Omnidirectional</source></trans-unit>
+        <trans-unit d4:value="44"><source>hmBC_GS1 DataBar Limited</source></trans-unit>
+        <trans-unit d4:value="45"><source>hmBC_GS1 DataBar Expanded</source></trans-unit>
+        <trans-unit d4:value="46"><source>hmBC_GS1 DataBar Expanded Stacked</source></trans-unit>
+        <trans-unit d4:value="47"><source>hmBC_Composite Symbol with EAN linear component</source></trans-unit>
+        <trans-unit d4:value="48"><source>hmBC_Composite Symbol with GS1 128 linear component</source></trans-unit>
+        <trans-unit d4:value="49"><source>hmBC_Composite Symbol with GS1 DataBar 14 linear component</source></trans-unit>
+        <trans-unit d4:value="50"><source>hmBC_Composite Symbol with GS1 DataBar Limited component</source></trans-unit>
+        <trans-unit d4:value="51"><source>hmBC_Composite Symbol with GS1 DataBar Extended component</source></trans-unit>
+        <trans-unit d4:value="52"><source>hmBC_Composite Symbol with UPC A linear component</source></trans-unit>
+        <trans-unit d4:value="53"><source>hmBC_Composite Symbol with UPC E linear component</source></trans-unit>
+        <trans-unit d4:value="54"><source>hmBC_Composite Symbol with GS1 DataBar 14 Stacked component</source></trans-unit>
+        <trans-unit d4:value="55"><source>hmBC_Composite Symbol with GS1 DataBar 14 Stacked Omnidirectional component</source></trans-unit>
+        <trans-unit d4:value="56"><source>hmBC_Composite Symbol with GS1 DataBar Expanded Stacked component</source></trans-unit>
+        <trans-unit d4:value="57"><source>hmBC_Plessey Code</source></trans-unit>
+        <trans-unit d4:value="58"><source>hmBC_USPS OneCode</source></trans-unit>
+        <trans-unit d4:value="59"><source>hmBC_Telepen Alpha</source></trans-unit>
+        <trans-unit d4:value="60"><source>hmBC_Telepen Numeric</source></trans-unit>
+        <trans-unit d4:value="61"><source>hmBC_Code 16K</source></trans-unit>
+        <trans-unit d4:value="62"><source>hmBC_Flattermarken</source></trans-unit>
+        <trans-unit d4:value="63"><source>hmBC_FIM</source></trans-unit>
+        <trans-unit d4:value="64"><source>hmBC_PostNet</source></trans-unit>
+        <trans-unit d4:value="65"><source>hmBC_PLANET</source></trans-unit>
+        <trans-unit d4:value="66"><source>hmBC_Royal Mail 4 State</source></trans-unit>
+        <trans-unit d4:value="67"><source>hmBC_Aztec</source></trans-unit>
+        <trans-unit d4:value="68"><source>hmBC_Micro QR Code</source></trans-unit>
+        <trans-unit d4:value="69"><source>hmBC_Aztec Runes</source></trans-unit>
+        <trans-unit d4:value="70"><source>hmBC_Code One</source></trans-unit>
+        <trans-unit d4:value="71"><source>hmBC_Grid Matrix</source></trans-unit>
+        <trans-unit d4:value="72"><source>hmBC_Code 32</source></trans-unit>
+        <trans-unit d4:value="73"><source>hmBC_HIBC Code 39</source></trans-unit>
+        <trans-unit d4:value="74"><source>hmBC_EAN 14</source></trans-unit>
+        <trans-unit d4:value="75"><source>hmBC_HIBC Code 128</source></trans-unit>
+        <trans-unit d4:value="76"><source>hmBC_Korea Post</source></trans-unit>
+        <trans-unit d4:value="77"><source>hmBC_Channel Code</source></trans-unit>
+        <trans-unit d4:value="78"><source>hmBC_DAFT Code</source></trans-unit>
+        <trans-unit d4:value="79"><source>hmBC_Dutch Post KIX Code</source></trans-unit>
+        <trans-unit d4:value="80"><source>hmBC_Japanese Post</source></trans-unit>
+        <trans-unit d4:value="81"><source>hmBC_DotCode</source></trans-unit>
+        <trans-unit d4:value="82"><source>hmBC_Han Xin</source></trans-unit>
+        <trans-unit d4:value="83"><source>hmBC_HIBC Datamatrix</source></trans-unit>
+        <trans-unit d4:value="84"><source>hmBC_HIBC QR</source></trans-unit>
+        <trans-unit d4:value="85"><source>hmBC_HIBC PDF</source></trans-unit>
+        <trans-unit d4:value="86"><source>hmBC_HIBC MicroPDF</source></trans-unit>
+        <trans-unit d4:value="87"><source>hmBC_HIBC BlockF</source></trans-unit>
+        <trans-unit d4:value="88"><source>hmBC_HIBC Aztec</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15231">
+        
+        <trans-unit><source>hmReports undo types</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_Undo_None</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_Undo_Move</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_Undo_Resize</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_Undo_Delete</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_Undo_New</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_Undo_Change_Picture</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_Undo_Edit</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15232">
+        
+        <trans-unit><source>hmReports undo states</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_Undo_Active_No</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_Undo_Active_Interface</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_Undo_Active_Programming</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15233">
+        
+        <trans-unit><source>hmReports show text overflow</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_ShowTextoverflow_None</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_ShowTextoverflow_Selected</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_ShowTextoverflow_All</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15234">
+        
+        <trans-unit><source>hmExecuter Constants</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmX_prop_AcceptTrace</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmX_prop_StartWithTrace</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmX_LocalVariables</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmX_GlobalVariables</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmX_ProcessVariables</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmX_InterprocessVariables</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmX_DefaultStack</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmX_DoNotCopyObjects</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmX_CopyObjects</source></trans-unit>
+
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15235">
+        
+        <trans-unit><source>hmBarcode options</source></trans-unit>
+        <trans-unit d4:value="100"><source>hmBC_DM_SQUARE</source></trans-unit>
+        <trans-unit d4:value="101"><source>hmBC_DM_DMRE</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15236">
+        
+        <trans-unit><source>hmBarcode input modes</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmBC_Input_Data Mode</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmBC_Input_Unicode Mode</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmBC_Input_GS1 Mode</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmBC_Input_Escape Mode</source></trans-unit>
+        
+    </group>
+    
+    <group restype="x-4DK#" d4:groupID="15237">
+        
+        <trans-unit><source>hmBarcode resize group options</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_Group_Resize_As_Group</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_Group_Resize_Individually</source></trans-unit>
+        
+    </group>
+    
+    </body>
+  </file>
+
+</xliff>
