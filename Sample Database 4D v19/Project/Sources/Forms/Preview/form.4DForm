@@ -1,0 +1,152 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 500,
+	"windowMinHeight": 600,
+	"width": 500,
+	"height": 600,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onActivate",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onCloseBox",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "DIN A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"bbtn": {
+					"type": "button",
+					"top": 568,
+					"left": 44,
+					"width": 89,
+					"height": 20,
+					"sizingY": "move",
+					"shortcutKey": "[left arrow]",
+					"text": "Back",
+					"fontTheme": "normal",
+					"focusable": false,
+					"method": "ObjectMethods/bbtn.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"bbtn1": {
+					"type": "button",
+					"top": 568,
+					"left": 324,
+					"width": 89,
+					"height": 20,
+					"sizingX": "move",
+					"sizingY": "move",
+					"shortcutKey": "[right arrow]",
+					"text": "Next",
+					"fontTheme": "normal",
+					"focusable": false,
+					"method": "ObjectMethods/bbtn1.4dm",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				},
+				"vt_previewtext": {
+					"type": "input",
+					"top": 571,
+					"left": 143,
+					"width": 176,
+					"height": 15,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"textAlign": "center",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"vb_preview": {
+					"type": "input",
+					"top": 0,
+					"left": 0,
+					"width": 500,
+					"height": 560,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "vb_preview",
+					"dataSourceTypeHint": "picture",
+					"focusable": false,
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"pictureFormat": "proportionalCenter",
+					"dragging": "none",
+					"events": [
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "Ebene 1",
+		"defaultView": "Ebene 1",
+		"views": {
+			"Ebene 1": {},
+			"Ebene 2": {},
+			"Ebene 3": {},
+			"Ebene 4": {},
+			"Ebene 5": {},
+			"Ebene 6": {},
+			"Ebene 7": {},
+			"Ebene 8": {},
+			"Ebene 9": {}
+		}
+	}
+}

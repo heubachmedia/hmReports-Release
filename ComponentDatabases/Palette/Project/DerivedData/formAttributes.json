@@ -1,34 +1,45 @@
-﻿{
+{
 	"forms": {
 		"PropertyPalette_Object": {
-			"timeStamp": ""
+			"timeStamp": "2020-11-04T09:01:19.836Z",
+			"destination": "detailScreen"
 		},
 		"PropertyPalette_Layerlist": {
-			"timeStamp": ""
+			"timeStamp": "2020-11-04T09:01:19.779Z",
+			"destination": "detailScreen"
 		},
 		"DLG_Confirm": {
-			"timeStamp": ""
+			"timeStamp": "2020-11-04T09:01:19.736Z",
+			"destination": "detailScreen"
 		},
 		"PropertyPalette_Report": {
-			"timeStamp": ""
+			"timeStamp": "2020-11-04T09:01:19.793Z",
+			"destination": "detailScreen"
 		},
 		"PropertyPalette_Referencelist": {
-			"timeStamp": ""
+			"timeStamp": "2020-11-04T09:01:19.839Z",
+			"destination": "detailScreen"
 		},
 		"PropertyPalette_Objectlist": {
-			"timeStamp": ""
+			"timeStamp": "2020-11-04T09:01:19.838Z",
+			"destination": "detailScreen"
 		},
 		"XLIFF": {
-			"timeStamp": ""
+			"timeStamp": "2020-11-04T09:01:19.750Z",
+			"destination": "detailScreen"
 		},
 		"hmReports_Palette": {
-			"timeStamp": ""
+			"timeStamp": "2020-11-04T09:01:19.766Z",
+			"destination": "detailScreen",
+			"shared": true
 		},
 		"Testarea": {
-			"timeStamp": ""
+			"timeStamp": "2020-11-04T09:01:19.744Z",
+			"destination": "detailScreen"
 		},
 		"DLG_Alert": {
-			"timeStamp": ""
+			"timeStamp": "2020-11-04T09:01:19.733Z",
+			"destination": "detailScreen"
 		}
 	}
 }

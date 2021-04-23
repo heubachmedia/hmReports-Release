@@ -1,0 +1,21 @@
+{
+	"Standard Projekt-Methode": {
+		"methods": [
+			"open_demo1"
+		]
+	},
+	"Standard-Formular": {
+		"forms": [
+			"Formular"
+		]
+	},
+	"Standard-Ordner": {
+		"groups": [
+			"Standard Projekt-Methode",
+			"Standard-Formular",
+			"Standard-Tabelle"
+		]
+	},
+	"Standard-Tabelle": {},
+	"trash": {}
+}

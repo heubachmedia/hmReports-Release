@@ -550,11 +550,15 @@
 		</data>
 		<key>Resources/Constants.xlf</key>
 		<data>
-		rwDe3mtlZBgvx0fsigVcalwVl4A=
+		yZfv1DQsW1vFXoy/vO2U2a3YasY=
 		</data>
 		<key>Resources/Internal Components/FormRes.4dbase/FormRes.4DZ</key>
 		<data>
-		0kWQk92/l1jPZ1YeGrQS2K1ibZ0=
+		Tom/gtUzVSHtIJsHWdvHIOdMra8=
+		</data>
+		<key>Resources/Internal Components/FormRes.4dbase/Libraries/lib4d-arm64.dylib</key>
+		<data>
+		1L9TJnNyNSymtpVZW7qsLRYLIsc=
 		</data>
 		<key>Resources/Internal Components/FormRes.4dbase/Resources/Debug.png</key>
 		<data>
@@ -1067,7 +1071,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Uxy9C7JGJZOGKrLA55t3C9hIG0g=
+			4N67toN/rgRiXlRQGzFj5rV1HMo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1080,7 +1084,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gg/W4JtCxfMe4x7uWTUydz3dU9E=
+			1hoJaagIsvH+qG7Jbaim3OfnC/0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1114,7 +1118,7 @@
 		</dict>
 		<key>Resources/manifest.json</key>
 		<data>
-		A/PBF1UeJcCasn+UL+hn3UNQRPs=
+		+w4uXcOLTbNC2zTYkCfp44W8Lco=
 		</data>
 		<key>Resources/smart constants.xml</key>
 		<data>
@@ -2079,14 +2083,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5LeQuUCQSZpSiJH9UVJ1enRa68BPRUFUc4FXTIbLjBo=
+			LdC/OVMgePVA1JOYQvYJ81l8LAbFP3Gb83E6DP8Kgks=
 			</data>
 		</dict>
 		<key>Resources/Internal Components/FormRes.4dbase/FormRes.4DZ</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NED2WmeRHAhi8Q1kPxp8G+Hfvs8XWYtGkljQzX+tfec=
+			A2hku/UpVUsYf+ZGehEY4BwDGX1N/yxQzHF4YAWuLwU=
+			</data>
+		</dict>
+		<key>Resources/Internal Components/FormRes.4dbase/Libraries/lib4d-arm64.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+UuNfL5Sf1t7PsVLN+Oi9TTkWkfaMmb6M8vpIoflA0E=
 			</data>
 		</dict>
 		<key>Resources/Internal Components/FormRes.4dbase/Resources/Debug.png</key>
@@ -2933,7 +2944,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jBgUuJbQI9h9cbjV1NwZgEjR0XhTNtu9MXjixJ05+R0=
+			zuPLTQIHHMcDaktC8YAWRNH+uWN9LIaLUnNlV14nn8w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2949,7 +2960,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7QXMu669E5vcG7YVuZ9FN51x5q1JYrGC6WpwwAqI+fI=
+			i9BwJ/WonWzL337ukV/kqYfDfCJELrDt5C9F+6EM9NQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2985,7 +2996,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8C9BQJXZdiFlqhcEbsXw2SEv+WLpNBUZxl8wVo93+5A=
+			5vaEJjvJcGpASnLnRX4CZROYcAbPc7cJ1KrAgS0YYMg=
 			</data>
 		</dict>
 		<key>Resources/smart constants.xml</key>
@@ -2999,7 +3010,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2SGJgk1RSPMa11mIxRYvjMLxcoMdR0kPpc4uSyxxDOY=
+			IWurKQZ67vza4jDXcsgiQ5IoOWiB/C77j/gA29c5KQ8=
 			</data>
 		</dict>
 	</dict>

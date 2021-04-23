@@ -1,4 +1,4 @@
-﻿{
+{
 	"map": [
 		{
 			"id": 2147483647,
@@ -889,5 +889,9 @@
 			"path": "Sources/Forms/DLG_Alert/method.4dm"
 		}
 	],
+	"targets": {
+		"x86_64_generic": true,
+		"arm64_macOS_lib": true
+	},
 	"arch64": true
 }
