@@ -22,12 +22,15 @@
 * [hmRep_SET EVENT STATE (Area ; Event ; State)](Areas/hmRep_SetEventState.md)
 * [hmRep_Get Event State (Area ; Event) → state](Areas/hmRep_GetEventState.md)
 * [hmRep_GET MOUSE (Area ; x ; y)](Areas/hmRep_GetMouse.md)
+* [hmRep_DRAG AND DROP PROP (Area ; Variable ; Arrayindex ; Process ; x ; y)](Areas/hmRep_DragAndDropProperties.md)
 
 ### Properties
 * [hmRep_SET AREA PROPERTY (Area ; Selector ; ValueLong ; ValueText)](Areas/hmRep_SetAreaProperty.md)
 * [hmRep_GET AREA PROPERTY (Area ; Selector ; ValueLong ; ValueText)](Areas/hmRep_GetAreaProperty.md)
 * [hmRep_SET FONTS (Area ; Fontlist)](Areas/hmRep_SetFonts.md)
 * [hmRep_GET FONTS (Area ; Fontlist)](Areas/hmRep_GetFonts.md)
+* [hmRep_SET FORMAT LIST (Area ; Format list)](Areas/hmRep_SetFormatList.md)
+* [hmRep_GET FORMAT LIST (Area ; Format list)](Areas/hmRep_GetFormatList.md)
 
 ### Tools
 * [hmRep_SET TOOL (Area ; Tool)](Areas/hmRep_SetTool.md)
@@ -36,6 +39,7 @@
 * [hmRep_Get Tool Visible (Area ; Tool) → Visible](Areas/hmRep_GetToolVisible.md)
 * [hmRep_SET TOOL TIP TEXT (Area ; Tool ; Tiptext)](Areas/hmRep_SetToolTipText.md)
 * [hmRep_Get Tool Tip Text (Area ; Tool) → Tiptext](Areas/hmRep_GetToolTipText.md)
+* [hmRep_Get Barcode List → Barcodes](Areas/hmRep_GetBarcodeList.md)
 
 ---
 

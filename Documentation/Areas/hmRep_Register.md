@@ -30,7 +30,7 @@ You have to call this command only **one** time. The second call (and any furthe
 ### Example
 
 ```4d
- C_LONGINT($vl_error)
- 
- $vl_error:=hmRep_Register ("78HMmg1UkopPjifgJKm")
+var $vl_error : Integer
+
+$vl_error:=hmRep_Register("78HMmg1UkopPjifgJKm")
  ```

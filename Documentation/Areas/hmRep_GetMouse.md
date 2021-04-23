@@ -14,7 +14,7 @@ The command *hmRep_GET MOUSE* returns the current mouse coordinates of the repor
 The following example may be called in the *On Mouse Move* event of 4D to get the current report mouse position:
 
 ```4d
-C_REAL($vz_x;$vz_y)
+var $vz_x; $vz_y : Real
 
-hmREP_GET MOUSE(hmRep;$vz_x;$vz_y)
+hmRep_GET MOUSE(hmRep; $vz_x; $vz_y)
  ```

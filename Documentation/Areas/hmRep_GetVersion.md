@@ -16,10 +16,10 @@ The command *hmRep_Get Version* returns the version number of hmReports. The ver
 The following example shows the version number as a message:
 
 ```4d
-C_LONGINT($vl_version; $vl_majorversion; $vl_minorversion; $vl_revision)
+var $vl_version; $vl_majorversion; $vl_minorversion; $vl_revision : Integer
 
 $vl_version:=hmRep_Get Version
-$vl_majorversion:=($vl_version & 0x0F00) >> 8
+$vl_majorversion:=((($vl_version & 0xFF00) >> 12)*10)+(($vl_version & 0x0F00) >> 8)
 $vl_minorversion:=($vl_version & 0x00F0) >> 4
 $vl_revision:=$vl_version & 0x000F
 

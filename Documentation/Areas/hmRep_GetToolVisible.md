@@ -14,7 +14,7 @@ The command *hmRep_Get Tool Visible* returns the visibility of a tool in the are
 The following example returns the visibility-status of the tool "create rectangle-tool":
 
 ```4d
-C_LONGINT($vl_visible)
+var $vl_visible : Integer
 
-$vl_visible:=hmRep_Get Tool Visible (reparea;hmRep_Tool_Rect)
+$vl_visible:=hmRep_Get Tool Visible(reparea; hmRep_Tool_Rect)
 ```

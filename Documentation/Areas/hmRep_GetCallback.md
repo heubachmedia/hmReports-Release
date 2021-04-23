@@ -12,7 +12,7 @@ The command *hmRep_Get Callback* returns the current callback method of the hmRe
 ### Example
 
 ```4d
-C_TEXT($callback)
+var $callback : Text
 
 $callback:=hmRep_Get Callback($area)
 ```

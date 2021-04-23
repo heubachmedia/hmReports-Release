@@ -15,7 +15,7 @@ See chapter [Error Codes](../Appendix/ErrorCodes.md) for a description of all er
 The following example prints a reports and checks for errors:
 
 ```4d
-C_LONGINT($vl_result; $vl_error)
+var $vl_result; $vl_error : Integer
 
 $vl_result:=hmRep_Print(area; 0)
 $vl_error:=hmRep_Get Last Error(area)

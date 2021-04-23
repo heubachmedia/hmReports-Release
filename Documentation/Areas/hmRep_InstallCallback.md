@@ -49,8 +49,8 @@ This parameter depends on the event.
 ### Example
 
 ```4d
-C_LONGINT($vl_area; $vl_event; $vl_result; $vl_param1; $vl_param2)
-C_TEXT($vt_report; $vt_param)
+var $vl_area; $vl_event; $vl_result; $vl_param1; $vl_param2 : Integer
+var $vt_report; $vt_param : Text
 
 $vl_area:=$1
 $vl_event:=$2

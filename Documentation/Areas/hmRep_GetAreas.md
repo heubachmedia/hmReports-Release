@@ -12,7 +12,7 @@ With the command *hmRep_Get Areas* you can get a list of all currently valid hmR
 The following example returns a collection of all hmReports areas of the current 4D application:
 
 ```4d
-C_COLLECTION($vc_coll)
+var $vc_coll : Collection
 
 $vc_coll:=hmRep_Get Areas
 ```

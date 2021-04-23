@@ -14,7 +14,7 @@ The command *hmRep_Get Event State* returns if an event is activated or deactiva
 The following example returns if the event *hmRep_OnClickObject* is activated:
 
 ```4d
-C_BOOLEAN($vf_active)
+var $active : Boolean
 
-$vf_active=hmRep_Get Event State(hmRep;hmRep_OnClickObject)=1
+$active=hmRep_Get Event State(hmRep; hmRep_OnClickObject)=1
 ```

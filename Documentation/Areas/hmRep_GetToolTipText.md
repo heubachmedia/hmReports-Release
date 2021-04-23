@@ -14,7 +14,7 @@ The command *hmRep_Get Tool Tip Text* returns the tip text for the given tool. Y
 The following example returns the tip text of the "Zoom-In"-button:
 
 ```4d
-C_TEXT($vt_tooltiptext)
+var $vt_tooltiptext : Text
 
-$vt_tooltiptext:=hmRep_Get Tool Tip Text (reparea;hmRep_Tool_Zoom_In)
+$vt_tooltiptext:=hmRep_Get Tool Tip Text(reparea; hmRep_Tool_Zoom_In)
 ```
