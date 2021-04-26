@@ -55,7 +55,7 @@
 * [hmRep_SET CURRENT REPORT (Area ; Report UUID)](Reports/hmRep_SetCurrentReport.md)
 * [hmRep_Get Current Report (Area) → report UUID](Reports/hmRep_GetCurrentReport.md)
 * [hmRep_REPORT TO BLOB ( Area ; Blob)](Reports/hmRep_ReportToBlob.md)
-* [hmRep_BLOB TO REPORT ( Area ; Type ; Blob)](hmRep_BlobToReport.md)
+* [hmRep_BLOB TO REPORT ( Area ; Type ; Blob)](Reports/hmRep_BlobToReport.md)
 
 ### Properties
 * [hmRep_SET REPORT PROPERTY (Area ; Selector ; ValueLong ; ValueText)](Reports/hmRep_SetReportProperty.md)
@@ -73,4 +73,5 @@
 * [Area Properties](Appendix/AreaProperties.md)
 * [Report Properties](Appendix/ReportProperties.md)
 * [Tools](Appendix/Tools.md)
+* [Import Types](Appendix/ImportTypes.md)
 * [Error Codes](Appendix/ErrorCodes.md)
