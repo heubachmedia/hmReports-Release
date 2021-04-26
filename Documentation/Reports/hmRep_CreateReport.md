@@ -11,3 +11,11 @@
 
 ### Description
 The command *hmRep_Create Report* creates a new report in the current hmReports area. The new created report will be not the current report. If you want this report as the current report, you must use [hmRep_SET CURRENT REPORT]. Pass the width and height of the new report (or drawing area) into the parameters *width* and *height*. If these two parameters are zero, the current page format will be used. Pass a name for the new report into the parameter *name*.
+
+### Example
+
+```4d
+var $report : Text
+
+$report:=hmRep_Create Report(reparea; 0; 0; "My new report")
+```

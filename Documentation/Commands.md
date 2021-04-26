@@ -50,6 +50,10 @@
 
 ### Managing Reports
 * [hmRep_Create Report (Area ; Width ; Height ; Name) → Report UUID](Reports/hmRep_CreateReport.md)
+* [hmRep_DELETE REPORT (Area ; report UUID)](Reports/hmRep_DeleteReport.md)
+* [hmRep_CLEAR REPORT (Area)](Reports/hmRep_ClearReport.md)
+* [hmRep_SET CURRENT REPORT (Area ; Report UUID)](Reports/hmRep_SetCurrentReport.md)
+* [hmRep_Get Current Report (Area) → report UUID](Reports/hmRep_GetCurrentReport.md)
 
 ---
 
