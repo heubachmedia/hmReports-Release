@@ -1,4 +1,4 @@
-## hmRep_GET REPORT PROPERTY(Area ; Selector ; ValueLong ; ValueText)
+## hmRep_GET REPORT PROPERTY (Area ; Selector ; ValueLong ; ValueText)
 ###### Introduced in v1.0, Preemptive: yes
 
 |Parameter|Type|In/Out|Description

@@ -54,16 +54,22 @@
 * [hmRep_CLEAR REPORT (Area)](Reports/hmRep_ClearReport.md)
 * [hmRep_SET CURRENT REPORT (Area ; Report UUID)](Reports/hmRep_SetCurrentReport.md)
 * [hmRep_Get Current Report (Area) → report UUID](Reports/hmRep_GetCurrentReport.md)
+* [hmRep_REPORT TO BLOB ( Area ; Blob)](Reports/hmRep_ReportToBlob.md)
 
 ### Properties
-* [hmRep_SET REPORT PROPERTY(Area ; Selector ; ValueLong ; ValueText)](Reports/hmRep_SetReportProperty.md)
-* [hmRep_GET REPORT PROPERTY(Area ; Selector ; ValueLong ; ValueText)](Reports/hmRep_GetReportProperty.md)
+* [hmRep_SET REPORT PROPERTY (Area ; Selector ; ValueLong ; ValueText)](Reports/hmRep_SetReportProperty.md)
+* [hmRep_GET REPORT PROPERTY (Area ; Selector ; ValueLong ; ValueText)](Reports/hmRep_GetReportProperty.md)
 * [hmRep_SET SCALE (Area ; Scale)](Reports/hmRep_SetScale.md)
 * [hmRep_Get Scale (Area) -> Scale](Reports/hmRep_GetScale.md)
+
+### Input/Output
+* [hmRep_REPORT TO BLOB ( Area ; Blob)](Reports/hmRep_ReportToBlob.md)
+* [hmRep_Report To Picture ( Area ; Format ; dpiX ; dpiY) → Picture](Reports/hmRep_ReportToPicture.md)
 
 ---
 
 ## Appendix
 * [Area Properties](Appendix/AreaProperties.md)
+* [Report Properties](Appendix/ReportProperties.md)
 * [Tools](Appendix/Tools.md)
 * [Error Codes](Appendix/ErrorCodes.md)
