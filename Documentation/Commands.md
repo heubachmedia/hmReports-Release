@@ -55,6 +55,12 @@
 * [hmRep_SET CURRENT REPORT (Area ; Report UUID)](Reports/hmRep_SetCurrentReport.md)
 * [hmRep_Get Current Report (Area) → report UUID](Reports/hmRep_GetCurrentReport.md)
 
+### Properties
+* [hmRep_SET REPORT PROPERTY(Area ; Selector ; ValueLong ; ValueText)](Reports/hmRep_SetReportProperty.md)
+* [hmRep_GET REPORT PROPERTY(Area ; Selector ; ValueLong ; ValueText)](Reports/hmRep_GetReportProperty.md)
+* [hmRep_SET SCALE (Area ; Scale)](Reports/hmRep_SetScale.md)
+* [hmRep_Get Scale (Area) -> Scale](Reports/hmRep_GetScale.md)
+
 ---
 
 ## Appendix
