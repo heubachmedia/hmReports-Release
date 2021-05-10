@@ -19,4 +19,4 @@ $vl_id:=hmRep_Create Rectangle($vl_area; 100; 100; 400; 400)
 hmRep_SET REPORT PROPERTY($vl_area; hmRep_rprop_PrintAsReport; 0; "")
 $vl_printresult:=hmRep_Print($vl_area; 2)
 hmRep_DELETE OFFSCREEN AREA($vl_area)
- ```
+```
