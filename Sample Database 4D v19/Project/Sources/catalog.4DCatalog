@@ -152,6 +152,23 @@
 			</editor_table_info>
 		</table_extra>
 	</table>
+	<relation uuid="EE9446B97CBC42ADB5CD0478780BE85A" name_Nto1="Customer" name_1toN="Invoices" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="221013D04359420EBDE742AF53C3378C" name="Customer_ID">
+				<table_ref uuid="15A40CC9F3D94AB48A45AAA8E721EA41" name="Invoices"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="8FC0900829B343B9A89783D3346DE9A3" name="ID">
+				<table_ref uuid="06A42A98FC624562A7CCB3F0315A9C67" name="Customers"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="-1" via_point_y="-1" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
 	<index kind="regular" uuid="0234A73B89DA4D75B785095E853B2D78" type="7">
 		<field_ref uuid="549CC29906B24B29A24B07F4DEC27C24" name="Date">
 			<table_ref uuid="15A40CC9F3D94AB48A45AAA8E721EA41" name="Invoices"/>

@@ -5,6 +5,7 @@ C_TEXT:C284($vt_resfolder; $vt_current_report)
 C_LONGINT:C283($i; $j; $vl_id; $vl_area)
 C_DATE:C307(vd_pieces_start_date)
 C_POINTER:C301($vp_object; $vp_object_name; $vp_object_id)
+var $vo_customers : cs:C1710.CustomersSelection
 
 Case of 
 	: (Form event code:C388=On Load:K2:1)
@@ -45,9 +46,15 @@ Case of
 		SORT ARRAY:C229($vp_object->; >)
 		
 		//====================================
+		//Load Customers
 		
 		ALL RECORDS:C47([Customers:1])
 		ORDER BY:C49([Customers:1]; [Customers:1]Name:2; >)
+		
+		//ORDA
+		
+		$vo_customers:=ds:C1482.Customers.all().orderBy("Name asc")
+		hmRep_SET VARIABLE OBJECT($vl_area; "customerSelection"; $vo_customers)
 		
 		$vp_object_name:=OBJECT Get pointer:C1124(Object named:K67:5; "tt_reports")
 		
