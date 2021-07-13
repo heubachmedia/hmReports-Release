@@ -1241,7 +1241,7 @@
                 {
                 "theme":"hmReports Executer",
                 "syntax":"hmX_TOKENIZE IN CONTEXT(&L;&T;&O)",
-                "threadSafe": false
+                "threadSafe": true
                 },
                 {
                 "theme":"hmReports Executer",
@@ -1289,7 +1289,8 @@
                 },
                 {
                 "theme":"hmReports Utilities",
-                "syntax":"hmRep_Get Font Family Name(&T):T"
+                "syntax":"hmRep_Get Font Family Name(&T):T",
+                "threadSafe": true
                 },
                 {
                 "theme":"hmReports Pages",
@@ -1647,6 +1648,12 @@
                 {
                 "theme":"hmReports Areas",
                 "syntax":"hmRep_Get Property Object(&L;&L;&L):J",
+                "threadSafe": true
+                }
+                ,
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmX_Delete Variable(&L;&L;&L;&T):L",
                 "threadSafe": true
                 }
                 ]
