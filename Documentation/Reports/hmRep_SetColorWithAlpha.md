@@ -16,7 +16,7 @@ The command *hmRep_SET COLOR WITH ALPHA* sets the color for a property defined b
 
 **Notice: All color components are 16 bit values.**
 
-For a documentation of all color selectors see [Colors](Appendix/Colors.md).
+For a documentation of all color selectors see [Colors](../Appendix/Colors.md).
 
 ### Example
 The following example sets the object fillcolor to red with 50 percent opaque:
