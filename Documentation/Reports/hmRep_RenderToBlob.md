@@ -1,6 +1,8 @@
 ## hmRep_Render To Blob ( Area ; Charset ; Options ; FieldDelim ; RecordDelim) → Result
 ###### Introduced in v1.2, Preemptive: yes
 
+<span style="color:gray;font-family:monospace">This command is deprecated in v19. It will be removed in future versions. Please use [hmRep_Render To Text](hmRep_RenderToText.md) instead.</span>
+
 |Parameter|Type|In/Out|Description
 |---|---|:---:|---
 |Area|Longint|→|Area reference

@@ -21,4 +21,5 @@ Defines the color of new guides, which are created by the user per drag & drop. 
 ### hmRep_clr_ObjectBounds (7)
 Sets the color of the help line to display the object bounds. ''id'' is always 0.
 This picture shows the object bounds frame. It only appears, if no frame is visible:
+
 ![objectBoundsFrame](../Pictures/objectBoundsFrame.png)
