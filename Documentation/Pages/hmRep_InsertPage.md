@@ -17,7 +17,7 @@ The new created page will have the following properties from the previous page:
 * hmRep_rprop_ShowPageArea
 * hmRep_rprop_PrintAsReport
 
-The new inserted page will not be the current page. You have to call [hmRep_SET CURRENT PAGE].
+The new inserted page will not be the current page. You have to call [hmRep_SET CURRENT PAGE](hmRep_SetCurrentPage.md).
 
 ### Example
 The following example inserts a page at the end of the current report:

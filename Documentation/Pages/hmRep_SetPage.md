@@ -8,8 +8,8 @@
 |pageblob|Blob|→|Page as a blob
 
 ### Description
-The command *hmRep_SET PAGE* creates a new page after the page number *afterPage* with the page content given in the blob. You have to create the blob with the command [hmRep_GET PAGE] previously.
+The command *hmRep_SET PAGE* creates a new page after the page number *afterPage* with the page content given in the blob. You have to create the blob with the command [hmRep_GET PAGE](hmRep_GetPage.md) previously.
 
 If *afterPage* is *-1*, the page will be insert at the end of the report (=the last page).
 
-The new inserted page will not be the current page. You have to call [hmRep_SET CURRENT PAGE].
+The new inserted page will not be the current page. You have to call [hmRep_SET CURRENT PAGE](hmRep_SetCurrentPage.md).

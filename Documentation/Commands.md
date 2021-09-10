@@ -96,11 +96,30 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [hmRep_SET PAGE ( Area ; afterPage ; pageblob)](Pages/hmRep_SetPage.md)
 * [hmRep_GET PAGE ( Area ; afterPage ; pageblob)](Pages/hmRep_GetPage.md)
 
+### Getting/setting information about pages
+* [hmRep_SET PAGE PROPERTY ( Area ; pageNo ; Selector ; valueLong ; valueText)](Pages/hmRep_SetPageProperty.md)
+* [hmRep_GET PAGE PROPERTY ( Area ; pageNo ; Selector ; valueLong ; valueText)](Pages/hmRep_GetPageProperty.md)
+
+### Getting/setting the current page of the current report
+* [hmRep_SET CURRENT PAGE ( Area ; pageNo )](Pages/hmRep_SetCurrentPage.md)
+* [hmRep_Get Current Page ( Area ) → pageNo)](Pages/hmRep_GetCurrentPage.md)
+
+### Enumerating pages
+* [hmRep_Count Pages ( Area ) → pages](Pages/hmRep_CountPages.md)
+
+### Conversion between page number and reference
+* [hmRep_Get Page Number From ID ( Area ; pageID) → number](Pages/hmRep_GetPageNumberFromID.md)
+* [hmRep_Get Page ID From Number ( Area ; number) → pageID](Pages/hmRep_GetPageIDFromNumber.md)
+
+### Deleting pages
+* [hmRep_DELETE PAGE ( Area ; pageNo)](Pages/hmRep_DeletePage.md)
+
 ---
 
 ## Appendix
 * [Area Properties](Appendix/AreaProperties.md)
 * [Report Properties](Appendix/ReportProperties.md)
+* [Page Properties](Appendix/PageProperties.md)
 * [Tools](Appendix/Tools.md)
 * [Colors](Appendix/Colors.md)
 * [Import Types](Appendix/ImportTypes.md)
