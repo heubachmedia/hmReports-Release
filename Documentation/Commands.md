@@ -56,6 +56,7 @@
 * [hmRep_Get Current Report (Area) → report UUID](Reports/hmRep_GetCurrentReport.md)
 * [hmRep_REPORT TO BLOB ( Area ; Blob)](Reports/hmRep_ReportToBlob.md)
 * [hmRep_BLOB TO REPORT ( Area ; Type ; Blob)](Reports/hmRep_BlobToReport.md)
+* [hmRep_SET COLOR WITH ALPHA ( Area ; Selector ; id ; Red ; Green ; Blue ; Alpha)](Reports/hmRep_SetColorWithAlpha.md)
 
 ### Properties
 * [hmRep_SET REPORT PROPERTY (Area ; Selector ; ValueLong ; ValueText)](Reports/hmRep_SetReportProperty.md)
@@ -80,5 +81,6 @@
 * [Area Properties](Appendix/AreaProperties.md)
 * [Report Properties](Appendix/ReportProperties.md)
 * [Tools](Appendix/Tools.md)
+* [Colors](Appendix/Colors.md)
 * [Import Types](Appendix/ImportTypes.md)
 * [Error Codes](Appendix/ErrorCodes.md)
