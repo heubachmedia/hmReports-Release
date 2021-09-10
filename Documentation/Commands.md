@@ -62,16 +62,16 @@
 * [hmRep_GET REPORT PROPERTY (Area ; Selector ; ValueLong ; ValueText)](Reports/hmRep_GetReportProperty.md)
 * [hmRep_SET SCALE (Area ; Scale)](Reports/hmRep_SetScale.md)
 * [hmRep_Get Scale (Area) -> Scale](Reports/hmRep_GetScale.md)
-* [hmRep_ZOOM TO RECT (Area ; Left ; Top ; Right ; Bottom)](hmRep_ZoomToRect.md)
-* [hmRep_Enumerate Pages (Area) → Result](hmRep_EnumeratePages.md)
+* [hmRep_ZOOM TO RECT (Area ; Left ; Top ; Right ; Bottom)](Reports/hmRep_ZoomToRect.md)
+* [hmRep_Enumerate Pages (Area) → Result](Reports/hmRep_EnumeratePages.md)
 
 ### Input/Output
 * [hmRep_Report To Picture ( Area ; Format ; dpiX ; dpiY) → Picture](Reports/hmRep_ReportToPicture.md)
-* [hmRep_REPORT TO SVG ( Area ; Blob)](hmRep_ReportToSVG.md)
-* [hmRep_RENDER TO PICTURE ( Area ; picArray ; Format ; Limit ; dpiX ; dpiY)](hmRep_RenderToPicture.md)
-* [hmRep_Render To Text ( Area ; Options ; FieldDelim ; RecordDelim) → Text](hmRep_RenderToText.md)
-* [hmRep_Render To HTML ( Area ; Options) → Text](hmRep_RenderToHTML.md)
-* [hmRep_Render To Blob ( Area ; Charset ; Options ; FieldDelim ; RecordDelim) → Result](hmRep_RenderToBlob.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
+* [hmRep_REPORT TO SVG ( Area ; Blob)](Reports/hmRep_ReportToSVG.md)
+* [hmRep_RENDER TO PICTURE ( Area ; picArray ; Format ; Limit ; dpiX ; dpiY)](Reports/hmRep_RenderToPicture.md)
+* [hmRep_Render To Text ( Area ; Options ; FieldDelim ; RecordDelim) → Text](Reports/hmRep_RenderToText.md)
+* [hmRep_Render To HTML ( Area ; Options) → Text](Reports/hmRep_RenderToHTML.md)
+* [hmRep_Render To Blob ( Area ; Charset ; Options ; FieldDelim ; RecordDelim) → Result](Reports/hmRep_RenderToBlob.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 * [hmRep_GET IMPORT PROTOCOLL ( Area ; Protocoll)](Reports/hmRep_GetImportProtocoll.md)
 
 ---
