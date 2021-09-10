@@ -10,7 +10,7 @@
 |valueText|Text|←|property of the type text
 
 ### Description
-The command *hmRep_GET PAGE PROPERTY*' returns a property of the page defined by the parameter *pageNo**. The parameter *Selector* identifies the type of the property. Depending of the property you have to pass a longint value in the parameter *valueLong* and a text value in the parameter *valueText*.
+The command *hmRep_GET PAGE PROPERTY* returns a property of the page defined by the parameter *pageNo*. The parameter *Selector* identifies the type of the property. Depending of the property you have to pass a longint value in the parameter *valueLong* and a text value in the parameter *valueText*.
 
 You must always pass all parameters.
 
