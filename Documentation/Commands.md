@@ -62,6 +62,8 @@
 * [hmRep_Pixel To Rulerunit ( Area ; Pixel) → Ruler unit](Reports/hmRep_RulerunitToPixel.md)
 * [hmRep_Rulerunit To Pixel ( Area ; Ruler unit) → Pixel](Reports/hmRep_RulerunitToPixel.md)
 * [hmRep_GET REPORT DEPENDENCIES ( Area ; scopeArray ; scopeIDArray ; UUIDArray)](Reports/hmRep_GetReportDependencies.md)
+* [hmRep_GET DIALOG RECT (Area ; Type ; Left ; Top ; Right ; Bottom)](Reports/hmRep_GetDialogRect.md)
+* [hmRep_SET DIALOG RECT (Area ; Type ; Left ; Top ; Right ; Bottom)](Reports/hmRep_SetDialogRect.md)
 
 ### Properties
 * [hmRep_SET REPORT PROPERTY (Area ; Selector ; ValueLong ; ValueText)](Reports/hmRep_SetReportProperty.md)
@@ -88,4 +90,5 @@
 * [Tools](Appendix/Tools.md)
 * [Colors](Appendix/Colors.md)
 * [Import Types](Appendix/ImportTypes.md)
+* [Dialog types](Appendix/DialogTypes.md)
 * [Error Codes](Appendix/ErrorCodes.md)
