@@ -1,4 +1,4 @@
-## hmRep_Get Scale (Area) -> Scale
+## hmRep_Get Scale (Area) → Scale
 ###### Introduced in v1.0, Preemptive: yes
 
 |Parameter|Type|In/Out|Description
