@@ -596,7 +596,7 @@
                 "threadSafe": true
                 },
                 {
-                "theme":"hmReports Reports",
+                "theme":"hmReports Areas",
                 "syntax":"hmRep_GET REPORT LIST(&L;&Y)",
                 "threadSafe": true
                 },

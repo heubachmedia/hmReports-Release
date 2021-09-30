@@ -723,6 +723,10 @@
         <trans-unit d4:value="86"><source>hmBC_HIBC MicroPDF</source></trans-unit>
         <trans-unit d4:value="87"><source>hmBC_HIBC BlockF</source></trans-unit>
         <trans-unit d4:value="88"><source>hmBC_HIBC Aztec</source></trans-unit>
+        <trans-unit d4:value="89"><source>hmBC_Ultracode</source></trans-unit>
+        <trans-unit d4:value="90"><source>hmBC_rMQR</source></trans-unit>
+        <trans-unit d4:value="91"><source>hmBC_UPNQR</source></trans-unit>
+        <trans-unit d4:value="92"><source>hmBC_Mailmark</source></trans-unit>
         
     </group>
     
