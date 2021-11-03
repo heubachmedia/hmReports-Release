@@ -189,6 +189,7 @@
         <trans-unit d4:value="108"><source>hmRep_oprop_MoveH</source></trans-unit>
         <trans-unit d4:value="109"><source>hmRep_oprop_MoveV</source></trans-unit>
         <trans-unit d4:value="110"><source>hmRep_oprop_CalcSubTotal</source></trans-unit>
+        <trans-unit d4:value="111"><source>hmRep_oprop_LineAppearance</source></trans-unit>
 
     </group>
         
@@ -802,6 +803,15 @@
         
     </group>
     
+    <group restype="x-4DK#" d4:groupID="15238">
+        
+        <trans-unit><source>hmReports line appearance</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_LineAppearance_Standard</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_LineAppearance_Outer</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_LineAppearance_Inner</source></trans-unit>
+
+    </group>
+
     </body>
   </file>
 
