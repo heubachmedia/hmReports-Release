@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type = "text/css" href="BuildLogStyleSheet.css"?>
+<BuildApplicationLog>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Start compilation [2021-11-22T11:24:13]</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Beginne Dateien zu kopieren : Macintosh HD:Users:christiansakowski:Documents:GitHub:hmReports-v19:ComponentDatabases:hmReports_Palette_Build:Components:hmReports_Palette.4dbase:hmReports_Palette.4DZ</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Ende Dateien kopieren : Macintosh HD:Users:christiansakowski:Documents:GitHub:hmReports-v19:ComponentDatabases:hmReports_Palette_Build:Components:hmReports_Palette.4dbase:hmReports_Palette.4DZ</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Starte Code Signing Tool: ''/Users/christiansakowski/Documents/4D/4D 19R3/4D 19R3.app/Contents/Resources/SignApp.sh' 'heubach media' '/Users/christiansakowski/Documents/GitHub/hmReports-v19/ComponentDatabases/hmReports_Palette_Build/Components/hmReports_Palette.4dbase' '/Users/christiansakowski/Documents/4D/4D 19R3/4D 19R3.app/Contents/Resources/4D.entitlements' '/Users/christiansakowski/Documents/GitHub/hmReports-v19/ComponentDatabases/Palette/Data/Logs/logSign.txt''</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signing Tool meldet Status: 0</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: /Users/christiansakowski/Documents/GitHub/hmReports-v19/ComponentDatabases/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Libraries/lib4d-arm64.dylib: signed Mach-O thin (arm64) [lib4d-arm64]</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>End compilation [2021-11-22T11:24:14]</Message>
+  </Log>
+
+</BuildApplicationLog>
