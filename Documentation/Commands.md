@@ -48,7 +48,6 @@
 * [hmRep_Get Barcode List → Barcodes](Areas/hmRep_GetBarcodeList.md)
 
 ## Reports
-
 ### Managing Reports
 * [hmRep_Create Report (Area ; Width ; Height ; Name) → Report UUID](Reports/hmRep_CreateReport.md)
 * [hmRep_DELETE REPORT (Area ; report UUID)](Reports/hmRep_DeleteReport.md)
@@ -114,12 +113,37 @@ Each page have a continuous number from the first page to the last page. Also, h
 ### Deleting pages
 * [hmRep_DELETE PAGE ( Area ; pageNo)](Pages/hmRep_DeletePage.md)
 
+## Layers
+
+### Creating layers
+* [hmRep_Create Layer ( Area ; layername) → ID](Layers/hmRep_CreateLayer.md)
+
+### List all layers
+* [hmRep_GET LAYER LIST ( Area ; arrayID ; arrayNames)](Layers/hmRep_GetLayerList.md)
+
+### Getting/setting information about layers
+* [hmRep_SET LAYER PROPERTY ( Area ; ID ; Selector ; valueLong ; valueText)](Layers/hmRep_SetLayerProperty.md)
+* [hmRep_GET LAYER PROPERTY ( Area ; ID ; Selector ; valueLong ; valueText)](Layers/hmRep_GetLayerProperty.md)
+* [hmRep_SET LAYER CLIP ( Area; ID ; Left ; Top ; Right ; Bottom )](Layers/hmRep_SetLayerClip.md)
+* [hmRep_GET LAYER CLIP ( Area; ID ; Left ; Top ; Right ; Bottom )](Layers/hmRep_GetLayerClip.md)
+
+### Getting/setting the current layer of the current report
+* [hmRep_SET CURRENT LAYER ( Area ; ID)](Layers/hmRep_SetCurrentLayer.md)
+* [hmRep_Get Current Layer ( Area ) → ID](Layers/hmRep_GetCurrentLayer.md)
+
+### Sort layers
+* [hmRep_SORT LAYER ( Area ; ID ; orderNumber)](Layers/hmRep_SortLayer.md)
+
+### Deleting layers
+* [hmRep_DELETE LAYER ( Area ; ID)](Layers/hmRep_DeleteLayer.md)
+
 ---
 
 ## Appendix
 * [Area Properties](Appendix/AreaProperties.md)
 * [Report Properties](Appendix/ReportProperties.md)
 * [Page Properties](Appendix/PageProperties.md)
+* [Layer Properties](Appendix/LayerProperties.md)
 * [Tools](Appendix/Tools.md)
 * [Colors](Appendix/Colors.md)
 * [Import Types](Appendix/ImportTypes.md)

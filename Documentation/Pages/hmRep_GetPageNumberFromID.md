@@ -8,7 +8,7 @@
 |number|Longint|←|number of the page
 
 ### Description
-The command *hmRep_Get Page Number From ID * returns the continuous number of a page defined by the pageID.
+The command *hmRep_Get Page Number From ID* returns the continuous number of a page defined by the pageID.
 
 ### Example
 The following example returns the number of a page with the internal ID *6*:
