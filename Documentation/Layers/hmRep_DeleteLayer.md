@@ -4,7 +4,7 @@
 |Parameter|Type|In/Out|Description
 |---|---|:---:|---
 |Area|Longint|→|Area reference
-|ID|Longint|←|ID of the layer
+|ID|Longint|→|ID of the layer
 
 ### Description
 The command *hmRep_DELETE LAYER* deletes the layer, defined by *ID*.

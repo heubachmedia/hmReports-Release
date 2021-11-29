@@ -1,5 +1,5 @@
 ## hmReports v19
-hmReports v19 is build for 4D v19 available for Intel and Apple Silicon processors (Universal)
+hmReports v19 is build for 4D v19 available for Intel and Apple Silicon M1 processors (Universal)
 hmReports v19 has the **same** system requirements as 4D v19.
 
 #### This documentation page is currently under construction
@@ -16,7 +16,7 @@ The following features are included:
 * Break processing with sections
 * Support of more than one page
 * Support of layers
-* Access to the database, array, array-elements and variables
+* Access to the database, ORDA, array, array-elements and variables
 * Add scripts to objects and sections
 * Create vector graphical documents
 * Modern graphical API with gradients, alpha support and antialiasing
@@ -25,6 +25,6 @@ The following features are included:
 * Callback routines to manage events
 * Undo support
 * Rich text support
-* Use 1D and 2D Barcodes in your Reports
+* Use 1D, 2D and 3D Barcodes in your Reports
 * Editable preview
 * Native PDF Export under Windows

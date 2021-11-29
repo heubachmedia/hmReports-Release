@@ -7,7 +7,7 @@
 |ID|Longint|←|ID of the layer
 
 ### Description
-The command *hmRep_Get Current Layer*' returns the ID of the current layer of the current report.
+The command *hmRep_Get Current Layer* returns the ID of the current layer of the current report.
 
 ### Example
 The example shows how to get the id of the current layer:
