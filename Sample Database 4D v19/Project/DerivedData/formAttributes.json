@@ -1,0 +1,16 @@
+{
+	"forms": {
+		"Preview": {
+			"timeStamp": "2021-04-23T12:21:44.077Z",
+			"destination": "detailScreen"
+		},
+		"hmReports_DynamicPalette": {
+			"timeStamp": "2021-04-23T12:21:44.460Z",
+			"destination": "detailScreen"
+		},
+		"Formular": {
+			"timeStamp": "2021-05-27T06:59:50.435Z",
+			"destination": "detailScreen"
+		}
+	}
+}
