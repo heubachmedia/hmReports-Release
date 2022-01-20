@@ -9,7 +9,7 @@
 ### Description
 The command *hmRep_OPEN PRINTING JOB* creates a new printing job. You can have only one printing job per area. For prining options, please look at the [hmRep_Print](hmRep_Print.md)-command.
 
-Important: You have to close the printing job always with [hmRep_CLOSE PRINTING JOB](hmRep_ClosePrintJob.md), even if you delete the area with [hmRep_DELETE OFFSCREEN AREA](..Areas/hmRep_DeleteOffscreenArea.md).
+Important: You have to close the printing job always with [hmRep_CLOSE PRINTING JOB](hmRep_ClosePrintJob.md), even if you delete the area with [hmRep_DELETE OFFSCREEN AREA](../Areas/hmRep_DeleteOffscreenArea.md).
 
 The commands starts a printing job with the current print settings of the current report. Keep in mind, that you cannot change the print settings in an open printing job. After calling this command, you can add reports to that printing session with [hmRep_Print](hmRep_Print.md). After calling [hmRep_CLOSE PRINTING JOB](hmRep_ClosePrintJob.md), the print job will be finalized and will be send to the printer.
 
