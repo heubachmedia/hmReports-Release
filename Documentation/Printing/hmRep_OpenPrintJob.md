@@ -1,4 +1,4 @@
-## hmRep_OPEN PRINTING JOB( Area ; Options)
+## hmRep_OPEN PRINTING JOB ( Area ; Options)
 ###### Introduced in v6.0, Preemptive: no
 
 |Parameter|Type|In/Out|Description

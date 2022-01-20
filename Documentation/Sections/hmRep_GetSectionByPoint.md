@@ -10,7 +10,7 @@
 |Count|Longint|←|count
 
 ### Description
-The command *hmRep_GET SECTION BY POINT* returns the section regarding a specific point (mousex,mousey). You get the current mousex, mousey coordinates with the command [hmRep_GET MOUSE](..Areas/hmRep_GetMouse.md). The parameter *type* returns the [Section Type](../Appendix/SectionTypes.md) and the parameter *count* returns the count of the section. If no section is under the position, *type* and *count* return zero values.
+The command *hmRep_GET SECTION BY POINT* returns the section regarding a specific point (mousex,mousey). You get the current mousex, mousey coordinates with the command [hmRep_GET MOUSE](../Areas/hmRep_GetMouse.md). The parameter *type* returns the [Section Type](../Appendix/SectionTypes.md) and the parameter *count* returns the count of the section. If no section is under the position, *type* and *count* return zero values.
 
 ### Example
 The following example returns the section by the current mouse position. This code can be in an object method of the plugin-area:

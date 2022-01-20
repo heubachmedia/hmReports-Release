@@ -1,4 +1,4 @@
-## hmRep_CLOSE PRINTING JOB( Area )
+## hmRep_CLOSE PRINTING JOB ( Area )
 ###### Introduced in v6.0, Preemptive: no
 
 |Parameter|Type|In/Out|Description

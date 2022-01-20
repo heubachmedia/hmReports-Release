@@ -157,8 +157,8 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [hmRep_GET RENDER LOG ( Area ; arrayType ; arrayRef1 ; arrayRef2 ; arrayRef3 ; arrayInOut)](Printing/hmRep_GetRenderLog.md)
 * [hmRep_Get Native Print Header ( Area ; Type ) → print header](Printing/hmRep_GetNativePrintHeader.md)
 * [hmRep_SET NATIVE PRINT HEADER ( Area ; Type ; Print Header)](Printing/hmRep_SetNativePrintHeader.md)
-* [hmRep_OPEN PRINTING JOB( Area ; Options)](Printing/hmRep_OpenPrintJob.md)
-* [hmRep_CLOSE PRINTING JOB( Area )](Printing/hmRep_ClosePrintJob.md)
+* [hmRep_OPEN PRINTING JOB ( Area ; Options)](Printing/hmRep_OpenPrintJob.md)
+* [hmRep_CLOSE PRINTING JOB ( Area )](Printing/hmRep_ClosePrintJob.md)
 
 ## Sections
 ### Getting information about sections
