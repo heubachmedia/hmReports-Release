@@ -137,6 +137,48 @@ Each page have a continuous number from the first page to the last page. Also, h
 ### Deleting layers
 * [hmRep_DELETE LAYER ( Area ; ID)](Layers/hmRep_DeleteLayer.md)
 
+## Guides
+* [hmRep_Create Guide ( Area ; horizontal ; position ; page) → number](Guides/hmRep_CreateGuide.md)
+* [hmRep_Count Guides ( Area ) → guides](Guides/hmRep_CountGuides.md)
+* [hmRep_DELETE GUIDE ( Area ; Number)](Guides/hmRep_DeleteGuide.md)
+* [hmRep_SET GUIDES ( Area ; ArrayH ; ArrayV)](Guides/hmRep_SetGuides.md)
+* [hmRep_GET GUIDES ( Area ; ArrayH ; ArrayV)](Guides/hmRep_GetGuides.md)
+* [hmRep_SET GUIDE PROPERTY ( Area ; Number ; Selector ; valueLong ; valueText)](Guides/hmRep_SetGuideProperty.md)
+* [hmRep_GET GUIDE PROPERTY ( Area ; Number ; Selector ; valueLong ; valueText)](Guides/hmRep_GetGuideProperty.md)
+
+## Printing
+* [hmRep_Print ( Area ; Options) -> result](Printing/hmRep_Print.md)
+* [hmRep_Page Setup ( Area ; Dialogs) → result](Printing/hmRep_PageSetup.md)
+* [hmRep_Print settings to BLOB ( Area ) → print header](Printing/hmRep_PrintsettingsToBlob.md)
+* [hmRep_BLOB TO PRINT SETTINGS ( Area ; print header)](Printing/hmRep_BlobToPrintsettings.md)
+* [hmRep_SET PRINT OPTION ( Area ; Option ; Value1 ; Value2 ; Value3)](Printing/hmRep_SetPrintOption.md)
+* [hmRep_GET PRINT OPTION ( Area ; option ; value1 ; value2 ; value3)](Printing/hmRep_GetPrintOption.md)
+* [hmRep_GET PAPER SIZE ( Paper type ; Orientation ; Width ; Height)](Printing/hmRep_GetPaperSize.md)
+* [hmRep_GET RENDER LOG ( Area ; arrayType ; arrayRef1 ; arrayRef2 ; arrayRef3 ; arrayInOut)](Printing/hmRep_GetRenderLog.md)
+* [hmRep_Get Native Print Header ( Area ; Type ) → print header](Printing/hmRep_GetNativePrintHeader.md)
+* [hmRep_SET NATIVE PRINT HEADER ( Area ; Type ; Print Header)](Printing/hmRep_SetNativePrintHeader.md)
+* [hmRep_OPEN PRINTING JOB( Area ; Options)](Printing/hmRep_OpenPrintJob.md)
+* [hmRep_CLOSE PRINTING JOB( Area )](Printing/hmRep_ClosePrintJob.md)
+
+## Sections
+### Getting information about sections
+* [hmRep_GET SECTIONS ( Area ; SectionTypes ; SectionHeights ; SectionCount)](Sections/hmRep_GetSections.md)
+* [hmRep_GET SECTION ITERATION ( Area ; Section ; Type ; valueLong ; valueText)](Sections/hmRep_GetSectionIteration.md)
+* [hmRep_GET SECTION PROPERTY ( Area ; Type ; Count ; Selector ; valueLong ; valueText)](Sections/hmRep_GetSectionProperty.md)
+* [hmRep_Get Section Count ( Area ; Type) → Count](Sections/hmRep_GetSectionCount.md)
+
+### Set section properties
+* [hmRep_SET SECTION ITERATION ( Area ; Section ; Type ; valueLong ; valueText)](Sections/hmRep_SetSectionIteration.md)
+* [hmRep_SET SECTION HEIGHT ( Area ; Type ; Count ; Height)](Sections/hmRep_SetSectionHeight.md)
+* [hmRep_SET SECTION COUNT ( Area ; Type ; Count)](Sections/hmRep_SetSectionCount.md)
+* [hmRep_SET SECTION PROPERTY ( Area ; Type ; Count ; Selector ; valueLong ; valueText)](Sections/hmRep_SetSectionProperty.md)
+
+### Find a section by a coordinate
+* [hmRep_GET SECTION BY POINT ( Area ; Mousex ; Mousey ; Type ; Count)](Sections/hmRep_GetSectionByPoint.md)
+
+### Order sections
+* [hmRep_ORDER SECTIONS ( Area ; sectionTypes ; sectionCount)](Sections/hmRep_OrderSections.md)
+
 ---
 
 ## Appendix
@@ -144,7 +186,13 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [Report Properties](Appendix/ReportProperties.md)
 * [Page Properties](Appendix/PageProperties.md)
 * [Layer Properties](Appendix/LayerProperties.md)
+* [Guide Properties](Appendix/GuideProperties.md)
 * [Tools](Appendix/Tools.md)
+* [Iteration Types](Appendix/IterationTypes.md)
+* [Section Properties](Appendix/SectionProperties.md)
+* [Section Types](Appendix/SectionTypes.md)
+* [Section Break Types](Appendix/SectionBreakTypes.md)
+* [Section Visible Types](Appendix/SectionVisibleTypes.md)
 * [Colors](Appendix/Colors.md)
 * [Import Types](Appendix/ImportTypes.md)
 * [Dialog types](Appendix/DialogTypes.md)
