@@ -1,130 +1,130 @@
 {
 	"methods": {
 		"UT_Get4DMainVersion": {
-			"timeStamp": "2021-04-23T12:21:43.992Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"DOM_GetAttributeText": {
-			"timeStamp": "2021-04-23T12:21:43.994Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"PP_Error": {
-			"timeStamp": "2021-04-23T12:21:43.997Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"hmREP_SetPictureEx": {
-			"timeStamp": "2021-04-23T12:21:43.990Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"svg_load": {
-			"timeStamp": "2021-04-23T12:21:43.979Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"ARR_Resize": {
-			"timeStamp": "2021-04-23T12:21:43.997Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"DOM_HasAttribute": {
-			"timeStamp": "2021-04-23T12:21:44.033Z"
+			"timeStamp": "2021-04-23T12:21:44Z"
 		},
 		"Page2_OnTimer": {
-			"timeStamp": "2021-04-23T12:21:43.985Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Editor_SaveReport": {
-			"timeStamp": "2021-04-23T12:21:43.975Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"ARR_TextToArray": {
-			"timeStamp": "2021-04-23T12:21:43.996Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"UT_GetFieldNo": {
-			"timeStamp": "2021-04-23T12:21:44.037Z"
+			"timeStamp": "2021-04-23T12:21:44Z"
 		},
 		"UT_HexToDec": {
-			"timeStamp": "2021-04-23T12:21:43.999Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"UT_GetTableNo": {
-			"timeStamp": "2021-04-23T12:21:44.036Z"
+			"timeStamp": "2021-04-23T12:21:44Z"
 		},
 		"Example_BuildReportbyCode": {
-			"timeStamp": "2021-04-23T12:21:43.993Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Page2_init": {
-			"timeStamp": "2021-04-23T12:21:43.983Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Editor_InitReportList": {
-			"timeStamp": "2021-04-23T12:21:43.972Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"prozess": {
-			"timeStamp": "2021-04-23T12:21:43.971Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Editor_Preview": {
-			"timeStamp": "2021-04-23T12:21:43.980Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Editor_LoadReport": {
-			"timeStamp": "2021-04-23T12:21:43.974Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Compiler_Arrays": {
-			"timeStamp": "2021-04-23T12:21:43.986Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"PP_Open": {
-			"timeStamp": "2021-04-23T12:21:43.995Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"CreateCustomers": {
-			"timeStamp": "2021-04-23T12:21:43.978Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Editor2_ShowPalette": {
-			"timeStamp": "2021-04-23T12:21:43.989Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"DOM_GetAttributeReal": {
-			"timeStamp": "2021-04-23T12:21:43.993Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"open_demo1": {
-			"timeStamp": "2021-04-23T12:21:43.970Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"ReadOnly": {
-			"timeStamp": "2021-04-23T12:21:43.977Z",
+			"timeStamp": "2021-04-23T12:21:43Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"open_demo2": {
-			"timeStamp": "2021-04-23T12:21:43.989Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"ME_ReadCodeStyles": {
-			"timeStamp": "2021-04-23T12:21:43.991Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"PP_ParseElements": {
-			"timeStamp": "2021-04-23T12:23:57.125Z"
+			"timeStamp": "2021-04-23T12:23:57Z"
 		},
 		"PP_GetBounds": {
-			"timeStamp": "2021-04-23T12:21:44.032Z"
+			"timeStamp": "2021-04-23T12:21:44Z"
 		},
 		"DOM_GetAttributeBool": {
-			"timeStamp": "2021-04-23T12:21:44.033Z"
+			"timeStamp": "2021-04-23T12:21:44Z"
 		},
 		"Compiler_Variables": {
-			"timeStamp": "2021-04-23T12:21:43.987Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Compiler_Methods": {
-			"timeStamp": "2021-04-23T12:21:43.988Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Write": {
-			"timeStamp": "2021-04-23T12:21:43.976Z",
+			"timeStamp": "2021-04-23T12:21:43Z",
 			"attributes": {
 				"shared": true
 			}
 		},
 		"Compiler_Variables_IP": {
-			"timeStamp": "2021-04-23T12:21:43.987Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Page2_StartSlideshow": {
-			"timeStamp": "2021-04-23T12:21:43.984Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Editor_NewReport": {
-			"timeStamp": "2021-04-23T12:21:43.973Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"machines_create": {
-			"timeStamp": "2021-04-23T12:21:43.991Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"PP_SetColor": {
-			"timeStamp": "2021-04-23T12:21:43.998Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		},
 		"Callback": {
-			"timeStamp": "2021-04-23T12:21:43.978Z"
+			"timeStamp": "2021-04-23T12:21:43Z"
 		}
 	}
 }

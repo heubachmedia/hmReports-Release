@@ -1656,6 +1656,12 @@
                 "syntax":"hmX_Delete Variable(&L;&L;&L;&T):L",
                 "threadSafe": true
                 }
+                ,
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_ENCRYPT PDF(&T;&T;&T)",
+                "threadSafe": true
+                }
                 ]
 
 }
