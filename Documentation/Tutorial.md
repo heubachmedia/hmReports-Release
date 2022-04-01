@@ -20,3 +20,8 @@
 - [Print session](Tutorial/PrintSession.md)
 - [Export HTML](Tutorial/ExportHTML.md)
 - [Using Standard Variables](Tutorial/UsingStandardVariables.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v3</span>
+- [Copy and Paste](Tutorial/CopyAndPaste.md)
+- [Barcodes in hmReports](Tutorial/Barcodes.md)
+- [Picture Formats](Tutorial/PictureFormats.md)
+- [Process Tags](Tutorial/ProcessTags.md)
+- [FAQ](Tutorial/FAQ.md)
