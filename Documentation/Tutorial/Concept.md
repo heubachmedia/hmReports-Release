@@ -4,7 +4,7 @@ The main idea of hmReports is, to build a very convenient tool for editing vecto
 
 ### The structure of hmReports
 
-If you create a hmReports area on a 4D form or by [hmRep_New Offscreen Area](Areas/hmRep_NewOffscreenArea.md) you have the possibility using more than one report. That means, that you can open more than one report into the area. If you create a new hmReports area, there is always a new report created and you can just use it. That means, that there is an empty report in the area (=the current report), where you can work with. If you have more than one report in the area, there is only one current report, with which you work. All commands going to the current report. If the tabbar is enabled, the user can easily switch between the reports or the user can create and delete reports. The last report cannot be deleted.
+If you create a hmReports area on a 4D form or by [hmRep_New Offscreen Area](../Areas/hmRep_NewOffscreenArea.md) you have the possibility using more than one report. That means, that you can open more than one report into the area. If you create a new hmReports area, there is always a new report created and you can just use it. That means, that there is an empty report in the area (=the current report), where you can work with. If you have more than one report in the area, there is only one current report, with which you work. All commands going to the current report. If the tabbar is enabled, the user can easily switch between the reports or the user can create and delete reports. The last report cannot be deleted.
 
 ### Pages
 
