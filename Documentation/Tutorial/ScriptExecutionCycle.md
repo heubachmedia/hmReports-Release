@@ -31,15 +31,12 @@ If you print a report, all scripts are executed. Also scripts of sections are ex
     - if the [Section properties] *hmRep_sprop_ExeDetScrAftValueChg* is on (which is standard):
         - If value changed and current interation loop is > 1, than print Detail Header and Detail Footer
         - Detail Script
-
-if the [Section properties] *hmRep_sprop_ExeDetScrAftValueChg* is off:
-
-- Detail Script
-- If value changed and current interation loop is > 1, than print Detail Header and Detail Footer
-- Get the height of the detail and maybe print next page
-- Object Scripts in printing order
-- Check for subdetails: If more than 1 detail, than go to *Begin Details Loop*
-    
+    - if the [Section properties] *hmRep_sprop_ExeDetScrAftValueChg* is off:
+        - Detail Script
+        - If value changed and current interation loop is > 1, than print Detail Header and Detail Footer
+    - Get the height of the detail and maybe print next page
+    - Object Scripts in printing order
+    - Check for subdetails: If more than 1 detail, than go to *Begin Details Loop*
 - **End Iterations Loop**
     - Detail Footer
 - Total
