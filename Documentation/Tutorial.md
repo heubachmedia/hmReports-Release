@@ -6,7 +6,7 @@
 - [Customizing Structure](Tutorial/CustomizingStructure.md)
 - [How to store hmReports](Tutorial/HowToStore.md)
 - [How to create a report](Tutorial/HowToCreate.md)
-- [Scripts](Tutorial/Script Execution.md)
+- [Scripts](Tutorial/ScriptExecution.md)
     - [Script types](Tutorial/ScriptTypes.md)
     - [Script Editor](Tutorial/ScriptEditor.md)
     - [Writing scripts](Tutorial/WritingScripts.md)
