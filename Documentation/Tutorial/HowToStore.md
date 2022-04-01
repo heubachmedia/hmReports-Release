@@ -6,7 +6,7 @@ You can store the blob into a database record or you can save it to the hard dis
 
 ## Format of the Blob
 
-The hmReports blob is an open format. It contains a XML document. The blob can be compressed, so you can easily access all reports data:
+The hmReports blob is an open format. It contains a XML document. The blob is compressed. You need to expand the blob to read the XML:
 
 ```4d
 var $vx_hmreports : Blob
