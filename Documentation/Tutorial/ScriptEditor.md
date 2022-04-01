@@ -38,14 +38,14 @@ There you have some action buttons:
 
 ### Tables
 
-You can fill this list with tables. You can use the original name or a virtual structure. You can also add a description for each field. You can do this with the [[About Virtual Structure|Virtual Structure commands]].
+You can fill this list with tables. You can use the original name or a virtual structure. You can also add a description for each field. You can do this with the [About Virtual Structure].
 
 ![Reference list tables](../Pictures/ScriptTables.png)
 
 ### Variables
 
-You can fill this list with variables. You can use the original name or a virtual structure. You can also add a description for each variable. You can do this with the [[About Virtual Structure|Virtual Structure commands]].
-You can group variables in this list with [[hmRep_Create VStructure Group]].
+You can fill this list with variables. You can use the original name or a virtual structure. You can also add a description for each variable. You can do this with the [About Virtual Structure].
+You can group variables in this list with [hmRep_Create VStructure Group].
 
 ![Reference list variables](../Pictures/ScriptVariables.png)
 
