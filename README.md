@@ -2,7 +2,14 @@
 hmReports v19 is build for 4D v19 available for Intel and Apple Silicon M1 processors (Universal)
 hmReports v19 has the **same** system requirements as 4D v19.
 
-#### This documentation page is currently under construction
+### License
+[Developer Software License and Limited Warranty](Documentation/License.md)
+
+### Registering
+[Register hmReports](Documentation/Registering.md)
+
+### Tutorial
+[Tutorial](Documentation/Tutorial.md)
 
 ### Command Reference
 [hmReports Commands Reference](Documentation/Commands.md)
