@@ -1,4 +1,4 @@
-## Printing PDF under Macintosh
+## Printing PDF under macOS
 
 The Mac OS has a native build-in PDF generation. So we do not need additional software to create a PDF.
 
@@ -36,7 +36,7 @@ Install a new printer:
 * Browse to the ghostpdf.inf in your Ghostscript install directory. E. g. at "C:\Program Files (x86)\gs\gs9.04\lib\ghostpdf.inf"
 * Click through the big red "This driver isn't signed" warning and then finish up with the normal printer install process.
 
-###Example
+### Example
 
 The code for generating PDF files under Windows is quite simple:
 

@@ -84,9 +84,9 @@ If you have two pages defined: 1st page is a static page and the 2nd page is a r
 
 The result is:
 
-Page 1: Static Page (hmRep_Page=1, hmRep_ReportPage=1)
-Page 2: Report Page 1 (hmRep_Page=2, hmRep_ReportPage=1)
-Page 3: Report Page 2 (hmRep_Page=3, hmRep_ReportPage=2)
-Page 4: Report Page 3 (hmRep_Page=4, hmRep_ReportPage=3)
-Page 5: Report Page 4 (hmRep_Page=5, hmRep_ReportPage=4)
-Page 6: Report Page 5 (hmRep_Page=6, hmRep_ReportPage=5)
+- Page 1: Static Page (hmRep_Page=1, hmRep_ReportPage=1)
+- Page 2: Report Page 1 (hmRep_Page=2, hmRep_ReportPage=1)
+- Page 3: Report Page 2 (hmRep_Page=3, hmRep_ReportPage=2)
+- Page 4: Report Page 3 (hmRep_Page=4, hmRep_ReportPage=3)
+- Page 5: Report Page 4 (hmRep_Page=5, hmRep_ReportPage=4)
+- Page 6: Report Page 5 (hmRep_Page=6, hmRep_ReportPage=5)
