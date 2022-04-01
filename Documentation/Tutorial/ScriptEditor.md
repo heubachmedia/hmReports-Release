@@ -34,9 +34,9 @@ There you have some action buttons:
 * Debug: Runs the script in the hmReports-debugger. It goes into TRACE beginning with the first line.
 * Syntax: Press this button and hmReports will run through the code and updates the code. E. g. if you wrote "all records", after pressing the syntax button, hmReports validate the code and makes it to "ALL RECORDS". It does *not* checks the syntax and shows you errors.
 
-###Reference lists
+### Reference lists
 
-###Tables
+### Tables
 
 You can fill this list with tables. You can use the original name or a virtual structure. You can also add a description for each field. You can do this with the [[About Virtual Structure|Virtual Structure commands]].
 
