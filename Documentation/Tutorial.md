@@ -15,3 +15,8 @@
     - [Script Compatibility](Tutorial/ScriptCompatibility.md)
     - [Script Execution Cycle](Tutorial/ScriptExecutionCycle.md)
     - [Private functions](Tutorial/ScriptPrivateFunctions.md)
+- [XLIFF](Tutorial/XLIFF.md)
+- [Printing as PDF](Tutorial/PrintingAsPDF.md)
+- [Print session](Tutorial/PrintSession.md)
+- [Export HTML](Tutorial/ExportHTML.md)
+- [Using Standard Variables](Tutorial/UsingStandardVariables.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v3</span>

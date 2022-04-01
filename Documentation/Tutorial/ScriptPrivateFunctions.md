@@ -34,7 +34,7 @@ Example:
 This example sets the textcolor to red and 50 % alpha:
 
 ```4d
-this_textcolor:=_Get Color("red";0,5)
+this_textcolor:=_Get Color("red";0.5)
 ```
 
 ## _Get Fitting Text
