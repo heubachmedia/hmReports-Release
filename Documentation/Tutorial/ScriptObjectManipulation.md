@@ -37,7 +37,9 @@ Just add the following code to that object:
 
 ```4d
 $0:=this_text+" from "+String(Current date)+" "+String(Current time)
-```Result:
+```
+
+Result:
 
 ![Example 2 result](../Pictures/ObjectManipulationExample2Result.png)
 
