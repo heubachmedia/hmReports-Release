@@ -11,3 +11,7 @@
     - [Script Editor](Tutorial/ScriptEditor.md)
     - [Writing scripts](Tutorial/WritingScripts.md)
     - [Object manipulation](Tutorial/ScriptObjectManipulation.md)
+    - [Debugger](Tutorial/ScriptDebugger.md)
+    - [Script Compatibility](Tutorial/ScriptCompatibility.md)
+    - [Script Execution Cycle](Tutorial/ScriptExecutionCycle.md)
+    - [Private functions](Tutorial/ScriptPrivateFunctions.md)
