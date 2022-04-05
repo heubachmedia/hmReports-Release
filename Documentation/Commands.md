@@ -179,11 +179,67 @@ Each page have a continuous number from the first page to the last page. Also, h
 ### Order sections
 * [hmRep_ORDER SECTIONS ( Area ; sectionTypes ; sectionCount)](Sections/hmRep_OrderSections.md)
 
+## Objects
+### Creating Objects
+* [hmRep_Create Rectangle ( Area ; left ; top ; right ; bottom) → object ID](Objects/hmRep_CreateRectangle.md)
+* [hmRep_Create Round Rectangle ( Area ; left ; top ; right ; bottom ; rounding) → object ID](Objects/hmRep_CreateRoundRectangle.md)
+* [hmRep_Create Text ( Area ; left ; top ; right ; bottom ; text) → object ID](Objects/hmRep_CreateText.md)
+* [hmRep_Create Oval ( Area ; left ; top ; right ; bottom) → object ID](Objects/hmRep_CreateOval.md)
+* [hmRep_Create Line ( Area ; left ; top ; right ; bottom) → object ID](Objects/hmRep_CreateLine.md)
+* [hmRep_Create Picture ( Area ; left ; top ; right ; bottom) → object ID](Objects/hmRep_CreatePicture.md)
+* [hmRep_Create Group ( Area ; objects) → object ID](Objects/hmRep_CreateGroup.md)
+* [hmRep_Create Arc ( Area ; x ; y ; radiusx ; radiusy ; startAngle ; endAngle ; clockwise) → object ID](Objects/hmRep_CreateArc.md)
+* [hmRep_Create Freehand ( Area ; array_x ; array_y) → object ID](Objects/hmRep_CreateFreehand.md)
+* [hmRep_Create Subreport ( Area ; left ; top ; right ; bottom ; subreportUUID) → object ID](Objects/hmRep_CreateSubreport.md)
+* [hmRep_SET OBJECTS ( Area ; objectblob)](hmRep_SetObjects.md)
+* [hmRep_GET OBJECTS ( Area ; objectblob)](hmRep_GetObjects.md)
+
+### Paths
+* [hmRep_SET PATH ( Area ; object ID ; path)](Objects/hmRep_SetPath.md)
+* [hmRep_PATH POINT ( Area ; x ; y)](Objects/hmRep_PathPoint.md)
+* [hmRep_PATH MOVE TO ( Area ; x ;y)](Objects/hmRep_PathMoveTo.md)
+* [hmRep_PATH CURVE ( Area ; cp1x ; cp1y ; cp2x ; cp2y ; x ; y)](Objects/hmRep_PathCurve.md)
+* [hmRep_CLOSE PATH ( Area )](Objects/hmRep_ClosePath.md)
+* [hmRep_End Path ( Area ) → object ID](Objects/hmRep_EndPath.md)
+* [hmRep_GET PATH INFORMATION ( Area ; object ID ; array_type ; array_x ; array_y ; array_cp1x ; array_cp1y ; array_cp2x ; array_cp2y)](Objects/hmRep_GetPathInformation.md)
+* [hmRep_SET PATH ( Area ; object ID ; path)](Objects/hmRep_SetPath.md)
+* [hmRep_Get Path ( Area ; object ID) → Path text](Objects/hmRep_GetPath.md)
+
+### Deleting Objects
+* [hmRep_DELETE OBJECT ( Area ; objectID ; deleteGroupObjects)](Objects/hmRep_DeleteObject.md)
+* [hmRep_DELETE OBJECTS ( Area ; scope ; scopeID)](Objects/hmRep_DeleteObjects.md)
+
+### Object Properties
+* [hmRep_SET OBJECT PROPERTY ( Area ; id ; selector ; valueReal ; valueText)](Objects/hmRep_SetObjectProperty.md)
+* [hmRep_GET OBJECT PROPERTY ( Area ; id ; selector ; valueReal ; valueText)](Objects/hmRep_GetObjectProperty.md)
+* [hmRep_GET OBJECT LIST( Area ; scope ; scopeID ; arrayIDs)](Objects/hmRep_GetObjectList.md)
+* [hmRep_GET OBJECTS BY POINT ( Area ; x ; y ; arrayIDs)](Objects/hmRep_GetObjectsByPoint.md)
+* [hmRep_GET OBJECTS BY RECT ( Area ; layerID ; left ; top ; right ; bottom ; searchInGroups ; arrayIDs)](Objects/hmRep_GetObjectsByRect.md)
+* [hmRep_SET PICTURE( Area ; ID ; picture)](Objects/hmRep_SetPicture.md)
+* [hmRep_GET PICTURE( Area ; ID ; picture)](Objects/hmRep_GetPicture.md)
+* [hmRep_GET OBJECT RECT ( Area ; objectID ; left ; top ; right ; bottom)](Objects/hmRep_GetObjectRect.md)
+* [hmRep_SET OBJECT RECT ( Area ; objectID ; left ; top ; right ; bottom)](Objects/hmRep_SetObjectRect.md)
+* [hmRep_SELECT OBJECTS ( Area ; objectArray ; operation)](hmRep_SelectObjects.md)
+* [hmRep_SET OBJECT DATA ( Area ; objectID ; dataType ; database ; table ; field ; variablename ; arrayindex)](Objects/hmRep_SetObjectData.md)
+* [hmRep_GET OBJECT DATA ( Area ; objectID ; dataType ; database ; table ; field ; variablename ; arrayindex)](Objects/hmRep_GetObjectData.md)
+* [hmRep_UPDATE SUBREPORTS ( Area )](Objects/hmRep_UpdateSubreports.md)
+* [hmRep_SET OBJECT LINEDASH ( Area ; objectID ; phase ; arrayDashes)](Objects/hmRep_SetObjectLineDash.md)
+* [hmRep_GET OBJECT LINEDASH ( Area ; objectID ; phase ; arrayDashes)](Objects/hmRep_GetObjectLineDash.md)
+* [hmRep_SET RECT COLUMNS ( Area ; objectID ; columnsArray)](Objects/hmRep_SetRectColumns.md)
+* [hmRep_GET RECT COLUMNS ( Area ; objectID ; columnsArray)](Objects/hmRep_GetRectColumns.md)
+* [hmRep_SET RECT ROWS ( Area ; objectID ; rowsArray)](Objects/hmRep_SetRectRows.md)
+* [hmRep_GET RECT ROWS ( Area ; objectID ; rowsArray)](Objects/hmRep_GetRectRows.md)
+
 ---
 
 ## Appendix
 * [Area Properties](Appendix/AreaProperties.md)
 * [Report Properties](Appendix/ReportProperties.md)
+* [Object Properties](Appendix/ObjectProperties.md)
+* [Path types](Appendix/PathTypes.md)
+* [Object types](Appendix/ObjectTypes.md)
+* [Picture types](Appendix/PictureTypes.md)
+* [Gradient types(Appendix/GradientTypes.md)
 * [Page Properties](Appendix/PageProperties.md)
 * [Layer Properties](Appendix/LayerProperties.md)
 * [Guide Properties](Appendix/GuideProperties.md)

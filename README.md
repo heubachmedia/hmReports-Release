@@ -6,6 +6,8 @@ hmReports v19 has the **same** system requirements as 4D v19.
 
 [Register hmReports](Documentation/Registering.md)
 
+[Release Notes](Documentation/ReleaseNotes.md)
+
 [Tutorial](Documentation/Tutorial.md)
 
 [hmReports Commands Reference](Documentation/Commands.md)
