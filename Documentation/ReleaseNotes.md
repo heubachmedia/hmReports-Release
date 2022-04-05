@@ -65,7 +65,7 @@
 * Justified alignment is now supported for text objects
 * It is now possible to use the main execution context in sub report containers. A new option in the *object properties*-dialog is available as well as in the programming language:
 
-![Create Execution Context](../Pictures/CreateExecutionContext.png)
+![Create Execution Context](Pictures/CreateExecutionContext.png)
 
 * New picture formats under Windows: WMP and DDS
 * New object properties for setting the visibility of the drag handles (hmRep_oprop_DragLeftTop, hmRep_oprop_DragTop, hmRep_oprop_DragRightTop, hmRep_oprop_DragRight, hmRep_oprop_DragRightBottom, hmRep_oprop_DragBottom, hmRep_oprop_DragLeftBottom, hmRep_oprop_DragLeft)
@@ -74,7 +74,7 @@
 * New options to set the origin of a layer and their objects
 * Rewritten intelligent undo/redo functionality:
 
-![new undo redo](../Pictures/NewUndoRedo.png)
+![new undo redo](Pictures/NewUndoRedo.png)
 
 * Changes:
     * In v4, rendering a subreport executes the start, body and end-script of the main report. This was wrong. Now you have to use the **report header/footer**-script of the subreport for executing code in the subreport context.
