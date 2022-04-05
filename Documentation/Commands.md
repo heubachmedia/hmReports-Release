@@ -239,7 +239,7 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [Path types](Appendix/PathTypes.md)
 * [Object types](Appendix/ObjectTypes.md)
 * [Picture types](Appendix/PictureTypes.md)
-* [Gradient types(Appendix/GradientTypes.md)
+* [Gradient types](Appendix/GradientTypes.md)
 * [Page Properties](Appendix/PageProperties.md)
 * [Layer Properties](Appendix/LayerProperties.md)
 * [Guide Properties](Appendix/GuideProperties.md)
