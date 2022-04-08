@@ -85,8 +85,8 @@
     * Mac: Availability in x64
     * Mac: path handling was changed to native posix format. This change effects following commands:
         * [[hmRep_Get Resources Folder]].
-        * [[hmRep_SET AREA PROPERTY]] selector *hmRep_prop_SVGrootFolder*
-        * [[hmRep_SET PRINT OPTION]] selector *hmRep_destination_option*
+        * [hmRep_SET AREA PROPERTY](Areas/hmRep_SetAreaProperty.md) selector *hmRep_prop_SVGrootFolder*
+        * [hmRep_SET PRINT OPTION](Printing/hmRep_SetPrintOption.md) selector *hmRep_destination_option*
     * Win: Complete rewriting of the rendering engine: hmReports 5 uses Direct2D and DirectWrite
     * Win: Export of the picture format *emf* is not available anymore ([hmRep_Report To Picture](Reports/hmRep_RenderToPicture.md), [hmRep_RENDER TO PICTURE]](Reports/hmRep_RenderToPicture.md). To output vector pictures, you should use SVG instead.
     * Printing over 4D is currently not possible (v15); this affects **Print form** and **OPEN PRINTING JOB**
@@ -106,7 +106,8 @@
     * [[hmRep_VStructure To Blob]]
     * [[hmRep_BLOB TO VSTRUCTURE]]
 
-== Version 4.0 (November 26th, 2015)==
+## Version 4.0 (November 26th, 2015)
+
 * New commands to set/get automatic relations in hmReports globally: [hmRep_SET AUTOMATIC RELATIONS](Areas/hmRep_SetAutomaticRelations.md) and [hmRep_GET AUTOMATIC RELATIONS](Areas/hmRep_GetAutomaticRelations.md)
 * New command to get the total count of rendered pages: [[hmRep_Enumerate Pages]]. There is also a variable available in the script editor
 * It is now possible to set/get a clipping area for each layer: [hmRep_SET LAYER CLIP](Layers/hmRep_SetLayerClip.md), [hmRep_GET LAYER CLIP](Layers/hmRep_GetLayerClip.md)
@@ -135,7 +136,7 @@
 * New command for getting information about the import process [hmRep_GET IMPORT PROTOCOLL](Reports/hmRep_GetImportProtocoll.md)
 * hmReports now remembers the size and positions of each dialog in the current session. There are commands for setting and getting the positions of each window: [[hmRep_GET DIALOG RECT]] and [[hmRep_SET DIALOG RECT]]
 * New events for handling dialogs: *hmRep_OnOpenDialog* and *hmRep_OnCloseDialog*
-* New command [[hmRep_Get String Width]]
+* New command [hmRep_Get String Width]
 * New command for changing the current cursor [hmRep_SET CURSOR](Areas/hmRep_SetCursor.md)
 * New command for limiting mouse movements: [hmRep_SET MOUSE LIMITS](Areas/hmRep_SetMouseLimits.md)
 * New command for fast removing of objects: [hmRep_DELETE OBJECTS](Objects/hmRep_DeleteObjects.md)
@@ -176,22 +177,22 @@
 * New command [hmRep_Render To HTML](Reports/hmRep_RenderToHTML.md)
 * Each object has now an "On After" and "On After Render"-Script
 * Internal PDF rendering engine for creating PDF's on Windows (without additional software or printer driver)
-* New options available in [[hmRep_SET PRINT OPTION]]
+* New options available in [hmRep_SET PRINT OPTION](Printing/hmRep_SetPrintOption.md)
 * hmReports works now together with the 4D print session command "OPEN PRINTING JOB"
-* New command [[hmRep_GET PAPER SIZE]]
-* New command [[hmRep_GET SECTION BY POINT]]
-* New command [[hmRep_Create VStructure Meth]]
+* New command [hmRep_GET PAPER SIZE](Printing/hmRep_GetPaperSize.md)
+* New command [hmRep_GET SECTION BY POINT](Sections/hmRep_GetSectionByPoint.md)
+* New command [hmRep_Create VStructure Meth]
 * New event *hmRep_OnDropAction*
 * Endmarks are now available for path and freehand objects
 * New object property: *hmRep_oprop_Resizeable*
 * Support of 4D's edit menu; new area property *hmRep_prop_Use4DEditMenu*
 * It's now possible to write directly :xliff: in static text objects
 * Each page have now it's own pagewidth, pageheight and margins
-* [[hmRep_Report To Picture]] supports EMF format (Windows)
-* The command [[hmRep_RENDER TO PICTURE]] supports SVG and EMF output
-* New commands [[hmRep_SET TOOL TIP TEXT]] and [[hmRep_Get Tool Tip Text]] for setting tip texts for the tool-buttons
-* New commands [[hmRep_SET FORMAT LIST]] and [[hmRep_GET FORMAT LIST]] for managing the format popup in the object properties dialog
-* New command [[hmRep_GET RENDER LOG]] for getting the current call chain (log)
+* [hmRep_Report To Picture](Reports/hmRep_ReportToPicture.md) supports EMF format (Windows)
+* The command [hmRep_RENDER TO PICTURE](Reports/hmRep_ReportToPicture.md) supports SVG and EMF output
+* New commands [hmRep_SET TOOL TIP TEXT](Areas/hmRep_SetToolTipText.md) and [hmRep_Get Tool Tip Text](Areas/hmRep_GetToolTipText.md) for setting tip texts for the tool-buttons
+* New commands [hmRep_SET FORMAT LIST](Areas/hmRep_GetFormatList.md) and [hmRep_GET FORMAT LIST](Areas/hmRep_GetFormatList.md) for managing the format popup in the object properties dialog
+* New command [hmRep_GET RENDER LOG] for getting the current call chain (log)
 
 ## Version 2.4 (February 13th, 2013)
 
@@ -200,7 +201,7 @@
 ## Version 2.3 (July 26th, 2012)
 
 * Now you can group virtual items (fields and variables). See [[hmRep_Create VStructure Group]].
-* Support of line dashes for all object types (except groups): [[hmRep_SET OBJECT LINEDASH]].
+* Support of line dashes for all object types (except groups): [hmRep_SET OBJECT LINEDASH](Objects/hmRep_SetObjectLineDash.md).
 * Support of vertical linespacing in text
 * Support of strike-through text
 * New object option for repeating objects: hmRep_oprop_ReplaceItemsIfEmpty
@@ -220,14 +221,14 @@
 * New event: hmRep_OnBeforeDragNewObj
 * Creating straight lines while holding down the shift key
 * New command [[hmRep_Get Resources Folder]]
-* New command [[hmRep_SET PATH]]
+* New command [hmRep_SET PATH](Objects/hmRep_SetPath.md)
 * Bugfixing
 
 ## Version 2.1 (January 3rd, 2012)
 
-* New command [[hmRep_GET OBJECTS BY POINT]]
-* New command [[hmRep_ZOOM TO RECT]]
-* New [[Events|scroll events]]
+* New command [hmRep_GET OBJECTS BY POINT](Objects/hmRep_GetObjectsByPoint.md)
+* New command [hmRep_ZOOM TO RECT](Reports/hmRep_ZoomToRect.md)
+* New [Events]
 * Improved SVG export (Arcs)
 * Improved behavior if the user clicks on a path
 * Better SuperReport Pro conversion/compatibility
@@ -260,8 +261,8 @@
 ## Version 1.3 (May 10th, 2011)
 
 * New convenient PDF printing capabilities under Windows like under Mac OS X
-* New selectors in [[hmRep_SET PRINT OPTION]] for setting the printer only for the next document (print session) without changing the current printer.
-* New command [[hmRep_RENDER TO PICTURE]] to create previews of the final report.
+* New selectors in [hmRep_SET PRINT OPTION](Printing/hmRep_SetPrintOption.md) for setting the printer only for the next document (print session) without changing the current printer.
+* New command [hmRep_RENDER TO PICTURE](Reports/hmRep_RenderToPicture.md) to create previews of the final report.
 * This update fixes a problem if automatic-iteration-arrays are used in deeper detail section (more than 1).
 * Fixed a bug where the print settings are not correctly used from a stored hmReports file in 4D v12
 * Better 4D Draw Import
@@ -269,8 +270,8 @@
 
 ## Version 1.2 (March 22nd, 2011)
 
-* New theme [[About menus|Menus]] to fully customize the menus in hmReports
-* New command [[hmRep_GET REPORT LIST]] to get a list of all reports of the area
+* New theme: *Menus* to fully customize the menus in hmReports
+* New command [hmRep_GET REPORT LIST](Areas/hmRep_GetReportList.md) to get a list of all reports of the area
 * New command [[hmRep_SEARCH PROP BY NAME]] for searching properties
 * It is now possible to show the object order (new menu item and property)
 * New property in [[hmRep_SET REPORT PROPERTY]]: *hmRep_rprop_ShowObjectOrder*
@@ -288,14 +289,14 @@
 
 ## Version 1.1 (January 6th, 2011)
 
-* New commands [[hmRep_SET EVENT STATE]] and [[hmRep_Get Event State]] for activate/deactivate the event calls in the callback method
-* **Important: All events are now deactivated by default. If you want to use some events in the callback, you must explict activate it with the command [[hmRep_SET EVENT STATE]]**
+* New commands [hmRep_SET EVENT STATE](Areas/hmRep_SetEventState.md) and [hmRep_Get Event State](Areas/hmRep_GetEventState.md) for activate/deactivate the event calls in the callback method
+* **Important: All events are now deactivated by default. If you want to use some events in the callback, you must explict activate it with the command [hmRep_SET EVENT STATE](Areas/hmRep_SetEventState.md)**
 * New command [[hmRep_GET MEMORY INFO]] for getting memory info about hmReports
 * Introducing [[About Custom Properties|Custom properties]]
-* New commands to setting and getting print options: [[hmRep_SET PRINT OPTION]], [[hmRep_GET PRINT OPTION]]
+* New commands to setting and getting print options: [hmRep_SET PRINT OPTION](Printing/hmRep_SetPrintOption.md), [hmRep_GET PRINT OPTION](Printing/hmRep_GetPrintOption.md)
 * It's now possible to make paths smooth
-* New [[Events|Callback events]] are available
-* New command [[hmREP_GET MOUSE]] to get the local report coordinates
+* New Callback events are available
+* New command [hmREP_GET MOUSE](Areas/hmRep_GetMouse.md) to get the local report coordinates
 * Much better picture support: Support of PDF and SVG in Fields, Variables and Arrays
 * Support of picture display formats
 * New buttons for alignment of objects
