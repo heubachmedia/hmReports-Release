@@ -88,7 +88,7 @@
         * [hmRep_SET AREA PROPERTY](Areas/hmRep_SetAreaProperty.md) selector *hmRep_prop_SVGrootFolder*
         * [hmRep_SET PRINT OPTION](Printing/hmRep_SetPrintOption.md) selector *hmRep_destination_option*
     * Win: Complete rewriting of the rendering engine: hmReports 5 uses Direct2D and DirectWrite
-    * Win: Export of the picture format *emf* is not available anymore ([hmRep_Report To Picture](Reports/hmRep_RenderToPicture.md), [hmRep_RENDER TO PICTURE]](Reports/hmRep_RenderToPicture.md). To output vector pictures, you should use SVG instead.
+    * Win: Export of the picture format *emf* is not available anymore ([hmRep_Report To Picture](Reports/hmRep_RenderToPicture.md), [hmRep_RENDER TO PICTURE](Reports/hmRep_RenderToPicture.md). To output vector pictures, you should use SVG instead.
     * Printing over 4D is currently not possible (v15); this affects **Print form** and **OPEN PRINTING JOB**
     * Removing the command [hmRep_SAVE UNDO]
 
