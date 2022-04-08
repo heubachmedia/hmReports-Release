@@ -109,7 +109,7 @@
 ## Version 4.0 (November 26th, 2015)
 
 * New commands to set/get automatic relations in hmReports globally: [hmRep_SET AUTOMATIC RELATIONS](Areas/hmRep_SetAutomaticRelations.md) and [hmRep_GET AUTOMATIC RELATIONS](Areas/hmRep_GetAutomaticRelations.md)
-* New command to get the total count of rendered pages: [[hmRep_Enumerate Pages]]. There is also a variable available in the script editor
+* New command to get the total count of rendered pages: [hmRep_Enumerate Pages](Reports/hmRep_EnumeratePages.md). There is also a variable available in the script editor
 * It is now possible to set/get a clipping area for each layer: [hmRep_SET LAYER CLIP](Layers/hmRep_SetLayerClip.md), [hmRep_GET LAYER CLIP](Layers/hmRep_GetLayerClip.md)
 * New properties of a layer to lock a layer horizontally and vertically: *hmRep_lprop_H_Scrollable*, *hmRep_lprop_V_Scrollable*
 * It is now possible to order a layer. New layer property *hmRep_lprop_Z_Order*.
@@ -274,11 +274,11 @@
 * New command [hmRep_GET REPORT LIST](Areas/hmRep_GetReportList.md) to get a list of all reports of the area
 * New command [hmRep_SEARCH PROP BY NAME] for searching properties
 * It is now possible to show the object order (new menu item and property)
-* New property in [[hmRep_SET REPORT PROPERTY]]: *hmRep_rprop_ShowObjectOrder*
+* New property in [hmRep_SET REPORT PROPERTY](Reports/hmRep_SetReportProperty.md): *hmRep_rprop_ShowObjectOrder*
 * The current layer can now changed in the layerlist by doubleclick
 * It is now possible to bring an object one step forward and one step backward
 * It is not possible to draw on a layer which is now visible, an alert is shown
-* New [[Events|Callback events]] are available
+* New Callback events are available
 * It's now possible to hide not needed sections and setting the name of each section
 * It's now possible to scale path and freehand objects and groups
 * It's now possible to rotate objects
