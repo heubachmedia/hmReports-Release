@@ -192,7 +192,7 @@
 * The command [hmRep_RENDER TO PICTURE](Reports/hmRep_ReportToPicture.md) supports SVG and EMF output
 * New commands [hmRep_SET TOOL TIP TEXT](Areas/hmRep_SetToolTipText.md) and [hmRep_Get Tool Tip Text](Areas/hmRep_GetToolTipText.md) for setting tip texts for the tool-buttons
 * New commands [hmRep_SET FORMAT LIST](Areas/hmRep_GetFormatList.md) and [hmRep_GET FORMAT LIST](Areas/hmRep_GetFormatList.md) for managing the format popup in the object properties dialog
-* New command [hmRep_GET RENDER LOG] for getting the current call chain (log)
+* New command [hmRep_GET RENDER LOG](Printing/hmRep_GetRenderLog.md) for getting the current call chain (log)
 
 ## Version 2.4 (February 13th, 2013)
 
@@ -217,10 +217,10 @@
 ## Version 2.2 (February 15th, 2012)
 
 * Support of 2D Arrays
-* New [[About ruler units|ruler unit]] API for creating custom ruler units
+* New ruler unit]-API for creating custom ruler units
 * New event: hmRep_OnBeforeDragNewObj
 * Creating straight lines while holding down the shift key
-* New command [[hmRep_Get Resources Folder]]
+* New command [hmRep_Get Resources Folder]
 * New command [hmRep_SET PATH](Objects/hmRep_SetPath.md)
 * Bugfixing
 
@@ -250,7 +250,7 @@
 * Arrange objects horizontally and vertically
 * Support of line endmarks of line objects
 * 64 bit Plugin (for 4D v12 Server 64 bit on Windows)
-* New utility commands [[hmRep_GET PICTURE TYPES]], [[hmRep_INDEX2RGB]], [[hmRep_RGB2Index]]
+* New utility commands [hmRep_GET PICTURE TYPES], [hmRep_INDEX2RGB], [hmRep_RGB2Index]
 * New Property Palette
 * Supported languages of the GUI: English, German, French, Spanish, Japanese
 * Better 4D Draw Import
@@ -272,7 +272,7 @@
 
 * New theme: *Menus* to fully customize the menus in hmReports
 * New command [hmRep_GET REPORT LIST](Areas/hmRep_GetReportList.md) to get a list of all reports of the area
-* New command [[hmRep_SEARCH PROP BY NAME]] for searching properties
+* New command [hmRep_SEARCH PROP BY NAME] for searching properties
 * It is now possible to show the object order (new menu item and property)
 * New property in [[hmRep_SET REPORT PROPERTY]]: *hmRep_rprop_ShowObjectOrder*
 * The current layer can now changed in the layerlist by doubleclick
@@ -282,9 +282,9 @@
 * It's now possible to hide not needed sections and setting the name of each section
 * It's now possible to scale path and freehand objects and groups
 * It's now possible to rotate objects
-* New command [[hmRep_Render To Blob]] for Unicode compatibility in 4D v11
-* New command [[hmRep_Report To Picture]]
-* The command [[hmRep_Print]] was modified. A result value is now returned. Please check your code!
+* New command [hmRep_Render To Blob](Reports/hmRep_RenderToBlob.md) for Unicode compatibility in 4D v11
+* New command [hmRep_Report To Picture](Reports/hmRep_ReportToPicture.md)
+* The command [hmRep_Print](Printing/hmRep_Print.md) was modified. A result value is now returned. Please check your code!
 * Fixed bug moving a group from one layer to an other
 
 ## Version 1.1 (January 6th, 2011)
