@@ -230,6 +230,48 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [hmRep_SET RECT ROWS ( Area ; objectID ; rowsArray)](Objects/hmRep_SetRectRows.md)
 * [hmRep_GET RECT ROWS ( Area ; objectID ; rowsArray)](Objects/hmRep_GetRectRows.md)
 
+## Scripting
+### Overview
+A hmReports  Area  has it's own variable stack. It's a sandbox concept where you can put any variable you want into the  Area . It does not intersects the variable name space of 4D. More information can be found in the chapter [[Script Execution]].
+
+### hmX
+Plugin functions which starting with the prefix "hmX" are going directly on the executer/interpreter. They are indepently from the hmReports area. 
+
+### Managing variable stack
+* [hmRep_SET VARIABLE ( Area ; varname ; vartype ; valuetext ; valuenum ; valuedate)](Scripting/hmRep_SetVariable.md)
+* [hmRep_GET VARIABLE ( Area ; varname ; vartype ; valuetext ; valuenum ; valuedate)](Scripting/hmRep_GetVariable.md)
+* [hmRep_SET ARRAY ( Area ; varname ; array)](Scripting/hmRep_SetArray.md)
+* [hmRep_GET ARRAY ( Area ; varname ; array)](Scripting/hmRep_GetArray.md)
+* [hmRep_SET ARRAY ELEMENT ( Area ; varname ; arrayindex ; valuetext ; valuenum ; valuedate)](Scripting/hmRep_SetArrayElement.md)
+* [hmRep_GET ARRAY ELEMENT ( Area ; varname ; arrayindex ; valuetext ; valuenum ; valuedate)](Scripting/hmRep_GetArrayElement.md)
+* [hmRep_SET VARIABLE OBJECT ( Area ; varname ; object)](Scripting/hmRep_SetVariableObject.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
+* [hmRep_GET VARIABLE LIST ( Area ; arrayNames)](Scripting/hmRep_GetVariableList.md)
+* [hmRep_DELETE VARIABLE ( Area ; varname)](Scripting/hmRep_DeleteVariable.md)
+
+### Managing Methods
+* [hmRep_CREATE METHOD ( Area ; methodname ; script)](Scripting/hmRep_CreateMethod.md)
+* [hmRep_DELETE METHOD ( Area ; methodname)](Scripting/hmRep_DeleteMethod.md)
+* [hmRep_GET METHOD LIST ( Area ; list)](Scripting/hmRep_GetMethodList.md)
+* [hmRep_SET METHOD( Area ; methodname ; script)](Scripting/hmRep_SetMethod.md)
+* [hmRep_Get Method ( Area ; methodname) → script](Scripting/hmRep_GetMethod.md)
+
+### Getting information about script variables
+* [hmRep_GET VARS FROM SCRIPTS ( Area ; listtype ; arrayNames ; arrayTypes)](Scripting/hmRep_GetVarsFromScripts.md)
+
+### Managing Scripts
+* [hmRep_SET TOKENIZED SCRIPT ( Area ; selector ; id ; script)](Scripting/hmRep_SetTokenizedScript.md)
+* [hmRep_GET TOKENIZED SCRIPT ( Area ; selector ; id ; script)](Scripting/hmRep_GetTokenizedScript.md)
+* [hmRep_Is Old Script ( Area ) → isOld](Scripting/hmRep_IsOldScript.md)
+
+### Tokenize/detokenize scripts
+* [hmRep_TOKENIZE ( Area ; methodtext ; script)](Scripting/hmRep_Tokenize.md)
+* [hmRep_Detokenize ( Area ; script) → method text](Scripting/hmRep_Detokenize.md)
+
+### Scripts syntax coloring
+* [hmX_SET 4D CODE STYLE]
+* [hmX_GET 4D CODE STYLE]
+* [hmX_Count 4D Code Styles]
+
 ---
 
 ## Appendix

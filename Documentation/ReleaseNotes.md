@@ -2,6 +2,10 @@
 
 * Support of Apple Silicon M1 processor
 * Support of High-DPI (Windows) with 4D v19R4
+* Scripts: Support of For Each-Loop
+* Scripts: Better Support of Objects and Collections
+* New command to get all areas: [hmRep_Get Areas](Areas/hmRep_GetAreas.md)
+* New command: [hmRep_SET VARIABLE OBJECT](Scripting/hmRep_SetVariableObject.md)
 
 ## Version 18.0 (January, 2020)
 
@@ -12,25 +16,25 @@
 * New PDF tools:
     * [hmRep_Create Report With PDF] creates a report based on the PDF measures
     * [hmRep_Print Over PDF] prints a report over a PDF file
-    * [hmRep_PDF Split]]splits one PDF into one PDF file per page
-    * [hmRep_Combine PDF]]combines two PDF files into one
+    * [hmRep_PDF Split]] splits one PDF into one PDF file per page
+    * [hmRep_Combine PDF]] combines two PDF files into one
 * The executer and hmReports offscreen areas are thread safe now.
-* The parameters of the commands [[hmX_SET ALLOWED COMMANDS]] and [[hmX_GET ALLOWED COMMANDS]] has changed
-* New commands [[hmRep_GET RECT COLUMNS]] and [[hmRep_GET RECT ROWS]]
-* New command [[hmX_Execute]] to execute a tokenized method
-* New command [[hmX_GET CONTEXT LIST]] for returning all contexts
+* The parameters of the commands [hmX_SET ALLOWED COMMANDS] and [hmX_GET ALLOWED COMMANDS] has changed
+* New commands [hmRep_GET RECT COLUMNS](Objects/hmRep_GetRectColumns.md) and [hmRep_GET RECT ROWS](Objects/hmRep_GetRectRows.md)
+* New command [hmX_Execute] to execute a tokenized method
+* New command [hmX_GET CONTEXT LIST] for returning all contexts
 * The new command [[hmRep_Get Current Thread ID]] returns the current thread ID
 * The current tips delay is now supported in hmReports
 
 ## Version 6.0 (July 24th, 2018)
 
 * New parameters in the commands [[hmRep_CREATE STYLED TEXT RUN]] and [[hmRep_GET STYLED TEXT RUN]] to support background colors (Mac only)
-* New command for sorting layers: [[hmRep_SORT LAYER]]
+* New command for sorting layers: [hmRep_SORT LAYER](Layers/hmRep_SortLayer.md)
 * New commands for handling report-scripts: [[hmRep_CREATE METHOD]], [[hmRep_DELETE METHOD]], [[hmRep_GET METHOD LIST]], [[hmRep_SET METHOD]] and [[hmRep_Get Method]]
 * New object option *hmRep_oprop_Full_Lines* to show fully lines only
 * Changed commands: [[hmX_Count Variables]], [[hmX_GET VARIABLE BY INDEX]], [[hmX_GET POINTER BY INDEX]], [[hmX_GET ARRAY BY INDEX]], [[hmX_GET BLOB BY INDEX]] and [[hmX_GET PICTURE BY INDEX]]; these commands don't require the methodname-parameter anymore. You have to pass a stack_id. If the stack_id equals 0, local variables are returned from the latest executed method.
 * The command [[hmX_GET LAST ERROR]] accepts a new parameter for the methodname, where the error occurs
-* New command [[hmRep_SET NEW AREA FOCUSABLE]]
+* New command [hmRep_SET NEW AREA FOCUSABLE](Areas/hmRep_SetNewAreaFocusable.md)
 * The event **hmRep_OnScriptError** now returns a JSON object with all information where the error occurs
 * New printing session commands [[hmRep_OPEN PRINTING JOB]] and [[hmRep_CLOSE PRINTING JOB]] to print several reports into one printing job or PDF
 * Change of [[Object manipulation]]. $0 can now be any type (also numbers and dates). You can set the object's data source to formula to select a data format for numbers, dates.
@@ -39,10 +43,10 @@
 
 ##  Version 5.3 (December 7th, 2017)
 
-* New DPI parameters in the commands [[hmRep_RENDER TO PICTURE]] and [[hmRep_Report To Picture]].
+* New DPI parameters in the commands [hmRep_RENDER TO PICTURE](Areas/hmRep_RenderToPicture.md) and [hmRep_Report To Picture](Reports/hmRep_ReportToPicture.md).
 * New commands to maintain allowed 4D commands in the script executer: [[hmX_SET ALLOWED COMMANDS]] and [[hmX_GET ALLOWED COMMANDS]]
-* New commands to manage the visibility of tool in the toolbar: [[hmRep_SET TOOL VISIBLE]] and [[hmRep_Get Tool Visible]]
-* New commands to add columns and rows to a rectangle object: [[hmRep_SET RECT COLUMNS]] and [[hmRep_SET RECT ROWS]]. This feature is also available through the contextual menu of the editor
+* New commands to manage the visibility of tool in the toolbar: [hmRep_SET TOOL VISIBLE](Areas/hmRep_SetToolVisible.md) and [hmRep_Get Tool Visible](Areas/hmRep_GetToolVisible.md)
+* New commands to add columns and rows to a rectangle object: [hmRep_SET RECT COLUMNS](Objects/hmRep_SetRectColumns.md) and [hmRep_SET RECT ROWS](Objects/hmRep_SetRectRows.md). This feature is also available through the contextual menu of the editor
 * New object property to set the kerning of the text
 * New you can put 4D code directly into static text between the tags <nodoku><% and %></nodoku>
 * New report property to display an icon, if the text is overlowing the bounds
