@@ -23,12 +23,12 @@
 * New commands [hmRep_GET RECT COLUMNS](Objects/hmRep_GetRectColumns.md) and [hmRep_GET RECT ROWS](Objects/hmRep_GetRectRows.md)
 * New command [hmX_Execute] to execute a tokenized method
 * New command [hmX_GET CONTEXT LIST] for returning all contexts
-* The new command [[hmRep_Get Current Thread ID]] returns the current thread ID
+* The new command [hmRep_Get Current Thread ID] returns the current thread ID
 * The current tips delay is now supported in hmReports
 
 ## Version 6.0 (July 24th, 2018)
 
-* New parameters in the commands [[hmRep_CREATE STYLED TEXT RUN]] and [[hmRep_GET STYLED TEXT RUN]] to support background colors (Mac only)
+* New parameters in the commands [[hmRep_CREATE STYLED TEXT RUN]] and [[hmRep_GET STYLED TEXT RUN]] to support background colors (macOS only)
 * New command for sorting layers: [hmRep_SORT LAYER](Layers/hmRep_SortLayer.md)
 * New commands for handling report-scripts: [[hmRep_CREATE METHOD]], [[hmRep_DELETE METHOD]], [[hmRep_GET METHOD LIST]], [[hmRep_SET METHOD]] and [[hmRep_Get Method]]
 * New object option *hmRep_oprop_Full_Lines* to show fully lines only
@@ -36,36 +36,36 @@
 * The command [[hmX_GET LAST ERROR]] accepts a new parameter for the methodname, where the error occurs
 * New command [hmRep_SET NEW AREA FOCUSABLE](Areas/hmRep_SetNewAreaFocusable.md)
 * The event **hmRep_OnScriptError** now returns a JSON object with all information where the error occurs
-* New printing session commands [[hmRep_OPEN PRINTING JOB]] and [[hmRep_CLOSE PRINTING JOB]] to print several reports into one printing job or PDF
+* New printing session commands [hmRep_OPEN PRINTING JOB](Printing/hmRep_OpenPrintJob.md) and [hmRep_CLOSE PRINTING JOB](Printing/hmRep_ClosePrintJob.md) to print several reports into one printing job or PDF
 * Change of [[Object manipulation]]. $0 can now be any type (also numbers and dates). You can set the object's data source to formula to select a data format for numbers, dates.
-* New command [[hmRep_Is Old Script]]
+* New command [hmRep_Is Old Script](Scripting/hmRep_IsOldScript.md)
 * New command [[hmRep_Get Styled Text]]
 
 ##  Version 5.3 (December 7th, 2017)
 
 * New DPI parameters in the commands [hmRep_RENDER TO PICTURE](Areas/hmRep_RenderToPicture.md) and [hmRep_Report To Picture](Reports/hmRep_ReportToPicture.md).
-* New commands to maintain allowed 4D commands in the script executer: [[hmX_SET ALLOWED COMMANDS]] and [[hmX_GET ALLOWED COMMANDS]]
+* New commands to maintain allowed 4D commands in the script executer: [hmX_SET ALLOWED COMMANDS] and [hmX_GET ALLOWED COMMANDS]
 * New commands to manage the visibility of tool in the toolbar: [hmRep_SET TOOL VISIBLE](Areas/hmRep_SetToolVisible.md) and [hmRep_Get Tool Visible](Areas/hmRep_GetToolVisible.md)
 * New commands to add columns and rows to a rectangle object: [hmRep_SET RECT COLUMNS](Objects/hmRep_SetRectColumns.md) and [hmRep_SET RECT ROWS](Objects/hmRep_SetRectRows.md). This feature is also available through the contextual menu of the editor
 * New object property to set the kerning of the text
-* New you can put 4D code directly into static text between the tags <nodoku><% and %></nodoku>
+* New you can put 4D code directly into static text between the tags <% and %>
 * New report property to display an icon, if the text is overlowing the bounds
 
 ##  Version 5.2 (June 28th, 2017)
 
 * New internal script-command *_SET ANCHOR* to create a table of contents very easily.
-* New Undo-commands for creating undo-actions by programming language: [[hmRep_START UNDO RECORDING]], [[hmRep_Validate Undo Recording]] and [[hmRep_CANCEL UNDO RECORDING]]
+* New Undo-commands for creating undo-actions by programming language: [hmRep_START UNDO RECORDING], [hmRep_Validate Undo Recording] and [hmRep_CANCEL UNDO RECORDING]
 
 ## Version 5.1 (April 13th, 2017)
 
-* New Undo commands: [[hmRep_SET UNDO TYPE STATE]] and [[hmRep_Get Undo Type State]]
+* New Undo commands: [hmRep_SET UNDO TYPE STATE] and [hmRep_Get Undo Type State]
 * New object properties for getting the section of objects in the preview
 * New object property to set a custom text for NULL field values
 
 ## Version 5.0 (January 11th, 2017)
 
-* New commands from copy and paste entire pages: [[hmRep_GET PAGE]] and [[hmRep_SET PAGE]]
-* New command [[hmRep_Get Last Event]]
+* New commands from copy and paste entire pages: [hmRep_GET PAGE](Pages/hmRep_GetPage.md) and [hmRep_SET PAGE](Pages/hmRep_SetPage.md)
+* New command [hmRep_Get Last Event](Areas/hmRep_GetLastEvent.md)
 * Justified alignment is now supported for text objects
 * It is now possible to use the main execution context in sub report containers. A new option in the *object properties*-dialog is available as well as in the programming language:
 
@@ -73,7 +73,7 @@
 
 * New picture formats under Windows: WMP and DDS
 * New object properties for setting the visibility of the drag handles (hmRep_oprop_DragLeftTop, hmRep_oprop_DragTop, hmRep_oprop_DragRightTop, hmRep_oprop_DragRight, hmRep_oprop_DragRightBottom, hmRep_oprop_DragBottom, hmRep_oprop_DragLeftBottom, hmRep_oprop_DragLeft)
-* New command [[hmRep_Get Section Count]]
+* New command [hmRep_Get Section Count](Sections/hmRep_GetSectionCount.md)
 * New section option for page footers: hmRep_svisible_NotOnLastPage
 * New options to set the origin of a layer and their objects
 * Rewritten intelligent undo/redo functionality:
@@ -88,9 +88,9 @@
         * [[hmRep_SET AREA PROPERTY]] selector *hmRep_prop_SVGrootFolder*
         * [[hmRep_SET PRINT OPTION]] selector *hmRep_destination_option*
     * Win: Complete rewriting of the rendering engine: hmReports 5 uses Direct2D and DirectWrite
-    * Win: Export of the picture format *emf* is not available anymore ([[hmRep_Report To Picture]], [[hmRep_RENDER TO PICTURE]]). To output vector pictures, you should use SVG instead.
+    * Win: Export of the picture format *emf* is not available anymore ([hmRep_Report To Picture](Reports/hmRep_RenderToPicture.md), [hmRep_RENDER TO PICTURE]](Reports/hmRep_RenderToPicture.md). To output vector pictures, you should use SVG instead.
     * Printing over 4D is currently not possible (v15); this affects **Print form** and **OPEN PRINTING JOB**
-    * Removing the command [[hmRep_SAVE UNDO]]
+    * Removing the command [hmRep_SAVE UNDO]
 
 ## Version 4.2 (June 15th, 2016)
 
@@ -107,9 +107,9 @@
     * [[hmRep_BLOB TO VSTRUCTURE]]
 
 == Version 4.0 (November 26th, 2015)==
-* New commands to set/get automatic relations in hmReports globally: [[hmRep_SET AUTOMATIC RELATIONS]] and [[hmRep_GET AUTOMATIC RELATIONS]]
+* New commands to set/get automatic relations in hmReports globally: [hmRep_SET AUTOMATIC RELATIONS](Areas/hmRep_SetAutomaticRelations.md) and [hmRep_GET AUTOMATIC RELATIONS](Areas/hmRep_GetAutomaticRelations.md)
 * New command to get the total count of rendered pages: [[hmRep_Enumerate Pages]]. There is also a variable available in the script editor
-* It is now possible to set/get a clipping area for each layer: [[hmRep_SET LAYER CLIP]], [[hmRep_GET LAYER CLIP]]
+* It is now possible to set/get a clipping area for each layer: [hmRep_SET LAYER CLIP](Layers/hmRep_SetLayerClip.md), [hmRep_GET LAYER CLIP](Layers/hmRep_GetLayerClip.md)
 * New properties of a layer to lock a layer horizontally and vertically: *hmRep_lprop_H_Scrollable*, *hmRep_lprop_V_Scrollable*
 * It is now possible to order a layer. New layer property *hmRep_lprop_Z_Order*.
 * New event *hmRep_OnScriptEditor* to handle the new script editor.
@@ -131,14 +131,14 @@
     * [[hmRep_Create VStructure Group]]
 * A hmReports area can now use a global virtual structure. You can activate this mechanism by calling the area property *hmRep_prop_UseVStructure*.
 * New command [[hmRep_GET VSTRUCTURE ARRAYS]] for getting all information about virtual structure items in one command
-* New commands for getting and setting the native print header: [[hmRep_Get Native Print Header]] and [[hmRep_SET NATIVE PRINT HEADER]]
-* New command for getting information about the import process [[hmRep_GET IMPORT PROTOCOLL]]
+* New commands for getting and setting the native print header: [hmRep_Get Native Print Header](Printing/hmRep_GetNativePrintHeader.md) and [hmRep_SET NATIVE PRINT HEADER](Printing/hmRep_SetNativePrintHeader.md)
+* New command for getting information about the import process [hmRep_GET IMPORT PROTOCOLL](Reports/hmRep_GetImportProtocoll.md)
 * hmReports now remembers the size and positions of each dialog in the current session. There are commands for setting and getting the positions of each window: [[hmRep_GET DIALOG RECT]] and [[hmRep_SET DIALOG RECT]]
 * New events for handling dialogs: *hmRep_OnOpenDialog* and *hmRep_OnCloseDialog*
 * New command [[hmRep_Get String Width]]
-* New command for changing the current cursor [[hmRep_SET CURSOR]]
-* New command for limiting mouse movements: [[hmRep_SET MOUSE LIMITS]]
-* New command for fast removing of objects: [[hmRep_DELETE OBJECTS]]
+* New command for changing the current cursor [hmRep_SET CURSOR](Areas/hmRep_SetCursor.md)
+* New command for limiting mouse movements: [hmRep_SET MOUSE LIMITS](Areas/hmRep_SetMouseLimits.md)
+* New command for fast removing of objects: [hmRep_DELETE OBJECTS](Objects/hmRep_DeleteObjects.md)
 
 ## Version 3.3 (June 4th, 2015)
 
@@ -148,7 +148,7 @@
 
 ## Version 3.2 (July 7th, 2014)
 
-* New options in [[hmRep_SET AREA PROPERTY]]
+* New options in [hmRep_SET AREA PROPERTY](Areas/hmRep_SetAreaProperty.md)
 * New 4D commands available in scripts
 * Bugfixing
 
@@ -172,8 +172,8 @@
 ## Version 3.0 (October 17th, 2013)
 
 * New script editor, script executer and script debugger
-* New command topic [[About Scripting|Scripting]]
-* New command [[hmRep_Render To HTML]]
+* New command topic: Scripting
+* New command [hmRep_Render To HTML](Reports/hmRep_RenderToHTML.md)
 * Each object has now an "On After" and "On After Render"-Script
 * Internal PDF rendering engine for creating PDF's on Windows (without additional software or printer driver)
 * New options available in [[hmRep_SET PRINT OPTION]]
