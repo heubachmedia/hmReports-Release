@@ -1,5 +1,5 @@
 ## hmRep_Get Property Object ( Area ; scopeID ; id) → propertyObject
-###### Introduced in v1.1, Preemptive: yes
+###### Introduced in v19, Preemptive: yes
 
 |Parameter|Type|In/Out|Description
 |---|---|:---:|---
@@ -10,7 +10,7 @@
 
 ### Description
 The command *hmRep_Get Property Object* returns a custom property object variable from the area, the report or a layer. You define the scope with the parameter *scope*.
-If the scope does not exists, the result *propertyObject* is *null*. If the object is not null you can use the object to put your private properties in it.
+If the scope object (area, report, page, object, layer) does not exists, the result *propertyObject* is *null*. If the object is not null you can use the object to put your private properties in it.
 
 You can use the following constants for scopes:
 
