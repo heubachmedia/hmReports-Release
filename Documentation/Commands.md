@@ -272,6 +272,38 @@ Plugin functions which starting with the prefix "hmX" are going directly on the 
 * [hmX_GET 4D CODE STYLE]
 * [hmX_Count 4D Code Styles]
 
+## Styled text
+### Overview
+hmReports does support styled text for text objects. You can edit rich text in the object properties, if you enable the *Multi Style* property:
+
+![MultiStyle](Pictures/MultiStyle.png)
+
+### Runs
+Runs are definitions from which position to which position of the text runs a style. If text positions have no run, the default text style is used (defined by [hmRep_SET OBJECT PROPERTY](Objects/hmRep_SetObjectProperty.md)).
+
+Runs should not overlap other runs; this may have unwanted results.
+
+You can create runs with the command [[hmRep_CREATE STYLED TEXT RUN]]. With the commands [[hmRep_Count Runs]] and [[hmRep_GET STYLED TEXT RUN]] you can loop through existing commands of an object.
+
+With [[hmRep_DELETE ALL RUNS]] you can delete all existing runs of an object.
+
+### 4D Styled Text Tags
+4D internally uses styled tags to save styled text into text fields and variables. A styled text looks in 4D like:
+
+```4d
+<SPAN STYLE="font-family:'Arial';font-size:10pt;text-align:left;font-weight:normal;font-style:normal;text-decoration:none;color:#000000">This is
+```
+Every *SPAN STYLE* is a run in hmReports. You can use the command [[hmRep_SET STYLED TEXT]] to set this 4D styled text into hmReports. hmReports automatically convert the string into runs and extract the raw text.
+
+### Multistyle in Variables, Fields and Arrays
+
+If you use a text field, text variable or text array as a reference, you can turn on the *Multi Style* flag, if you want hmReports interpret the content as rich text:
+
+![MultiStyle Fields](Pictures/MultiStyleFields.png)
+
+### Commands
+* [hmRep_CREATE STYLED TEXT RUN ( Area ; objectID ; from ; to ; fontname ; fontsize ; fontstyle ; red ; green ; blue ; alpha ; back-red ; back-green ; back-blue ; back-alpha)](StyledText/hmRep_CreateStyledTextRun.md)
+
 ---
 
 ## Appendix
