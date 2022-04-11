@@ -6,6 +6,7 @@
 * Scripts: Better Support of Objects and Collections
 * New command to get all areas: [hmRep_Get Areas](Areas/hmRep_GetAreas.md)
 * New command: [hmRep_SET VARIABLE OBJECT](Scripting/hmRep_SetVariableObject.md)
+* New command to handle custom properties: [hmRep_Get Property Object ( Area ; scopeID ; id) → propertyObject](CustomProperties/hmRep_GetPropertyObject.md)
 
 ## Version 18.0 (January, 2020)
 
