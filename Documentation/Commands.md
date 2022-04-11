@@ -283,9 +283,9 @@ Runs are definitions from which position to which position of the text runs a st
 
 Runs should not overlap other runs; this may have unwanted results.
 
-You can create runs with the command [[hmRep_CREATE STYLED TEXT RUN]]. With the commands [[hmRep_Count Runs]] and [[hmRep_GET STYLED TEXT RUN]] you can loop through existing commands of an object.
+You can create runs with the command [hmRep_CREATE STYLED TEXT RUN](StyledText/hmRep_CreateStyledTextRun.md). With the commands [hmRep_Count Runs](StyledText/hmRep_CountRuns.md) and [hmRep_GET STYLED TEXT RUN](StyledText/hmRep_GetStyledTextRun.md) you can loop through existing commands of an object.
 
-With [[hmRep_DELETE ALL RUNS]] you can delete all existing runs of an object.
+With [hmRep_DELETE ALL RUNS](StyledText/hmRep_DeleteAllRuns.md) you can delete all existing runs of an object.
 
 ### 4D Styled Text Tags
 4D internally uses styled tags to save styled text into text fields and variables. A styled text looks in 4D like:
@@ -293,7 +293,7 @@ With [[hmRep_DELETE ALL RUNS]] you can delete all existing runs of an object.
 ```4d
 <SPAN STYLE="font-family:'Arial';font-size:10pt;text-align:left;font-weight:normal;font-style:normal;text-decoration:none;color:#000000">This is
 ```
-Every *SPAN STYLE* is a run in hmReports. You can use the command [[hmRep_SET STYLED TEXT]] to set this 4D styled text into hmReports. hmReports automatically convert the string into runs and extract the raw text.
+Every *SPAN STYLE* is a run in hmReports. You can use the command [hmRep_SET STYLED TEXT](StyledText/hmRep_SetStyledText.md) to set this 4D styled text into hmReports. hmReports automatically convert the string into runs and extract the raw text.
 
 ### Multistyle in Variables, Fields and Arrays
 
@@ -303,6 +303,11 @@ If you use a text field, text variable or text array as a reference, you can tur
 
 ### Commands
 * [hmRep_CREATE STYLED TEXT RUN ( Area ; objectID ; from ; to ; fontname ; fontsize ; fontstyle ; red ; green ; blue ; alpha ; back-red ; back-green ; back-blue ; back-alpha)](StyledText/hmRep_CreateStyledTextRun.md)
+* [hmRep_GET STYLED TEXT RUN ( Area ; objectID ; number ; from ; to ; fontname ; fontsize ; fontstyle ; red ; green ; blue ; alpha ; back-red ; back-green ; back-blue ; back-alpha)](StyledText/hmRep_GetStyledTextRun.md)
+* [hmRep_SET STYLED TEXT ( Area ; objectID ; styledtext)](StyledText/hmRep_SetStyledText.md)
+* [hmRep_Get Styled Text ( Area ; objectID) → styledtext](StyledText/hmRep_GetStyledText.md)
+* [hmRep_Count Runs ( Area ; objectID) → count](StyledText/hmRep_CountRuns.md)
+* [hmRep_DELETE ALL RUNS ( Area ; objectID)](StyledText/hmRep_DeleteAllRuns.md)
 
 ---
 
