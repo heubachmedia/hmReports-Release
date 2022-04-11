@@ -13,5 +13,3 @@
 The command *hmRep_Get Property By Name* returns a custom property from an object, the area, the report or a layer with the property name defined by the parameter *name*. You define the scope with the parameter *scope*. If the property with the name does not exists, an empty string will be returned.
 
 For a list with all possible scopes see chapter [hmRep_SET PROPERTY BY NAME](hmRep_SetPropertyByName.md).
-
-### Example

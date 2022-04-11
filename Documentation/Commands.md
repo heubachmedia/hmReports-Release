@@ -326,6 +326,7 @@ Custom properties are stored in the hmReports XML file, except the custom proper
 * [hmRep_Get Property By Name ( Area ; scopeID ; id ; name) → value](CustomProperties/hmRep_GetPropertyByName.md)
 * [hmRep_GET PROPERTY BY INDEX ( Area ; scopeID ; id ; index ; name ; value)](CustomProperties/hmRep_GetPropertyByIndex.md)
 * [hmRep_Has Property ( Area ; scopeID ; id ; name) → exist](CustomProperties/hmRep_HasProperty.md)
+* [hmRep_Get Property Object ( Area ; scopeID ; id) → propertyObject](CustomProperties/hmRep_GetPropertyObject.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
 
 ### Search for custom properties
 * [hmRep_SEARCH PROP BY NAME ( Area ; scopeID ; name ; searchstring ; arrayIDs)](CustomProperties/hmRep_SearchPropByName.md)
