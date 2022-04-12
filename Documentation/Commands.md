@@ -312,31 +312,27 @@ If you use a text field, text variable or text array as a reference, you can tur
 ## Custom Properties
 ### Overview
 Custom properties are a powerful tool for adding custom data to an object, layer, report or area. You may need custom properties for adding your own reference-scheme.
-
-Custom properties are referenced in hmReports only by name. That means, that you must give each property a name for access. The property name is Case-sensitive, that means that the name "myProp" is not the same as "myprop". The value you can set is also always text. Text can be up to 2GB of text.
-
-Later you can access custom properties by name or by index. The convenient way is to use always the name. But in some cases, if you don't know how many and which properties are stored, you can access each property by index -> [hmRep_Get Property By Index](CustomProperties/hmRep_GetPropertyByIndex.md). First you must enumerate all available properties of an object with [hmRep_Count Properties](CustomProperties/hmRep_CountProperties.md). Then you can loop through from 1 to count with the command [hmRep_Get Property By Index](CustomProperties/hmRep_GetPropertyByIndex.md) to receive name and value.
-
-Custom properties are stored in the hmReports XML file, except the custom properties of the hmReports-area.
+Use the command [hmRep_Get Property Object](CustomProperties/hmRep_GetPropertyObject.md) to get the language-object of a report object, page, layer, report or area.
+With this object you can store any data (blobs, entities, entitySelections, collections...). However, keep in mind, that the object-property is saved with the report, except the properties of the hmReports-area! Database objects (entities, entitySelections) in the property will not be saved in the report!
 
 ### Creating custom properties
-* [hmRep_SET PROPERTY BY NAME ( Area ; scopeID ; id ; name ; value)](CustomProperties/hmRep_SetPropertyByName.md)
+* [hmRep_SET PROPERTY BY NAME ( Area ; scopeID ; id ; name ; value)](CustomProperties/hmRep_SetPropertyByName.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 
 ### Getting information custom properties
-* [hmRep_Get Property By Name ( Area ; scopeID ; id ; name) → value](CustomProperties/hmRep_GetPropertyByName.md)
-* [hmRep_GET PROPERTY BY INDEX ( Area ; scopeID ; id ; index ; name ; value)](CustomProperties/hmRep_GetPropertyByIndex.md)
-* [hmRep_Has Property ( Area ; scopeID ; id ; name) → exist](CustomProperties/hmRep_HasProperty.md)
+* [hmRep_Get Property By Name ( Area ; scopeID ; id ; name) → value](CustomProperties/hmRep_GetPropertyByName.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
+* [hmRep_GET PROPERTY BY INDEX ( Area ; scopeID ; id ; index ; name ; value)](CustomProperties/hmRep_GetPropertyByIndex.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
+* [hmRep_Has Property ( Area ; scopeID ; id ; name) → exist](CustomProperties/hmRep_HasProperty.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 * [hmRep_Get Property Object ( Area ; scopeID ; id) → propertyObject](CustomProperties/hmRep_GetPropertyObject.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
 
 ### Search for custom properties
-* [hmRep_SEARCH PROP BY NAME ( Area ; scopeID ; name ; searchstring ; arrayIDs)](CustomProperties/hmRep_SearchPropByName.md)
+* [hmRep_SEARCH PROP BY NAME ( Area ; scopeID ; name ; searchstring ; arrayIDs)](CustomProperties/hmRep_SearchPropByName.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 
 ### Enumerating custom properties
-* [hmRep_Count Properties ( Area ; scopeID ; id) → value](CustomProperties/hmRep_CountProperties.md)
+* [hmRep_Count Properties ( Area ; scopeID ; id) → value](CustomProperties/hmRep_CountProperties.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 
 ### Deleting custom properties
-* [hmRep_DELETE PROPERTY ( Area ; scopeID ; id ; name)](CustomProperties/hmRep_DeleteProperty.md)
-* [hmRep_DELETE PROPERTIES ( Area ; scopeID ; id)](CustomProperties/hmRep_DeleteProperties.md)
+* [hmRep_DELETE PROPERTY ( Area ; scopeID ; id ; name)](CustomProperties/hmRep_DeleteProperty.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
+* [hmRep_DELETE PROPERTIES ( Area ; scopeID ; id)](CustomProperties/hmRep_DeleteProperties.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 
 ---
 

@@ -1,6 +1,8 @@
 ## hmRep_SET PROPERTY BY NAME ( Area ; scopeID ; id ; name ; value)
 ###### Introduced in v2.0, Preemptive: yes
 
+<span style="color:gray;font-family:monospace">This command is deprecated in v19. It will be removed in future versions. Please use [hmRep_Get Property Object](hmRep_GetPropertyObject.md) instead.</span>
+
 |Parameter|Type|In/Out|Description
 |---|---|:---:|---
 |Area|Longint|→|hmReports area
