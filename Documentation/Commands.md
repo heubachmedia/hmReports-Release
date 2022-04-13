@@ -487,4 +487,5 @@ Do identify own menu items, you can use actions between 15000 and 32000. All oth
 * [Colors](Appendix/Colors.md)
 * [Import Types](Appendix/ImportTypes.md)
 * [Dialog types](Appendix/DialogTypes.md)
+* [Menu Actions](Menus/MenuActions.md)
 * [Error Codes](Appendix/ErrorCodes.md)
