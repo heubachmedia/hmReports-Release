@@ -470,7 +470,7 @@ hmReports supports unlimited Undo and Redo. By default hmReports only saves the 
 If a new report is opened, hmReports automatically starts an undo session. But if you want to clear the undo stack, you can start a new session by calling the command [hmRep_START UNDO](Undo/hmRep_StartUndo.md).
 
 ### Undo actions
-You can activate and deactivate several undo action with the command [hmRep_SET UNDO TYPE STATE](Undo/hmRep_SetUndoTypeState.md). Some actions are deactivated by default because of performance reasons. By default, only interface actions are activated.
+You can activate and deactivate several undo actions with the command [hmRep_SET UNDO TYPE STATE](Undo/hmRep_SetUndoTypeState.md). Some actions are deactivated by default because of performance reasons. By default, only interface actions are activated.
 
 The following undo actions are available:
 
@@ -531,4 +531,5 @@ Can be created with [hmRep_START UNDO RECORDING](Undo/hmRep_StartUndoRecording.m
 * [Import Types](Appendix/ImportTypes.md)
 * [Dialog types](Appendix/DialogTypes.md)
 * [Menu Actions](Menus/MenuActions.md)
+* [List of Supported 4D Commands](Appendix/SupportedCommands.md)
 * [Error Codes](Appendix/ErrorCodes.md)
