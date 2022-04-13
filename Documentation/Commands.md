@@ -379,6 +379,90 @@ But if you want to create and use a global structure for all areas, you have to 
 * [hmRep_VStructure To Blob ( Area ) → Blob](VirtualStructure/hmRep_VStructureToBlob.md)
 * [hmRep_BLOB TO VSTRUCTURE ( Area ; Blob)](VirtualStructure/hmRep_BlobToVStructure.md)
 
+## Menus
+### Overview
+hmReports offers the developer to customize all menus with the command set. You are able to create, edit and delete items in the menu bar or in the contextual menu.
+Internally all menu components, including the menu bar, are menu items. Each item has an unique reference. The reference is a blackbox and is created by hmReports. With a new area the menu items references starts with *1*. A reference of *-1* is the contextual menu. It is no menu item itself. You can only refer to it.
+
+### Shortcuts
+If the menubar is invisible in the hmReports area, all shortcuts still work. If you do not want, that shortcuts are still active, you have to catch the key events with the Callback event *hmRep_OnKey*.
+
+### The menubar in hmReports
+![menu bar](Pictures/Menubar.png)
+
+The menubar contains several standard items. To get a list of all menu bar items you have to call [hmRep_GET MENU ITEM LIST](Menus/hmRep_GetMenuItemList.md):
+
+```4d
+ARRAY LONGINT($tl_items;0)
+hmRep_GET MENU ITEM LIST(hmRep;0;$tl_items)
+```
+
+In this case you will get an array with 6 elements: {1,2,3,4,5,6}
+Now you can delete an item out of the menubar with:
+
+```4d
+hmRep_DELETE MENU ITEM(hmRep;6)
+```
+
+To get all menu items under the *File* menu, you have to call [hmRep_GET MENU ITEM LIST](Menus/hmRep_GetMenuItemList.md) with the item ID:
+
+```4d
+ARRAY LONGINT($tl_items;0)
+hmRep_GET MENU ITEM LIST(hmRep;1;$tl_items)
+```
+
+In this case you will get an array with 12 elements: (7,8,9,10,11,12,13,14,15,16,17,18) because you have 12 menu items under this menu item:
+![File Menu](Pictures/FileMenu.png)
+
+For explanation:
+7 = New report (Position 1)
+8 = Open... (Position 2)
+9 = Save (Position 3)
+10 = Save as (Position 4)
+11 = Save as SVG (Position 5) 
+12 = Close (Position 6)
+13 = Separator (Position 7)
+14 = General settings (Position 8)
+15 = Report settings (Position 9)
+16 = Separator (Position 10)
+17 = Page settings... (Position 11)
+18 = Print... (Position 12)
+
+*Important: You should handle the ID's as a blackbox. The order and the count of the menus items may differ in future versions. You should always use [hmRep_GET MENU ITEM BY ACTION](Menus/hmRep_GetMenuItemByAction.md) to change a standard menu or you should create a completely new menu.*
+
+### The menu item in hmReports
+Standard menu items contains several information about an item: Item text, enable or disable, action, shortcut, reference, superior reference. You can customize all information except the references.
+To customize a menu item you have to use the command [hmRep_SET MENU ITEM](Menus/hmRep_SetMenuItem.md).
+
+If you set an action to a command, some properties are set automatically. For example, if you create a menu item with the standard action #5 (delete), the item will be only active, if more than one object is selected. If you disable the item with [hmRep_SET MENU ITEM](Menus/hmRep_SetMenuItem.md), the menu item will be always disabled.
+Or if you set the action #57 (layer menu), the menu item will always have a submenu with all layers.
+
+### Own actions
+Do identify own menu items, you can use actions between 15000 and 32000. All other actions are reserved for hmReports!
+
+### Creating menu items
+* [hmRep_Insert Menu Item ( Area ; menu ; position) → result](Menus/hmRep_InsertMenuItem.md)
+
+### Deleting menu items
+* [hmRep_DELETE MENU ITEM ( Area ; reference)](Menus/hmRep_DeleteMenuItem.md)
+
+### Getting menu item lists
+* [hmRep_GET MENU LIST ( Area ; array)](Menus/hmRep_GetMenuList.md)
+* [hmRep_GET MENU ITEM LIST ( Area ; menu ; array)](Menus/hmRep_GetMenuItemList.md)
+* [hmRep_GET MENU ITEM BY ACTION ( Area ; action ; array)](Menus/hmRep_GetMenuItemByAction.md)
+
+### Getting and setting information about menu items
+* [hmRep_SET MENU ITEM ( Area ; reference ; text ; action ; enable ; supitem)](Menus/hmRep_SetMenuItem.md)
+* [hmRep_GET MENU ITEM ( Area ; reference ; text ; action ; enable ; supitem)](Menus/hmRep_GetMenuItem.md)
+* [hmRep_SET MENU ITEM SHORTCUT ( Area ; reference ; shortcut)](Menus/hmRep_SetMenuItemShortcut.md)
+* [hmRep_GET MENU ITEM SHORTCUT ( Area ; reference ; shortcut)](Menus/hmRep_GetMenuItemShortcut.md)
+* [hmRep_SET MENU ITEM CHECKMARK ( Area ; reference ; onOff)](Menus/hmRep_SetMenuItemCheckmark.md)
+* [hmRep_Get Menu Item Checkmark ( Area ; reference) → onOff](Menus/hmRep_GetMenuItemCheckmark.md)
+
+### Executing menu actions
+* [hmRep_EXECUTE COMMAND ( Area ; action)](Menus/hmRep_ExecuteCommand.md)
+* [hmRep_Get Subcommand ( Area ) → action](Menus/hmRep_GetSubcommand.md)
+
 ---
 
 ## Appendix
