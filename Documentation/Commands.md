@@ -334,6 +334,51 @@ With this object you can store any data (blobs, entities, entitySelections, coll
 * [hmRep_DELETE PROPERTY ( Area ; scopeID ; id ; name)](CustomProperties/hmRep_DeleteProperty.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 * [hmRep_DELETE PROPERTIES ( Area ; scopeID ; id)](CustomProperties/hmRep_DeleteProperties.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 
+## Virtual Structure
+### Overview
+Virtual Structure is a powerful feature of hmReports to change database and variable names into a better readable name for the user. A Virtual Structure can be defined for the entire area (default) with all it's reports or can be defined globally. The Virtual Structure is not saved in the Report XML Definition.
+
+The Virtual Structure is important, if you want the change table, field and variable names for the user in the object property window.
+
+To create a Virtual Structure Item, you can use one of the *hmRep_Create VStructure...* commands to create a custom name.
+If the caption of a Virtual Structure Item, with the type of a 4D Table or 4D Field, is empty, the Table/Field is not selectable/visible in the Object Properties.
+
+Since hmReports 2.3 it is possible to group elements like this:
+
+![VirtualStructureGroup](Pictures/VirtualStructureGroup.png)
+
+For more information, see chapter [hmRep_Create VStructure Group](VirtualStructure/hmRep_CreateVStructureGroup.md).
+
+### Virtual Structure scope
+Since hmReports 4.0 it is possible to define a global virtual structure. Just pass in all virtual structure commands a value of *0* as area parameter (e. g. [hmRep_Create VStructure Table](VirtualStructure/hmRep_CreateVStructureTable.md)(0;...)).
+By default, each hmReports area uses it's own virtual structure. So there will no intersections of virtual structures between hmReports areas.
+But if you want to create and use a global structure for all areas, you have to activate this with the area property *hmRep_prop_UseVStructure*.
+
+### Creating Virtual Structure Items
+* [hmRep_Create VStructure Table ( Area ; tableNo ; caption) → ID](VirtualStructure/hmRep_CreateVStructureTable.md)
+* [hmRep_Create VStructure Field ( Area ; tableNo ; fieldNo ; caption) → ID](VirtualStructure/hmRep_CreateVStructureField.md)
+* [hmRep_Create VStructure Var ( Area ; variable ; caption) → ID](VirtualStructure/hmRep_CreateVStructureVar.md)
+* [hmRep_Create VStructure Meth ( Area ; methodname ; caption) → ID](VirtualStructure/hmRep_CreateVStructureMeth.md)
+* [hmRep_Create VStructure Group ( Area ; Name) → ID](VirtualStructure/hmRep_CreateVStructureGroup.md)
+
+### Enumerating Virtual Structure Items
+* [hmRep_GET VSTRUCTURE LIST ( Area ; ArrayID)](VirtualStructure/hmRep_GetVStructureList.md)
+* [hmRep_GET VSTRUCTURE ARRAYS ( Area ; type ; inList ; arrayID ; arrayType ; arrayVariable ; arrayCaption ; arrayDescription ; arrayGroupID ; arrayTableNo ; arrayFieldNo)](VirtualStructure/hmRep_GetVStructureArrays.md)
+
+### Deleting Virtual Structure Items
+* [hmRep_DELETE VSTRUCTURE ( Area ; ID)](VirtualStructure/hmRep_DeleteVStructure.md)
+
+### Getting/setting properties of Virtual Structure Items
+* [hmRep_SET VSTRUCTURE PROPERTY ( Area ; id ; selector ; valueLong ; valueText)](VirtualStructure/hmRep_SetVStructureProperty.md)
+* [hmRep_GET VSTRUCTURE PROPERTY ( Area ; id  ;selector ; valueLong ; valueText)](VirtualStructure/hmRep_GetVStructureProperty.md)
+
+### Searching Virtual Structure Items
+* [hmRep_Search VStructure ( Area ; type ; tableNo  ;fieldNo  ;variable ; caption) → ID](VirtualStructure/hmRep_SearchVStructure.md)
+
+### Save/restore Virtual Structure
+* [hmRep_VStructure To Blob ( Area ) → Blob](VirtualStructure/hmRep_VStructureToBlob.md)
+* [hmRep_BLOB TO VSTRUCTURE ( Area ; Blob)](VirtualStructure/hmRep_BlobToVStructure.md)
+
 ---
 
 ## Appendix
@@ -353,6 +398,8 @@ With this object you can store any data (blobs, entities, entitySelections, coll
 * [Section Types](Appendix/SectionTypes.md)
 * [Section Break Types](Appendix/SectionBreakTypes.md)
 * [Section Visible Types](Appendix/SectionVisibleTypes.md)
+* [Virtual Structure Properties](Appendix/VirtualStructureProperties.md)
+* [Virtual Structure Item Types.md](Appendix/VirtualStructureItemTypes.md)
 * [Colors](Appendix/Colors.md)
 * [Import Types](Appendix/ImportTypes.md)
 * [Dialog types](Appendix/DialogTypes.md)

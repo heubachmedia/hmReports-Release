@@ -104,8 +104,8 @@
 ## Version 4.1 (April 14th, 2016)
 
 * New commands for saving and restoring the entire virtual structure:
-    * [[hmRep_VStructure To Blob]]
-    * [[hmRep_BLOB TO VSTRUCTURE]]
+    * [hmRep_VStructure To Blob](VirtualStructure/hmRep_VStructureToBlob.md)
+    * [hmRep_BLOB TO VSTRUCTURE](VirtualStructure/hmRep_BlobToVStructure.md)
 
 ## Version 4.0 (November 26th, 2015)
 
@@ -121,21 +121,21 @@
 * **Important:** These commands now accept a *0* as area-parameter. If you pass *0* as area, the command applies changes to the global virtual structure
     * [[hmRep_TOKENIZE]]
     * [[hmRep_Detokenize]]
-    * [[hmRep_Search VStructure]]
-    * [[hmRep_GET VSTRUCTURE PROPERTY]]
-    * [[hmRep_SET VSTRUCTURE PROPERTY]]
-    * [[hmRep_GET VSTRUCTURE LIST]]
-    * [[hmRep_DELETE VSTRUCTURE]]
-    * [[hmRep_Create VStructure Meth]]
-    * [[hmRep_Create VStructure Table]]
-    * [[hmRep_Create VStructure Field]]
-    * [[hmRep_Create VStructure Var]]
-    * [[hmRep_Create VStructure Group]]
+    * [hmRep_Search VStructure](VirtualStructure/hmRep_SearchVStructure.md)
+    * [hmRep_GET VSTRUCTURE PROPERTY](VirtualStructure/hmRep_GetVStructureProperty.md)
+    * [hmRep_SET VSTRUCTURE PROPERTY](VirtualStructure/hmRep_SetVStructureProperty.md)
+    * [hmRep_GET VSTRUCTURE LIST](VirtualStructure/hmRep_GetVStructureList.md)
+    * [hmRep_DELETE VSTRUCTURE](VirtualStructure/hmRep_DeleteVStructure.md)
+    * [hmRep_Create VStructure Meth](VirtualStructure/hmRep_CreateVStructureMeth.md)
+    * [hmRep_Create VStructure Table](VirtualStructure/hmRep_CreateVStructureTable.md)
+    * [hmRep_Create VStructure Field](VirtualStructure/hmRep_CreateVStructureField.md)
+    * [hmRep_Create VStructure Var](VirtualStructure/hmRep_CreateVStructureVar.md)
+    * [hmRep_Create VStructure Group](VirtualStructure/hmRep_CreateVStructureGroup.md)
 * A hmReports area can now use a global virtual structure. You can activate this mechanism by calling the area property *hmRep_prop_UseVStructure*.
 * New command [[hmRep_GET VSTRUCTURE ARRAYS]] for getting all information about virtual structure items in one command
 * New commands for getting and setting the native print header: [hmRep_Get Native Print Header](Printing/hmRep_GetNativePrintHeader.md) and [hmRep_SET NATIVE PRINT HEADER](Printing/hmRep_SetNativePrintHeader.md)
 * New command for getting information about the import process [hmRep_GET IMPORT PROTOCOLL](Reports/hmRep_GetImportProtocoll.md)
-* hmReports now remembers the size and positions of each dialog in the current session. There are commands for setting and getting the positions of each window: [[hmRep_GET DIALOG RECT]] and [[hmRep_SET DIALOG RECT]]
+* hmReports now remembers the size and positions of each dialog in the current session. There are commands for setting and getting the positions of each window: [hmRep_GET DIALOG RECT](Reports/hmRep_GetDialogRect.md) and [hmRep_SET DIALOG RECT](Reports/hmRep_SetDialogRect.md)
 * New events for handling dialogs: *hmRep_OnOpenDialog* and *hmRep_OnCloseDialog*
 * New command [hmRep_Get String Width]
 * New command for changing the current cursor [hmRep_SET CURSOR](Areas/hmRep_SetCursor.md)
@@ -293,7 +293,7 @@
 * New commands [hmRep_SET EVENT STATE](Areas/hmRep_SetEventState.md) and [hmRep_Get Event State](Areas/hmRep_GetEventState.md) for activate/deactivate the event calls in the callback method
 * **Important: All events are now deactivated by default. If you want to use some events in the callback, you must explict activate it with the command [hmRep_SET EVENT STATE](Areas/hmRep_SetEventState.md)**
 * New command [[hmRep_GET MEMORY INFO]] for getting memory info about hmReports
-* Introducing [[About Custom Properties|Custom properties]]
+* Introducing Custom properties
 * New commands to setting and getting print options: [hmRep_SET PRINT OPTION](Printing/hmRep_SetPrintOption.md), [hmRep_GET PRINT OPTION](Printing/hmRep_GetPrintOption.md)
 * It's now possible to make paths smooth
 * New Callback events are available
