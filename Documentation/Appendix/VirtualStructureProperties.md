@@ -7,6 +7,7 @@ Possible types:
 * 2=Field
 * 3=Variable
 * 4=Group
+* 5=Method
 
 ### hmRep_vprop_TableNo (2)
 The parameter *valueLong* gets/sets the table number of an item.

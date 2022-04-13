@@ -399,7 +399,7 @@ But if you want to create and use a global structure for all areas, you have to 
 * [Section Break Types](Appendix/SectionBreakTypes.md)
 * [Section Visible Types](Appendix/SectionVisibleTypes.md)
 * [Virtual Structure Properties](Appendix/VirtualStructureProperties.md)
-* [Virtual Structure Item Types.md](Appendix/VirtualStructureItemTypes.md)
+* [Virtual Structure Item Types](Appendix/VirtualStructureItemTypes.md)
 * [Colors](Appendix/Colors.md)
 * [Import Types](Appendix/ImportTypes.md)
 * [Dialog types](Appendix/DialogTypes.md)
