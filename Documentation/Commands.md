@@ -463,6 +463,49 @@ Do identify own menu items, you can use actions between 15000 and 32000. All oth
 * [hmRep_EXECUTE COMMAND ( Area ; action)](Menus/hmRep_ExecuteCommand.md)
 * [hmRep_Get Subcommand ( Area ) → action](Menus/hmRep_GetSubcommand.md)
 
+## Undo
+hmReports supports unlimited Undo and Redo. By default hmReports only saves the last 10 user actions to the stack. If the stack is full, the first record will be deleted, so there is space for the last action. You can change the maximum number of Undos with [hmRep_SET AREA  PROPERTY](Areas/hmRep_SetAreaProperty.md) and the selector *hmRep_prop_MaxUndos*. If you pass *0* as maximum, hmReports will record unlimited undos.
+
+### Undo workflow
+If a new report is opened, hmReports automatically starts an undo session. But if you want to clear the undo stack, you can start a new session by calling the command [hmRep_START UNDO](Undo/hmRep_StartUndo.md).
+
+### Undo actions
+You can activate and deactivate several undo action with the command [hmRep_SET UNDO TYPE STATE](Undo/hmRep_SetUndoTypeState.md). Some actions are deactivated by default because of performance reasons. By default, only interface actions are activated.
+
+The following undo actions are available:
+
+#### hmRep_Undo_Move (1)
+Default: For interface: activated, for programming: deactivated
+Moving one or more objects
+
+#### hmRep_Undo_Resize (2)
+Default: For interface: activated, for programming: deactivated
+Resizing one or more objects
+
+#### hmRep_Undo_Delete (3)
+Default: For interface: activated, for programming: deactivated
+Delete one or more objects
+
+#### hmRep_Undo_New (4)
+Default: For interface: activated, for programming: deactivated
+Create one or more objects
+
+#### hmRep_Undo_Change_Picture (5)
+Default: For interface: deactivated, for programming: deactivated
+Change the picture of a picture object with the command [hmRep_SET PICTURE](Objects/hmRep_SetPicture.md)
+
+#### hmRep_Undo_Edit (6)
+Default: For interface: activated, for programming: activated
+Can be created with [hmRep_START UNDO RECORDING](Undo/hmRep_StartUndoRecording.md) and [hmRep_Validate Undo Recording](Undo/hmRep_ValidateUndoRecording.md)
+
+### Commands
+* [hmRep_START UNDO ( Area )](Undo/hmRep_StartUndo.md)
+* [hmRep_SET UNDO TYPE STATE ( Area ; type ; State)](Undo/hmRep_SetUndoTypeState.md)
+* [hmRep_Get Undo Type State ( Area ; type) → State](Undo/hmRep_GetUndoTypeState.md)
+* [hmRep_START UNDO RECORDING ( Area )](Undo/hmRep_StartUndoRecording.md)
+* [hmRep_Validate Undo Recording( Area ) → Count Objects](Undo/hmRep_ValidateUndoRecording.md)
+* [hmRep_CANCEL UNDO RECORDING ( Area )](Undo/hmRep_CancelUndoRecording.md)
+
 ---
 
 ## Appendix
