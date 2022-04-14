@@ -1,6 +1,6 @@
 # Command overview
 
-## Areas
+## [Areas](#areas)
 ### Plugin Main Commands
 * [hmRep_Register (Serial number) → Error code](Areas/hmRep_Register.md)
 * [hmRep_Get Version -> Version](Areas/hmRep_GetVersion.md)
@@ -47,7 +47,7 @@
 * [hmRep_Get Tool Tip Text (Area ; Tool) → Tiptext](Areas/hmRep_GetToolTipText.md)
 * [hmRep_Get Barcode List → Barcodes](Areas/hmRep_GetBarcodeList.md)
 
-## Reports
+## [Reports](#reports)
 ### Managing Reports
 * [hmRep_Create Report (Area ; Width ; Height ; Name) → Report UUID](Reports/hmRep_CreateReport.md)
 * [hmRep_DELETE REPORT (Area ; report UUID)](Reports/hmRep_DeleteReport.md)
@@ -81,7 +81,7 @@
 * [hmRep_Render To Blob ( Area ; Charset ; Options ; FieldDelim ; RecordDelim) → Result](Reports/hmRep_RenderToBlob.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 * [hmRep_GET IMPORT PROTOCOLL ( Area ; Protocoll)](Reports/hmRep_GetImportProtocoll.md)
 
-## Pages
+## [Pages](#pages)
 ### Overview
 A report can have multiple pages. Each page can printed as it is or each page can printed as a report. So every page can be an independent report with its own iterations and sections. So it is possible to have a static page as a first page, followed by a report.
 
@@ -113,7 +113,7 @@ Each page have a continuous number from the first page to the last page. Also, h
 ### Deleting pages
 * [hmRep_DELETE PAGE ( Area ; pageNo)](Pages/hmRep_DeletePage.md)
 
-## Layers
+## [Layers](#layers)
 
 ### Creating layers
 * [hmRep_Create Layer ( Area ; layername) → ID](Layers/hmRep_CreateLayer.md)
@@ -137,7 +137,7 @@ Each page have a continuous number from the first page to the last page. Also, h
 ### Deleting layers
 * [hmRep_DELETE LAYER ( Area ; ID)](Layers/hmRep_DeleteLayer.md)
 
-## Guides
+## [Guides](#guides)
 * [hmRep_Create Guide ( Area ; horizontal ; position ; page) → number](Guides/hmRep_CreateGuide.md)
 * [hmRep_Count Guides ( Area ) → guides](Guides/hmRep_CountGuides.md)
 * [hmRep_DELETE GUIDE ( Area ; Number)](Guides/hmRep_DeleteGuide.md)
@@ -146,7 +146,7 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [hmRep_SET GUIDE PROPERTY ( Area ; Number ; Selector ; valueLong ; valueText)](Guides/hmRep_SetGuideProperty.md)
 * [hmRep_GET GUIDE PROPERTY ( Area ; Number ; Selector ; valueLong ; valueText)](Guides/hmRep_GetGuideProperty.md)
 
-## Printing
+## [Printing](#printing)
 * [hmRep_Print ( Area ; Options) -> result](Printing/hmRep_Print.md)
 * [hmRep_Page Setup ( Area ; Dialogs) → result](Printing/hmRep_PageSetup.md)
 * [hmRep_Print settings to BLOB ( Area ) → print header](Printing/hmRep_PrintsettingsToBlob.md)
@@ -160,7 +160,7 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [hmRep_OPEN PRINTING JOB ( Area ; Options)](Printing/hmRep_OpenPrintJob.md)
 * [hmRep_CLOSE PRINTING JOB ( Area )](Printing/hmRep_ClosePrintJob.md)
 
-## Sections
+## [Sections](#sections)
 ### Getting information about sections
 * [hmRep_GET SECTIONS ( Area ; SectionTypes ; SectionHeights ; SectionCount)](Sections/hmRep_GetSections.md)
 * [hmRep_GET SECTION ITERATION ( Area ; Section ; Type ; valueLong ; valueText)](Sections/hmRep_GetSectionIteration.md)
@@ -179,7 +179,7 @@ Each page have a continuous number from the first page to the last page. Also, h
 ### Order sections
 * [hmRep_ORDER SECTIONS ( Area ; sectionTypes ; sectionCount)](Sections/hmRep_OrderSections.md)
 
-## Objects
+## [Objects](#objects)
 ### Creating Objects
 * [hmRep_Create Rectangle ( Area ; left ; top ; right ; bottom) → object ID](Objects/hmRep_CreateRectangle.md)
 * [hmRep_Create Round Rectangle ( Area ; left ; top ; right ; bottom ; rounding) → object ID](Objects/hmRep_CreateRoundRectangle.md)
@@ -272,7 +272,7 @@ Plugin functions which starting with the prefix "hmX" are going directly on the 
 * [hmX_GET 4D CODE STYLE]
 * [hmX_Count 4D Code Styles]
 
-## Styled text
+## [Styled text](#styled-text)
 ### Overview
 hmReports does support styled text for text objects. You can edit rich text in the object properties, if you enable the *Multi Style* property:
 
@@ -334,7 +334,7 @@ With this object you can store any data (blobs, entities, entitySelections, coll
 * [hmRep_DELETE PROPERTY ( Area ; scopeID ; id ; name)](CustomProperties/hmRep_DeleteProperty.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 * [hmRep_DELETE PROPERTIES ( Area ; scopeID ; id)](CustomProperties/hmRep_DeleteProperties.md)<span style="color:gray;font-family:monospace">&nbsp;&nbsp;Deprecated in v19</span>
 
-## Virtual Structure
+## [Virtual Structure](#virtual-structure)
 ### Overview
 Virtual Structure is a powerful feature of hmReports to change database and variable names into a better readable name for the user. A Virtual Structure can be defined for the entire area (default) with all it's reports or can be defined globally. The Virtual Structure is not saved in the Report XML Definition.
 
@@ -379,7 +379,7 @@ But if you want to create and use a global structure for all areas, you have to 
 * [hmRep_VStructure To Blob ( Area ) → Blob](VirtualStructure/hmRep_VStructureToBlob.md)
 * [hmRep_BLOB TO VSTRUCTURE ( Area ; Blob)](VirtualStructure/hmRep_BlobToVStructure.md)
 
-## Menus
+## [Menus](#menus)
 ### Overview
 hmReports offers the developer to customize all menus with the command set. You are able to create, edit and delete items in the menu bar or in the contextual menu.
 Internally all menu components, including the menu bar, are menu items. Each item has an unique reference. The reference is a blackbox and is created by hmReports. With a new area the menu items references starts with *1*. A reference of *-1* is the contextual menu. It is no menu item itself. You can only refer to it.
@@ -543,6 +543,7 @@ $vl_ruler:=hmRep_Create Rulerunit(reparea; "my Inch"; 72; 0.2; 1)
 ```
 
 Result:
+
 ![ruler unit sample](Pictures/RulerUnitSample.png)
 
 ### Creating ruler units
@@ -559,6 +560,13 @@ Result:
 
 ### Enumeration of ruler units
 * hmRep_Count Rulerunits ( Area ) → Count](RulerUnits/hmRep_CountRulerunits.md)
+
+## [PDF Tools](#pdf-tools)
+
+* [hmRep_Create Report With PDF ( Area ; path) → report UUID](PDFTools/hmRep_CreateReportWithPDF.md)
+* [hmRep_Print Over PDF ( Area ; path) → error code](PDFTools/hmRep_PrintOverPDF.md)
+* [hmRep_PDF Split (path) → Pages](PDFTools/hmRep_PDFSplit.md)
+* [hmRep_Combine PDF (source1 ; source2 ; target) → Result](PDFTools/hmRep_CombinePDF.md)
 
 ---
 
