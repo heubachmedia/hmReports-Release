@@ -463,7 +463,7 @@ Do identify own menu items, you can use actions between 15000 and 32000. All oth
 * [hmRep_EXECUTE COMMAND ( Area ; action)](Menus/hmRep_ExecuteCommand.md)
 * [hmRep_Get Subcommand ( Area ) → action](Menus/hmRep_GetSubcommand.md)
 
-## Undo
+## [Undo](#undo)
 hmReports supports unlimited Undo and Redo. By default hmReports only saves the last 10 user actions to the stack. If the stack is full, the first record will be deleted, so there is space for the last action. You can change the maximum number of Undos with [hmRep_SET AREA  PROPERTY](Areas/hmRep_SetAreaProperty.md) and the selector *hmRep_prop_MaxUndos*. If you pass *0* as maximum, hmReports will record unlimited undos.
 
 ### Undo workflow
@@ -505,6 +505,60 @@ Can be created with [hmRep_START UNDO RECORDING](Undo/hmRep_StartUndoRecording.m
 * [hmRep_START UNDO RECORDING ( Area )](Undo/hmRep_StartUndoRecording.md)
 * [hmRep_Validate Undo Recording( Area ) → Count Objects](Undo/hmRep_ValidateUndoRecording.md)
 * [hmRep_CANCEL UNDO RECORDING ( Area )](Undo/hmRep_CancelUndoRecording.md)
+
+## [Ruler Units](#ruler-units)
+Ruler units are measure definitions of a ruler of a report. Internally all sizes are stored in pixels. Custom units are good for displaying better readable measurements for the user. E. g. , it is better for some users to display all sizes in inch as in pixels. A ruler unit is only an overlay for the user. If you define a ruler unit, all sizes will be still stored in pixel units internally.
+
+hmReports ruler units are defined in the area. That means, that all units and custom units (created with [hmRep_Create Rulerunit](RulerUnits/hmRep_CreateRulerunit.md)) are available for all open reports in the hmReports area.
+hmReports initalize three standard ruler units: pixel, inch and millimeter.
+
+A ruler unit does not have an id, **it's an index** of a table starting from 1 to [hmRep_Count Rulerunits](RulerUnits/hmRep_CountRulerunits.md). Think about it, if you create and delete units!
+The last ruler unit cannot be deleted.
+
+A ruler unit record is defined as follows:
+
+* Name: The name of the ruler unit. This name is shown as the ruler unit name for the user.
+* Pixel mapping: This value defines, how many pixels are one ruler unit. E. g. 1 inch is predefined as 72 pixels (on Mac and Windows).
+* Short steps: This value defines, in which steps the ruler shows a small separator.
+* Long steps: This value defines, in which steps the ruler shows a long separator.
+
+### Standard definitions
+If a hmReports area is opened, three ruler units are created automatically with the following properties:
+
+* 1: Pixel, mapping = 1, short step = 10, long step = 100
+* 2: Inch, mapping = 72, short step = 0.5, long step = 1
+* 3: mm, mapping = 72/25.4 (=2.8346), short step = 10, long step = 100
+
+### Example of a ruler unit definition
+The following example shows, how you can create a new custom ruler unit (my Inch).
+
+*Pixel mapping is 72: 72 pixels are 1 inch
+*Short steps is 0.2: draw a small separator each 0.2 inch
+*Long steps is 1: draw a big separator each full inch
+
+```4d
+var $vl_ruler : Integer
+
+$vl_ruler:=hmRep_Create Rulerunit(reparea; "my Inch"; 72; 0.2; 1)
+```
+
+Result:
+![ruler unit sample](Pictures/RulerUnitSample.png)
+
+### Creating ruler units
+* [hmRep_Create Rulerunit ( Area ; name ; pixelmapping ; shortsteps ; longsteps) → number](RulerUnits/hmRep_CreateRulerunit.md)
+
+### Deleting ruler units
+* [hmRep_DELETE RULERUNIT ( Area ; number)](RulerUnits/hmRep_DeleteRulerunit.md)
+
+### Getting ruler unit information
+* [hmRep_GET RULERUNIT ( Area ; number ; name ; pixelmapping ; shortsteps ; longsteps)](RulerUnits/hmRep_GetRulerunit.md)
+
+### Setting ruler unit information
+* [hmRep_SET RULERUNIT ( Area ; number ; name ; pixelmapping ; shortsteps ; longsteps)](RulerUnits/hmRep_SetRulerunit.md)
+
+### Enumeration of ruler units
+* hmRep_Count Rulerunits ( Area ) → Count](RulerUnits/hmRep_CountRulerunits.md)
 
 ---
 
