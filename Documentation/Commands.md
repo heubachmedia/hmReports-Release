@@ -600,26 +600,26 @@ hmReports has an integrated executer. This executer can be used independently fr
 ### Execute Code in Text
 * [hmX_Process Tags (Context ; Text) → Error](Executer/hmX_ProcessTags.md)
 
-===Managing methods in context===
+### Managing methods in context
 * [hmX_ADD METHOD TO CONTEXT (Context ; Method name ; Content)](Executer/hmX_AddMethodToContext.md)
 * [hmX_DELETE METHOD IN CONTEXT (Context ; Method name)](Executer/hmX_DeleteMethodToContext.md)
 * [hmX_GET METHOD (Context ; Method name ; Content)](Executer/hmX_GetMethod.md)
 
-===Managing virtual structure===
+### Managing virtual structure
 * [hmX_ACTIVATE VSTRUCTURE (Context ; onOff)](Executer/hmX_ActivateVStructure.md)
 * [hmX_Create VStructure Table (Context ; tableNo ; Caption) → Error](Executer/hmX_CreateVStructureTable.md)
 * [hmX_Create VStructure Field (Context ; tableNo ; fieldNo ; Caption) → Error](Executer/hmX_CreateVStructureField.md)
 * [hmX_Create VStructure Meth (Context ; Method name ; Caption) → Error](Executer/hmX_CreateVStructureMeth.md)
 
-===Scripts syntax coloring===
+### Scripts syntax coloring
 * [hmX_SET 4D CODE STYLE (Type ; Color ; Style)](Executer/hmX_Set4DCodeStyle.md)
 * [hmX_GET 4D CODE STYLE (Type ; Color ; Style)](Executer/hmX_Get4DCodeStyle.md)
 * [hmX_Count 4D Code Styles → Count](Executer/hmX_Count4DCodeStyles.md)
 
-===Error handling===
+### Error handling
 * [hmX_GET LAST ERROR (Context ; error ; line ; errortext ; errormethod)](Executer/hmX_GetLastError.md)
 
-===4D commands===
+### 4D commands
 * [hmX_GET AVAILABLE COMMANDS (CommandNumbers)](Executer/hmX_GetAvailableCommands.md)
 * [hmX_SET ALLOWED COMMANDS (Context ; CommandNumbers ; Option)](Executer/hmX_SetAllowedCommands.md)
 * [hmX_GET ALLOWED COMMANDS (Context ; CommandNumbers)](Executer/hmX_GetAllowedCommands.md)
