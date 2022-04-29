@@ -561,6 +561,69 @@ Result:
 ### Enumeration of ruler units
 * hmRep_Count Rulerunits ( Area ) → Count](RulerUnits/hmRep_CountRulerunits.md)
 
+## Executer
+hmReports has an integrated executer. This executer can be used independently from a reports  Area . It's a sandbox concept where you can put any variable you want into an execution context. It does not intersects the variable name space of 4D. More information can be found in the chapter [Script Execution](../Tutorial/ScriptExecution.md).
+
+### Managing execution contexts
+* [hmX_Create Execution Context → Context](Executer/hmX_CreateExecutionContext.md)
+* [hmX_DELETE EXECUTION CONTEXT (Context)](Executer/hmX_DeleteExecutionContext.md)
+* [hmX_GET CONTEXT LIST (Contexts ; Thread_IDs)](Executer/hmX_GetContextList.md)
+
+### Managing variable stack
+* [hmX_SET VARIABLE (context ; varname ; vartype ; valuetext ; valuenum ; valuedate)](Executer/hmX_SetVariable.md)
+* [hmX_SET VARIABLE OBJECT ( Context ; Name ; Object)](Executer/hmX_SetVariableObject.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
+* [hmX_SET VARIABLE COLLECTION (Context ; Name ; Collection)](Executer/hmX_SetVariableCollection.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
+* [hmX_SET ARRAY (Context ; varname ; array)](Executer/hmX_SetArray.md)
+* [hmX_GET ARRAY (Context ; varname ; array)](Executer/hmX_GetArray.md)
+* [hmX_GET ARRAY BY INDEX (Context ; stack_id ; typelocalglobal ; index ; array)](Executer/hmX_GetArrayByIndex.md)
+* [hmX_GET ARRAY ELEMENT (Context ; varname ; index ; textvalue ; realvalue ; datevalue)](Executer/hmX_GetArrayElement.md)
+* [hmX_Count Variables (Context ; stack_id ; typelocalglobal) → Count](Executer/hmX_CountVariables.md)
+* [hmX_GET VARIABLE BY INDEX (Context ; stack_id ; typelocalglobal ; index ; varkind ; varname ; realvalue ; datevalue ; textvalue)](Executer/hmX_GetVariableByIndex.md)
+* [hmX_GET POINTER BY INDEX (Context ; stack_id ; typelocalglobal ; index ; varname ; typeLocGlobRes ; pointToStack ; table ; field)](Executer/hmX_GetVariableByIndex.md)
+* [hmX_GET BLOB BY INDEX (Context ; stack_id ; typelocalglobal ; index ; blob)](Executer/hmX_GetBlobByIndex.md)
+* [hmX_GET PICTURE BY INDEX (Context ; stack_id ; typelocalglobal ; index ; picture)](Executer/hmX_GetPictureByIndex.md)
+* [hmX_Get Variables ( Context ; Stack_id ; Typelocalglobal ; Copy) → List](Executer/hmX_GetVariables.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
+* [hmX_Delete Variable (Context ; Stack_id ; Typelocalglobal ; Name) -> Error](Executer/hmX_DeleteVariable.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
+
+### Tokenize/detokenize methods
+* [hmX_TOKENIZE (Method text ; Script)](Executer/hmX_Tokenize.md)
+* [hmX_TOKENIZE IN CONTEXT (Context ; Method text ; Script)](Executer/hmX_TokenizeInContext.md)
+* [hmX_Detokenize (Script) → Method Text](Executer/hmX_Detokenize.md)
+* [hmX_Detokenize In Context (Context ; Script) → Method Text](Executer/hmX_DetokenizeInContext.md)
+* [hmX_DETOKENIZE TO ARRAYS (Script ; arrayType ; arrayNum ; arrayText ; arrayDate)](Executer/hmX_DetokenizeToArrays.md)
+* [hmX_DETOKENIZE CTX TO ARRAYS (Context ; Method ; arrayType ; arrayNum ; arrayText ; arrayDate)](Executer/hmX_DetokenizeCtxToArrays.md)
+
+### Executing scripts
+* [hmX_Execute (Method ; Error ; Line) → Error](Executer/hmX_Execute.md)
+* [hmX_Execute Method In Context (Context ; Methodname ; Line) → Next line](Executer/hmX_ExecuteMethodInContext.md)
+
+### Execute Code in Text
+* [hmX_Process Tags (Context ; Text) → Error](Executer/hmX_ProcessTags.md)
+
+===Managing methods in context===
+* [hmX_ADD METHOD TO CONTEXT (Context ; Method name ; Content)](Executer/hmX_AddMethodToContext.md)
+* [hmX_DELETE METHOD IN CONTEXT (Context ; Method name)](Executer/hmX_DeleteMethodToContext.md)
+* [hmX_GET METHOD (Context ; Method name ; Content)](Executer/hmX_GetMethod.md)
+
+===Managing virtual structure===
+* [hmX_ACTIVATE VSTRUCTURE (Context ; onOff)](Executer/hmX_ActivateVStructure.md)
+* [hmX_Create VStructure Table (Context ; tableNo ; Caption) → Error](Executer/hmX_CreateVStructureTable.md)
+* [hmX_Create VStructure Field (Context ; tableNo ; fieldNo ; Caption) → Error](Executer/hmX_CreateVStructureField.md)
+* [hmX_Create VStructure Meth (Context ; Method name ; Caption) → Error](Executer/hmX_CreateVStructureMeth.md)
+
+===Scripts syntax coloring===
+* [hmX_SET 4D CODE STYLE (Type ; Color ; Style)](Executer/hmX_Set4DCodeStyle.md)
+* [hmX_GET 4D CODE STYLE (Type ; Color ; Style)](Executer/hmX_Get4DCodeStyle.md)
+* [hmX_Count 4D Code Styles → Count](Executer/hmX_Count4DCodeStyles.md)
+
+===Error handling===
+* [hmX_GET LAST ERROR (Context ; error ; line ; errortext ; errormethod)](Executer/hmX_GetLastError.md)
+
+===4D commands===
+* [hmX_GET AVAILABLE COMMANDS (CommandNumbers)](Executer/hmX_GetAvailableCommands.md)
+* [hmX_SET ALLOWED COMMANDS (Context ; CommandNumbers ; Option)](Executer/hmX_SetAllowedCommands.md)
+* [hmX_GET ALLOWED COMMANDS (Context ; CommandNumbers)](Executer/hmX_GetAllowedCommands.md)
+
 ## [PDF Tools](#pdf-tools)
 
 * [hmRep_Create Report With PDF ( Area ; path) → report UUID](PDFTools/hmRep_CreateReportWithPDF.md)

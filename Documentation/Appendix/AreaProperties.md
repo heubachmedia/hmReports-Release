@@ -135,3 +135,6 @@ Set the parameter *ValueLong* to *1* to activate a page change in the page list 
  
 ### hmRep_prop_InfiniteSections (41)
 Set the parameter *ValueLong* to *1* to activate a mode to set sections heights in design mode to infinite. Normally the height of all sections is limited to the height of the current page. If you design a page with more sections, it can be necessary to have bigger section heights in sum as the current page height.
+
+### hmRep_prop_WindowRef (42)
+The parameter *ValueLong* sets the window reference for the area. The reference can only be set on Windows and for an offscreen area! This is important, if you want to use Printing Dialogs on Windows with offscreen areas!
