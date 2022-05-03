@@ -1250,7 +1250,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_ACTIVATE VSCTRUCTURE(&L;&L)",
+                "syntax":"hmX_ACTIVATE VSTRUCTURE(&L;&L)",
                 "threadSafe": true
                 },
                 {
@@ -1619,49 +1619,48 @@
                 "theme":"hmReports Reports",
                 "syntax":"hmRep_Set Report Attribute(&L;&J):J",
                 "threadSafe": true
-                }
-                ,
+                },
                 {
                 "theme":"hmReports Utilities",
                 "syntax":"hmRep_Get System DPI:L",
                 "threadSafe": true
-                }
-                ,
+                },
                 {
                 "theme":"hmReports Utilities",
                 "syntax":"hmRep_SET SYSTEM DPI(&L)",
                 "threadSafe": false
-                }
-                ,
+                },
                 {
                 "theme":"hmReports Scripting",
                 "syntax":"hmX_SET VARIABLE COLLECTION(&L;&T;&C)",
                 "threadSafe": true
-                }
-                ,
+                },
                 {
                 "theme":"hmReports Areas",
                 "syntax":"hmRep_Get Areas:C",
                 "threadSafe": true
-                }
-                ,
+                },
                 {
                 "theme":"hmReports Areas",
                 "syntax":"hmRep_Get Property Object(&L;&L;&L):J",
                 "threadSafe": true
-                }
-                ,
+                },
                 {
                 "theme":"hmReports Scripting",
                 "syntax":"hmX_Delete Variable(&L;&L;&L;&T):L",
                 "threadSafe": true
-                }
-                ,
+                },
                 {
                 "theme":"hmReports Utilities",
                 "syntax":"hmRep_ENCRYPT PDF(&T;&T;&T)",
                 "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Report To Object(&L):J",
+                "threadSafe": true
                 }
-                ]
+                
+            ]
 
 }

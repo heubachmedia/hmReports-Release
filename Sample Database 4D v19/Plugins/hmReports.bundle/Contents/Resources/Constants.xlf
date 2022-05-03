@@ -401,6 +401,7 @@
         <trans-unit d4:value="39"><source>hmRep_prop_ExecutionContext</source></trans-unit>
         <trans-unit d4:value="40"><source>hmRep_prop_PagelistSwitchClick</source></trans-unit>
         <trans-unit d4:value="41"><source>hmRep_prop_InfiniteSections</source></trans-unit>
+        <trans-unit d4:value="42"><source>hmRep_prop_WindowRef</source></trans-unit>
 
     </group>
         
