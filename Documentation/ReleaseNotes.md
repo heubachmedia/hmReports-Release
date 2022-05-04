@@ -9,7 +9,7 @@
 * New command: [hmX_SET VARIABLE OBJECT](Executer/hmX_SetVariableObject.md)
 * New command: [hmX_SET VARIABLE COLLECTION](Executer/hmX_SetVariableCollection.md)
 * New command: [hmX_Delete Variable](Executer/hmX_DeleteVariable.md)
-* New command: [hmX_Get Variables](Executer/hmX_GetVariables.md)]
+* New command: [hmX_Get Variables](Executer/hmX_GetVariables.md)
 * New command to handle custom properties: [hmRep_Get Property Object](CustomProperties/hmRep_GetPropertyObject.md)
 
 ## Version 18.0 (January, 2020)
@@ -123,8 +123,8 @@
 * New color attribute to set the color of object bounds: *hmRep_clr_ObjectBounds*
 * The virtual structure can now defined globally for the current 4D application
 * **Important:** These commands now accept a *0* as area-parameter. If you pass *0* as area, the command applies changes to the global virtual structure
-    * [[hmRep_TOKENIZE]]
-    * [[hmRep_Detokenize]]
+    * [hmRep_TOKENIZE](Scripting/hmRep_Tokenize.md)
+    * [hmRep_Detokenize](Scripting/hmRep_Detokenize.md)
     * [hmRep_Search VStructure](VirtualStructure/hmRep_SearchVStructure.md)
     * [hmRep_GET VSTRUCTURE PROPERTY](VirtualStructure/hmRep_GetVStructureProperty.md)
     * [hmRep_SET VSTRUCTURE PROPERTY](VirtualStructure/hmRep_SetVStructureProperty.md)
@@ -136,12 +136,12 @@
     * [hmRep_Create VStructure Var](VirtualStructure/hmRep_CreateVStructureVar.md)
     * [hmRep_Create VStructure Group](VirtualStructure/hmRep_CreateVStructureGroup.md)
 * A hmReports area can now use a global virtual structure. You can activate this mechanism by calling the area property *hmRep_prop_UseVStructure*.
-* New command [[hmRep_GET VSTRUCTURE ARRAYS]] for getting all information about virtual structure items in one command
+* New command [hmRep_GET VSTRUCTURE ARRAYS](VirtualStructure/hmRep_GetVStructureArrays.md) for getting all information about virtual structure items in one command
 * New commands for getting and setting the native print header: [hmRep_Get Native Print Header](Printing/hmRep_GetNativePrintHeader.md) and [hmRep_SET NATIVE PRINT HEADER](Printing/hmRep_SetNativePrintHeader.md)
 * New command for getting information about the import process [hmRep_GET IMPORT PROTOCOLL](Reports/hmRep_GetImportProtocoll.md)
 * hmReports now remembers the size and positions of each dialog in the current session. There are commands for setting and getting the positions of each window: [hmRep_GET DIALOG RECT](Reports/hmRep_GetDialogRect.md) and [hmRep_SET DIALOG RECT](Reports/hmRep_SetDialogRect.md)
 * New events for handling dialogs: *hmRep_OnOpenDialog* and *hmRep_OnCloseDialog*
-* New command [hmRep_Get String Width]
+* New command [hmRep_Get String Width](Utilities/hmRep_GetStringWidth.md)
 * New command for changing the current cursor [hmRep_SET CURSOR](Areas/hmRep_SetCursor.md)
 * New command for limiting mouse movements: [hmRep_SET MOUSE LIMITS](Areas/hmRep_SetMouseLimits.md)
 * New command for fast removing of objects: [hmRep_DELETE OBJECTS](Objects/hmRep_DeleteObjects.md)
@@ -163,16 +163,16 @@
 * It is now possible to rotate groups which have rotated objects
 * It is now possible to rotate subreport objects
 * New commands of the (independent) executer:
-    * [[hmX_SET ARRAY]]
-    * [[hmX_GET ARRAY]]
-    * [[hmX_GET BLOB BY INDEX]]
-    * [[hmX_GET ARRAY BY INDEX]]
-    * [[hmX_GET ARRAY ELEMENT]]
-    * [[hmX_DETOKENIZE TO ARRAYS]]
-    * [[hmX_DETOKENIZE CTX TO ARRAYS]]
+    * [hmX_SET ARRAY](Executer/hmX_SetArray.md)
+    * [hmX_GET ARRAY](Executer/hmX_GetArray.md)
+    * [hmX_GET BLOB BY INDEX](Executer/hmX_GetBlobByIndex.md)
+    * [hmX_GET ARRAY BY INDEX](Executer/hmX_GetArrayByIndex.md)
+    * [hmX_GET ARRAY ELEMENT](Executer/hmX_GetArrayElement.md)
+    * [hmX_DETOKENIZE TO ARRAYS](Executer/hmX_DetokenizeToArrays.md)
+    * [hmX_DETOKENIZE CTX TO ARRAYS](Executer/hmX_DetokenizeCtxToArrays.md)
 * Some new commands are now available in the Executer
 * Setting the best object size of a text object (Menu)
-* New command [[hmRep_Get Font Family Name]]
+* New command [hmRep_Get Font Family Name](Utilities/hmRep_GetFontFamilyName.md)
 * Bugfixing
 
 ## Version 3.0 (October 17th, 2013)
@@ -186,7 +186,7 @@
 * hmReports works now together with the 4D print session command "OPEN PRINTING JOB"
 * New command [hmRep_GET PAPER SIZE](Printing/hmRep_GetPaperSize.md)
 * New command [hmRep_GET SECTION BY POINT](Sections/hmRep_GetSectionByPoint.md)
-* New command [hmRep_Create VStructure Meth]
+* New command [hmRep_Create VStructure Meth](VirtualStructure/hmRep_CreateVStructureMeth.md)
 * New event *hmRep_OnDropAction*
 * Endmarks are now available for path and freehand objects
 * New object property: *hmRep_oprop_Resizeable*
@@ -205,7 +205,7 @@
 
 ## Version 2.3 (July 26th, 2012)
 
-* Now you can group virtual items (fields and variables). See [[hmRep_Create VStructure Group]].
+* Now you can group virtual items (fields and variables). See [hmRep_Create VStructure Group](VirtualStructure/hmRep_CreateVStructureGroup.md).
 * Support of line dashes for all object types (except groups): [hmRep_SET OBJECT LINEDASH](Objects/hmRep_SetObjectLineDash.md).
 * Support of vertical linespacing in text
 * Support of strike-through text
@@ -225,7 +225,7 @@
 * New ruler unit]-API for creating custom ruler units
 * New event: hmRep_OnBeforeDragNewObj
 * Creating straight lines while holding down the shift key
-* New command [hmRep_Get Resources Folder]
+* New command [hmRep_Get Resources Folder](Utilities/hmRep_GetResourcesFolder.md)
 * New command [hmRep_SET PATH](Objects/hmRep_SetPath.md)
 * Bugfixing
 
@@ -233,7 +233,7 @@
 
 * New command [hmRep_GET OBJECTS BY POINT](Objects/hmRep_GetObjectsByPoint.md)
 * New command [hmRep_ZOOM TO RECT](Reports/hmRep_ZoomToRect.md)
-* New [Events]
+* New [Events](Appendix/Events.md)
 * Improved SVG export (Arcs)
 * Improved behavior if the user clicks on a path
 * Better SuperReport Pro conversion/compatibility
@@ -255,7 +255,7 @@
 * Arrange objects horizontally and vertically
 * Support of line endmarks of line objects
 * 64 bit Plugin (for 4D v12 Server 64 bit on Windows)
-* New utility commands [hmRep_GET PICTURE TYPES], [hmRep_INDEX2RGB], [hmRep_RGB2Index]
+* New utility commands [hmRep_GET PICTURE TYPES](Utilities/hmRep_GetPictureTypes.md), [hmRep_INDEX2RGB](Utilities/hmRep_Index2RGB.md), [hmRep_RGB2Index](Utilities/hmRep_RGB2Index.md)
 * New Property Palette
 * Supported languages of the GUI: English, German, French, Spanish, Japanese
 * Better 4D Draw Import
