@@ -19,16 +19,16 @@
 ## Version 6.1 (October 26th, 2018)
 
 * New PDF tools:
-    * [hmRep_Create Report With PDF] creates a report based on the PDF measures
-    * [hmRep_Print Over PDF] prints a report over a PDF file
-    * [hmRep_PDF Split]] splits one PDF into one PDF file per page
-    * [hmRep_Combine PDF]] combines two PDF files into one
+    * [hmRep_Create Report With PDF](PDFTools/hmRep_CreateReportWithPDF.md) creates a report based on the PDF measures
+    * [hmRep_Print Over PDF](PDFTools/hmRep_PrintOverPDF.md) prints a report over a PDF file
+    * [hmRep_PDF Split](PDFTools/hmRep_PDFSplit.md) splits one PDF into one PDF file per page
+    * [hmRep_Combine PDF](PDFTools/hmRep_CombinePDF.md) combines two PDF files into one
 * The executer and hmReports offscreen areas are thread safe now.
-* The parameters of the commands [hmX_SET ALLOWED COMMANDS] and [hmX_GET ALLOWED COMMANDS] has changed
+* The parameters of the commands [hmX_SET ALLOWED COMMANDS](Executer/hmX_SetAllowedCommands.md) and [hmX_GET ALLOWED COMMANDS](Executer/hmX_GetAllowedCommands.md) has changed
 * New commands [hmRep_GET RECT COLUMNS](Objects/hmRep_GetRectColumns.md) and [hmRep_GET RECT ROWS](Objects/hmRep_GetRectRows.md)
-* New command [hmX_Execute] to execute a tokenized method
-* New command [hmX_GET CONTEXT LIST] for returning all contexts
-* The new command [hmRep_Get Current Thread ID] returns the current thread ID
+* New command [hmX_Execute](Executer/hmX_Execute.md) to execute a tokenized method
+* New command [hmX_GET CONTEXT LIST](Executer/hmX_GetContextList.md) for returning all contexts
+* The new command [hmRep_Get Current Thread ID](Utilities/hmRep_GetCurrentThreadID.md) returns the current thread ID
 * The current tips delay is now supported in hmReports
 
 ## Version 6.0 (July 24th, 2018)
@@ -59,11 +59,11 @@
 ##  Version 5.2 (June 28th, 2017)
 
 * New internal script-command *_SET ANCHOR* to create a table of contents very easily.
-* New Undo-commands for creating undo-actions by programming language: [hmRep_START UNDO RECORDING], [hmRep_Validate Undo Recording] and [hmRep_CANCEL UNDO RECORDING]
+* New Undo-commands for creating undo-actions by programming language: [hmRep_START UNDO RECORDING](Undo/hmRep_StartUndoRecording.md), [hmRep_Validate Undo Recording](Undo/hmRep_ValidateUndoRecording.md) and [hmRep_CANCEL UNDO RECORDING](Undo/hmRep_CancelUndoRecording.md)
 
 ## Version 5.1 (April 13th, 2017)
 
-* New Undo commands: [hmRep_SET UNDO TYPE STATE] and [hmRep_Get Undo Type State]
+* New Undo commands: [hmRep_SET UNDO TYPE STATE](Undo/hmRep_SetUndoTypeState.md) and [hmRep_Get Undo Type State](Undo/hmRep_GetUndoTypeState.md)
 * New object properties for getting the section of objects in the preview
 * New object property to set a custom text for NULL field values
 
@@ -89,13 +89,13 @@
     * In v4, rendering a subreport executes the start, body and end-script of the main report. This was wrong. Now you have to use the **report header/footer**-script of the subreport for executing code in the subreport context.
     * Mac: Availability in x64
     * Mac: path handling was changed to native posix format. This change effects following commands:
-        * [[hmRep_Get Resources Folder]].
+        * [hmRep_Get Resources Folder](Utilities/hmRep_GetResourcesFolder.md).
         * [hmRep_SET AREA PROPERTY](Areas/hmRep_SetAreaProperty.md) selector *hmRep_prop_SVGrootFolder*
         * [hmRep_SET PRINT OPTION](Printing/hmRep_SetPrintOption.md) selector *hmRep_destination_option*
     * Win: Complete rewriting of the rendering engine: hmReports 5 uses Direct2D and DirectWrite
     * Win: Export of the picture format *emf* is not available anymore ([hmRep_Report To Picture](Reports/hmRep_RenderToPicture.md), [hmRep_RENDER TO PICTURE](Reports/hmRep_RenderToPicture.md)). To output vector pictures, you should use SVG instead.
     * Printing over 4D is currently not possible (v15); this affects **Print form** and **OPEN PRINTING JOB**
-    * Removing the command [hmRep_SAVE UNDO]
+    * Removing the command *hmRep_SAVE UNDO*
 
 ## Version 4.2 (June 15th, 2016)
 
