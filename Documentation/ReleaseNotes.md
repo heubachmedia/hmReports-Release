@@ -277,7 +277,7 @@
 
 * New theme: *Menus* to fully customize the menus in hmReports
 * New command [hmRep_GET REPORT LIST](Areas/hmRep_GetReportList.md) to get a list of all reports of the area
-* New command [hmRep_SEARCH PROP BY NAME] for searching properties
+* New command [hmRep_SEARCH PROP BY NAME](CustomProperties/hmRep_SearchPropByName.md) for searching properties
 * It is now possible to show the object order (new menu item and property)
 * New property in [hmRep_SET REPORT PROPERTY](Reports/hmRep_SetReportProperty.md): *hmRep_rprop_ShowObjectOrder*
 * The current layer can now changed in the layerlist by doubleclick
