@@ -1,4 +1,4 @@
-## hmX_Delete Variable (Context ; Stack_id ; Typelocalglobal ; Name) -> Error
+## hmX_Delete Variable ( Context ; Stack_id ; Typelocalglobal ; Name) -> Error
 ###### Introduced in v19.0, Preemptive: yes
 
 |Parameter|Type|In/Out|Description
@@ -10,4 +10,4 @@
 |Error|Longint|←|Error code
 
 ### Description
-The command *hmX_Delete Variable* deletes a variable within it's execution context. 
+The command *hmX_Delete Variable* deletes a variable within its execution context. 
