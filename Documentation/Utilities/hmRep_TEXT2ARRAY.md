@@ -11,7 +11,7 @@
 |Fontstyle|Longint|→|The font style
 
 ### Description
-The command *** <self> *** converts text into a text array, based on the maximum display width and font information. First, you must define the text array before calling the plug-in command.
+The command *hmRep_TEXT2ARRAY* converts text into a text array, based on the maximum display width and font information. First, you must define the text array before calling the plug-in command.
 
 The array does not need to be cleared (set to 0 elements) before the call. Any existing information in the array will be lost.
 

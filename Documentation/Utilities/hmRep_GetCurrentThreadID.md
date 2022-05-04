@@ -6,7 +6,7 @@
 |Thread|ID|←|<- thread ID
 
 ### Description
-The command *** <self> *** returns the thread ID of the current thread.
+The command *hmRep_Get Current Thread ID* returns the thread ID of the current thread.
 
 ### Example
 The following example returns the current thread-ID:

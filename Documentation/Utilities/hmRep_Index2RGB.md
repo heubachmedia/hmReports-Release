@@ -9,7 +9,7 @@
 |Blue|Longint|←|blue RGB color
 
 ### Description
-The command *** <self> *** converts an index color of the 4D color-table into a RGB value. The command returns all three RGB colors. These values are needed then later among other commands in hmReports. The index color must indicate a value between 0 and 255.
+The command hmRep_INDEX2RGB converts an index color of the 4D color-table into a RGB value. The command returns all three RGB colors. These values are needed then later among other commands in hmReports. The index color must indicate a value between 0 and 255.
 
 ### Example
 The following example converts the color red of the 4D-color-table into a RGB expression:

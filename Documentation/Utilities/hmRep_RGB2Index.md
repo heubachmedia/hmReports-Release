@@ -9,7 +9,7 @@
 |Indexcolor|Longint|←|4D indexcolor
 
 ### Description
-The command *** <self> *** tries to find a 4D index color matching with the 16 bit RGB color values. The match must be the exact color. hmReports does not find the nearest index. The index color returned is a value between 0 and 255. If the indexed color cannot matched, a -1 is returned.
+The command hmRep_RGB2Index tries to find a 4D index color matching with the 16 bit RGB color values. The match must be the exact color. hmReports does not find the nearest index. The index color returned is a value between 0 and 255. If the indexed color cannot matched, a -1 is returned.
 
 ### Example
 The following example tries to find the 4D index color from the RGB value:

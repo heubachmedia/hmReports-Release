@@ -13,7 +13,7 @@
 |Descent|Real|←|the descent of the text
 
 ### Description
-The command *** <self> *** measures the text, based on the font information: fontname, fontsize and fontstyle.
+The command hmRep_GET TEXT MEASURES measures the text, based on the font information: fontname, fontsize and fontstyle.
 
 The following picture shows you the ascent, height and descent:
 

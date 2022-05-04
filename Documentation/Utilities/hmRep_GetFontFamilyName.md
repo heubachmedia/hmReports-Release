@@ -7,7 +7,7 @@
 |Font|Family|←|<- font family
 
 ### Description
-The command *** <self> *** returns the font family of the given font name defined by the parameter *font name*.
+The command *hmRep_Get Font Family Name* returns the font family of the given font name defined by the parameter *font name*.
 
 ### Example
 The following example returns the font family of the font name *Arial Bold*:

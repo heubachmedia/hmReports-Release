@@ -10,7 +10,7 @@
 |Width|Real|←|string width in pixels
 
 ### Description
-The command *** <self> *** returns the width of a string, defined by font, fontsize and fontstyle. You can use the predefinied constants of 4D in the parameter *Fontstyle*.
+The command hmRep_Get String Width returns the width of a string, defined by font, fontsize and fontstyle. You can use the predefinied constants of 4D in the parameter *Fontstyle*.
 
 ### Example
 The following example returns the string width of a text:

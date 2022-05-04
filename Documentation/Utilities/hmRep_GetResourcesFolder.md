@@ -6,7 +6,7 @@
 |Path|Longint|←|Path to the resource folder
 
 ### Description
-The command *** <self> *** returns the path to the resource folder of the Plugin (hmReports.bundle). This is useful only for debugging reasons if the path was not found or incorrect.
+The command *hmRep_Get Resources Folder* returns the path to the resource folder of the Plugin (hmReports.bundle). This is useful only for debugging reasons if the path was not found or incorrect.
 
 ### Example
 The following example returns the plugin's resource folder path:
