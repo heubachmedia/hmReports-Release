@@ -49,7 +49,7 @@
 ##  Version 5.3 (December 7th, 2017)
 
 * New DPI parameters in the commands [hmRep_RENDER TO PICTURE](Areas/hmRep_RenderToPicture.md) and [hmRep_Report To Picture](Reports/hmRep_ReportToPicture.md).
-* New commands to maintain allowed 4D commands in the script executer: [hmX_SET ALLOWED COMMANDS] and [hmX_GET ALLOWED COMMANDS]
+* New commands to maintain allowed 4D commands in the script executer: [hmX_SET ALLOWED COMMANDS](Executer/hmX_SetAllowedCommands.md) and [hmX_GET ALLOWED COMMANDS](hmX_GetAllowedCommands.md)
 * New commands to manage the visibility of tool in the toolbar: [hmRep_SET TOOL VISIBLE](Areas/hmRep_SetToolVisible.md) and [hmRep_Get Tool Visible](Areas/hmRep_GetToolVisible.md)
 * New commands to add columns and rows to a rectangle object: [hmRep_SET RECT COLUMNS](Objects/hmRep_SetRectColumns.md) and [hmRep_SET RECT ROWS](Objects/hmRep_SetRectRows.md). This feature is also available through the contextual menu of the editor
 * New object property to set the kerning of the text
@@ -296,7 +296,7 @@
 
 * New commands [hmRep_SET EVENT STATE](Areas/hmRep_SetEventState.md) and [hmRep_Get Event State](Areas/hmRep_GetEventState.md) for activate/deactivate the event calls in the callback method
 * **Important: All events are now deactivated by default. If you want to use some events in the callback, you must explict activate it with the command [hmRep_SET EVENT STATE](Areas/hmRep_SetEventState.md)**
-* New command [[hmRep_GET MEMORY INFO]] for getting memory info about hmReports
+* New command [hmRep_GET MEMORY INFO](Utilities/hmRep_GetMemoryInfo.md) for getting memory info about hmReports
 * Introducing Custom properties
 * New commands to setting and getting print options: [hmRep_SET PRINT OPTION](Printing/hmRep_SetPrintOption.md), [hmRep_GET PRINT OPTION](Printing/hmRep_GetPrintOption.md)
 * It's now possible to make paths smooth
