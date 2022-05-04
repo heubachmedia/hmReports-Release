@@ -33,18 +33,18 @@
 
 ## Version 6.0 (July 24th, 2018)
 
-* New parameters in the commands [[hmRep_CREATE STYLED TEXT RUN]] and [[hmRep_GET STYLED TEXT RUN]] to support background colors (macOS only)
+* New parameters in the commands [hmRep_CREATE STYLED TEXT RUN](Styledtext/hmRep_CreateStyledTextRun.md) and [hmRep_GET STYLED TEXT RUN](Styledtext/hmRep_GetStyledTextRun.md) to support background colors (macOS only)
 * New command for sorting layers: [hmRep_SORT LAYER](Layers/hmRep_SortLayer.md)
-* New commands for handling report-scripts: [[hmRep_CREATE METHOD]], [[hmRep_DELETE METHOD]], [[hmRep_GET METHOD LIST]], [[hmRep_SET METHOD]] and [[hmRep_Get Method]]
+* New commands for handling report-scripts: [hmRep_CREATE METHOD](Scripting/hmRep_CreateMethod.md), [hmRep_DELETE METHOD](Scripting/hmRep_DeleteMethod.md), [hmRep_GET METHOD LIST](Scripting/hmRep_GetMethodList.md), [hmRep_SET METHOD](Scripting/hmRep_SetMethod.md) and [hmRep_Get Method](Scripting/hmRep_GetMethod.md)
 * New object option *hmRep_oprop_Full_Lines* to show fully lines only
-* Changed commands: [[hmX_Count Variables]], [[hmX_GET VARIABLE BY INDEX]], [[hmX_GET POINTER BY INDEX]], [[hmX_GET ARRAY BY INDEX]], [[hmX_GET BLOB BY INDEX]] and [[hmX_GET PICTURE BY INDEX]]; these commands don't require the methodname-parameter anymore. You have to pass a stack_id. If the stack_id equals 0, local variables are returned from the latest executed method.
-* The command [[hmX_GET LAST ERROR]] accepts a new parameter for the methodname, where the error occurs
+* Changed commands: [hmX_Count Variables](Executer/hmX_CountVariables.md), [hmX_GET VARIABLE BY INDEX](Executer/hmX_GetVariableByIndex.md), [hmX_GET POINTER BY INDEX](Executer/hmX_GetPointerByIndex.md), [hmX_GET ARRAY BY INDEX](Executer/hmX_GetArrayByIndex.md), [hmX_GET BLOB BY INDEX](Executer/hmX_GetBlobByIndex.md) and [hmX_GET PICTURE BY INDEX](Executer/hmX_GetPictureByIndex.md); these commands don't require the methodname-parameter anymore. You have to pass a stack_id. If the stack_id equals 0, local variables are returned from the latest executed method.
+* The command [hmX_GET LAST ERROR](Areas/hmRep_GetLastError.md) accepts a new parameter for the methodname, where the error occurs
 * New command [hmRep_SET NEW AREA FOCUSABLE](Areas/hmRep_SetNewAreaFocusable.md)
 * The event **hmRep_OnScriptError** now returns a JSON object with all information where the error occurs
 * New printing session commands [hmRep_OPEN PRINTING JOB](Printing/hmRep_OpenPrintJob.md) and [hmRep_CLOSE PRINTING JOB](Printing/hmRep_ClosePrintJob.md) to print several reports into one printing job or PDF
-* Change of [[Object manipulation]]. $0 can now be any type (also numbers and dates). You can set the object's data source to formula to select a data format for numbers, dates.
+* Change of Object manipulation. $0 can now be any type (also numbers and dates). You can set the object's data source to formula to select a data format for numbers, dates.
 * New command [hmRep_Is Old Script](Scripting/hmRep_IsOldScript.md)
-* New command [[hmRep_Get Styled Text]]
+* New command [hmRep_Get Styled Text](StyledText/hmRep_GetStyledText.md)
 
 ##  Version 5.3 (December 7th, 2017)
 

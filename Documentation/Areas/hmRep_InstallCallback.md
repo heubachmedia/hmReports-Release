@@ -32,7 +32,7 @@ The result should be *0* by default. You must always pass a value as *$0*. The m
 This parameter returns the area id.
 
 #### $2
-In this parameter you got the event id. For documentation of all events, see [Events].
+In this parameter you got the event id. For documentation of all events, see [Events](../Appendix/Events.md).
 
 #### $3
 This parameter returns always the UUID of the report.
