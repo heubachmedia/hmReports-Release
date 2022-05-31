@@ -33,7 +33,7 @@ Pass the new values of the specified option in the value1, value2 and value3 par
 |hmRep_printer (20)|0|0|Printer Name
 |hmRep_Ghostscript_Path (21)|0|0|Ghostscript path
 |hmRep_PPD_Path (22)|0|0|PPD file path
-|hmRep_PDF_Engine (23)|1=Ghostscript<br/ >2=internal PDF Engine|0|""
+|hmRep_PDF_Engine (23)|1=Ghostscript<br />2=internal PDF Engine|0|""
 |hmRep_PDF_PageFormat (24)|format|orientation|""
 |hmRep_PDF_EmbedFonts (25)|0=Not embed<br />1=Embed fonts|0|""
 

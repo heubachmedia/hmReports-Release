@@ -1659,6 +1659,11 @@
                 "theme":"hmReports Reports",
                 "syntax":"hmRep_Report To Object(&L):J",
                 "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Event(&L):J",
+                "threadSafe": true
                 }
                 
             ]
