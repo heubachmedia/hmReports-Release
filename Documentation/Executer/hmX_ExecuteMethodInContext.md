@@ -9,7 +9,7 @@
 |Nextline|Longint|←|Next line to execute
 
 ### Description
-The command *hmX_Execute Method In Context* executes a method in an execution context. You can only execute methods you have added previously with the command [[hmX_ADD METHOD TO CONTEXT]]. Pass the name of the method you want to execute in the parameter *methodname*. The *line* parameter indicates, which line to execute. In this case *nextline* returns the next line. Pass *0* for all lines.
+The command *hmX_Execute Method In Context* executes a method in an execution context. You can only execute methods you have added previously with the command [hmX_ADD METHOD TO CONTEXT](hmX_AddMethodToContext.md). Pass the name of the method you want to execute in the parameter *methodname*. The *line* parameter indicates, which line to execute. In this case *nextline* returns the next line. Pass *0* for all lines.
 
 The result *nextline* returns the next line of execution. If you pass *0* as *line* and an error occurs, the executer will stop and the *nextline* returns the next line after the error.
 

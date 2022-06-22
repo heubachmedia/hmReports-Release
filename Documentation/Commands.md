@@ -619,6 +619,10 @@ hmReports has an integrated executer. This executer can be used independently fr
 ### Error handling
 * [hmX_GET LAST ERROR ( Context ; error ; line ; errortext ; errormethod)](Executer/hmX_GetLastError.md)
 
+### Utilities
+* [hmX_Token Blob To Object (Script) → Object](Executer/hmX_TokenBlobToObject.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
+* [hmX_Token Object To Blob (Object) → Script](hmX_TokenObjectToBlob.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
+
 ### 4D commands
 * [hmX_GET AVAILABLE COMMANDS ( CommandNumbers)](Executer/hmX_GetAvailableCommands.md)
 * [hmX_SET ALLOWED COMMANDS ( Context ; CommandNumbers ; Option)](Executer/hmX_SetAllowedCommands.md)

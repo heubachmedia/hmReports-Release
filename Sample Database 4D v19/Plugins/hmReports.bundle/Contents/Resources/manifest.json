@@ -1664,6 +1664,16 @@
                 "theme":"hmReports Areas",
                 "syntax":"hmRep_Get Event(&L):J",
                 "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmX_Token Blob To Object(&O):J",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmX_Token Object To Blob(&J):O",
+                "threadSafe": true
                 }
                 
             ]
