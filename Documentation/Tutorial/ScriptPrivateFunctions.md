@@ -63,7 +63,7 @@ executionContext:=_Get Current Execution Context
 
 The *executionContext* (C_LONGINT) is the unique id of the current [Script Execution](ScriptExecution.md). You can use this id to pass it as a parameter into your project method to manipulate the context with 'hmX_...'-methods. E. g. to get/set values of current variables ([[hmX_SET VARIABLE]]).
 
-### _HTML Encode
+## _HTML Encode
 
 ```4d
 encodedText:=_HTML Encode(sourceText)

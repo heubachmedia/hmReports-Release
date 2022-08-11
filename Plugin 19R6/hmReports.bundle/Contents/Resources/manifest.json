@@ -1,0 +1,1681 @@
+{
+    "name":"hmReports",
+    "id":15127,
+    "commands":[
+                {
+                "theme":"",
+                "syntax":"_hmReport"
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Register(&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_TEXT2ARRAY(&T;&Y;&L;&T;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_GET AREA LIST(&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Is Area Valid(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_SET SCALE(&L;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Get Scale(&L):8",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Rectangle(&L;&8;&8;&8;&8):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Text(&L;&8;&8;&8;&8;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Get Current Report(&L):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Round Rectangle(&L;&8;&8;&8;&8;&8):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Oval(&L;&8;&8;&8;&8):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Line(&L;&8;&8;&8;&8):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Create Report(&L;&L;&L;&T):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_SET CURRENT REPORT(&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Group(&L;&Y):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Layers",
+                "syntax":"hmRep_Create Layer(&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_EXECUTE COMMAND(&L;&L)"
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Version:L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_SET REPORT PROPERTY(&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_GET REPORT PROPERTY(&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Sections",
+                "syntax":"hmRep_GET SECTIONS(&L;&Y;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_REPORT TO BLOB(&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Layers",
+                "syntax":"hmRep_GET LAYER LIST(&L;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Layers",
+                "syntax":"hmRep_SET LAYER PROPERTY(&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Layers",
+                "syntax":"hmRep_GET LAYER PROPERTY(&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_GET COLOR(&L;&L;&L;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_SET COLOR(&L;&L;&L;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECT PROPERTY(&L;&L;&L;&8;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT PROPERTY(&L;&L;&L;&8;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT LIST(&L;&L;&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Layers",
+                "syntax":"hmRep_Get Current Layer(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Layers",
+                "syntax":"hmRep_SET CURRENT LAYER(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Picture(&L;&8;&8;&8;&8):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET PICTURE(&L;&L;&P)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET PICTURE(&L;&L;&P)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_DELETE OBJECT(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Last Error(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT RECT(&L;&L;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECT RECT(&L;&L;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SELECT OBJECTS(&L;&Y;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Sections",
+                "syntax":"hmRep_SET SECTION ITERATION(&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Sections",
+                "syntax":"hmRep_GET SECTION ITERATION(&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_Page Setup(&L;&L):L"
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_Print settings to BLOB(&L):O",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_BLOB TO PRINT SETTINGS(&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECT DATA(&L;&L;&L;&T;&T;&T;&T;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT DATA(&L;&L;&L;&T;&T;&T;&T;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_BLOB TO REPORT(&L;&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_Combine PDF(&T;&T;&T):L"
+                },
+                {
+                "theme":"hmReports Sections",
+                "syntax":"hmRep_SET SECTION COUNT(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Sections",
+                "syntax":"hmRep_SET SECTION HEIGHT(&L;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_DELETE REPORT(&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_Print(&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_INSTALL CALLBACK(&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Callback(&L):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Arc(&L;&8;&8;&8;&8;&L;&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_START PATH(&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_PATH POINT(&L;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_PATH CURVE(&L;&8;&8;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_End Path(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET PATH INFORMATION(&L;&L;&Y;&Y;&Y;&Y;&Y;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Freehand(&L;&Y;&Y):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECTS(&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECTS(&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET AREA PROPERTY(&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_GET AREA PROPERTY(&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Pixel To Rulerunit(&L;&8):8",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Rulerunit To Pixel(&L;&8):8",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"@"
+                },
+                {
+                "theme":"hmReports Layers",
+                "syntax":"hmRep_DELETE LAYER(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_CLEAR REPORT(&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_PATH MOVE TO(&L;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECT MATRIX(&L;&L;&8;&8;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT MATRIX(&L;&L;&8;&8;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECT LIN GRADIENT(&L;&L;&L;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECT GRADIENTSTOP(&L;&L;&L;&8;&8;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECT GRADIENTMATR(&L;&L;&8;&8;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECT RAD GRADIENT(&L;&L;&L;&8;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Path(&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT RAD GRADIENT(&L;&L;&L;&8;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT GRADIENTMATR(&L;&L;&8;&8;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT LIN GRADIENT(&L;&L;&L;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_RESET OBJECT GRAD STOP(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT GRADIENTSTOP(&L;&L;&Y;&Y;&Y;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_CLOSE PATH(&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_SET SCRIPT(&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Get Script(&L;&L;&L):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_Get Variable Type(&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Sections",
+                "syntax":"hmRep_SET SECTION PROPERTY(&L;&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Sections",
+                "syntax":"hmRep_GET SECTION PROPERTY(&L;&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET TOOL(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Tool(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Guides",
+                "syntax":"hmRep_SET GUIDES(&L;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Guides",
+                "syntax":"hmRep_GET GUIDES(&L;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_REPORT TO SVG(&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Get Path(&L;&L):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_New Offscreen Area(&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_DELETE OFFSCREEN AREA(&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_GET TEXT MEASURES(&T;&T;&8;&L;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_SET PRINT OPTION(&L;&L;&8;&8;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_GET PRINT OPTION(&L;&L;&8;&8;&T)"
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET EVENT STATE(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Event State(&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Custom properties",
+                "syntax":"hmRep_SET PROPERTY BY NAME(&L;&L;&L;&T;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Custom properties",
+                "syntax":"hmRep_Get Property By Name(&L;&L;&L;&T):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Custom properties",
+                "syntax":"hmRep_Has Property(&L;&L;&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Custom properties",
+                "syntax":"hmRep_DELETE PROPERTY(&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Custom properties",
+                "syntax":"hmRep_Count Properties(&L;&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Custom properties",
+                "syntax":"hmRep_GET PROPERTY BY INDEX(&L;&L;&L;&L;&T;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_GET MEMORY INFO(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Custom properties",
+                "syntax":"hmRep_DELETE PROPERTIES(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Render To Text(&L;&L;&T;&T):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_GET MOUSE(&L;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Test",
+                "syntax":"hmRep_mySQL_Connect(&T;&T;&T;&T):L"
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_Get Current Page(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_Count Pages(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_SET CURRENT PAGE(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_INSERT PAGE(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Custom properties",
+                "syntax":"hmRep_SEARCH PROP BY NAME(&L;&L;&T;&T;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_GET REPORT LIST(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_GET MENU ITEM LIST(&L;&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_GET MENU LIST(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_GET MENU ITEM(&L;&L;&T;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_SET MENU ITEM(&L;&L;&T;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_DELETE MENU ITEM(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_Insert Menu Item(&L;&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_SET MENU ITEM SHORTCUT(&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_GET MENU ITEM SHORTCUT(&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_GET MENU ITEM BY ACTION(&L;&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Report To Picture(&L;&L;&L;&L):P",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET FONTS(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Render To Blob(&L;&L;&L;&T;&T):O",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_GET FONTS(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_RENDER TO PICTURE(&L;&Y;&L;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_Get Subcommand(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_GET PAGE PROPERTY(&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_SET PAGE PROPERTY(&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Guides",
+                "syntax":"hmRep_Count Guides(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Guides",
+                "syntax":"hmRep_GET GUIDE PROPERTY(&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Guides",
+                "syntax":"hmRep_SET GUIDE PROPERTY(&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Guides",
+                "syntax":"hmRep_Create Guide(&L;&L;&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_DELETE PAGE(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Styled Text",
+                "syntax":"hmRep_CREATE STYLED TEXT RUN(&L;&L;&L;&L;&T;&L;&L;&L;&L;&L;&8;&L;&L;&L;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Styled Text",
+                "syntax":"hmRep_DELETE ALL RUNS(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Styled Text",
+                "syntax":"hmRep_Count Runs(&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Styled Text",
+                "syntax":"hmRep_GET STYLED TEXT RUN(&L;&L;&L;&L;&L;&T;&L;&L;&L;&L;&L;&8;&L;&L;&L;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Styled Text",
+                "syntax":"hmRep_SET STYLED TEXT(&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_Print Over PDF(&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Undo",
+                "syntax":"hmRep_START UNDO(&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Guides",
+                "syntax":"hmRep_DELETE GUIDE(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_Get Page Number From ID(&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_Get Page ID From Number(&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_DRAG AND DROP PROP(&L;&Z;&L;&L;&8;&8)"
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_GET PICTURE TYPES(&P;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_INDEX2RGB(&L;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_SET COLOR WITH ALPHA(&L;&L;&L;&L;&L;&L;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_GET COLOR WITH ALPHA(&L;&L;&L;&L;&L;&L;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Barcode List:C",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Subreport(&L;&8;&8;&8;&8;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_UPDATE SUBREPORTS(&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_GET REPORT DEPENDENCIES(&L;&Y;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_RGB2Index(&L;&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_Create VStructure Table(&L;&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_Create VStructure Field(&L;&L;&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_Create VStructure Var(&L;&T;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_DELETE VSTRUCTURE(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_GET VSTRUCTURE LIST(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_GET VSTRUCTURE PROPERTY(&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_SET VSTRUCTURE PROPERTY(&L;&L;&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_Search VStructure(&L;&L;&L;&L;&T;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_GET TOKENIZED SCRIPT(&L;&L;&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_SET TOKENIZED SCRIPT(&L;&L;&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_SET MENU ITEM CHECKMARK(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Menus",
+                "syntax":"hmRep_Get Menu Item Checkmark(&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECTS BY POINT(&L;&8;&8;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_ZOOM TO RECT(&L;&8;&8;&8;&8)"
+                },
+                {
+                "theme":"hmReports Ruler units",
+                "syntax":"hmRep_Create Rulerunit(&L;&T;&8;&8;&8):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Ruler units",
+                "syntax":"hmRep_GET RULERUNIT(&L;&L;&T;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Ruler units",
+                "syntax":"hmRep_SET RULERUNIT(&L;&L;&T;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Ruler units",
+                "syntax":"hmRep_Count Rulerunits(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Ruler units",
+                "syntax":"hmRep_DELETE RULERUNIT(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT CLIP(&L;&L;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECT CLIP(&L;&L;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_Get Resources Folder:T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET PATH(&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Get Object RTF(&L;&L):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Styled Text",
+                "syntax":"hmRep_SET RUN DESTINATION(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Styled Text",
+                "syntax":"hmRep_Get Run Destination(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_PDF Split(&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_Tiff Split(&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_TOKENIZE(&T;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Detokenize(&O):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Create Execution Context:L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_DELETE EXECUTION CONTEXT(&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_ADD METHOD TO CONTEXT(&L;&T;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Execute Method In Context(&L;&T;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_SET 4D CODE STYLE(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_DETOKENIZE WITH STYLES(&O;&Y;&T;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET LAST ERROR(&L;&L;&L;&T;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_Get Native Print Header(&L;&L):O",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Count Variables(&L;&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET VARIABLE BY INDEX(&L;&L;&L;&L;&L;&T;&8;&D;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET POINTER BY INDEX(&L;&L;&L;&L;&T;&L;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET AVAILABLE COMMANDS(&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET OBJECT LINEDASH(&L;&L;&8;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECT LINEDASH(&L;&L;&8;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_Create VStructure Group(&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Sections",
+                "syntax":"hmRep_GET SECTION BY POINT(&L;&8;&8;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_TOKENIZE(&L;&T;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_Detokenize(&L;&O):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_DETOKENIZE WITH STYLES(&L;&O;&Y;&T;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_TOKENIZE GET RUNS(&L;&T;&O;&Y;&Y;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Sections",
+                "syntax":"hmRep_ORDER SECTIONS(&L;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET METHOD(&L;&T;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_DETO METHOD WITH STYLES(&L;&L;&T;&Y;&T;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_SET VARS IN CONTEXT(&L;&L;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET 4D CODE STYLE(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_GET PROPVAR LIST(&L;&L;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_SET VARIABLE(&L;&T;&L;&T;&8;&D)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_GET VARS FROM SCRIPTS(&L;&L;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_GET PAPER SIZE(&L;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_Create VStructure Meth(&L;&T;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_GET VARIABLE(&L;&T;&L;&T;&8;&D)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_GET VARIABLE LIST(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_DELETE VARIABLE(&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Render To HTML(&L;&L):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Create Chart(&L;&8;&8;&8;&8;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET CHART DATA(&L;&L;&Y;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_SET ARRAY(&L;&T;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_SET ARRAY ELEMENT(&L;&T;&L;&T;&8;&D)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_GET ARRAY ELEMENT(&L;&T;&L;&T;&8;&D)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_GET ARRAY(&L;&T;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET ARRAY BY INDEX(&L;&L;&L;&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_DETOKENIZE TO ARRAYS(&O;&Y;&Y;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_DETOKENIZE CTX TO ARRAYS(&L;&T;&Y;&Y;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Count 4D Code Styles:L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_GET RENDER LOG(&L;&Y;&Y;&Y;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET FORMAT LIST(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_GET FORMAT LIST(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Sections",
+                "syntax":"hmRep_Get Section Count(&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET TOOL TIP TEXT(&L;&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Tool Tip Text(&L;&L):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Process Tags(&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_SET VARIABLE(&L;&T;&L;&T;&8;&D)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_SET ARRAY(&L;&T;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET ARRAY(&L;&T;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_SET ARRAY ELEMENT(&L;&T;&L;&T;&8;&D)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET ARRAY ELEMENT(&L;&T;&L;&T;&8;&D)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_TOKENIZE IN CONTEXT(&L;&T;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Detokenize In Context(&L;&O):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_ACTIVATE VSTRUCTURE(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_DETOKEN WITH STYLES IN CT(&L;&O;&Y;&T;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Create VStructure Table(&L;&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Create VStructure Field(&L;&L;&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Create VStructure Meth(&L;&T;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_DELETE METHOD IN CONTEXT(&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET BLOB BY INDEX(&L;&L;&L;&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Test",
+                "syntax":"hmRep_SET PICTURE BRIGHTNESS(&P;&8)"
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_Get Font Family Name(&T):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_Enumerate Pages(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Layer",
+                "syntax":"hmRep_SET LAYER CLIP(&L;&L;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Layer",
+                "syntax":"hmRep_GET LAYER CLIP(&L;&L;&8;&8;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET AUTOMATIC RELATIONS(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_GET AUTOMATIC RELATIONS(&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmRep_GET VSTRUCTURE ARRAYS(&L;&L;&L;&Y;&Y;&Y;&Y;&Y;&Y;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_SET NATIVE PRINT HEADER(&L;&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET PICTURE BY INDEX(&L;&L;&L;&L;&P)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_GET PICTURE PROPERTIES(&P;&L;&L;&L)"
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_SET PICTURE PROPERTIES(&P;&L;&L;&L)"
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_GET IMPORT PROTOCOLL(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_GET DIALOG RECT(&L;&L;&L;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_SET DIALOG RECT(&L;&L;&L;&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_GET 4D PRINT HEADER(&O)"
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_Get String Width(&T;&T;&L;&L):8"
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET OBJECTS BY RECT(&L;&L;&8;&8;&8;&8;&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_DELETE OBJECTS(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET MOUSE LIMITS(&L;&L;&8;&8;&L;&8;&8)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET CURSOR(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_VStructure To Blob(&L):O",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_BLOB TO VSTRUCTURE(&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Last Event(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_GET PAGE(&L;&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Pages",
+                "syntax":"hmRep_SET PAGE(&L;&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Undo",
+                "syntax":"hmRep_SET UNDO TYPE STATE(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Undo",
+                "syntax":"hmRep_Get Undo Type State(&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Undo",
+                "syntax":"hmRep_START UNDO RECORDING(&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Undo",
+                "syntax":"hmRep_Validate Undo Recording(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Undo",
+                "syntax":"hmRep_CANCEL UNDO RECORDING(&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_SET ALLOWED COMMANDS(&L;&Y;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET ALLOWED COMMANDS(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET TOOL VISIBLE(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Tool Visible(&L;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET RECT COLUMNS(&L;&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_SET RECT ROWS(&L;&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Layers",
+                "syntax":"hmRep_SORT LAYER(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_CREATE METHOD(&L;&T;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_DELETE METHOD(&L;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_GET METHOD LIST(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_Get Method(&L;&T):O",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_SET METHOD(&L;&T;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_SET CONTEXT PROPERTY(&L;&L;&L)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET STACK(&L;&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_DETOKENIZE METHOD WITH ST(&L;&T;&Y;&T;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET METHOD LIST(&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_SET NEW AREA FOCUSABLE(&L)"
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmRep_Get Area From Context(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Get Script Result Type(&O):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_OPEN PRINTING JOB(&L;&L)"
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_CLOSE PRINTING JOB(&L)"
+                },
+                {
+                "theme":"hmReports Styled Text",
+                "syntax":"hmRep_Get Styled Text(&L;&L):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_Is Old Script(&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_Get Current Thread ID:L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_GET CONTEXT LIST(&Y;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Execute(&O;&T;&L):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET RECT COLUMNS(&L;&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_GET RECT ROWS(&L;&L;&Y)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Create Report With PDF(&L;&T):T",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmX_VStructure To Blob(&L):O",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Virtual Structure",
+                "syntax":"hmX_BLOB TO VSTRUCTURE(&L;&O)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Get Variables(&L;&L;&L;&L):C",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_SET VARIABLE OBJECT(&L;&T;&J)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmRep_SET VARIABLE OBJECT(&L;&T;&J)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Set Object(&L;&J):J",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Objects",
+                "syntax":"hmRep_Get Object(&L;&L):J",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_Generate Barcode(&J):J",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Set Report Attribute(&L;&J):J",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_Get System DPI:L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_SET SYSTEM DPI(&L)",
+                "threadSafe": false
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmX_SET VARIABLE COLLECTION(&L;&T;&C)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Areas:C",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Property Object(&L;&L;&L):J",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmX_Delete Variable(&L;&L;&L;&T):L",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Utilities",
+                "syntax":"hmRep_ENCRYPT PDF(&T;&T;&T)",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Reports",
+                "syntax":"hmRep_Report To Object(&L):J",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Areas",
+                "syntax":"hmRep_Get Event(&L):J",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmX_Token Blob To Object(&O):J",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Scripting",
+                "syntax":"hmX_Token Object To Blob(&J):O",
+                "threadSafe": true
+                }
+                
+            ]
+
+}
