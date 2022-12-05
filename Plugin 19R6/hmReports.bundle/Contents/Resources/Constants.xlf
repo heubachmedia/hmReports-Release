@@ -190,6 +190,8 @@
         <trans-unit d4:value="109"><source>hmRep_oprop_MoveV</source></trans-unit>
         <trans-unit d4:value="110"><source>hmRep_oprop_CalcSubTotal</source></trans-unit>
         <trans-unit d4:value="111"><source>hmRep_oprop_LineAppearance</source></trans-unit>
+        <trans-unit d4:value="112"><source>hmRep_oprop_Flip_H</source></trans-unit>
+        <trans-unit d4:value="113"><source>hmRep_oprop_Flip_V</source></trans-unit>
 
     </group>
         
