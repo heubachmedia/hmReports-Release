@@ -98,7 +98,7 @@ In this option, you can set in *value3* a path to the Ghostscript DLL (Dynmaic L
 With this option, you get the path to the PPD file on Mac. You cannot set the path, you only can get the path with [hmRep_GET PRINT OPTION](hmRep_GetPrintOption.md). **The command only works on Mac!**
 
 ### hmRep_PDF_Engine (23)
-With this option, you can get/set the PDF Engine for creating PDF files on Windows. This option is only available on Mac!
+With this option, you can get/set the PDF Engine for creating PDF files on Windows.
 Pass *1* for Ghostscript (which goes over the ghostscript printer driver; see chapter [Printing as PDF]).
 Pass *2* for internal PDF rendering engine; which works **without** any printer driver!
 Default value is *1*.
