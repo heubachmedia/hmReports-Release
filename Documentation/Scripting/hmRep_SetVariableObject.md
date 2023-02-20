@@ -23,5 +23,5 @@ var $object : Object
 $object:=New object
 $object.text:="some text"
 
-hmRep_SET VARIABLE OBJECT(reparea; "vt_myvariable"; $object)
+hmRep_SET VARIABLE OBJECT(reparea; "vo_myvariable"; $object)
 ```

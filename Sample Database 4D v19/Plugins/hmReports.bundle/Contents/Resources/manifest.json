@@ -1674,6 +1674,11 @@
                 "theme":"hmReports Scripting",
                 "syntax":"hmX_Token Object To Blob(&J):O",
                 "threadSafe": true
+                },
+                {
+                "theme":"hmReports Printing",
+                "syntax":"hmRep_Print To Blob(&L;&O):L",
+                "threadSafe": true
                 }
                 
             ]

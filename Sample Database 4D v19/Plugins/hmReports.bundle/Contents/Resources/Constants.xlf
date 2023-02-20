@@ -556,6 +556,7 @@
         <trans-unit d4:value="27"><source>hmRep_Devicename</source></trans-unit>
         <trans-unit d4:value="28"><source>hmRep_Outputname</source></trans-unit>
         <trans-unit d4:value="29"><source>hmRep_print_rotation</source></trans-unit>
+        <trans-unit d4:value="30"><source>hmRep_PDF_Password</source></trans-unit>
 
     </group>
     
