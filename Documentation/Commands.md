@@ -191,8 +191,8 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [hmRep_Create Arc ( Area ; x ; y ; radiusx ; radiusy ; startAngle ; endAngle ; clockwise) → object ID](Objects/hmRep_CreateArc.md)
 * [hmRep_Create Freehand ( Area ; array_x ; array_y) → object ID](Objects/hmRep_CreateFreehand.md)
 * [hmRep_Create Subreport ( Area ; left ; top ; right ; bottom ; subreportUUID) → object ID](Objects/hmRep_CreateSubreport.md)
-* [hmRep_SET OBJECTS ( Area ; objectblob)](hmRep_SetObjects.md)
-* [hmRep_GET OBJECTS ( Area ; objectblob)](hmRep_GetObjects.md)
+* [hmRep_SET OBJECTS ( Area ; objectblob)](Objects/hmRep_SetObjects.md)
+* [hmRep_GET OBJECTS ( Area ; objectblob)](Objects/hmRep_GetObjects.md)
 
 ### Paths
 * [hmRep_SET PATH ( Area ; object ID ; path)](Objects/hmRep_SetPath.md)
@@ -219,7 +219,7 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [hmRep_GET PICTURE( Area ; ID ; picture)](Objects/hmRep_GetPicture.md)
 * [hmRep_GET OBJECT RECT ( Area ; objectID ; left ; top ; right ; bottom)](Objects/hmRep_GetObjectRect.md)
 * [hmRep_SET OBJECT RECT ( Area ; objectID ; left ; top ; right ; bottom)](Objects/hmRep_SetObjectRect.md)
-* [hmRep_SELECT OBJECTS ( Area ; objectArray ; operation)](hmRep_SelectObjects.md)
+* [hmRep_SELECT OBJECTS ( Area ; objectArray ; operation)](Objects/hmRep_SelectObjects.md)
 * [hmRep_SET OBJECT DATA ( Area ; objectID ; dataType ; database ; table ; field ; variablename ; arrayindex)](Objects/hmRep_SetObjectData.md)
 * [hmRep_GET OBJECT DATA ( Area ; objectID ; dataType ; database ; table ; field ; variablename ; arrayindex)](Objects/hmRep_GetObjectData.md)
 * [hmRep_UPDATE SUBREPORTS ( Area )](Objects/hmRep_UpdateSubreports.md)
@@ -621,7 +621,7 @@ hmReports has an integrated executer. This executer can be used independently fr
 
 ### Utilities
 * [hmX_Token Blob To Object (Script) → Object](Executer/hmX_TokenBlobToObject.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
-* [hmX_Token Object To Blob (Object) → Script](hmX_TokenObjectToBlob.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
+* [hmX_Token Object To Blob (Object) → Script](Executer/hmX_TokenObjectToBlob.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v19</span>
 
 ### 4D commands
 * [hmX_GET AVAILABLE COMMANDS ( CommandNumbers)](Executer/hmX_GetAvailableCommands.md)
