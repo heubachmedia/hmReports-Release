@@ -1,4 +1,4 @@
-## hmRep_Print ( Area ; Options) -> result
+## hmRep_Print ( Area ; Options) → result
 ###### Introduced in v1.0, Preemptive: yes
 
 |Parameter|Type|In/Out|Description

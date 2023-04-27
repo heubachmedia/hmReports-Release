@@ -147,7 +147,7 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [hmRep_GET GUIDE PROPERTY ( Area ; Number ; Selector ; valueLong ; valueText)](Guides/hmRep_GetGuideProperty.md)
 
 ## [Printing](#printing)
-* [hmRep_Print ( Area ; Options) -> result](Printing/hmRep_Print.md)
+* [hmRep_Print ( Area ; Options) → result](Printing/hmRep_Print.md)
 * [hmRep_Page Setup ( Area ; Dialogs) → result](Printing/hmRep_PageSetup.md)
 * [hmRep_Print settings to BLOB ( Area ) → print header](Printing/hmRep_PrintsettingsToBlob.md)
 * [hmRep_BLOB TO PRINT SETTINGS ( Area ; print header)](Printing/hmRep_BlobToPrintsettings.md)
@@ -159,6 +159,7 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [hmRep_SET NATIVE PRINT HEADER ( Area ; Type ; Print Header)](Printing/hmRep_SetNativePrintHeader.md)
 * [hmRep_OPEN PRINTING JOB ( Area ; Options)](Printing/hmRep_OpenPrintJob.md)
 * [hmRep_CLOSE PRINTING JOB ( Area )](Printing/hmRep_ClosePrintJob.md)
+* [hmRep_Print To Blob ( Area ; Blob) → result](Printing/hmRep_PrintToBlob.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v20</span>
 
 ## [Sections](#sections)
 ### Getting information about sections
