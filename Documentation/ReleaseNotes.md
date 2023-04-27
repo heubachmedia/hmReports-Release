@@ -14,7 +14,7 @@
 * New command: [hmX_Delete Variable](Executer/hmX_DeleteVariable.md)
 * New command: [hmX_Get Variables](Executer/hmX_GetVariables.md)
 * New command to handle custom properties: [hmRep_Get Property Object](CustomProperties/hmRep_GetPropertyObject.md)
-* New commands to convert scripts into objects and vice versa: [hmX_Token Blob To Object](Executer/hmX_TokenBlobToObject.md) and [hmX_Token Object To Blob](hmX_TokenObjectToBlob.md)
+* New commands to convert scripts into objects and vice versa: [hmX_Token Blob To Object](Executer/hmX_TokenBlobToObject.md) and [hmX_Token Object To Blob](Executer/hmX_TokenObjectToBlob.md)
 
 ## Version 18.0 (January, 2020)
 
