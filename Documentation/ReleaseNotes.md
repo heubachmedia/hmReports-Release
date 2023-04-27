@@ -1,7 +1,8 @@
-## Version 20.0 (July, 2023)
+## Version 20.0 (July 2023)
 * New command [hmRep_Print To Blob](Printing/hmRep_PrintToBlob.md) for printing a PDF, created by the internal PDF engine, into a blob (Windows only)
+* New command to encrypt PDF fiels: [hmRep_ENCRYPT PDF](PDFTools/hmRep_EncryptPDF.md)
 
-## Version 19.0 (July, 2021)
+## Version 19.0 (July 2021)
 
 * Support of Apple Silicon M1 processor
 * Support of High-DPI (Windows) with 4D v19R4
@@ -16,7 +17,7 @@
 * New command to handle custom properties: [hmRep_Get Property Object](CustomProperties/hmRep_GetPropertyObject.md)
 * New commands to convert scripts into objects and vice versa: [hmX_Token Blob To Object](Executer/hmX_TokenBlobToObject.md) and [hmX_Token Object To Blob](Executer/hmX_TokenObjectToBlob.md)
 
-## Version 18.0 (January, 2020)
+## Version 18.0 (January 2020)
 
 * The event *hmRep_OnClickObject* now returns, if a contextual click happens
 

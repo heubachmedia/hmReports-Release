@@ -635,6 +635,7 @@ hmReports has an integrated executer. This executer can be used independently fr
 * [hmRep_Print Over PDF ( Area ; path) → error code](PDFTools/hmRep_PrintOverPDF.md)
 * [hmRep_PDF Split (path) → Pages](PDFTools/hmRep_PDFSplit.md)
 * [hmRep_Combine PDF (source1 ; source2 ; target) → Result](PDFTools/hmRep_CombinePDF.md)
+* [hmRep_ENCRYPT PDF ( Input ; Output ; Password)](PDFTools/hmRep_EncryptPDF.md)
 
 ## Utilities(#utilities)
 
