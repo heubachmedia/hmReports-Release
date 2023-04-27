@@ -1,3 +1,6 @@
+## Version 20.0 (July, 2023)
+
+
 ## Version 19.0 (July, 2021)
 
 * Support of Apple Silicon M1 processor
