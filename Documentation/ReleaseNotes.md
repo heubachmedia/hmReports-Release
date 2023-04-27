@@ -1,6 +1,6 @@
 ## Version 20.0 (July 2023)
 * New command [hmRep_Print To Blob](Printing/hmRep_PrintToBlob.md) for printing a PDF, created by the internal PDF engine, into a blob (Windows only)
-* New command to encrypt PDF fiels: [hmRep_ENCRYPT PDF](PDFTools/hmRep_EncryptPDF.md)
+* New command to encrypt PDF files: [hmRep_ENCRYPT PDF](PDFTools/hmRep_EncryptPDF.md)
 
 ## Version 19.0 (July 2021)
 
