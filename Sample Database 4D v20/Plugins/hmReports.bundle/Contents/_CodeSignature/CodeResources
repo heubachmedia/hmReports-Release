@@ -554,11 +554,11 @@
 		</data>
 		<key>Resources/Internal Components/FormRes.4dbase/FormRes.4DZ</key>
 		<data>
-		N6sybxqiUw833l1X0d4gGmi1XNE=
+		RemCGqUVMdAm7ba/H6PtFK65bvQ=
 		</data>
 		<key>Resources/Internal Components/FormRes.4dbase/Libraries/lib4d-arm64.dylib</key>
 		<data>
-		WPPq4aQal2lQ3sreQfLpxIk+loc=
+		/xZU8nyqDoFnv4iLfQIGOjIbPO8=
 		</data>
 		<key>Resources/Internal Components/FormRes.4dbase/Resources/Debug.png</key>
 		<data>
@@ -785,7 +785,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Uxy9C7JGJZOGKrLA55t3C9hIG0g=
+			4lw+oHD1rGQAt4wsjmSHU1wqIGA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -847,7 +847,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gg/W4JtCxfMe4x7uWTUydz3dU9E=
+			yYgrn3/NJpF3TTjvUJm0wFYiaOc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -856,7 +856,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QTFeBApRVA55898O7aWiWzsTK/w=
+			QlNnmh+1fPDerMTIXsNOUhna7Ow=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -869,7 +869,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gp4UDQssR9bdt59Unayz3Hx7l3c=
+			+0fqo41wwFEr9eegDq/MQWjF34o=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -890,7 +890,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XVNQfngfI4JtSH++Mxc89nGIOtk=
+			7o/aP5Ds0wJ3OnN9N4bwBSmr3kU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -954,6 +954,10 @@
 		<key>Resources/Internal Components/FormRes.4dbase/Resources/stop.png</key>
 		<data>
 		Opb16sovKgdHYsCfOL86OPPMxrI=
+		</data>
+		<key>Resources/README.md</key>
+		<data>
+		1YxkhknppRcHwlWbsnEgfvbBTeo=
 		</data>
 		<key>Resources/button10_left.png</key>
 		<data>
@@ -1071,7 +1075,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4GYI5bWGVmYMDLnPEqqd/y2vkB8=
+			2jcxFWeCdtQei7gF0ZLh5AXIp5Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1093,7 +1097,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o6AAc/RNROD67mvx4xC/kE6guBc=
+			XawJFrfX/qut9TT0nJzJjXrM9Rk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1125,6 +1129,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Resources/hmRep_PrintToBlob.md</key>
+		<data>
+		ytxY2nLSrcuq2QfKhpqBktRRL0M=
+		</data>
 		<key>Resources/ja.lproj/Main.xlf</key>
 		<dict>
 			<key>hash</key>
@@ -2104,14 +2112,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qtUjTGlr0zF95dFSfaTeo7NIQWcNeGKABpBI5HVMqx0=
+			cnOCze7mnHQgnGAhpWcNZghtJOjLYiKRRokKfzVFUK4=
 			</data>
 		</dict>
 		<key>Resources/Internal Components/FormRes.4dbase/Libraries/lib4d-arm64.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dgW3HJ/iDJecfH7hGVijJA4EOqieTLfGriEJcOMws7k=
+			BPN8evutnszUKLcK+dwWJHa4vyUbzntTSwnvxL4wZ4o=
 			</data>
 		</dict>
 		<key>Resources/Internal Components/FormRes.4dbase/Resources/Debug.png</key>
@@ -2498,7 +2506,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jBgUuJbQI9h9cbjV1NwZgEjR0XhTNtu9MXjixJ05+R0=
+			I6WkAFp4lgzcYVDt1rxfSUdUXwkTWHmI3BcQctdG7dQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2593,7 +2601,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7QXMu669E5vcG7YVuZ9FN51x5q1JYrGC6WpwwAqI+fI=
+			vu/JCUDNOTPTnO1KFzN6Z+2Z3pt5mkQc6mIHonBBdyI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2602,7 +2610,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fK6fh6A44u1nNzCi3Y28VC12A61CO4L4RhUsRDYJf3A=
+			co7MjAtGq+t7oTwXxUOPfX6D/e62ZTO8K8icmvAAncs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2618,7 +2626,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+x1NZJxfj91R9pRYkEVMtliEtk0MtHsY3mjjFShzrKo=
+			Xgd46PLBf8erLCIV5fyydnrjiUEqFFC4G+n6MAeQ+gE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2648,7 +2656,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SdOzpvK6p/aCx76UanhqpI79cR/DQdmeolk3e0WDnTI=
+			vXadDuDNzia1aIaCaPuj3NcWA4pUwvT0rJ0RN04nFEg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2756,6 +2764,13 @@
 			<key>hash2</key>
 			<data>
 			HceVTR10LHmooi9ddvjp69gUc0O1ePtRwoiDEKblqQc=
+			</data>
+		</dict>
+		<key>Resources/README.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2OIm6gaoHSqHMNc7WOyoyHsnqKN9xHXJz3pEj8rFFC4=
 			</data>
 		</dict>
 		<key>Resources/button10_left.png</key>
@@ -2958,7 +2973,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fbs8qBtrIRoO7BdOn8RfdoOipcUJOpGUmh2uDDCRNyg=
+			grqZnjM1OWOm4UwLSMiV0mulOYIuM5+x1dQGGqks8yw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -2983,7 +2998,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qg6lo3fvg7QUomWf3EUVgdTdvdf5YNlSD4gR/A4YzN8=
+			4UC0prJ3kaNwdtjmMoMbbEWlPGKFtsyw+eLx6WJR4nA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3015,6 +3030,13 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Resources/hmRep_PrintToBlob.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8G/38ubK32I5L/HRhX651RgKQCoQBdQZBKip2hwUpUA=
+			</data>
+		</dict>
 		<key>Resources/ja.lproj/Main.xlf</key>
 		<dict>
 			<key>hash2</key>
@@ -3035,7 +3057,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F7QGG9NhMdu825Uzf/JY8IigmlcWtshKPlKt5cpKw1I=
+			USv8BpMwnhOY9HTwRPUhe3wNTzUv1hVfV3qWasK+Rr0=
 			</data>
 		</dict>
 	</dict>
