@@ -1,5 +1,5 @@
 ## Version 20.0 (July, 2023)
-* New command [hmRep_Print To Blob] for printing a PDF, created by the internal PDF engine, into a blob (Windows only)
+* New command [hmRep_Print To Blob](Printing/hmRep_PrintToBlob.md) for printing a PDF, created by the internal PDF engine, into a blob (Windows only)
 
 ## Version 19.0 (July, 2021)
 
