@@ -10,7 +10,7 @@
 ### Description
 The command *hmRep_ENCRYPT PDF* encrypts an existing PDF file with the given password.
 
-The path must be in POSIX style on Mac.
+The path must be in POSIX style on macOS.
 
 ### Example
 

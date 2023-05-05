@@ -116,12 +116,12 @@ This value shows the calculated value in this object. Pass *1* in the parameter 
 ### hmRep_oprop_CalcOption (36)
 This property sets the calculation behaviour of the object. Pass the option in the parameter *valueReal*. You can use one of the following constants:
 
-*0 = hmRep_Calc_None
-*1 = hmRep_Calc_Total
-*2 = hmRep_Calc_Minimum
-*3 = hmRep_Calc_Maximum
-*4 = hmRep_Calc_Average
-*5 = hmRep_Calc_Count
+* 0 = hmRep_Calc_None
+* 1 = hmRep_Calc_Total
+* 2 = hmRep_Calc_Minimum
+* 3 = hmRep_Calc_Maximum
+* 4 = hmRep_Calc_Average
+* 5 = hmRep_Calc_Count
 
 ### hmRep_oprop_RecInVariable (37)
 If the parameter *valueReal* is set to *1*, the calculation result is set into an other variable specified by the object property *hmRep_oprop_RecVariable*.
@@ -304,7 +304,7 @@ The parameter *valueReal* defines the context of the calculation. Standard is *0
 The parameter *valueReal* defines, if the object uses tokenized scripts or text based scripts. Pass *1* for using tokenized scripts, otherwise *0*. Standard is *0*.
 
 ### hmRep_oprop_ReplaceRowIfEmpty (80)
-The parameter *valueReal* defines, if the object is empty, the entire space (row) will be not printed. Pass *1* for replace, pass *0* for not replace if empty. The option is an option for the selector *hmRep_oprop_Repeat*. If an object will be replicated, this options helps you, to elimiante white space, if objects have empty content. Notice, that the option *hmRep_oprop_ReplaceItemsIfEmpty* must be turned on, if you want to use this option.
+The parameter *valueReal* defines, if the object is empty, the entire space (row) will be not printed. Pass *1* for replace, pass *0* for not replace if empty. The option is an option for the selector *hmRep_oprop_Repeat*. If an object will be replicated, this options helps you, to eliminate white space, if objects have empty content. Notice, that the option *hmRep_oprop_ReplaceItemsIfEmpty* must be turned on, if you want to use this option.
 
 ### hmRep_oprop_ArrayIndex2D (81)
 The parameter *valueReal* defines the main index of a 2D array. If the datasource of the object is an array 2D, you can define the index of the first dimension.
@@ -313,7 +313,7 @@ The parameter *valueReal* defines the main index of a 2D array. If the datasourc
 The parameter *valueReal* defines, if the object tip should be interpreted as rich text or not. Pass *1* for using multi-styled tip text, otherwise *0*. Standard is *0*. This option is only available in 4D v12!
 
 ### hmRep_oprop_Linespacing (83)
-The parameter *valueReal* defines the line spacing of a text object. Line space is the extra space between two lines within a multi-lint text. Example: The following picture illustrates a line spacing of 5 pixels (left) and 0 pixels (right):
+The parameter *valueReal* defines the line spacing of a text object. Line space is the extra space between two lines within a multi-line text. Example: The following picture illustrates a line spacing of 5 pixels (left) and 0 pixels (right):
 
 ![Line Spacing](../Pictures/LineSpacing.png)
 
@@ -389,7 +389,7 @@ The parameter *valueReal* returns the section count of the original object for a
 The parameter *valueReal* activates a custom text, if the field value is NULL. Pass the custom text in the parameter *valueText*. You can activate the option if you pass *1* in *valueReal*.
 
 ### hmRep_oprop_Kerning (104)
-The parameter *valueReal* sets a different text kerning (space between letters)) in pixels. 0 is standard.
+The parameter *valueReal* sets a different text kerning (space between letters) in pixels. 0 is standard.
 
 ### hmRep_oprop_Dynamic (105)
 The parameter *valueReal* defines, if the code within a text object should be executed or not. The code have to be between the <nodoku><% and %></nodoku> tags. Pass *1* for active and *0* for inactive. Default is *1*.
