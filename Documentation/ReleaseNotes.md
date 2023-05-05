@@ -1,6 +1,7 @@
 ## Version 20.0 (July 2023)
 * New command [hmRep_Print To Blob](Printing/hmRep_PrintToBlob.md) for printing a PDF, created by the internal PDF engine, into a blob (Windows only)
 * New command to encrypt PDF files: [hmRep_ENCRYPT PDF](PDFTools/hmRep_EncryptPDF.md)
+* New [option](Appendix/ObjectProperties.md) for picture-objects to flip horizontally and vertically: *hmRep_oprop_Flip_H* and *hmRep_oprop_Flip_H*
 
 ## Version 19.0 (July 2021)
 

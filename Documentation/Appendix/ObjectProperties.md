@@ -413,3 +413,9 @@ The parameter *valueReal* defines the line appearance of objects. The following 
 * 0 = Middle (Default)
 * 1 = Outer
 * 2 = Inner
+
+### hmRep_oprop_Flip_H (112)
+The parameter *valueReal* defines the horizontal mirroring of the picture. Pass *1* for flip horizontally (default is 0).
+
+### hmRep_oprop_Flip_V (113)
+The parameter *valueReal* defines the vertical mirroring of the picture. Pass *1* for flip vertically (default is 0).
