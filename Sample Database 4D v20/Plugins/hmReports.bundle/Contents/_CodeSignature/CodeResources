@@ -1129,6 +1129,26 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Resources/hmRep_CombinePDF.md</key>
+		<data>
+		Uv8IurAsG61+uzoupMTjy+xHRnY=
+		</data>
+		<key>Resources/hmRep_CreateReportWithPDF.md</key>
+		<data>
+		zk7fPrC8VzW2kinNoR51Ow8Wmog=
+		</data>
+		<key>Resources/hmRep_EncryptPDF.md</key>
+		<data>
+		u6qnnjle26fS7+Ye8ZTMDMhufRI=
+		</data>
+		<key>Resources/hmRep_PDFSplit.md</key>
+		<data>
+		zuGQ2hyWqhM5nOL0zooD/TzRnRY=
+		</data>
+		<key>Resources/hmRep_PrintOverPDF.md</key>
+		<data>
+		HPZkXLAMFs5GeeUJDGNxby4UJ7g=
+		</data>
 		<key>Resources/hmRep_PrintToBlob.md</key>
 		<data>
 		ytxY2nLSrcuq2QfKhpqBktRRL0M=
@@ -3030,6 +3050,41 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Resources/hmRep_CombinePDF.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KpMfz+ttIIaDFHuYfdIXPZSahfK9xtYIRK1uy+MOiIA=
+			</data>
+		</dict>
+		<key>Resources/hmRep_CreateReportWithPDF.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oG6E6RHVdH18caUfc+PSZrK0Mn8OjGADgoORH2wzKLE=
+			</data>
+		</dict>
+		<key>Resources/hmRep_EncryptPDF.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GQevgJ6V8VCZ/j6Vl42n1CXUd35mq9vDxEcix4/WkM8=
+			</data>
+		</dict>
+		<key>Resources/hmRep_PDFSplit.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MpwWwYMe0MXUgWo0+v6E0BkvPfzb8mFNbQq7yde3QH4=
+			</data>
+		</dict>
+		<key>Resources/hmRep_PrintOverPDF.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YP5AGFFjdjXao+k7+YGJvX4KXTfOqgklUHLTnF9v8Hk=
+			</data>
+		</dict>
 		<key>Resources/hmRep_PrintToBlob.md</key>
 		<dict>
 			<key>hash2</key>
@@ -3057,7 +3112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			USv8BpMwnhOY9HTwRPUhe3wNTzUv1hVfV3qWasK+Rr0=
+			GyWUnAjFgHxvM/QqZabJsy0K1b4zvblez6jTHz4V4Po=
 			</data>
 		</dict>
 	</dict>
