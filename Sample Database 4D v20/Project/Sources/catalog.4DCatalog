@@ -299,7 +299,7 @@
 			<table_ref uuid="359F3CDAFD734DD09024EE52D8B3082E" name="Machines"/>
 		</field_ref>
 	</index>
-	<base_extra data_file_path=":Sample.4DD" ppc_code_stamp="1984" __stringCompHash="icu:72.1.0" __keywordBuildingHash="icu:72.1.0">
+	<base_extra data_file_path=":Sample.4DD" ppc_code_stamp="1984">
 		<temp_folder folder_selector="data"/>
 	</base_extra>
 </base>

@@ -26,7 +26,7 @@
       <LastDataPathLookup>ByAppName</LastDataPathLookup>
       <MacCompiledDatabaseToWinIncludeIt>False</MacCompiledDatabaseToWinIncludeIt>
       <MacCompiledDatabaseToWin></MacCompiledDatabaseToWin>
-    </CS>
+      <ServerEmbedsProjectDirectoryFile>False</ServerEmbedsProjectDirectoryFile></CS>
     <BuildApplicationName>hmReports_Palette</BuildApplicationName>
     <BuildMacDestFolder>::hmReports_Palette_Build:</BuildMacDestFolder>
     <ArrayExcludedPluginName>
@@ -50,7 +50,11 @@
     <RuntimeVL>
       <LastDataPathLookup>ByAppName</LastDataPathLookup>
     </RuntimeVL>
+    <ArrayExcludedModuleName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedModuleName>
   </BuildApp>
+
 
 
 
