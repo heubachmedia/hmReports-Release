@@ -15,6 +15,7 @@ The following *types* are possible:
 * 1 = Page format (macOS)
 * 2 = Print settings (macOS)
 * 3 = Print settings (Windows)
+* 4 = Printer names (Windows)
 
 The blob can be empty, if no page setup was made for the current report. If you transfer the hmReports document from Mac to Win (or vice versa), you have still access to the Mac print header on Windows and vice versa. Because each print header blob is stored separately in the hmReports document.
 
