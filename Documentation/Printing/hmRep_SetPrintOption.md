@@ -108,6 +108,7 @@ With this option, you can set the page format of the output PDF. It works only w
 *value1* is the format number:
 Possible values for the page format:
 
+* 0 = Own format: the current page size is used
 * 1 = A0
 * 2 = A1
 * 3 = A2

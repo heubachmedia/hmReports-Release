@@ -231,7 +231,7 @@ Each page have a continuous number from the first page to the last page. Also, h
 * [hmRep_SET RECT ROWS ( Area ; objectID ; rowsArray)](Objects/hmRep_SetRectRows.md)
 * [hmRep_GET RECT ROWS ( Area ; objectID ; rowsArray)](Objects/hmRep_GetRectRows.md)
 
-## Scripting(#scripting)
+## [Scripting](#scripting)
 ### Overview
 A hmReports  Area  has it's own variable stack. It's a sandbox concept where you can put any variable you want into the  Area . It does not intersects the variable name space of 4D. More information can be found in the chapter [[Script Execution]].
 
@@ -267,11 +267,6 @@ Plugin functions which starting with the prefix "hmX" are going directly on the 
 ### Tokenize/detokenize scripts
 * [hmRep_TOKENIZE ( Area ; methodtext ; script)](Scripting/hmRep_Tokenize.md)
 * [hmRep_Detokenize ( Area ; script) → method text](Scripting/hmRep_Detokenize.md)
-
-### Scripts syntax coloring
-* [hmX_SET 4D CODE STYLE]
-* [hmX_GET 4D CODE STYLE]
-* [hmX_Count 4D Code Styles]
 
 ## [Styled text](#styled-text)
 ### Overview
@@ -310,7 +305,7 @@ If you use a text field, text variable or text array as a reference, you can tur
 * [hmRep_Count Runs ( Area ; objectID) → count](StyledText/hmRep_CountRuns.md)
 * [hmRep_DELETE ALL RUNS ( Area ; objectID)](StyledText/hmRep_DeleteAllRuns.md)
 
-## Custom Properties(#custom-properties)
+## [Custom Properties](#custom-properties)
 ### Overview
 Custom properties are a powerful tool for adding custom data to an object, layer, report or area. You may need custom properties for adding your own reference-scheme.
 Use the command [hmRep_Get Property Object](CustomProperties/hmRep_GetPropertyObject.md) to get the language-object of a report object, page, layer, report or area.
@@ -562,7 +557,7 @@ Result:
 ### Enumeration of ruler units
 * hmRep_Count Rulerunits ( Area ) → Count](RulerUnits/hmRep_CountRulerunits.md)
 
-## Executer(#executer)
+## [Executer](#executer)
 hmReports has an integrated executer. This executer can be used independently from a reports  Area . It's a sandbox concept where you can put any variable you want into an execution context. It does not intersects the variable name space of 4D. More information can be found in the chapter [Script Execution](../Tutorial/ScriptExecution.md).
 
 ### Managing execution contexts
@@ -637,7 +632,7 @@ hmReports has an integrated executer. This executer can be used independently fr
 * [hmRep_Combine PDF (source1 ; source2 ; target) → Result](PDFTools/hmRep_CombinePDF.md)
 * [hmRep_ENCRYPT PDF ( Input ; Output ; Password)](PDFTools/hmRep_EncryptPDF.md)<span style="color:red;font-family:monospace">&nbsp;&nbsp;New in v20</span>
 
-## Utilities(#utilities)
+## [Utilities](#utilities)
 
 * [hmRep_TEXT2ARRAY ( Text ; Array ; Width ; Font ; Fontsize ; Fontstyle)](Utilities/hmRep_TEXT2ARRAY.md)
 * [hmRep_GET TEXT MEASURES ( Text ; Fontname ; Fontsize ; Fontstyle ; Width ; Height ; Ascent ; Descent)](Utilities/hmRep_GetTextMeasures.md)
