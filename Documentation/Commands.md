@@ -558,7 +558,7 @@ Result:
 * hmRep_Count Rulerunits ( Area ) → Count](RulerUnits/hmRep_CountRulerunits.md)
 
 ## [Executer](#executer)
-hmReports has an integrated executer. This executer can be used independently from a reports  Area . It's a sandbox concept where you can put any variable you want into an execution context. It does not intersects the variable name space of 4D. More information can be found in the chapter [Script Execution](../Tutorial/ScriptExecution.md).
+hmReports has an integrated executer. This executer can be used independently from a reports Area. It's a sandbox concept where you can put any variable you want into an execution context. It does not intersects the variable name space of 4D. More information can be found in the chapter [Script Execution](../Tutorial/ScriptExecution.md).
 
 ### Managing execution contexts
 * [hmX_Create Execution Context → Context](Executer/hmX_CreateExecutionContext.md)
