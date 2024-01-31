@@ -246,7 +246,8 @@
                 },
                 {
                 "theme":"hmReports Utilities",
-                "syntax":"hmRep_Combine PDF(&T;&T;&T):L"
+                "syntax":"hmRep_Combine PDF(&T;&T;&T):L",
+                "threadSafe": true
                 },
                 {
                 "theme":"hmReports Sections",
