@@ -1680,8 +1680,12 @@
                 "theme":"hmReports Printing",
                 "syntax":"hmRep_Print To Blob(&L;&O):L",
                 "threadSafe": true
-                }
-                
+                },
+				{
+        		"theme": "hmReports Utilities",
+        		"syntax": "hmRep_ATTACH FILE TO PDF(&T;&T;&C)",
+        		"threadSafe": true
+      			}
             ]
 
 }
