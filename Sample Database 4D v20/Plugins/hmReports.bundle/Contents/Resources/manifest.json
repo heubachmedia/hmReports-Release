@@ -1683,9 +1683,14 @@
                 },
 				{
         		"theme": "hmReports Utilities",
-        		"syntax": "hmRep_ATTACH FILE TO PDF(&T;&T;&C)",
+        		"syntax": "hmRep_ATTACH FILES TO PDF(&T;&T;&C)",
         		"threadSafe": true
-      			}
+      			},
+                {
+                "theme": "hmReports Utilities",
+                "syntax": "hmRep_ATTACH FILES TO PDF BLOB(&O;&O;&C)",
+                "threadSafe": true
+                  }
             ]
 
 }

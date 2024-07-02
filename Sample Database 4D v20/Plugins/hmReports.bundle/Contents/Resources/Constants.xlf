@@ -557,7 +557,7 @@
         <trans-unit d4:value="28"><source>hmRep_Outputname</source></trans-unit>
         <trans-unit d4:value="29"><source>hmRep_print_rotation</source></trans-unit>
         <trans-unit d4:value="30"><source>hmRep_PDF_Password</source></trans-unit>
-        <trans-unit d4:value="31"><source>hmRep_PDF_EmbedFile</source></trans-unit>
+        <trans-unit d4:value="31"><source>hmRep_PDF_Version</source></trans-unit>
 
     </group>
     
@@ -816,7 +816,22 @@
         <trans-unit d4:value="2"><source>hmRep_LineAppearance_Inner</source></trans-unit>
 
     </group>
-
+    
+    <group restype="x-4DK#" d4:groupID="15239">
+        
+        <trans-unit><source>hmReports PDF Versions</source></trans-unit>
+        <trans-unit d4:value="0"><source>hmRep_PDF_Version_Default</source></trans-unit>
+        <trans-unit d4:value="1"><source>hmRep_PDF_Version_1_0</source></trans-unit>
+        <trans-unit d4:value="2"><source>hmRep_PDF_Version_1_1</source></trans-unit>
+        <trans-unit d4:value="3"><source>hmRep_PDF_Version_1_2</source></trans-unit>
+        <trans-unit d4:value="4"><source>hmRep_PDF_Version_1_3</source></trans-unit>
+        <trans-unit d4:value="5"><source>hmRep_PDF_Version_1_4</source></trans-unit>
+        <trans-unit d4:value="6"><source>hmRep_PDF_Version_1_5</source></trans-unit>
+        <trans-unit d4:value="7"><source>hmRep_PDF_Version_1_6</source></trans-unit>
+        <trans-unit d4:value="8"><source>hmRep_PDF_Version_1_7</source></trans-unit>
+ 
+    </group>
+    
     </body>
   </file>
 
