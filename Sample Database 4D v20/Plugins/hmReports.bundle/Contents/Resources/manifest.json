@@ -1690,7 +1690,12 @@
                 "theme": "hmReports Utilities",
                 "syntax": "hmRep_ATTACH FILES TO PDF BLOB(&O;&O;&C)",
                 "threadSafe": true
-                  }
+                },
+                {
+                "theme": "hmReports Utilities",
+                "syntax": "hmRep_Get PDF Attachments(&T):C",
+                "threadSafe": true
+                }
             ]
 
 }
