@@ -15,13 +15,7 @@ The command *hmRep_INSTALL CALLBACK* installs a callback method in the hmReports
 The callback method must have to following declaration:
 
 ```4d
- C_LONGINT(Callback;$0)
- C_LONGINT(Callback;$1)
- C_LONGINT(Callback;$2)
- C_TEXT(Callback;$3)
- C_LONGINT(Callback;$4)
- C_LONGINT(Callback;$5)
- C_TEXT(Callback;$6)
+#DECLARE($vl_area : Integer; $vl_event : Integer; $vt_report : Text; $vl_param1 : Integer; $vl_param2 : Integer; $vt_param : Text)->$vl_result : Integer
  ```
  
 ### Parameters
@@ -49,25 +43,17 @@ This parameter depends on the event.
 ### Example
 
 ```4d
-var $vl_area; $vl_event; $vl_result; $vl_param1; $vl_param2 : Integer
-var $vt_report; $vt_param : Text
+#DECLARE($vl_area : Integer; $vl_event : Integer; $vt_report : Text; $vl_param1 : Integer; $vl_param2 : Integer; $vt_param : Text)->$vl_result : Integer
 
-$vl_area:=$1
-$vl_event:=$2
-$vt_report:=$3
-$vl_param1:=$4
-$vl_param2:=$5
-$vt_param:=$6
+$vl_result:=0
 
 Case of 
-	: ($vl_event=hmRep_OnError)
-		
-	: ($vl_event=hmRep_OnCreateNewReport)
-		hmRep_SET SECTION ITERATION($vl_area; 1; 0; Table(->[Customers]); "")
-		
-	: ($vl_event=hmRep_OnExecuteScript)
-		
+    : ($vl_event=hmRep_OnError)
+        
+    : ($vl_event=hmRep_OnCreateNewReport)
+        hmRep_SET SECTION ITERATION($vl_area; 1; 0; Table(->[Customers]); "")
+        
+    : ($vl_event=hmRep_OnExecuteScript)
+        
 End case 
-
-$0:=$vl_result
  ```
