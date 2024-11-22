@@ -152,7 +152,7 @@
 			</editor_table_info>
 		</table_extra>
 	</table>
-	<relation uuid="EE9446B97CBC42ADB5CD0478780BE85A" name_Nto1="Customer" name_1toN="Invoices" auto_load_Nto1="false" auto_load_1toN="false" foreign_key="false" state="1">
+	<relation uuid="EE9446B97CBC42ADB5CD0478780BE85A" name_Nto1="Customer" name_1toN="Invoices" state="1">
 		<related_field kind="source">
 			<field_ref uuid="221013D04359420EBDE742AF53C3378C" name="Customer_ID">
 				<table_ref uuid="15A40CC9F3D94AB48A45AAA8E721EA41" name="Invoices"/>

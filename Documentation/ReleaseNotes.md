@@ -1,3 +1,6 @@
+## Version 21.0 (July 2025)
+* Scripts: Support of the var-keyword
+
 ## Version 20.0 (July 2023)
 * New command [hmRep_Print To Blob](Printing/hmRep_PrintToBlob.md) for printing a PDF, created by the internal PDF engine, into a blob (Windows only)
 * New command to encrypt PDF files: [hmRep_ENCRYPT PDF](PDFTools/hmRep_EncryptPDF.md)
