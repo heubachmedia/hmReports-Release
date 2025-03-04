@@ -106,7 +106,7 @@ This event is fired, before printing starts. The parameter *$4* returns the curr
 This event is fired, after printing ends. The parameter *$4* returns the current execution id. *$0* should be *0*.
 
 ### hmRep_OnDuringPrinting (28)
-This event is fired before each detail iteration. The parameter *$4* returns the current detail number, starting with 1. The parameter *$5* returns the current iteration number. *$0* should be *0*.
+This event is fired before each detail iteration. The parameter *$4* returns the current detail number, starting with 1. The parameter *$5* returns the current iteration number. If you want to stop printing, the result *$0* should be not *0*, otherwise *$0* is *0*.
 
 ### hmRep_OnOutsideDrop (29)
 The event is called, if an element were droped into the hmReports area. The hmReports area must have the property *dropable* in the 4D design mode. In the parameter *$4* is the reference of the object, on which the element was droped. *$0* should be *0*.
