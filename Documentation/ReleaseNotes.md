@@ -1,5 +1,7 @@
-## Version 21.0 (July 2025)
+## Version 21.0 (January 2026)
 * Scripts: Support of the var-keyword
+* The following commands now support scripts as Objects: [Executer/hmX_Execute.md], [Executer/hmX_AddMethodToContext]
+* New command to tokenize code into an object: [Execute/hmX_TokenizeToObject.md]
 
 ## Version 20.0 (July 2023)
 * New command [hmRep_Print To Blob](Printing/hmRep_PrintToBlob.md) for printing a PDF, created by the internal PDF engine, into a blob (Windows only)

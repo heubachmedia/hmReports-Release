@@ -971,7 +971,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_ADD METHOD TO CONTEXT(&L;&T;&O)",
+                "syntax":"hmX_ADD METHOD TO CONTEXT(&L;&T;&V)",
                 "threadSafe": true
                 },
                 {
@@ -1471,7 +1471,7 @@
                 },
                 {
                 "theme":"hmReports Scripting",
-                "syntax":"hmRep_CREATE METHOD(&L;&T;&O)",
+                "syntax":"hmRep_CREATE METHOD(&L;&T;&V)",
                 "threadSafe": true
                 },
                 {
@@ -1558,7 +1558,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_Execute(&O;&T;&L):L",
+                "syntax":"hmX_Execute(&V;&T;&L):L",
                 "threadSafe": true
                 },
                 {
@@ -1694,6 +1694,11 @@
                 {
                 "theme": "hmReports Utilities",
                 "syntax": "hmRep_Get PDF Attachments(&J):C",
+                "threadSafe": true
+                },
+                {
+                "theme":"hmReports Executer",
+                "syntax":"hmX_Tokenize To Object(&T):J",
                 "threadSafe": true
                 }
             ]

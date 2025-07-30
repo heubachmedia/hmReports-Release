@@ -3,13 +3,13 @@
 
 |Parameter|Type|In/Out|Description
 |---|---|:---:|---
-|Method|Blob|→|Tokenized method
+|Method|Blob/Object|→|Tokenized method
 |Error|Text|←|error text
 |Line|Longint|←|error line
 |Error|Longint|←|error code
 
 ### Description
-The command *hmX_Execute* executes a tokenized method.
+The command *hmX_Execute* executes a tokenized method (blob or script object).
 This is a convenient method to execute a method. It creates and deletes an execution context automatically.
 If an error occurs, the error will be returned. The error text and the error line will be returned in parameter 2 and 3.
 
@@ -17,11 +17,10 @@ If an error occurs, the error will be returned. The error text and the error lin
 The following example tokenizes a method and executes the method:
 
 ```4d
-var $vx_script : Blob
+var $vo_script : Object
 var $vt_error_text : Text
 var $vl_error; $vl_error_line : Integer
 
-SET BLOB SIZE($vx_script; 0)
-hmX_TOKENIZE("$a:=100"; $vx_script)
-$vl_error:=hmX_Execute($vx_script; $vt_error_text; $vl_error_line)
+$vo_script:=hmX_Tokenize To Object("$a:=100")
+$vl_error:=hmX_Execute($vo_script; $vt_error_text; $vl_error_line)
 ```
