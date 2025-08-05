@@ -956,7 +956,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_Detokenize(&O):T",
+                "syntax":"hmX_Detokenize(&V):T",
                 "threadSafe": true
                 },
                 {
@@ -986,7 +986,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_DETOKENIZE WITH STYLES(&O;&Y;&T;&T)",
+                "syntax":"hmX_DETOKENIZE WITH STYLES(&V;&Y;&T;&T)",
                 "threadSafe": true
                 },
                 {
@@ -1046,12 +1046,12 @@
                 },
                 {
                 "theme":"hmReports Scripting",
-                "syntax":"hmRep_Detokenize(&L;&O):T",
+                "syntax":"hmRep_Detokenize(&L;&V):T",
                 "threadSafe": true
                 },
                 {
                 "theme":"hmReports Scripting",
-                "syntax":"hmRep_DETOKENIZE WITH STYLES(&L;&O;&Y;&T;&T)",
+                "syntax":"hmRep_DETOKENIZE WITH STYLES(&L;&V;&Y;&T;&T)",
                 "threadSafe": true
                 },
                 {
@@ -1166,7 +1166,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_DETOKENIZE TO ARRAYS(&O;&Y;&Y;&Y;&Y)",
+                "syntax":"hmX_DETOKENIZE TO ARRAYS(&V;&Y;&Y;&Y;&Y)",
                 "threadSafe": true
                 },
                 {
@@ -1246,7 +1246,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_Detokenize In Context(&L;&O):T",
+                "syntax":"hmX_Detokenize In Context(&L;&V):T",
                 "threadSafe": true
                 },
                 {
@@ -1256,7 +1256,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_DETOKEN WITH STYLES IN CT(&L;&O;&Y;&T;&T)",
+                "syntax":"hmX_DETOKEN WITH STYLES IN CT(&L;&V;&Y;&T;&T)",
                 "threadSafe": true
                 },
                 {
@@ -1525,7 +1525,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_Get Script Result Type(&O):L",
+                "syntax":"hmX_Get Script Result Type(&V):L",
                 "threadSafe": true
                 },
                 {

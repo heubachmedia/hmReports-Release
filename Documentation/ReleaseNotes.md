@@ -1,6 +1,6 @@
 ## Version 21.0 (January 2026)
 * Scripts: Support of the var-keyword
-* The following commands now support scripts as Objects: [Executer/hmX_Execute.md], [Executer/hmX_AddMethodToContext]
+* The following commands now support scripts as Objects: [Executer/hmX_Execute.md], [Executer/hmX_AddMethodToContext], [Executer/hmX_Detokenize.md], [Executer/hmX_DetokenizeInContext.md], [Executer/hmX_DetokenizeToArrays.md], [Scripting/hmRep_Detokenize.md]
 * New command to tokenize code into an object: [Execute/hmX_TokenizeToObject.md]
 
 ## Version 20.0 (July 2023)

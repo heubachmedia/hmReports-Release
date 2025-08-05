@@ -3,7 +3,7 @@
 
 |Parameter|Type|In/Out|Description
 |---|---|:---:|---
-|Script|Blob|→|Script code
+|Script|Blob/Object|→|Script code
 |ArrayType|ARRAY LONGINT|←|Token types
 |ArrayNum|ARRAY REAL|←|Token real numbers
 |ArrayText|ARRAY TEXT|←|Token texts
@@ -56,4 +56,5 @@ List of tokens:
 * 40 = Bracket close function
 * 41 = Index open
 * 42 = Index close
+* 43 = Declaration
 * 999 = Unknown

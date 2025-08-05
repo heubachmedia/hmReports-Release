@@ -3,11 +3,11 @@
 
 |Parameter|Type|In/Out|Description
 |---|---|:---:|---
-|Script|Blob|→|Script code
+|Script|Blob/Object|→|Script code
 |Method Text|Text|←|Plain method code
 
 ### Description
-The command *hmX_Detokenize* returns the readable text of a tokenized script. Pass a tokenized script as a blob into *script*. In the result, you will get the plain method code text.
+The command *hmX_Detokenize* returns the readable text of a tokenized script. Pass a tokenized script as a blob or object into *script*. In the result, you will get the plain method code text.
 
 Notice, that this command does not use the virtual structure of a context. If you have a virtual structure, you should use the command [hmX_Detokenize In Context](hmX_DetokenizeInContext.md).
 

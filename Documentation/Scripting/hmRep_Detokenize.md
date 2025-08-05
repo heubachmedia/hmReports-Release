@@ -4,11 +4,11 @@
 |Parameter|Type|In/Out|Description
 |---|---|:---:|---
 |Area|Longint|→|hmReports area
-|Script|Blob|→|Script code
+|Script|Blob/Object|→|Script code
 |Method|Text|←|<- Plain method code
 
 ### Description
-The command *hmRep_Detokenize* returns the readable text of a tokenized script. Pass a tokenized script as a blob into *script*. In the result, you will get the plain method code text.
+The command *hmRep_Detokenize* returns the readable text of a tokenized script. Pass a tokenized script as a blob or object into *script*. In the result, you will get the plain method code text.
 
 Notice, that this command uses the virtual structure. If you have a virtual structure, you should initalize it before calling this command.
 If you want to use the global virtual structure, just pass *0* in the parameter *area*. If you pass a valid *area*, the command uses the virtual structure of the area.
