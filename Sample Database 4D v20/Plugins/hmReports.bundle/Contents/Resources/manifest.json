@@ -951,7 +951,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_TOKENIZE(&T;&O)",
+                "syntax":"hmX_TOKENIZE(&T;&V)",
                 "threadSafe": true
                 },
                 {
@@ -1056,7 +1056,7 @@
                 },
                 {
                 "theme":"hmReports Scripting",
-                "syntax":"hmRep_TOKENIZE GET RUNS(&L;&T;&O;&Y;&Y;&Y;&Y)",
+                "syntax":"hmRep_TOKENIZE GET RUNS(&L;&T;&V;&Y;&Y;&Y;&Y)",
                 "threadSafe": true
                 },
                 {
@@ -1241,7 +1241,7 @@
                 },
                 {
                 "theme":"hmReports Executer",
-                "syntax":"hmX_TOKENIZE IN CONTEXT(&L;&T;&O)",
+                "syntax":"hmX_TOKENIZE IN CONTEXT(&L;&T;&V)",
                 "threadSafe": true
                 },
                 {
