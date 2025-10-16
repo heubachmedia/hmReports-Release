@@ -1,10 +1,5 @@
 //%attributes = {}
-C_LONGINT:C283($vl_area; $vl_event; $vl_result)
-C_TEXT:C284($vt_report)
-
-$vl_area:=$1
-$vl_event:=$2
-$vt_report:=$3
+#DECLARE($vl_area : Integer; $vl_event : Integer; $vt_report : Text)->$vl_result : Integer
 
 Case of 
 	: ($vl_event=hmRep_OnError)
@@ -12,9 +7,6 @@ Case of
 	: ($vl_event=hmRep_OnCreateNewReport)
 		
 	: ($vl_event=hmRep_OnOutsideDrop)
-		
 		hmRep_Palette_drop($vl_area)
 		
 End case 
-
-$0:=$vl_result

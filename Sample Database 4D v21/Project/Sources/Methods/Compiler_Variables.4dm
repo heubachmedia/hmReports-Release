@@ -4,7 +4,6 @@ C_LONGINT:C283(vl_slideshow_current_pic; vl_preview_currentpage)
 C_PICTURE:C286(vb_preview)
 
 C_BOOLEAN:C305(vf_palette_visible)
-C_TEXT:C284(Vrecnum)
 C_DATE:C307(srdate)
 C_LONGINT:C283(srpage)
 C_TIME:C306(srtime)

@@ -1,1 +1,0 @@
-pal_change_object(hmRep_oprop_VariableHeight; "vl_obj_variableheight")

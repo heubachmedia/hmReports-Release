@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><preferences stamp="14">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="15">
 	<com.4d>
 		<database>
 			<cache flush_buffer_delay="15" size_fixed="32" size_maximum="128" size_reserved="128"/>
@@ -60,7 +60,7 @@
 		</web>
 		<compiler>
 			<typage default_for_button="2" default_for_numeric="1"/>
-			<options compilation_path="3" fat_binary="true" initialize_local_variables="3" target="all"/>
+			<options compilation_path="4" fat_binary="true" initialize_local_variables="3" target="active"/>
 			<method_suffix interprocess_variables="Variables_IP"/>
 		</compiler>
 		<sql>

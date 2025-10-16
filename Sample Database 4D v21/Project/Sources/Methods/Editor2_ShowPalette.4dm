@@ -1,8 +1,7 @@
 //%attributes = {}
-C_BOOLEAN:C305($vf_visible)
-C_LONGINT:C283($vl_left; $vl_top; $vl_right; $vl_bottom; $vl_area)
+#DECLARE($vf_visible : Boolean)
 
-$vf_visible:=$1
+var $vl_left; $vl_top; $vl_right; $vl_bottom; $vl_area : Integer
 
 $vl_area:=OBJECT Get pointer:C1124(Object named:K67:5; "reparea")->
 

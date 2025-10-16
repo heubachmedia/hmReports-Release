@@ -229,8 +229,8 @@
 					"width": 133,
 					"height": 20,
 					"sizingY": "move",
-					"text": "Open Page Pro",
-					"class": "Default",
+					"text": "Import SVG",
+					"class": "",
 					"focusable": false,
 					"method": "ObjectMethods/bbtn1.4dm",
 					"events": [
@@ -309,5 +309,6 @@
 	"$4d": {
 		"version": "1",
 		"kind": "form"
-	}
+	},
+	"geometryStamp": 2
 }

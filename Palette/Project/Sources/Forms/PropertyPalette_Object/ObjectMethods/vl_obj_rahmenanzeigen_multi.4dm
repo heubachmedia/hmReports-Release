@@ -1,0 +1,1 @@
+pal_click_multi

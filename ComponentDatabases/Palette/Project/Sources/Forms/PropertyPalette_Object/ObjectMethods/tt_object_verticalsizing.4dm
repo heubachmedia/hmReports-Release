@@ -1,1 +1,0 @@
-pal_change_object(hmRep_oprop_VerticalSizing; "tt_object_verticalsizing")
