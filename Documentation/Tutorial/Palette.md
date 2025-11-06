@@ -15,6 +15,8 @@ Note: The subform must have a width of 400 Pixels and at least a height of 300 P
 - Give the subform an object name ("palette" in our example). A variable name is not needed, so it can be empty.
 - Now uncheck the option *Output subform* in the object properties.
 - Now select the *detail form* from the object property palette ("hmReports_Palette"):
+- The expression type must be *object*
+- Bind the object as a form-attribute in *Variable or Expression*, like *Form.palette* in our example
 
 ![Subform property Palette](../Pictures/SubformPropertyPalette.png)
 
@@ -34,13 +36,13 @@ The hmReports component provides some commands for handle the subform. You need 
 Case of 
  : (Form event=On Load)
 
- hmRep_Palette_Install ("palette";reparea)
+ Form.palette:=cs.hmReportsPalette.Palette.new($vl_area; "palette")
 
 End case 
 ```
 
 All other code should come after the initialization of the subform.
-The method *hmRep_Palette_Install* gets as *$1* the name of the subform, which is "palette" in our example. As *$2* you should pass the hmReports Plugin Area reference.
+The Constructor of the class *cs.hmReportsPalette.Palette* gets as *$1* the hmReports Plugin Area reference and in *$2* the name of the subform, which is "palette" in our example.
 
 ## Update
 
@@ -53,10 +55,8 @@ Inside the Plugin Area object method you should place the code for updating the 
 For example:
 
 ```4d
-hmRep_Palette_Update ("palette";reparea)
+ Form.palette.paletteUpdate()
 ```
-
-The parameter *$1* is the name of the subform and *$2* is the reference of the Plugin Area.
 
 ## Switch between pages
 

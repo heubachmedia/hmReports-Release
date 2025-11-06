@@ -8,7 +8,7 @@ var $vo_customers : cs:C1710.CustomersSelection
 Case of 
 	: (Form event code:C388=On Load:K2:1)
 		
-		$vl_area:=OBJECT Get pointer:C1124(Object named:K67:5; "reparea")->
+		$vl_area:=OBJECT Get value:C1743("reparea")
 		
 		ARRAY TEXT:C222(t2t_array; 2; 10)
 		For ($i; 1; 10)
