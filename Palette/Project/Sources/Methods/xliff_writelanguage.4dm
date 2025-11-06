@@ -1,12 +1,11 @@
 //%attributes = {}
-C_POINTER:C301($vp_array; $vp_tt_resnames; $vp_tt_de)
-C_TEXT:C284($vt_language; $vt_path; $vt_element; $vt_element2; $vt_xml)
-C_LONGINT:C283($i)
+#DECLARE($vp_array : Pointer; $vt_language : Text)
 
-$vp_array:=$1
-$vt_language:=$2
+var $vp_tt_resnames; $vp_tt_de : Pointer
+var $vt_path; $vt_element; $vt_element2; $vt_xml : Text
+var $i : Integer
 
-$vt_path:=OBJECT_GetText("vt_path")+$vt_language+".lproj"+":"+"Main.xlf"
+$vt_path:=OBJECT Get value:C1743("vt_path")+$vt_language+".lproj"+":"+"Main.xlf"
 
 $vp_tt_resnames:=OBJECT_GetPointer("tt_resnames")
 $vp_tt_de:=OBJECT_GetPointer("tt_de")

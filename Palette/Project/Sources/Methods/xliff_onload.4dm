@@ -1,11 +1,10 @@
 //%attributes = {}
-C_LONGINT:C283($i; $vl_size)
-C_TEXT:C284($vt_path)
-C_POINTER:C301($vp_tt_resnames; $vp_tt_de; $vp_tt_en; $vp_tt_fr; $vp_tt_es; $vp_tt_ja)
+#DECLARE($vt_path : Text)
 
-$vt_path:=$1
+var $i; $vl_size : Integer
+var $vp_tt_resnames; $vp_tt_de; $vp_tt_en; $vp_tt_fr; $vp_tt_es; $vp_tt_ja : Pointer
 
-OBJECT_SetText("vt_path"; $vt_path)
+OBJECT SET VALUE:C1742("vt_path"; $vt_path)
 
 $vp_tt_resnames:=OBJECT_InitArray("tt_resnames"; Text array:K8:16)
 $vp_tt_de:=OBJECT_InitArray("tt_de"; Text array:K8:16)
@@ -32,4 +31,4 @@ End for
 
 LISTBOX SORT COLUMNS:C916(*; "tf_xliff_listbox"; 1; >)
 
-OBJECT_SetText("vt_suche"; "")
+OBJECT SET VALUE:C1742("vt_suche"; "")

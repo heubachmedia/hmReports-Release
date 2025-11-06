@@ -1,7 +1,10 @@
-C_TEXT:C284($vt_path)
-C_BLOB:C604($vx_blob)
+var $vt_path : Text
+var $vx_blob : Blob
+var $vl_area : Integer
 
 If (Form event code:C388=On Clicked:K2:4)
+	
+	$vl_area:=OBJECT Get value:C1743("eExt1")
 	
 	//$vu_ref:=Open document("";Get Pathname )
 	//
@@ -56,19 +59,19 @@ If (Form event code:C388=On Clicked:K2:4)
 	$vt_path:="Macintosh HD:4D:C-Entwicklung:XCode_hmReports:3_0:SVG_Tests:WM-2014-Brasilien.svg"
 	//$vt_path:="Macintosh HD:4D:C-Entwicklung:XCode_hmReports:3_0:SVG_Tests:Coat_of_arms_of_Mexico.svg"
 	
-	hmRep_SET AREA PROPERTY(eExt1; hmRep_prop_SVGrootFolder; 0; "Macintosh HD:4D:C-Entwicklung:XCode_hmReports:2_0:SVG_Tests:Nav:")
+	hmRep_SET AREA PROPERTY($vl_area; hmRep_prop_SVGrootFolder; 0; "Macintosh HD:4D:C-Entwicklung:XCode_hmReports:2_0:SVG_Tests:Nav:")
 	
 	SET BLOB SIZE:C606($vx_blob; 0)
 	DOCUMENT TO BLOB:C525($vt_path; $vx_blob)
-	hmRep_BLOB TO REPORT(eExt1; hmRep_Import_SVG; $vx_blob)
+	hmRep_BLOB TO REPORT($vl_area; hmRep_Import_SVG; $vx_blob)
 	//
 	//  `CompRep_extern17 (intern_GetMagicNumber ;eExt1;$vt_path)
 	//$vl_id:=hmRep_Create Path (eExt1;"M0.48151,0.18454l-0.01467,0.00034-0.01449,0.00109-0.01425,0.00184-0.01408,0.00251-0.01383,0.00319-0.01349,0.00385-0.01324,0.00444-0.01299,0.00512-0.01265,0.00578-0.01232,0.00628-0.0119,0.00687-0.01156,0.00738-0.01123,0.00796-0.01073,0.00846-0.01039,0."+"00897-0.00989,0.00947-0.00946,0.00989-0.00897,0.01039-0.00846,0.01072-0.00797,0.01123-0.00737,0.01157-0.00687,0.0119-0.00629,0.01231-0.00578,0.01266-0.00511,0.01299-0.00444,0.01324-0.00386,0.01349-0.00318,0.01383-0.00251,0.01407-0.00185,0.01425-0.0010"+"9,0.0145-0.00033,0.01466c0,0.15754,0.12771,0.28525,0.28525,0.28525s0.28525-0.12771,0.28525-0.28525-0.12771-0.28525-0.28525-0.28525z")
 	//hmRep_SET OBJECT MATRIX (eExt1;$vl_id;100;0;0;100;0;0)
 	
-	hmRep_SET REPORT PROPERTY(eExt1; hmRep_rprop_ShowSections; 0; "")
-	hmRep_SET REPORT PROPERTY(eExt1; hmRep_rprop_ShowSecCapt; 0; "")
-	hmRep_SET REPORT PROPERTY(eExt1; hmRep_rprop_ShowSecLines; 0; "")
+	hmRep_SET REPORT PROPERTY($vl_area; hmRep_rprop_ShowSections; 0; "")
+	hmRep_SET REPORT PROPERTY($vl_area; hmRep_rprop_ShowSecCapt; 0; "")
+	hmRep_SET REPORT PROPERTY($vl_area; hmRep_rprop_ShowSecLines; 0; "")
 	//
 	//ARRAY LONGINT($tl_objects;0)
 	//hmRep_GET OBJECT LIST (eExt1;hmRep_scope_Layer ;0;$tl_objects)

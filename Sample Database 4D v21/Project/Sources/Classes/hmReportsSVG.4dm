@@ -1446,9 +1446,9 @@ Function importElementCircle()
 	End if 
 	
 Function importElementImage()
-	var $vl_id; $vl_temp : Integer
+	var $vl_id : Integer
 	var $vz_x; $vz_y; $vz_width; $vz_height : Real
-	var $vt_imagebase64; $vt_svgrootfolder; $vt_picfile : Text
+	var $vt_imagebase64 : Text
 	var $vx_blob : Blob
 	var $vb_picture : Picture
 	
@@ -1532,17 +1532,17 @@ Function importElementImage()
 			
 		Else 
 			
-			$vl_temp:=0
-			$vt_svgrootfolder:=""
-			hmRep_GET AREA PROPERTY(This:C1470.area; hmRep_prop_SVGrootFolder; $vl_temp; $vt_svgrootfolder)
+			//$vl_temp:=0
+			//$vt_svgrootfolder:=""
+			//hmRep_GET AREA PROPERTY(This.area; hmRep_prop_SVGrootFolder; $vl_temp; $vt_svgrootfolder)
 			
-			$vt_picfile:=$vt_svgrootfolder+$vt_imagebase64
+			//$vt_picfile:=$vt_svgrootfolder+$vt_imagebase64
 			
-			If (Test path name:C476($vt_picfile)=Is a document:K24:1)
-				
-				READ PICTURE FILE:C678($vt_picfile; $vb_picture)
-				
-			End if 
+			//If (Test path name($vt_picfile)=Is a document)
+			
+			//READ PICTURE FILE($vt_picfile; $vb_picture)
+			
+			//End if 
 			
 	End case 
 	

@@ -1,9 +1,9 @@
 //%attributes = {"shared":true}
 //{$1=Pointer auf Datei(en)}
 
-C_POINTER:C301($vp_datei)
-C_LONGINT:C283($i; $vl_count_parameters)
-C_TEXT:C284($vt_method)
+var $vp_datei : Pointer
+var $i; $vl_count_parameters : Integer
+var $vt_method : Text
 
 $vl_count_parameters:=Count parameters:C259
 
@@ -37,7 +37,7 @@ Else
 	
 	READ ONLY:C145(*)
 	
-	For ($i; 1; Get last table number:C254)
+	For ($i; 1; Last table number:C254)
 		
 		If (Is table number valid:C999($i))  //C 06.03.09
 			$vp_datei:=Table:C252($i)

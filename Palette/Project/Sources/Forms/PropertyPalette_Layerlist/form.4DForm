@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"width": 400,
 	"height": 180,
@@ -61,7 +61,7 @@
 					"rowHeightAutoMin": "20px",
 					"rowHeightAutoMax": "20px",
 					"showHeaders": false,
-					"staticColumnCount": 5,
+					"staticColumnCount": 4,
 					"selectionMode": "single",
 					"scrollbarHorizontal": "hidden",
 					"horizontalLineStroke": "transparent",
@@ -79,15 +79,16 @@
 						"onDataChange",
 						"onBeforeDataEntry"
 					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.list",
+					"currentItemSource": "Form:C1466.listCurrent",
 					"columns": [
 						{
 							"name": "tf_layer_visible",
-							"dataSourceTypeHint": "boolean",
 							"width": 20,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"resizable": false,
-							"controlType": "checkbox",
 							"stroke": "#000000",
 							"fill": "#FFFFFF",
 							"fontFamily": "Lucida Grande",
@@ -110,11 +111,12 @@
 								"fill": "#FFFFFF",
 								"fontFamily": "Lucida Grande",
 								"fontSize": 11
-							}
+							},
+							"dataSourceTypeHint": "boolean",
+							"dataSource": "This:C1470.visible"
 						},
 						{
 							"name": "tb_layer_color",
-							"dataSourceTypeHint": "picture",
 							"width": 20,
 							"minWidth": 10,
 							"maxWidth": 32000,
@@ -142,16 +144,16 @@
 								"fill": "#FFFFFF",
 								"fontFamily": "Lucida Grande",
 								"fontSize": 11
-							}
+							},
+							"dataSourceTypeHint": "picture",
+							"dataSource": "This:C1470.colorPicture"
 						},
 						{
 							"name": "tf_layer_locked",
-							"dataSourceTypeHint": "boolean",
 							"width": 20,
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"resizable": false,
-							"controlType": "checkbox",
 							"stroke": "#000000",
 							"fill": "#FFFFFF",
 							"fontFamily": "Lucida Grande",
@@ -174,7 +176,9 @@
 								"fill": "#FFFFFF",
 								"fontFamily": "Lucida Grande",
 								"fontSize": 11
-							}
+							},
+							"dataSourceTypeHint": "boolean",
+							"dataSource": "This:C1470.locked"
 						},
 						{
 							"name": "tt_layer_name",
@@ -207,67 +211,9 @@
 								"fill": "#FFFFFF",
 								"fontFamily": "Lucida Grande",
 								"fontSize": 11
-							}
-						},
-						{
-							"name": "tl_layer_id",
-							"dataSourceTypeHint": "number",
-							"width": 125,
-							"minWidth": 10,
-							"maxWidth": 32000,
-							"resizable": false,
-							"enterable": false,
-							"visibility": "hidden",
-							"stroke": "#000000",
-							"fill": "#FFFFFF",
-							"fontFamily": "Lucida Grande",
-							"fontSize": 11,
-							"events": [
-								"onClick",
-								"onDataChange"
-							],
-							"header": {
-								"name": "vl_kopf4",
-								"stroke": "#000000",
-								"fontFamily": "Lucida Grande",
-								"fontSize": 11
 							},
-							"footer": {
-								"name": "Fußteil5",
-								"timeFormat": "hh_mm_ss",
-								"stroke": "#000000",
-								"fill": "#FFFFFF",
-								"fontFamily": "Lucida Grande",
-								"fontSize": 11
-							}
+							"dataSource": "This:C1470.name"
 						}
-					]
-				},
-				"vl_current_area": {
-					"type": "input",
-					"top": 194,
-					"left": 0,
-					"width": 230,
-					"height": 13,
-					"visibility": "hidden",
-					"sizingY": "move",
-					"dataSourceTypeHint": "number",
-					"class": "Default11",
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
 					]
 				},
 				"Bild3": {
@@ -361,5 +307,11 @@
 			"Ebene 8": {},
 			"Ebene 9": {}
 		}
-	}
+	},
+	"geometryStamp": 1,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"formClass": "layerlist"
 }

@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed",
@@ -46,10 +46,10 @@
 					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"dataSource": "vl_ok",
+					"dataSource": "",
 					"action": "cancel",
 					"text": ":xliff:ok",
-					"class": "Default",
+					"class": "",
 					"focusable": false,
 					"defaultButton": true,
 					"events": [
@@ -87,8 +87,8 @@
 					"left": 100,
 					"width": 284,
 					"height": 128,
-					"dataSource": "vt_dialog_alert",
-					"class": "Default",
+					"dataSource": "Form:C1466.text",
+					"class": "",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -117,5 +117,10 @@
 			"Ebene 8": {},
 			"Ebene 9": {}
 		}
+	},
+	"geometryStamp": 4,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

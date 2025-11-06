@@ -1,3 +1,3 @@
 If (Form event code:C388=On Clicked:K2:4)
-	pal_settabbar(1)
+	Form:C1466.setTabbar(1)
 End if 

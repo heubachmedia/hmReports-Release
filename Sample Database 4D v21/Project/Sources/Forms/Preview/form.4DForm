@@ -105,7 +105,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"dataSource": "Form:C1466.infotext"
 				},
 				"vb_preview": {
 					"type": "input",
@@ -115,7 +116,7 @@
 					"height": 560,
 					"sizingX": "grow",
 					"sizingY": "grow",
-					"dataSource": "vb_preview",
+					"dataSource": "Form:C1466.preview",
 					"dataSourceTypeHint": "picture",
 					"focusable": false,
 					"borderStyle": "none",
@@ -123,13 +124,7 @@
 					"contextMenu": "none",
 					"pictureFormat": "proportionalCenter",
 					"dragging": "none",
-					"events": [
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
-					]
+					"events": []
 				}
 			}
 		}
@@ -148,5 +143,9 @@
 			"Ebene 8": {},
 			"Ebene 9": {}
 		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

@@ -1,1 +1,1 @@
-pal_change_object(hmRep_oprop_Resizeable; "vl_obj_resizeable")
+Form:C1466.changeObject(hmRep_oprop_Resizeable; "vl_obj_resizeable")

@@ -1,6 +1,6 @@
 //%attributes = {}
-C_LONGINT:C283($vl_area; $vl_result; $vl_detail_section_top; $vl_margin_top; $vl_object)
-C_TEXT:C284($vt_value_text)
+var $vl_area; $vl_result; $vl_detail_section_top; $vl_margin_top; $vl_object : Integer
+var $vt_value_text : Text
 
 ALL RECORDS:C47([Customers:1])
 ORDER BY:C49([Customers:1]; [Customers:1]Name:2; >)

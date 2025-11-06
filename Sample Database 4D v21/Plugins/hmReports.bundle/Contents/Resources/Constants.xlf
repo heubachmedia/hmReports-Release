@@ -370,7 +370,6 @@
         <trans-unit d4:value="6"><source>hmRep_prop_Toolbar</source></trans-unit>
         <trans-unit d4:value="7"><source>hmRep_prop_Menu</source></trans-unit>
         <trans-unit d4:value="8"><source>hmRep_prop_MagneticGrid</source></trans-unit>
-        <trans-unit d4:value="9"><source>hmRep_prop_SVGrootFolder</source></trans-unit>
         <trans-unit d4:value="10"><source>hmRep_prop_SVGpropImport</source></trans-unit>
         <trans-unit d4:value="11"><source>hmRep_prop_SVGpropExport</source></trans-unit>
         <trans-unit d4:value="12"><source>hmRep_prop_ObjectOutside</source></trans-unit>
@@ -413,13 +412,6 @@
         <trans-unit d4:value="0"><source>hmRep_Gradient_None</source></trans-unit>
         <trans-unit d4:value="1"><source>hmRep_Gradient_Lineal</source></trans-unit>
         <trans-unit d4:value="2"><source>hmRep_Gradient_Radial</source></trans-unit>
-    </group>
-    <group restype="x-4DK#" d4:groupID="15215">
-            
-        <trans-unit><source>hmReports import types</source></trans-unit>
-        <trans-unit d4:value="1"><source>hmRep_Import_hmReports</source></trans-unit>
-        <trans-unit d4:value="2"><source>hmRep_Import_SVG</source></trans-unit>
-   
     </group>
     
     <group restype="x-4DK#" d4:groupID="15216">

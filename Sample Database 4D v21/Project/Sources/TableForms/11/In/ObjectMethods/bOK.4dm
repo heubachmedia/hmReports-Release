@@ -1,6 +1,6 @@
-C_BLOB:C604($vx_blob)
-C_POINTER:C301($vp_object)
-C_LONGINT:C283($vl_area)
+var $vx_blob : Blob
+var $vp_object : Pointer
+var $vl_area : Integer
 
 If (Form event code:C388=On Clicked:K2:4)
 	

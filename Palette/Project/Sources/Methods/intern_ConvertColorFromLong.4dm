@@ -1,8 +1,7 @@
-//%attributes = {}
-C_LONGINT:C283($vl_color; $vl_length)
-C_TEXT:C284($vt_result)
+//%attributes = {"preemptive":"capable"}
+#DECLARE($vl_color : Integer)->$vt_result : Text
 
-$vl_color:=$1
+var $vl_length : Integer
 
 If ($vl_color<0)
 	$vt_result:="none"
@@ -25,5 +24,3 @@ Else
 	End if 
 	
 End if 
-
-$0:=$vt_result

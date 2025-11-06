@@ -1,6 +1,6 @@
-//%attributes = {}
-C_LONGINT:C283($i; $vl_version; $vl_style; $vl_typ; $vl_alpha; $vl_red; $vl_green; $vl_blue; $vl_color)
-C_TEXT:C284($vt_dom; $vt_folder; $vt_path; $vt_name; $vt_element; $vt_bold; $vt_italic; $vt_underline)
+//%attributes = {"preemptive":"capable"}
+var $i; $vl_version; $vl_style; $vl_typ; $vl_alpha; $vl_red; $vl_green; $vl_blue; $vl_color : Integer
+var $vt_dom; $vt_folder; $vt_path; $vt_name; $vt_element; $vt_bold; $vt_italic; $vt_underline : Text
 
 $vt_folder:=Get 4D folder:C485(Active 4D Folder:K5:10)
 

@@ -1,12 +1,11 @@
 //%attributes = {}
-C_POINTER:C301($vp_array; $vp_tt_resnames)
-C_TEXT:C284($vt_path; $vt_language; $vt_xml; $vt_element; $vt_child; $vt_child2; $vt_resname; $vt_text)
-C_LONGINT:C283($i; $vl_count; $vl_pos)
+#DECLARE($vp_array : Pointer; $vt_language : Text)
 
-$vp_array:=$1
-$vt_language:=$2
+var $vp_tt_resnames : Pointer
+var $vt_path; $vt_xml; $vt_element; $vt_child; $vt_child2; $vt_resname; $vt_text : Text
+var $i; $vl_count; $vl_pos : Integer
 
-$vt_path:=OBJECT_GetText("vt_path")+$vt_language+".lproj"+":"+"Main.xlf"
+$vt_path:=OBJECT Get value:C1743("vt_path")+$vt_language+".lproj"+":"+"Main.xlf"
 $vp_tt_resnames:=OBJECT_GetPointer("tt_resnames")
 
 If (Test path name:C476($vt_path)=Is a document:K24:1)

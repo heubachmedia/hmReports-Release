@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"preemptive":"capable"}
 //qqq;a;PM;String_Compare;C;0001
 
 //$1=Text 1
@@ -6,12 +6,9 @@
 
 //vergleicht, ob die beiden Texte gleich sind
 
-C_TEXT:C284($vt_text1; $vt_text2)
-C_BOOLEAN:C305($vf_OK)
-C_LONGINT:C283($i; $vl_length)
+#DECLARE($vt_text1 : Text; $vt_text2 : Text)->$vf_OK : Boolean
 
-$vt_text1:=$1
-$vt_text2:=$2
+var $i; $vl_length : Integer
 
 $vf_OK:=True:C214
 
@@ -29,5 +26,3 @@ If ($vl_length=Length:C16($vt_text2))
 Else 
 	$vf_OK:=False:C215
 End if 
-
-$0:=$vf_OK

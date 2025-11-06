@@ -1,5 +1,5 @@
 //%attributes = {}
-C_LONGINT:C283($vl_window; $vl_counter)
+var $vl_window; $vl_counter : Integer
 
 $vl_window:=Open window:C153(50; 50; 500; 250; Plain window:K34:13; "Operation läuft")
 

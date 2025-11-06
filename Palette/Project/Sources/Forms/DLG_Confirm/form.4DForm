@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed",
@@ -46,15 +46,16 @@
 					"height": 20,
 					"sizingX": "move",
 					"sizingY": "move",
-					"dataSource": "vl_ok",
+					"dataSource": "",
 					"action": "cancel",
 					"text": ":xliff:ja",
-					"class": "Default",
+					"class": "",
 					"focusable": false,
 					"defaultButton": true,
 					"events": [
 						"onClick"
-					]
+					],
+					"method": "ObjectMethods/vl_ok.4dm"
 				},
 				"Linie2": {
 					"type": "line",
@@ -87,8 +88,8 @@
 					"left": 100,
 					"width": 284,
 					"height": 128,
-					"dataSource": "vt_dialog_alert",
-					"class": "Default",
+					"dataSource": "Form:C1466.text",
+					"class": "",
 					"focusable": false,
 					"fill": "transparent",
 					"borderStyle": "none",
@@ -110,7 +111,7 @@
 					"sizingY": "move",
 					"action": "cancel",
 					"text": ":xliff:nein",
-					"class": "Default",
+					"class": "",
 					"focusable": false,
 					"events": [
 						"onClick"
@@ -133,5 +134,10 @@
 			"Ebene 8": {},
 			"Ebene 9": {}
 		}
+	},
+	"geometryStamp": 6,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
 	}
 }

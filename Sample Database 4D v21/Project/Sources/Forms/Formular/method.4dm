@@ -1,10 +1,8 @@
-C_DATE:C307(SRDate)
-C_TIME:C306(SRTime)
-C_LONGINT:C283(SRPage; $vl_pos)
-C_TEXT:C284($vt_resfolder; $vt_current_report)
-C_LONGINT:C283($i; $j; $vl_id; $vl_area)
-C_DATE:C307(vd_pieces_start_date)
-C_POINTER:C301($vp_object; $vp_object_name; $vp_object_id)
+var $vl_pos : Integer
+var $vt_resfolder; $vt_current_report : Text
+var $i; $j; $vl_id; $vl_area : Integer
+var vd_pieces_start_date : Date
+var $vp_object; $vp_object_name; $vp_object_id : Pointer
 var $vo_customers : cs:C1710.CustomersSelection
 
 Case of 
@@ -21,7 +19,7 @@ Case of
 		ARRAY LONGINT:C221(tl_pieces_sums; 7)
 		vd_pieces_start_date:=!2012-01-02!
 		
-		hmRep_Palette_Install("palette"; $vl_area)
+		Form:C1466.palette:=cs:C1710.hmReportsPalette.Palette.new($vl_area; "palette")
 		
 		//ARRAY TEXT(tt_register1;2)
 		//tt_register1{1}:="Report"
@@ -34,7 +32,10 @@ Case of
 		
 		$vp_object:=OBJECT Get pointer:C1124(Object named:K67:5; "tt_svg")
 		
+		//%W-518.5
 		ARRAY TEXT:C222($vp_object->; 0)
+		//%W+518.5
+		
 		DOCUMENT LIST:C474($vt_resfolder; $vp_object->)
 		
 		For ($i; Size of array:C274($vp_object->); 1; -1)
@@ -84,13 +85,13 @@ Case of
 		
 		//Init VStructure
 		
-		For ($i; 1; Get last table number:C254)
+		For ($i; 1; Last table number:C254)
 			
 			If (Is table number valid:C999($i))
 				
 				$vl_id:=hmRep_Create VStructure Table($vl_area; $i; Table name:C256($i))
 				
-				For ($j; 1; Get last field number:C255($i))
+				For ($j; 1; Last field number:C255($i))
 					
 					If (Is field number valid:C1000($i; $j))
 						
@@ -105,12 +106,6 @@ Case of
 		End for 
 		
 		$vl_id:=hmRep_Create VStructure Var($vl_area; "hmRep_Date"; "Date")
-		
-	: (Form event code:C388=On Timer:K2:25)
-		
-		If (FORM Get current page:C276=2)
-			Page2_OnTimer
-		End if 
 		
 	: (Form event code:C388=On Close Box:K2:21)
 		CANCEL:C270

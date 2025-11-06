@@ -241,7 +241,7 @@
                 },
                 {
                 "theme":"hmReports Reports",
-                "syntax":"hmRep_BLOB TO REPORT(&L;&L;&O)",
+                "syntax":"hmRep_BLOB TO REPORT(&L;&O)",
                 "threadSafe": true
                 },
                 {

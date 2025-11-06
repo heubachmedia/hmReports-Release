@@ -58,7 +58,7 @@
 					"width": 83,
 					"height": 20,
 					"text": "New",
-					"class": "Default",
+					"class": "",
 					"focusable": false,
 					"method": "ObjectMethods/bbtn3.4dm",
 					"events": [
@@ -74,7 +74,7 @@
 					"shortcutKey": "s",
 					"shortcutAccel": true,
 					"text": "Save To Database",
-					"class": "Default",
+					"class": "",
 					"focusable": false,
 					"method": "ObjectMethods/bbtn4.4dm",
 					"events": [
@@ -89,7 +89,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"text": "Preview",
-					"class": "Default",
+					"class": "",
 					"focusable": false,
 					"method": "ObjectMethods/bbtn2.4dm",
 					"events": [
@@ -103,7 +103,7 @@
 					"width": 83,
 					"height": 20,
 					"text": "Delete",
-					"class": "Default",
+					"class": "",
 					"focusable": false,
 					"method": "ObjectMethods/bbtn5.4dm",
 					"events": [
@@ -112,16 +112,15 @@
 				},
 				"Text": {
 					"type": "text",
-					"top": 574,
-					"left": 339,
-					"width": 339,
-					"height": 12,
+					"top": 564,
+					"left": 319,
+					"width": 359,
+					"height": 31,
 					"sizingX": "move",
 					"sizingY": "move",
 					"textAlign": "right",
-					"fontFamily": "Lucida Grande",
-					"fontSize": 10,
-					"text": "Select a SVG document to import from the \"Resources\"-Folder:"
+					"text": "Select a SVG document to import from the \"Resources\"-Folder:",
+					"fontTheme": "normal"
 				},
 				"palette": {
 					"type": "subform",
@@ -131,7 +130,7 @@
 					"height": 530,
 					"sizingX": "move",
 					"sizingY": "grow",
-					"dataSourceTypeHint": "number",
+					"dataSourceTypeHint": "object",
 					"detailForm": "hmReports_Palette",
 					"focusable": false,
 					"doubleClickInRowAction": "editSubrecord",
@@ -139,7 +138,8 @@
 					"printFrame": "variable",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"dataSource": "Form:C1466.palette"
 				},
 				"reparea": {
 					"type": "plugin",
@@ -175,7 +175,7 @@
 					"left": 7,
 					"width": 117,
 					"height": 16,
-					"class": "Default",
+					"class": "",
 					"text": "Report:"
 				},
 				"tt_reports": {
@@ -185,7 +185,7 @@
 					"width": 409,
 					"height": 20,
 					"focusable": false,
-					"class": "Default",
+					"class": "",
 					"method": "ObjectMethods/tt_reports.4dm",
 					"events": [
 						"onClick",
@@ -201,7 +201,7 @@
 					"sizingX": "move",
 					"sizingY": "move",
 					"focusable": false,
-					"class": "Default",
+					"class": "",
 					"method": "ObjectMethods/tt_svg.4dm",
 					"events": [
 						"onClick",
@@ -238,57 +238,6 @@
 					]
 				}
 			}
-		},
-		{
-			"objects": {
-				"reparea2": {
-					"type": "plugin",
-					"top": 36,
-					"left": 13,
-					"width": 970,
-					"height": 523,
-					"sizingX": "grow",
-					"sizingY": "grow",
-					"pluginAreaKind": "_hmReport",
-					"dragging": "automatic",
-					"dropping": "automatic",
-					"borderStyle": "none",
-					"events": [
-						"onLoad",
-						"onValidate",
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDoubleClick",
-						"onLosingFocus",
-						"onGettingFocus",
-						"onDrop",
-						"onPluginArea",
-						"onDataChange",
-						"onDragOver",
-						"onPrintingDetail",
-						"onUnload",
-						"onMouseMove"
-					]
-				},
-				"bbtn6": {
-					"type": "button",
-					"top": 564,
-					"left": 18,
-					"width": 142,
-					"height": 20,
-					"sizingY": "move",
-					"text": "Start Slideshow",
-					"class": "Default",
-					"focusable": false,
-					"method": "ObjectMethods/bbtn6.4dm",
-					"events": [
-						"onClick"
-					]
-				}
-			}
 		}
 	],
 	"editor": {
@@ -310,5 +259,5 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 2
+	"geometryStamp": 48
 }

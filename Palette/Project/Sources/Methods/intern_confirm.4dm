@@ -1,13 +1,13 @@
 //%attributes = {}
-C_LONGINT:C283($vl_window)
-C_TEXT:C284($vt_loc)
+#DECLARE($vt_loc : Text) : Boolean
 
-$vt_loc:=$1
+var $vl_window : Integer
+var $vo_obj : Object
 
-vt_dialog_alert:=Get localized string:C991($vt_loc)
+$vo_obj:={text: Localized string:C991($vt_loc); ok: False:C215}
 
 $vl_window:=Open form window:C675("DLG_Confirm"; Movable form dialog box:K39:8)
-DIALOG:C40("DLG_Confirm")
+DIALOG:C40("DLG_Confirm"; $vo_obj)
 CLOSE WINDOW:C154($vl_window)
 
-$0:=vl_ok=1
+return ($vo_obj.ok)

@@ -1,15 +1,15 @@
 //%attributes = {}
-C_TEXT:C284($vt_locString)
-C_LONGINT:C283($vl_ref)
+#DECLARE($vt_locString : Text; $vt_param : Text)
 
-$vt_locString:=$1
+var $vl_ref : Integer
+var $vt_text : Text
 
-vt_dialog_alert:=Get localized string:C991($vt_locString)
+$vt_text:=Localized string:C991($vt_locString)
 
-If (Count parameters:C259>1)
-	vt_dialog_alert:=Replace string:C233(vt_dialog_alert; "%%%"; $2)
+If (Length:C16($vt_param)>0)
+	$vt_text:=Replace string:C233($vt_text; "%%%"; $vt_param)
 End if 
 
 $vl_ref:=Open form window:C675("DLG_Alert"; Movable form dialog box:K39:8)
-DIALOG:C40("DLG_Alert")
+DIALOG:C40("DLG_Alert"; {text: $vt_text})
 CLOSE WINDOW:C154($vl_ref)

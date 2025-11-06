@@ -1,5 +1,5 @@
 //%attributes = {}
-C_LONGINT:C283($i; $j; $k; $vl_machines; $vl_pieces; $vl_day)
+var $i; $j; $k; $vl_machines; $vl_pieces; $vl_day : Integer
 
 TRUNCATE TABLE:C1051([Regions:6])
 TRUNCATE TABLE:C1051([Machines:7])
@@ -39,4 +39,3 @@ For ($i; 1; 50)
 End for 
 
 BEEP:C151
-

@@ -1,9 +1,9 @@
 //%attributes = {}
-C_LONGINT:C283($vl_temp; $vl_pos; $vl_id; $vl_area)
-C_TEXT:C284($vt_report; $vt_name)
-C_BLOB:C604($vx_blob)
-C_BOOLEAN:C305($vf_update)
-C_POINTER:C301($vp_object_id; $vp_object_name)
+var $vl_temp; $vl_pos; $vl_id; $vl_area : Integer
+var $vt_report; $vt_name : Text
+var $vx_blob : Blob
+var $vf_update : Boolean
+var $vp_object_id; $vp_object_name : Pointer
 
 $vp_object_id:=OBJECT Get pointer:C1124(Object named:K67:5; "tl_reports")
 $vp_object_name:=OBJECT Get pointer:C1124(Object named:K67:5; "tt_reports")

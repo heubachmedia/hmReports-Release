@@ -1,1 +1,1 @@
-pal_change_object(hmRep_oprop_Rotation; "vz_obj_rotation")
+Form:C1466.changeObject(hmRep_oprop_Rotation; "vz_obj_rotation")

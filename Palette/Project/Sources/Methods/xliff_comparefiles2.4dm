@@ -1,11 +1,8 @@
-//%attributes = {}
-C_POINTER:C301($vp_array; $vp_array_contents)
-C_TEXT:C284($vt_path; $vt_language; $vt_xml; $vt_element; $vt_child; $vt_child2; $vt_resname; $vt_text)
-C_LONGINT:C283($i; $vl_count)
+//%attributes = {"preemptive":"capable"}
+#DECLARE($vp_array : Pointer; $vp_array_contents : Pointer; $vt_path : Text)
 
-$vp_array:=$1
-$vp_array_contents:=$2
-$vt_path:=$3
+var $vt_language; $vt_xml; $vt_element; $vt_child; $vt_child2; $vt_resname; $vt_text : Text
+var $i; $vl_count : Integer
 
 If (Test path name:C476($vt_path)=Is a document:K24:1)
 	

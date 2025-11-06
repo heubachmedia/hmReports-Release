@@ -1,1 +1,1 @@
-pal_change_object(hmRep_oprop_Fontstyle; "vl_obj_durchgestrichen")
+Form:C1466.changeObject(hmRep_oprop_Fontstyle; "vl_obj_durchgestrichen")

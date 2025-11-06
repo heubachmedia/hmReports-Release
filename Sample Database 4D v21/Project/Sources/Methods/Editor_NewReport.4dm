@@ -1,7 +1,7 @@
 //%attributes = {}
-C_TEXT:C284($vt_report)
-C_LONGINT:C283($vl_pos; $vl_ID; $vl_area)
-C_POINTER:C301($vp_object_id; $vp_object_name)
+var $vt_report : Text
+var $vl_pos; $vl_ID; $vl_area : Integer
+var $vp_object_id; $vp_object_name : Pointer
 
 $vl_area:=OBJECT Get pointer:C1124(Object named:K67:5; "reparea")->
 
@@ -38,4 +38,4 @@ End if
 
 ReadOnly(->[Reports:11])
 
-hmRep_Palette_Update("palette"; $vl_area)
+Form:C1466.palette.paletteUpdate()

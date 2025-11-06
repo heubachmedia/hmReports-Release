@@ -1,11 +1,10 @@
 //%attributes = {}
-C_TEXT:C284($vt_path; $vt_xml; $vt_element; $vt_child; $vt_resname)
-C_LONGINT:C283($i; $vl_count)
-C_POINTER:C301($vp_array)
+#DECLARE($vp_array : Pointer)
 
-$vp_array:=$1
+var $vt_path; $vt_xml; $vt_element; $vt_child; $vt_resname : Text
+var $i; $vl_count : Integer
 
-$vt_path:=OBJECT_GetText("vt_path")+"de.lproj"+":"+"Main.xlf"
+$vt_path:=OBJECT Get value:C1743("vt_path")+"de.lproj"+":"+"Main.xlf"
 
 If (Test path name:C476($vt_path)=Is a document:K24:1)
 	

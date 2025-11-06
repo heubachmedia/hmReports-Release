@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"windowMinWidth": 700,
 	"windowMinHeight": 500,
@@ -45,7 +45,7 @@
 					"height": 20,
 					"sizingY": "move",
 					"text": "Import SVG",
-					"class": "Default",
+					"class": "",
 					"focusable": false,
 					"method": "ObjectMethods/bbtn.4dm",
 					"events": [
@@ -60,8 +60,6 @@
 					"height": 20,
 					"sizingY": "move",
 					"text": "Test",
-					"fontFamily": ".Lucida Grande UI",
-					"fontSize": 12,
 					"focusable": false,
 					"method": "ObjectMethods/bbtn3.4dm",
 					"events": [
@@ -81,8 +79,6 @@
 					"height": 20,
 					"sizingY": "move",
 					"text": "Page 2",
-					"fontFamily": ".Lucida Grande UI",
-					"fontSize": 12,
 					"focusable": false,
 					"method": "ObjectMethods/bbtn4.4dm",
 					"events": [
@@ -99,13 +95,11 @@
 					"top": 574,
 					"left": 673,
 					"width": 124,
-					"height": 15,
+					"height": 17,
 					"sizingX": "move",
 					"sizingY": "move",
-					"dataSource": "vz_1",
+					"dataSource": "Form:C1466.vz_1",
 					"dataSourceTypeHint": "number",
-					"fontFamily": ".Lucida Grande UI",
-					"fontSize": 12,
 					"contextMenu": "none",
 					"numberFormat": "###,##0.00",
 					"dragging": "none",
@@ -118,20 +112,19 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"fontTheme": "normal"
 				},
 				"vz_2": {
 					"type": "input",
 					"top": 574,
-					"left": 817,
-					"width": 61,
-					"height": 15,
+					"left": 812,
+					"width": 71,
+					"height": 17,
 					"sizingX": "move",
 					"sizingY": "move",
-					"dataSource": "vz_2",
+					"dataSource": "Form:C1466.vz_2",
 					"dataSourceTypeHint": "number",
-					"fontFamily": ".Lucida Grande UI",
-					"fontSize": 12,
 					"contextMenu": "none",
 					"dragging": "none",
 					"dropping": "none",
@@ -143,7 +136,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"fontTheme": "normal"
 				},
 				"eExt1": {
 					"type": "plugin",
@@ -153,7 +147,7 @@
 					"height": 555,
 					"sizingX": "grow",
 					"sizingY": "grow",
-					"dataSource": "eExt1",
+					"dataSource": "",
 					"pluginAreaKind": "_hmReport",
 					"borderStyle": "none",
 					"method": "ObjectMethods/eExt1.4dm",
@@ -167,10 +161,10 @@
 					"top": 5,
 					"left": 890,
 					"width": 400,
-					"height": 555,
+					"height": 586,
 					"sizingX": "move",
 					"sizingY": "grow",
-					"dataSourceTypeHint": "number",
+					"dataSourceTypeHint": "object",
 					"detailForm": "hmReports_Palette",
 					"focusable": false,
 					"doubleClickInRowAction": "editSubrecord",
@@ -179,7 +173,8 @@
 					"borderStyle": "system",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"dataSource": "Form:C1466.palette"
 				}
 			}
 		},
@@ -193,17 +188,10 @@
 					"height": 20,
 					"sizingY": "move",
 					"text": "Page 1",
-					"fontFamily": ".Lucida Grande UI",
-					"fontSize": 12,
 					"focusable": false,
 					"method": "ObjectMethods/bbtn5.4dm",
 					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onPrintingDetail"
+						"onClick"
 					]
 				}
 			}
@@ -223,5 +211,10 @@
 			"Ebene 8": {},
 			"Ebene 9": {}
 		}
-	}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 6
 }

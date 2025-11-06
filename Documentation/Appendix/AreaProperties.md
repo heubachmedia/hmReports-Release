@@ -24,9 +24,6 @@ Sets the visibility of the menubar. Set *ValueLong* to *1* for visible, *0* for 
 ### hmRep_prop_MagneticGrid (8)
 Sets the value of the magnetic grid A value of *0* deactivates the grid. The value defines the count of pixels where the object is magnetic to other objects.
 
-### hmRep_prop_SVGrootFolder (9)
-Sets the root folder for pictures which are imported in hmReports. If you want to import SVG documents into hmReports, some pictures in the SVG document are not stored directly into the SVG document as base64. They are stored outside next to the SVG document. In the parameter *ValueText* you can pass the path of the folder.
-
 ### hmRep_prop_SVGpropImport (10)
 If you pass *1* in the parameter *ValueLong*, all SVG attributes of an element is imported as [[About Custom Properties|custom properties]].
 

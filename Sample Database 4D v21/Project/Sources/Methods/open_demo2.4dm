@@ -1,5 +1,5 @@
 //%attributes = {}
-C_LONGINT:C283($vl_ref)
+var $vl_ref : Integer
 
 ReadOnly
 

@@ -1,0 +1,731 @@
+{
+	"_method_": {
+		"hmRep_Palette_drop": {
+			"Syntax": "**hmRep_Palette_drop**( *vl_area* : Integer )->vl_result : Integer",
+			"Params": [
+				[
+					"vl_area",
+					"Integer",
+					"->"
+				],
+				[
+					"vl_result",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"cs.hmReportsPalette": {
+		"Palette": {
+			"new()": {
+				"Syntax": "**.new**( *vl_area* : Integer; *vt_subform* : Text; *vl_height* : Integer )",
+				"Params": [
+					[
+						"vl_area",
+						"Integer",
+						"->"
+					],
+					[
+						"vt_subform",
+						"Text",
+						"->"
+					],
+					[
+						"vl_height",
+						"Integer",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"reportProperties": {
+			"new()": {
+				"Syntax": "**.new**( *vl_area* : Integer; *vt_subform* : Text; *vl_height* : Integer )",
+				"Params": [
+					[
+						"vl_area",
+						"Integer",
+						"->"
+					],
+					[
+						"vt_subform",
+						"Text",
+						"->"
+					],
+					[
+						"vl_height",
+						"Integer",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"objectProperties": {
+			"new()": {
+				"Syntax": "**.new**( *vl_area* : Integer )",
+				"Params": [
+					[
+						"vl_area",
+						"Integer",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"object": {
+			"new()": {
+				"Syntax": "**.new**( *vl_area* : Integer; *vl_id* : Integer )",
+				"Params": [
+					[
+						"vl_area",
+						"Integer",
+						"->"
+					],
+					[
+						"vl_id",
+						"Integer",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"vStruct": {
+			"new()": {
+				"Syntax": "**.new**( *vl_area* : Integer; *vl_id* : Integer )",
+				"Params": [
+					[
+						"vl_area",
+						"Integer",
+						"->"
+					],
+					[
+						"vl_id",
+						"Integer",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"layer": {
+			"new()": {
+				"Syntax": "**.new**( *vl_area* : Integer; *vl_id* : Integer )",
+				"Params": [
+					[
+						"vl_area",
+						"Integer",
+						"->"
+					],
+					[
+						"vl_id",
+						"Integer",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		},
+		"layerlist": {
+			"new()": {
+				"Syntax": "**.new**( *vl_area* : Integer )",
+				"Params": [
+					[
+						"vl_area",
+						"Integer",
+						"->"
+					]
+				],
+				"Summary": ""
+			}
+		}
+	},
+	"Palette": {
+		"getPict()": {
+			"Syntax": "**.getPict**( *vt_bildname* : Text )->vb_picture : Picture",
+			"Params": [
+				[
+					"vt_bildname",
+					"Text",
+					"->"
+				],
+				[
+					"vb_picture",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getTypePictFile()": {
+			"Syntax": "**.getTypePictFile**( *vl_type* : Integer )->vo_file : 4D.File",
+			"Params": [
+				[
+					"vl_type",
+					"Integer",
+					"->"
+				],
+				[
+					"vo_file",
+					"4D.File",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"updateObjectlist()": {
+			"Syntax": "**.updateObjectlist**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"getTypePict()": {
+			"Syntax": "**.getTypePict**( *vl_type* : Integer )->vb_bild : Picture",
+			"Params": [
+				[
+					"vl_type",
+					"Integer",
+					"->"
+				],
+				[
+					"vb_bild",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"setPaletteSize()": {
+			"Syntax": "**.setPaletteSize**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"getFieldPict()": {
+			"Syntax": "**.getFieldPict**( *vl_tableno* : Integer; *vl_fieldno* : Integer )->vb_bild : Picture",
+			"Params": [
+				[
+					"vl_tableno",
+					"Integer",
+					"->"
+				],
+				[
+					"vl_fieldno",
+					"Integer",
+					"->"
+				],
+				[
+					"vb_bild",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"updateTabbar()": {
+			"Syntax": "**.updateTabbar**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"getCurrentTabbar()": {
+			"Syntax": "**.getCurrentTabbar**() : Integer",
+			"Params": [
+				[
+					"",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"update()": {
+			"Syntax": "**.update**( *vl_formevent* : Integer )",
+			"Params": [
+				[
+					"vl_formevent",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"paletteUpdate()": {
+			"Syntax": "**.paletteUpdate**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"updateObjectlistObjects()": {
+			"Syntax": "**.updateObjectlistObjects**( *vl_layerID* : Integer; *vl_groupID* : Integer; *vc_objectsLayer* : Collection )->vl_hlist : Integer",
+			"Params": [
+				[
+					"vl_layerID",
+					"Integer",
+					"->"
+				],
+				[
+					"vl_groupID",
+					"Integer",
+					"->"
+				],
+				[
+					"vc_objectsLayer",
+					"Collection",
+					"->"
+				],
+				[
+					"vl_hlist",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"updateReferenceList()": {
+			"Syntax": "**.updateReferenceList**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"updateProperties()": {
+			"Syntax": "**.updateProperties**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"setTabbar()": {
+			"Syntax": "**.setTabbar**( *vl_active* : Integer )",
+			"Params": [
+				[
+					"vl_active",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"layerlist": {
+			"Syntax": "layerlist : cs.hmReportsPalette.layerlist"
+		},
+		"reportUUID": {
+			"Syntax": "reportUUID : Text"
+		},
+		"subform": {
+			"Syntax": "subform : Text"
+		},
+		"propCaption": {
+			"Syntax": "propCaption : Text"
+		},
+		"pictures": {
+			"Syntax": "pictures : Collection"
+		},
+		"objectList": {
+			"Syntax": "objectList : Integer"
+		},
+		"referenceList": {
+			"Syntax": "referenceList : Integer"
+		},
+		"height": {
+			"Syntax": "height : Integer"
+		},
+		"tabObjects": {
+			"Syntax": "tabObjects : Integer"
+		},
+		"objectProperties": {
+			"Syntax": "objectProperties : cs.hmReportsPalette.objectProperties"
+		},
+		"tabLayer": {
+			"Syntax": "tabLayer : Integer"
+		},
+		"captionTab": {
+			"Syntax": "captionTab : Text"
+		},
+		"tabDatabase": {
+			"Syntax": "tabDatabase : Integer"
+		},
+		"reportProperties": {
+			"Syntax": "reportProperties : cs.hmReportsPalette.reportProperties"
+		},
+		"area": {
+			"Syntax": "area : Integer"
+		}
+	},
+	"reportProperties": {
+		"updateFromOutside()": {
+			"Syntax": "**.updateFromOutside**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"getPagePropertyLong()": {
+			"Syntax": "**.getPagePropertyLong**( *vl_selector* : Integer )->vl_temp : Integer",
+			"Params": [
+				[
+					"vl_selector",
+					"Integer",
+					"->"
+				],
+				[
+					"vl_temp",
+					"Integer",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"setSize()": {
+			"Syntax": "**.setSize**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"setPagePropertyLong()": {
+			"Syntax": "**.setPagePropertyLong**( *vl_selector* : Integer; *vl_value* : Integer )",
+			"Params": [
+				[
+					"vl_selector",
+					"Integer",
+					"->"
+				],
+				[
+					"vl_value",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"update()": {
+			"Syntax": "**.update**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"area": {
+			"Syntax": "area : Integer"
+		}
+	},
+	"objectProperties": {
+		"setMultiProps()": {
+			"Syntax": "**.setMultiProps**( *vl_selector* : Integer; *vt_objectname* : Text )",
+			"Params": [
+				[
+					"vl_selector",
+					"Integer",
+					"->"
+				],
+				[
+					"vt_objectname",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"clickMulti()": {
+			"Syntax": "**.clickMulti**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"updateSetMulti()": {
+			"Syntax": "**.updateSetMulti**( *vc_object* : Collection; *vl_selector* : Integer; *vt_objectname* : Text )",
+			"Params": [
+				[
+					"vc_object",
+					"Collection",
+					"->"
+				],
+				[
+					"vl_selector",
+					"Integer",
+					"->"
+				],
+				[
+					"vt_objectname",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"moveObjects()": {
+			"Syntax": "**.moveObjects**( *vl_top_for_move* : Integer; *vl_top_for_move2* : Integer; *vl_move_offset* : Integer )",
+			"Params": [
+				[
+					"vl_top_for_move",
+					"Integer",
+					"->"
+				],
+				[
+					"vl_top_for_move2",
+					"Integer",
+					"->"
+				],
+				[
+					"vl_move_offset",
+					"Integer",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"changeObject()": {
+			"Syntax": "**.changeObject**( *vl_selector* : Integer; *vt_objectname* : Text )",
+			"Params": [
+				[
+					"vl_selector",
+					"Integer",
+					"->"
+				],
+				[
+					"vt_objectname",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"getObjectsByPosition()": {
+			"Syntax": "**.getObjectsByPosition**( *vl_pos1* : Integer; *vl_pos2* : Integer ) : Collection",
+			"Params": [
+				[
+					"vl_pos1",
+					"Integer",
+					"->"
+				],
+				[
+					"vl_pos2",
+					"Integer",
+					"->"
+				],
+				[
+					"",
+					"Collection",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"updateFromOutside()": {
+			"Syntax": "**.updateFromOutside**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"setPositions()": {
+			"Syntax": "**.setPositions**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"setObjectsVisible()": {
+			"Syntax": "**.setObjectsVisible**( *vc_objects* : Collection; *vf_visible* : Boolean )",
+			"Params": [
+				[
+					"vc_objects",
+					"Collection",
+					"->"
+				],
+				[
+					"vf_visible",
+					"Boolean",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"updateObject()": {
+			"Syntax": "**.updateObject**( *vt_objectname* : Text )",
+			"Params": [
+				[
+					"vt_objectname",
+					"Text",
+					"->"
+				]
+			],
+			"Summary": ""
+		},
+		"onLoad()": {
+			"Syntax": "**.onLoad**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"formObjects": {
+			"Syntax": "formObjects : Collection"
+		},
+		"klapp_unterbericht": {
+			"Syntax": "klapp_unterbericht : Boolean"
+		},
+		"klapp_optionen": {
+			"Syntax": "klapp_optionen : Boolean"
+		},
+		"klapp_groesse": {
+			"Syntax": "klapp_groesse : Boolean"
+		},
+		"klapp_allgemein": {
+			"Syntax": "klapp_allgemein : Boolean"
+		},
+		"klapp_rahmen": {
+			"Syntax": "klapp_rahmen : Boolean"
+		},
+		"doLoad": {
+			"Syntax": "doLoad : Boolean"
+		},
+		"fillcolor_popup": {
+			"Syntax": "fillcolor_popup : Integer"
+		},
+		"klapp_text": {
+			"Syntax": "klapp_text : Boolean"
+		},
+		"framecolor_popup": {
+			"Syntax": "framecolor_popup : Integer"
+		},
+		"textcolor_popup": {
+			"Syntax": "textcolor_popup : Integer"
+		},
+		"area": {
+			"Syntax": "area : Integer"
+		}
+	},
+	"object": {
+		"getDescription()": {
+			"Syntax": "**.getDescription**()->vt_text : Text",
+			"Params": [
+				[
+					"vt_text",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getPropText()": {
+			"Syntax": "**.getPropText**( *vl_selector* : Integer )->vt_prop_text : Text",
+			"Params": [
+				[
+					"vl_selector",
+					"Integer",
+					"->"
+				],
+				[
+					"vt_prop_text",
+					"Text",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"getPropReal()": {
+			"Syntax": "**.getPropReal**( *vl_selector* : Integer )->vz_prop_real : Real",
+			"Params": [
+				[
+					"vl_selector",
+					"Integer",
+					"->"
+				],
+				[
+					"vz_prop_real",
+					"Real",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"typeName": {
+			"Syntax": "typeName : Text"
+		},
+		"type": {
+			"Syntax": "type : Integer"
+		},
+		"layer": {
+			"Syntax": "layer : Integer"
+		},
+		"id": {
+			"Syntax": "id : Integer"
+		},
+		"group": {
+			"Syntax": "group : Integer"
+		},
+		"area": {
+			"Syntax": "area : Integer"
+		}
+	},
+	"vStruct": {
+		"inList": {
+			"Syntax": "inList : Boolean"
+		},
+		"variable": {
+			"Syntax": "variable : Text"
+		},
+		"caption": {
+			"Syntax": "caption : Text"
+		},
+		"groupID": {
+			"Syntax": "groupID : Integer"
+		},
+		"id": {
+			"Syntax": "id : Integer"
+		},
+		"fieldno": {
+			"Syntax": "fieldno : Integer"
+		},
+		"tableno": {
+			"Syntax": "tableno : Integer"
+		},
+		"type": {
+			"Syntax": "type : Integer"
+		}
+	},
+	"layer": {
+		"get colorPicture()": {
+			"Syntax": "**.get colorPicture**()->vb_picture : Picture",
+			"Params": [
+				[
+					"vb_picture",
+					"Picture",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"color": {
+			"Syntax": "color : Integer"
+		},
+		"name": {
+			"Syntax": "name : Text"
+		},
+		"id": {
+			"Syntax": "id : Integer"
+		},
+		"visible": {
+			"Syntax": "visible : Boolean"
+		},
+		"realName": {
+			"Syntax": "realName : Text"
+		},
+		"locked": {
+			"Syntax": "locked : Boolean"
+		}
+	},
+	"layerlist": {
+		"deleteLayer()": {
+			"Syntax": "**.deleteLayer**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"newLayer()": {
+			"Syntax": "**.newLayer**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"update()": {
+			"Syntax": "**.update**()",
+			"Params": [],
+			"Summary": ""
+		},
+		"listCurrent": {
+			"Syntax": "listCurrent : cs.hmReportsPalette.layer"
+		},
+		"list": {
+			"Syntax": "list : Collection"
+		},
+		"area": {
+			"Syntax": "area : Integer"
+		}
+	}
+}

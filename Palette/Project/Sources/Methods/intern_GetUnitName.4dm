@@ -1,24 +1,21 @@
-//%attributes = {}
-C_LONGINT:C283($vl_area; $vl_unit)
-C_TEXT:C284($vt_unit)
+//%attributes = {"preemptive":"capable"}
+#DECLARE($vl_area : Integer)->$vt_unit : Text
 
-$vl_area:=$1
+var $vl_unit : Integer
 
 $vl_unit:=parse_GetReportPropertyLong($vl_area; hmRep_rprop_RulerUnit)
 
 Case of 
 	: ($vl_unit=1)
-		$vt_unit:=Get localized string:C991("pixel")
+		$vt_unit:=Localized string:C991("pixel")
 		
 	: ($vl_unit=2)
-		$vt_unit:=Get localized string:C991("zoll")
+		$vt_unit:=Localized string:C991("zoll")
 		
 	: ($vl_unit=3)
-		$vt_unit:=Get localized string:C991("mm")
+		$vt_unit:=Localized string:C991("mm")
 		
 	Else 
 		$vt_unit:=""
 		
 End case 
-
-$0:=$vt_unit

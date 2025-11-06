@@ -1,16 +1,13 @@
-C_DATE:C307(SRDate)
-C_TIME:C306(SRTime)
-C_LONGINT:C283(SRPage)
-C_LONGINT:C283($i; $j; $vl_id; $vl_area)
-C_POINTER:C301($vp_object_name)
+var $i; $j; $vl_id; $vl_area : Integer
+var $vp_object_name : Pointer
 
 Case of 
 	: (Form event code:C388=On Load:K2:1)
 		
 		$vl_area:=OBJECT Get pointer:C1124(Object named:K67:5; "reparea")->
 		
-		hmRep_Palette_Install("palette"; $vl_area)
-		vf_palette_visible:=True:C214
+		Form:C1466.palette.paletteUpdate()
+		Form:C1466.palette_visible:=True:C214
 		OBJECT SET TITLE:C194(*; "palette_hide_button"; "Hide Palette")
 		
 		//====================================
@@ -32,13 +29,13 @@ Case of
 		
 		//Init VStructure
 		
-		For ($i; 1; Get last table number:C254)
+		For ($i; 1; Last table number:C254)
 			
 			If (Is table number valid:C999($i))
 				
 				$vl_id:=hmRep_Create VStructure Table($vl_area; $i; Table name:C256($i))
 				
-				For ($j; 1; Get last field number:C255($i))
+				For ($j; 1; Last field number:C255($i))
 					
 					If (Is field number valid:C1000($i; $j))
 						

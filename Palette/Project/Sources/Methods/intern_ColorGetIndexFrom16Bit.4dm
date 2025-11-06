@@ -1,9 +1,5 @@
-//%attributes = {}
-C_LONGINT:C283($vl_red; $vl_green; $vl_blue; $vl_index)
-
-$vl_red:=$1
-$vl_green:=$2
-$vl_blue:=$3
+//%attributes = {"preemptive":"capable"}
+#DECLARE($vl_red : Integer; $vl_green : Integer; $vl_blue : Integer)->$vl_index : Integer
 
 $vl_index:=hmRep_RGB2Index($vl_red; $vl_green; $vl_blue)
 
@@ -12,5 +8,3 @@ If ($vl_index=-1)
 Else 
 	$vl_index:=$vl_index+1
 End if 
-
-$0:=$vl_index

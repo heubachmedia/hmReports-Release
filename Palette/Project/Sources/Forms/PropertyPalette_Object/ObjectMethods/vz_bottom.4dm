@@ -1,1 +1,1 @@
-pal_change_object(-1; "vz_bottom")
+Form:C1466.changeObject(-1; "vz_bottom")

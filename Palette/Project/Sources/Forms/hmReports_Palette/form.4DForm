@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"shared": true,
 	"windowSizingX": "fixed",
@@ -56,16 +56,16 @@
 					"width": 400,
 					"height": 180,
 					"sizingY": "grow",
-					"dataSourceTypeHint": "undefined",
+					"dataSourceTypeHint": "object",
 					"detailForm": "PropertyPalette_Layerlist",
 					"focusable": false,
 					"doubleClickInRowAction": "editSubrecord",
 					"selectionMode": "multiple",
 					"printFrame": "variable",
-					"method": "ObjectMethods/subform_layerlist.4dm",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"dataSource": "Form:C1466.layerlist"
 				},
 				"subform_report_properties": {
 					"type": "subform",
@@ -74,7 +74,7 @@
 					"width": 384,
 					"height": 78,
 					"sizingY": "grow",
-					"dataSourceTypeHint": "undefined",
+					"dataSourceTypeHint": "object",
 					"detailForm": "PropertyPalette_Report",
 					"focusable": false,
 					"scrollbarVertical": "visible",
@@ -84,7 +84,8 @@
 					"method": "ObjectMethods/subform_report_properties.4dm",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"dataSource": "Form:C1466.reportProperties"
 				},
 				"vl_btn_layerlist": {
 					"type": "pictureButton",
@@ -97,7 +98,8 @@
 					"method": "ObjectMethods/vl_btn_layerlist.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"dataSource": "Form:C1466.tabLayer"
 				},
 				"vl_btn_objectlist": {
 					"type": "pictureButton",
@@ -110,7 +112,8 @@
 					"method": "ObjectMethods/vl_btn_objectlist.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"dataSource": "Form:C1466.tabObjects"
 				},
 				"vl_btn_database": {
 					"type": "pictureButton",
@@ -123,16 +126,17 @@
 					"method": "ObjectMethods/vl_btn_database.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"dataSource": "Form:C1466.tabDatabase"
 				},
 				"vt_tab_caption2": {
 					"type": "input",
 					"top": 3,
 					"left": 9,
-					"width": 240,
-					"height": 13,
+					"width": 290,
+					"height": 17,
 					"stroke": "#FFFFFF",
-					"class": "Default11",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"fill": "transparent",
@@ -149,16 +153,17 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"dataSource": "Form:C1466.captionTab"
 				},
 				"vt_tab_caption1": {
 					"type": "input",
 					"top": 2,
 					"left": 8,
-					"width": 240,
-					"height": 13,
+					"width": 290,
+					"height": 17,
 					"stroke": "#333333",
-					"class": "Default11",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"fill": "transparent",
@@ -175,60 +180,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
-				},
-				"vl_current_area": {
-					"type": "input",
-					"top": 309,
-					"left": 8,
-					"width": 230,
-					"height": 13,
-					"visibility": "hidden",
-					"sizingY": "move",
-					"dataSourceTypeHint": "number",
-					"class": "Default11",
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
-				},
-				"vt_current_report_uuid": {
-					"type": "input",
-					"top": 329,
-					"left": 8,
-					"width": 230,
-					"height": 13,
-					"visibility": "hidden",
-					"sizingY": "move",
-					"class": "Default11",
-					"focusable": false,
-					"fill": "transparent",
-					"borderStyle": "none",
-					"enterable": false,
-					"contextMenu": "none",
-					"dragging": "none",
-					"dropping": "none",
-					"events": [
-						"onClick",
-						"onHeader",
-						"onPrintingBreak",
-						"onPrintingFooter",
-						"onDisplayDetail",
-						"onDataChange",
-						"onPrintingDetail"
-					]
+					],
+					"dataSource": "Form:C1466.captionTab"
 				},
 				"vl_splitter": {
 					"type": "splitter",
@@ -253,7 +206,7 @@
 					"width": 240,
 					"height": 13,
 					"stroke": "#FFFFFF",
-					"class": "Default11",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"fill": "transparent",
@@ -270,7 +223,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"dataSource": "Form:C1466.propCaption"
 				},
 				"vt_tab_prop_caption2": {
 					"type": "input",
@@ -279,7 +233,7 @@
 					"width": 240,
 					"height": 13,
 					"stroke": "#333333",
-					"class": "Default11",
+					"class": "",
 					"fontWeight": "bold",
 					"focusable": false,
 					"fill": "transparent",
@@ -296,7 +250,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"dataSource": "Form:C1466.propCaption"
 				},
 				"subform_object_properties": {
 					"type": "subform",
@@ -305,7 +260,7 @@
 					"width": 384,
 					"height": 78,
 					"sizingY": "grow",
-					"dataSourceTypeHint": "undefined",
+					"dataSourceTypeHint": "object",
 					"detailForm": "PropertyPalette_Object",
 					"focusable": false,
 					"scrollbarVertical": "visible",
@@ -315,43 +270,44 @@
 					"method": "ObjectMethods/subform_object_properties.4dm",
 					"events": [
 						"onDataChange"
+					],
+					"dataSource": "Form:C1466.objectProperties"
+				},
+				"vl_hl_objectlist": {
+					"type": "list",
+					"top": 20,
+					"left": 3,
+					"width": 394,
+					"height": 178,
+					"sizingY": "grow",
+					"dataSource": "Form:C1466.objectList",
+					"enterable": false,
+					"hideFocusRing": true,
+					"selectionMode": "multiple",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "hidden",
+					"class": "",
+					"method": "ObjectMethods/vl_hl_objectlist.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange"
 					]
 				},
-				"subform_objectlist": {
-					"type": "subform",
+				"vl_hl_referencelist": {
+					"type": "list",
+					"left": 2,
 					"top": 20,
-					"left": 0,
-					"width": 400,
-					"height": 180,
-					"sizingY": "grow",
-					"dataSourceTypeHint": "undefined",
-					"detailForm": "PropertyPalette_Objectlist",
-					"focusable": false,
-					"doubleClickInRowAction": "editSubrecord",
-					"selectionMode": "multiple",
-					"printFrame": "variable",
-					"method": "ObjectMethods/subform_objectlist.4dm",
+					"width": 396,
+					"height": 179,
 					"events": [
-						"onDataChange"
-					]
-				},
-				"subform_referencelist": {
-					"type": "subform",
-					"top": 20,
-					"left": 0,
-					"width": 400,
-					"height": 180,
+						"onSelectionChange"
+					],
+					"dataSource": "Form:C1466.referenceList",
+					"enterable": false,
+					"focusable": true,
 					"sizingY": "grow",
-					"dataSourceTypeHint": "undefined",
-					"detailForm": "PropertyPalette_Referencelist",
-					"focusable": false,
-					"doubleClickInRowAction": "editSubrecord",
-					"selectionMode": "multiple",
-					"printFrame": "variable",
-					"method": "ObjectMethods/subform_referencelist.4dm",
-					"events": [
-						"onDataChange"
-					]
+					"scrollbarHorizontal": "hidden"
 				}
 			}
 		}
@@ -370,5 +326,11 @@
 			"Ebene 8": {},
 			"Ebene 9": {}
 		}
-	}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"formClass": "Palette",
+	"geometryStamp": 238
 }

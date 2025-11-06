@@ -1,1 +1,1 @@
-hmRep_Palette_Update("vl_palette"; eExt1)
+Form:C1466.palette.paletteUpdate()

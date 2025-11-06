@@ -1,5 +1,5 @@
 //%attributes = {}
-C_LONGINT:C283($vl_ref)
+var $vl_ref : Integer
 
 //$vl_ref:=Open window(10;50;1400;1000;Plain window )
 

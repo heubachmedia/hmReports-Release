@@ -1,6 +1,6 @@
 //%attributes = {}
-C_TEXT:C284($vt_source1; $vt_source2; $vt_text)
-C_LONGINT:C283($i; $vl_pos)
+var $vt_source1; $vt_source2; $vt_text : Text
+var $i; $vl_pos : Integer
 
 $vt_source1:=Get 4D folder:C485(Current resources folder:K5:16)+"fr.lproj"+":"+"Main.xlf"
 $vt_source2:="Macintosh HD:4D:C-Entwicklung:XCode_hmReports:2_0:Forms:fr.lproj:Main.xlf"

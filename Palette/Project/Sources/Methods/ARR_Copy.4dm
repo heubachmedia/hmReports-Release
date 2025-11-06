@@ -1,17 +1,7 @@
-//%attributes = {}
-//qqq;a;PM;ARR_Copy;C;0002
+//%attributes = {"preemptive":"capable"}
+#DECLARE($vp_source : Pointer; $vp_target : Pointer)
 
-//Created: C 02.04.2008 15:04   projektis 2.1 r 15
-
-//$1=Von Array
-//$2=Nach Array
-//{$3=Länge, wenn Zielarray String)
-
-C_POINTER:C301($vp_source; $vp_target)
-C_LONGINT:C283($i; $vl_size; $vl_typ1; $vl_typ2; $vl_length)
-
-$vp_source:=$1
-$vp_target:=$2
+var $i; $vl_size; $vl_typ1; $vl_typ2 : Integer
 
 $vl_size:=Size of array:C274($vp_source->)
 
@@ -23,14 +13,8 @@ $vl_typ2:=Type:C295($vp_target->)
 Case of 
 	: ($vl_typ1=Text array:K8:16) & ($vl_typ2=String array:K8:15)
 		
-		If (Count parameters:C259>2)
-			$vl_length:=$3
-		Else 
-			$vl_length:=80
-		End if 
-		
 		For ($i; 1; $vl_size)
-			$vp_target->{$i}:=Substring:C12($vp_source->{$i}; 1; $vl_length)
+			$vp_target->{$i}:=$vp_source->{$i}
 		End for 
 		
 	: ($vl_typ1=Text array:K8:16) & ($vl_typ2=Text array:K8:16)  //seit v11

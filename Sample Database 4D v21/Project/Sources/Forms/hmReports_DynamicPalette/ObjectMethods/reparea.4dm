@@ -1,5 +1,5 @@
-If (vf_palette_visible)
+If (Form:C1466.palette_visible)
 	
-	hmRep_Palette_Update("palette"; OBJECT Get pointer:C1124(Object named:K67:5; "reparea")->)
+	Form:C1466.palette.paletteUpdate()
 	
 End if 

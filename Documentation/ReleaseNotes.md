@@ -3,6 +3,8 @@
 * The following commands now support scripts as Objects: [Executer/hmX_Execute.md], [Executer/hmX_AddMethodToContext], [Executer/hmX_Detokenize.md], [Executer/hmX_DetokenizeInContext.md], [Executer/hmX_DetokenizeToArrays.md], [Scripting/hmRep_Detokenize.md]
 * New command to tokenize code into an object: [Execute/hmX_TokenizeToObject.md]
 * SVG-Import class now available in the sample project
+* Removed Area property *hmRep_prop_SVGrootFolder*
+* The command [Reports/hmRep_BLOB TO REPORT] was changed. The *type* parameter was removed.
 
 ## Version 20.0 (July 2023)
 * New command [hmRep_Print To Blob](Printing/hmRep_PrintToBlob.md) for printing a PDF, created by the internal PDF engine, into a blob (Windows only)

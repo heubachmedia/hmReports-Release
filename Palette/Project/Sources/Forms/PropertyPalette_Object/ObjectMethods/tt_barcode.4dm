@@ -1,1 +1,1 @@
-pal_change_object(hmRep_oprop_Barcode; "tt_barcode")
+Form:C1466.changeObject(hmRep_oprop_Barcode; "tt_barcode")

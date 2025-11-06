@@ -1,10 +1,10 @@
 //%attributes = {"invisible":true,"shared":true}
-C_LONGINT:C283($vl_area; $vl_result; $vl_arrayindex; $vl_process; vl_hl_referencelist; $vl_type; $vl_width; $vl_caption_offset; $vl_height; $vl_id1; $vl_id2; $vl_type; $vl_tableNo; $vl_fieldNo)
-C_TEXT:C284($vt_objectname; $vt_caption; $vt_varname)
-C_REAL:C285($vz_x; $vz_y)
-C_POINTER:C301($vp_destination)
+#DECLARE($vl_area : Integer)->$vl_result : Integer
 
-$vl_area:=$1
+var $vl_arrayindex; $vl_process; $vl_type; $vl_width; $vl_caption_offset; $vl_height; $vl_id1; $vl_id2; $vl_tableNo; $vl_fieldNo : Integer
+var $vt_objectname; $vt_caption; $vt_varname : Text
+var $vz_x; $vz_y : Real
+var $vp_destination : Pointer
 
 $vl_result:=0
 
@@ -27,7 +27,7 @@ If ($vt_varname="vl_hl_referencelist") & ($vl_arrayindex>0) & ($vl_process=Curre
 	$vl_ref:=0
 	$vt_text:=""
 	
-	GET LIST ITEM:C378(vl_hl_referencelist; $vl_arrayindex; $vl_ref; $vt_text)
+	GET LIST ITEM:C378(*; "vl_hl_referencelist"; $vl_arrayindex; $vl_ref; $vt_text)
 	
 	If ($vl_ref>0)
 		
@@ -81,5 +81,3 @@ If ($vt_varname="vl_hl_referencelist") & ($vl_arrayindex>0) & ($vl_process=Curre
 	End if 
 	
 End if 
-
-$0:=$vl_result

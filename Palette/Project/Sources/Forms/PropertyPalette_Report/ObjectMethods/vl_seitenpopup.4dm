@@ -1,12 +1,10 @@
-C_LONGINT:C283($i; $vl_area; $vl_pages; $vl_current_page; $vl_ref)
-C_TEXT:C284($vt_menu)
+var $i; $vl_pages; $vl_current_page; $vl_ref : Integer
+var $vt_menu : Text
 
 If (Form event code:C388=On Clicked:K2:4)
 	
-	$vl_area:=OBJECT_GetLongint("vl_current_area")
-	
-	$vl_pages:=hmRep_Count Pages($vl_area)
-	$vl_current_page:=hmRep_Get Current Page($vl_area)
+	$vl_pages:=hmRep_Count Pages(Form:C1466.area)
+	$vl_current_page:=hmRep_Get Current Page(Form:C1466.area)
 	
 	If ($vl_pages>1)  //ab mehr als 1 Seite Popup anzeigen
 		
@@ -30,11 +28,11 @@ If (Form event code:C388=On Clicked:K2:4)
 		
 		If ($vl_ref>0) & ($vl_ref#$vl_current_page)
 			
-			hmRep_SET CURRENT PAGE($vl_area; $vl_ref)
-			pal_update_report($vl_area)
+			hmRep_SET CURRENT PAGE(Form:C1466.area; $vl_ref)
+			Form:C1466.update()
 			
-			OBJECT SET ENABLED:C1123(*; "vl_previous_page"; hmRep_Get Current Page($vl_area)>1)
-			OBJECT SET ENABLED:C1123(*; "vl_next_page"; hmRep_Get Current Page($vl_area)<hmRep_Count Pages($vl_area))
+			OBJECT SET ENABLED:C1123(*; "vl_previous_page"; hmRep_Get Current Page(Form:C1466.area)>1)
+			OBJECT SET ENABLED:C1123(*; "vl_next_page"; hmRep_Get Current Page(Form:C1466.area)<hmRep_Count Pages(Form:C1466.area))
 			
 			CALL SUBFORM CONTAINER:C1086(-2001)
 			

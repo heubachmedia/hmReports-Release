@@ -22,7 +22,7 @@ If ($vf_visible)
 	//OBJECT GET COORDINATES(*;"reparea";$vl_left;$vl_top;$vl_right;$vl_bottom)
 	
 	OBJECT MOVE:C664(*; "reparea"; 400; 0; -400; 0)
-	hmRep_Palette_Update("palette"; $vl_area)
+	Form:C1466.palette.paletteUpdate()
 	
 Else 
 	
@@ -33,4 +33,4 @@ Else
 	
 End if 
 
-vf_palette_visible:=$vf_visible
+Form:C1466.palette_visible:=$vf_visible

@@ -1,6 +1,4 @@
-C_LONGINT:C283($vl_error)
-
-<>CRLF:=Char:C90(13)+Char:C90(10)
+var $vl_error : Integer
 
 If (Shift down:C543)
 	TRACE:C157

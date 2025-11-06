@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type = "text/css" href="BuildLogStyleSheet.css"?>
+<BuildApplicationLog>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Start compilation [2025-11-06T11:27:04]</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Beginne Dateien zu kopieren : Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmReports-Release:hmReports_Palette_Build:Components:hmReports_Palette.4dbase:Contents:hmReports_Palette.4DZ</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Common</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Ende Dateien kopieren : Macintosh HD:Users:christian:Documents:C-Entwicklung:github:hmReports-Release:hmReports_Palette_Build:Components:hmReports_Palette.4dbase:Contents:hmReports_Palette.4DZ</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Starte Code Signing Tool: ''/Users/christian/Documents/4D/4D v21/4D 21 - 1.app/Contents/Resources/app_sign_pack_notarize.sh' sign '/Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase' '/Users/christian/Documents/4D/4D v21/4D 21 - 1.app/Contents/Resources/4D.entitlements' 'heubach media' true'</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signing Tool meldet Status: 0</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Info.plist</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Libraries</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Libraries/lib4d-arm64.dylib</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/Images</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/Images/library</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/Images/library/OSX - Abbrechen.pict</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/Images/library/OSX - Datensatz Löschen.pict</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/Images/library/OSX - Erster Datensatz.pict</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/Images/library/OSX - Letzter Datensatz.pict</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/Images/library/OSX - Nächster Datensatz.pict</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/Images/library/OSX - OK.pict</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/Images/library/OSX - Vorheriger Datensatz.pict</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/Pictures</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/de.lproj</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/de.lproj/Main.xlf</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/en.lproj</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/en.lproj/Main.xlf</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/en.lproj/syntaxEN.json</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/es.lproj</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/es.lproj/Main.xlf</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/fr.lproj</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/fr.lproj/Main.xlf</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/ja.lproj</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources/ja.lproj/Main.xlf</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/hmReports_Palette.4DZ</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing items in Contents directory: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Info.plist</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Libraries</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/Resources</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Signing item: /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase/Contents/hmReports_Palette.4DZ</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: Checking signature of /Users/christian/Documents/C-Entwicklung/github/hmReports-Release/hmReports_Palette_Build/Components/hmReports_Palette.4dbase</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>Signierte Datei: All directories and items have been signed.</Message>
+  </Log>
+
+  <Log>
+    <MessageType>Comment</MessageType>
+    <Target>Component</Target>
+    <CodeDesc>NO_ERR</CodeDesc>
+    <CodeId>0</CodeId>
+    <Message>End compilation [2025-11-06T11:27:10]</Message>
+  </Log>
+
+</BuildApplicationLog>

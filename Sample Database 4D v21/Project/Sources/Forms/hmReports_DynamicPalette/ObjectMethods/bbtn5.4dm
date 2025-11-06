@@ -1,5 +1,5 @@
-C_LONGINT:C283($vl_pos)
-C_POINTER:C301($vp_object_id; $vp_object_name)
+var $vl_pos : Integer
+var $vp_object_id; $vp_object_name : Pointer
 
 If (Form event code:C388=On Clicked:K2:4)
 	
