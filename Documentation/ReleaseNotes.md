@@ -5,6 +5,7 @@
 * SVG-Import class now available in the sample project
 * Removed Area property *hmRep_prop_SVGrootFolder*
 * The command [Reports/hmRep_BLOB TO REPORT] was changed. The *type* parameter was removed.
+* The command [hmRep_ENCRYPT PDF](PDFTools/hmRep_EncryptPDF.md) has now a 4th parameter for the password to open the PDF
 
 ## Version 20.0 (July 2023)
 * New command [hmRep_Print To Blob](Printing/hmRep_PrintToBlob.md) for printing a PDF, created by the internal PDF engine, into a blob (Windows only)
