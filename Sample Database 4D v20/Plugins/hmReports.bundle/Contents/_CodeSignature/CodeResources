@@ -552,13 +552,13 @@
 		<data>
 		aEz6NblDpOAAdmFMaaa4dnxcOsc=
 		</data>
+		<key>Resources/Internal Components/FormRes.4dbase/Contents/Libraries/lib4d-arm64.dylib</key>
+		<data>
+		pbR4h9hawCK/HeIyJ2Qxf2n1t6g=
+		</data>
 		<key>Resources/Internal Components/FormRes.4dbase/FormRes.4DZ</key>
 		<data>
 		JOka2w0nfpel1lSP6xgs+XkKwms=
-		</data>
-		<key>Resources/Internal Components/FormRes.4dbase/Libraries/lib4d-arm64.dylib</key>
-		<data>
-		bPWYBRxfb55+Au0o/eAdMYIklqM=
 		</data>
 		<key>Resources/Internal Components/FormRes.4dbase/Resources/Debug.png</key>
 		<data>
@@ -2100,18 +2100,18 @@
 			jigCuShVaQcrLQ7n2vT9AoMG5mARAUyunsKjoW5FVGo=
 			</data>
 		</dict>
+		<key>Resources/Internal Components/FormRes.4dbase/Contents/Libraries/lib4d-arm64.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2exgNghx5EqPv+QAfhvXnnINM9hBosMbynNZIh8mTcM=
+			</data>
+		</dict>
 		<key>Resources/Internal Components/FormRes.4dbase/FormRes.4DZ</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			oTNvZrScfFTxYHlrrB/T3eE6GB+cXcZyGggHyNwsRfg=
-			</data>
-		</dict>
-		<key>Resources/Internal Components/FormRes.4dbase/Libraries/lib4d-arm64.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CNMLKjuRNyVpQooPNy2nnqufV0/vj0FhbsFP9MyLWRA=
 			</data>
 		</dict>
 		<key>Resources/Internal Components/FormRes.4dbase/Resources/Debug.png</key>
@@ -3035,7 +3035,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uS7Et14XV0UftTxHoetO64yrJWKtI2lr8GXbXPdv70c=
+			6K8vzEuD2yPRAF7LlB0QPZoVa6nHi6yBHXjvjUu0Oes=
 			</data>
 		</dict>
 	</dict>
