@@ -1041,7 +1041,7 @@
                 },
                 {
                 "theme":"hmReports Scripting",
-                "syntax":"hmRep_TOKENIZE(&L;&T;&O)",
+                "syntax":"hmRep_TOKENIZE(&L;&T;&V)",
                 "threadSafe": true
                 },
                 {

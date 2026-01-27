@@ -552,13 +552,13 @@
 		<data>
 		aEz6NblDpOAAdmFMaaa4dnxcOsc=
 		</data>
-		<key>Resources/Internal Components/FormRes.4dbase/Contents/Libraries/lib4d-arm64.dylib</key>
-		<data>
-		pbR4h9hawCK/HeIyJ2Qxf2n1t6g=
-		</data>
 		<key>Resources/Internal Components/FormRes.4dbase/FormRes.4DZ</key>
 		<data>
-		JOka2w0nfpel1lSP6xgs+XkKwms=
+		otLYt8sPb4rv2auDfqnnW+vGmiQ=
+		</data>
+		<key>Resources/Internal Components/FormRes.4dbase/Libraries/lib4d-arm64.dylib</key>
+		<data>
+		9CiGuII/e32sUJ81okOMwzUcIZc=
 		</data>
 		<key>Resources/Internal Components/FormRes.4dbase/Resources/Debug.png</key>
 		<data>
@@ -1136,7 +1136,7 @@
 		</dict>
 		<key>Resources/manifest.json</key>
 		<data>
-		QhVYmL7N9iYOApbjL4vnD5dkxgQ=
+		nep5OvdatGHZZvsV0iy94so4kQs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -2100,18 +2100,18 @@
 			jigCuShVaQcrLQ7n2vT9AoMG5mARAUyunsKjoW5FVGo=
 			</data>
 		</dict>
-		<key>Resources/Internal Components/FormRes.4dbase/Contents/Libraries/lib4d-arm64.dylib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2exgNghx5EqPv+QAfhvXnnINM9hBosMbynNZIh8mTcM=
-			</data>
-		</dict>
 		<key>Resources/Internal Components/FormRes.4dbase/FormRes.4DZ</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oTNvZrScfFTxYHlrrB/T3eE6GB+cXcZyGggHyNwsRfg=
+			sBuFa0bXsPqbgsQXyzpnp4+e5Mn0Pc2BE807qFZKDpw=
+			</data>
+		</dict>
+		<key>Resources/Internal Components/FormRes.4dbase/Libraries/lib4d-arm64.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g90dAngclIJc1QyCzy5u5sCenMJuO1OclFiL1KveVjg=
 			</data>
 		</dict>
 		<key>Resources/Internal Components/FormRes.4dbase/Resources/Debug.png</key>
@@ -3028,7 +3028,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yoVqyqJ3l8UddUXt8sbTko01lrYJGOgnjb9lKZlU6Pw=
+			C7AU2nJ9nqkUmq8CkRn2XhS2/9JHozPU8LLf9Ur6/Ek=
 			</data>
 		</dict>
 		<key>Windows64/hmReports.4DX</key>
